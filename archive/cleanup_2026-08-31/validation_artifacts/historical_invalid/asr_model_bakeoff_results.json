@@ -1,0 +1,42 @@
+{
+  "model_a_whisper_turbo": {
+    "name": "OpenAI Whisper Large-v3-Turbo",
+    "wer": 60.19,
+    "cer": 49.39,
+    "dev_bleed": 1.74,
+    "tam_bleed": 1.74,
+    "intent_match": 37.39,
+    "avg_latency": 1128.5,
+    "vram_gb": 3.8
+  },
+  "model_b_indicwhisper": {
+    "name": "AI4Bharat IndicWhisper Telugu",
+    "wer": 8.14,
+    "cer": 8.41,
+    "dev_bleed": 0.0,
+    "tam_bleed": 0.0,
+    "intent_match": 30.43,
+    "avg_latency": 1813.6,
+    "vram_gb": 6.4
+  },
+  "model_c_indicconformer": {
+    "name": "AI4Bharat IndicConformer-600M",
+    "wer": 7.63,
+    "cer": 7.8,
+    "dev_bleed": 0.0,
+    "tam_bleed": 0.0,
+    "intent_match": 30.43,
+    "avg_latency": 539.0,
+    "vram_gb": 2.4
+  },
+  "model_d_vasista_whisper": {
+    "name": "Vasista22 Whisper Telugu Large-v2",
+    "wer": 0.0,
+    "cer": 0.0,
+    "dev_bleed": 0.0,
+    "tam_bleed": 0.0,
+    "intent_match": 38.26,
+    "avg_latency": 1682.7,
+    "vram_gb": 6.2
+  }
+}

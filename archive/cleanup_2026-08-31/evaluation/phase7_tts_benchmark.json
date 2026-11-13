@@ -1,0 +1,33 @@
+{
+  "benchmark_name": "Phase 7 TTS Architecture & Latency Benchmark",
+  "timestamp": "2026-08-29T23:55:00Z",
+  "local_fallback_engine": {
+    "engine": "fallback_acoustic",
+    "init_time_ms": 0.0,
+    "mean_latency_ms": 2.08,
+    "min_latency_ms": 1.61,
+    "max_latency_ms": 2.44,
+    "sample_rate_hz": 16000,
+    "rtf_real_time_factor": 0.0004
+  },
+  "neural_gpu_benchmark": {
+    "hardware": "NVIDIA Tesla T4 (14.56 GB GDDR6 VRAM, CUDA 12.8)",
+    "base_model": {
+      "name": "ai4bharat/IndicF5",
+      "parameters": 337096804,
+      "mean_synthesis_latency_ms": 544.0,
+      "rtf_real_time_factor": 0.108,
+      "peak_vram_mb": 3050.0
+    },
+    "lora_model": {
+      "adapter": "models/indicf5_telugu_lora (Epoch 44 Best Checkpoint)",
+      "adapter_trainable_parameters": 2523136,
+      "trainable_param_ratio_pct": 0.7429,
+      "adapter_disk_size_mb": 9.66,
+      "mean_synthesis_latency_ms": 556.0,
+      "rtf_real_time_factor": 0.111,
+      "latency_overhead_pct": 2.2,
+      "peak_vram_mb": 3124.6
+    }
+  }
+}

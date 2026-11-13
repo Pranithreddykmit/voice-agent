@@ -1,0 +1,725 @@
+[
+  {
+    "id": "sample_0001",
+    "category": "general",
+    "text": "నమస్కారం! నేను మీకు ఏ విధంగా సహాయం చేయగలను?",
+    "duration_est_sec": 3.2
+  },
+  {
+    "id": "sample_0002",
+    "category": "general",
+    "text": "ఈ రోజు కళాశాల ప్రాంగణంలో సాంకేతిక సదస్సు జరుగుతోంది.",
+    "duration_est_sec": 3.8
+  },
+  {
+    "id": "sample_0003",
+    "category": "general",
+    "text": "దయచేసి మీ సందేహాలను ఇక్కడ అడగండి.",
+    "duration_est_sec": 2.6
+  },
+  {
+    "id": "sample_0004",
+    "category": "general",
+    "text": "గ్రంథాలయం ఉదయం ఎనిమిది గంటల నుండి సాయంత్రం ఎనిమిది గంటల వరకు తెరిచి ఉంటుంది.",
+    "duration_est_sec": 5.4
+  },
+  {
+    "id": "sample_0005",
+    "category": "general",
+    "text": "విద్యార్థులందరూ సమయపాలన పాటించడం ఎంతో ముఖ్యం.",
+    "duration_est_sec": 3.6
+  },
+  {
+    "id": "sample_0006",
+    "category": "general",
+    "text": "కళాశాల బస్సు సౌకర్యం అన్ని ప్రధాన మార్గాల్లో అందుబాటులో ఉంది.",
+    "duration_est_sec": 4.5
+  },
+  {
+    "id": "sample_0007",
+    "category": "general",
+    "text": "ఈ ప్రాజెక్ట్ గురించి మీకు ఏమైనా సమాచారం కావాలా?",
+    "duration_est_sec": 3.3
+  },
+  {
+    "id": "sample_0008",
+    "category": "general",
+    "text": "ఈ రోజు మధ్యాహ్నం విద్యార్థుల కోసం ప్రత్యేక శిక్షణ తరగతి ఉంటుంది.",
+    "duration_est_sec": 4.8
+  },
+  {
+    "id": "sample_0009",
+    "category": "general",
+    "text": "సహాయ కేంద్రం వద్ద మీ సమస్యలను పరిష్కరించుకోవచ్చు.",
+    "duration_est_sec": 3.7
+  },
+  {
+    "id": "sample_0010",
+    "category": "general",
+    "text": "శుభోదయం! మీ విద్యా ప్రయాణం విజయవంతం కావాలని కోరుకుంటున్నాము.",
+    "duration_est_sec": 4.6
+  },
+  {
+    "id": "sample_0011",
+    "category": "general",
+    "text": "కంప్యూటర్ ల్యాబ్ లో విద్యార్థులు నిశ్శబ్దం పాటించాలి.",
+    "duration_est_sec": 3.9
+  },
+  {
+    "id": "sample_0012",
+    "category": "general",
+    "text": "మీ ఐడీ కార్డు ఎల్లప్పుడూ మీ వెంట ఉంచుకోవాలి.",
+    "duration_est_sec": 3.5
+  },
+  {
+    "id": "sample_0013",
+    "category": "general",
+    "text": "ఈ వారం క్రీడా పోటీలు నిర్వహించబడుతున్నాయి.",
+    "duration_est_sec": 3.2
+  },
+  {
+    "id": "sample_0014",
+    "category": "general",
+    "text": "మీరు అడిగిన ప్రశ్నకు త్వరలోనే సమాధానం ఇస్తాను.",
+    "duration_est_sec": 3.4
+  },
+  {
+    "id": "sample_0015",
+    "category": "general",
+    "text": "విద్యార్థి సంక్షేమ విభాగం మొదటి అంతస్తులో ఉంది.",
+    "duration_est_sec": 3.6
+  },
+  {
+    "id": "sample_0016",
+    "category": "general",
+    "text": "పరిశోధన పత్రాల సమర్పణకు చివరి తేదీని గమనించండి.",
+    "duration_est_sec": 3.8
+  },
+  {
+    "id": "sample_0017",
+    "category": "general",
+    "text": "ఆన్‌లైన్ ద్వారా కూడా మీ ఫీజు రసీదు డౌన్‌లోడ్ చేసుకోవచ్చు.",
+    "duration_est_sec": 4.2
+  },
+  {
+    "id": "sample_0018",
+    "category": "general",
+    "text": "క్యాంపస్ అంతటా ఉచిత ఇంటర్నెట్ సౌకర్యం కల్పించబడింది.",
+    "duration_est_sec": 4.0
+  },
+  {
+    "id": "sample_0019",
+    "category": "general",
+    "text": "సందేహాల నివృత్తి కోసం అధ్యాపకులను సంప్రదించవచ్చు.",
+    "duration_est_sec": 3.7
+  },
+  {
+    "id": "sample_0020",
+    "category": "general",
+    "text": "భోజన విరామం మధ్యాహ్నం పన్నెండున్నర నుండి ఒకటిన్నర వరకు ఉంటుంది.",
+    "duration_est_sec": 4.9
+  },
+  {
+    "id": "sample_0021",
+    "category": "general",
+    "text": "ఈ విద్యా సంవత్సరంలో కొత్త కోర్సులు ప్రవేశపెట్టారు.",
+    "duration_est_sec": 3.6
+  },
+  {
+    "id": "sample_0022",
+    "category": "general",
+    "text": "హాస్టల్ వసతి కోసం దరఖాస్తు ఫారాలు కార్యాలయంలో లభిస్తాయి.",
+    "duration_est_sec": 4.1
+  },
+  {
+    "id": "sample_0023",
+    "category": "general",
+    "text": "ఎల్లప్పుడూ నవీకరించబడిన సమాచారం కోసం నోటీసు బోర్డు చూడండి.",
+    "duration_est_sec": 4.3
+  },
+  {
+    "id": "sample_0024",
+    "category": "general",
+    "text": "మీరు ఎంచుకున్న విభాగంలో మంచి భవిష్యత్తు ఉంది.",
+    "duration_est_sec": 3.5
+  },
+  {
+    "id": "sample_0025",
+    "category": "general",
+    "text": "ఏవైనా అత్యవసర పరిస్థితులు ఉంటే హెల్ప్‌లైన్ నంబర్‌కు కాల్ చేయండి.",
+    "duration_est_sec": 4.6
+  },
+  {
+    "id": "sample_0026",
+    "category": "general",
+    "text": "పరీక్షల సమయంలో తగినంత విశ్రాంతి తీసుకోవడం చాలా అవసరం.",
+    "duration_est_sec": 4.0
+  },
+  {
+    "id": "sample_0027",
+    "category": "general",
+    "text": "పూర్వ విద్యార్థుల సమావేశం వచ్చే ఆదివారం ఏర్పాటు చేశారు.",
+    "duration_est_sec": 4.2
+  },
+  {
+    "id": "sample_0028",
+    "category": "general",
+    "text": "మంచి నైపుణ్యాలు ఉంటే ఉద్యోగ అవకాశాలు సులభంగా లభిస్తాయి.",
+    "duration_est_sec": 4.1
+  },
+  {
+    "id": "sample_0029",
+    "category": "general",
+    "text": "ఈ రోజు తరగతులు యథావిధిగా కొనసాగుతాయి.",
+    "duration_est_sec": 3.1
+  },
+  {
+    "id": "sample_0030",
+    "category": "general",
+    "text": "మీ సమస్యను వెంటనే సంబంధిత అధికారి దృష్టికి తీసుకువెళతాను.",
+    "duration_est_sec": 4.0
+  },
+
+  {
+    "id": "sample_0031",
+    "category": "academic",
+    "text": "విశ్వవిద్యాలయ నిబంధనల ప్రకారం సెమిస్టర్ పరీక్షలకు హాజరు కావడానికి కనీసం డెబ్బై ఐదు శాతం హాజరు తప్పనిసరి.",
+    "duration_est_sec": 7.2
+  },
+  {
+    "id": "sample_0032",
+    "category": "academic",
+    "text": "హాజరు అరవై ఐదు శాతం నుండి డెబ్బై ఐదు శాతం మధ్య ఉంటే వైద్య కారణాల దృష్ట్యా కండోనేషన్ మంజూరు చేయబడుతుంది.",
+    "duration_est_sec": 7.5
+  },
+  {
+    "id": "sample_0033",
+    "category": "academic",
+    "text": "కండోనేషన్ దరఖాస్తుతో పాటు అధికారిక మెడికల్ సర్టిఫికేట్ సమర్పించాలి.",
+    "duration_est_sec": 4.8
+  },
+  {
+    "id": "sample_0034",
+    "category": "academic",
+    "text": "హాజరు అరవై ఐదు శాతం కంటే తక్కువగా ఉన్న విద్యార్థులను ఆ సెమిస్టర్ డిటైన్ చేస్తారు.",
+    "duration_est_sec": 6.1
+  },
+  {
+    "id": "sample_0035",
+    "category": "academic",
+    "text": "సెమిస్టర్ ముగింపు పరీక్షల ఫలితాలు విడుదలైన పదిహేను రోజుల్లోగా రీవాల్యుయేషన్ కోసం దరఖాస్తు చేసుకోవచ్చు.",
+    "duration_est_sec": 6.8
+  },
+  {
+    "id": "sample_0036",
+    "category": "academic",
+    "text": "ప్రతి సబ్జెక్టు రీవాల్యుయేషన్ ఫీజు వెయ్యి రూపాయలుగా నిర్ణయించబడింది.",
+    "duration_est_sec": 4.6
+  },
+  {
+    "id": "sample_0037",
+    "category": "academic",
+    "text": "డిగ్రీ పూర్తి చేయడానికి విద్యార్థులు మొత్తం నూట అరవై క్రెడిట్స్ సాధించాల్సి ఉంటుంది.",
+    "duration_est_sec": 5.8
+  },
+  {
+    "id": "sample_0038",
+    "category": "academic",
+    "text": "ప్రతి సెమిస్టర్‌లో అంతర్గత మూల్యాంకనానికి ముప్పై మార్కులు మరియు బాహ్య పరీక్షకు డెబ్బై మార్కులు కేటాయించబడ్డాయి.",
+    "duration_est_sec": 7.4
+  },
+  {
+    "id": "sample_0039",
+    "category": "academic",
+    "text": "పరీక్ష హాల్ టికెట్లను పరీక్షల ప్రారంభానికి మూడు రోజుల ముందు అధికారిక పోర్టల్ నుండి పొందవచ్చు.",
+    "duration_est_sec": 6.2
+  },
+  {
+    "id": "sample_0040",
+    "category": "academic",
+    "text": "మాల్ ప్రాక్టీస్ కి పాల్పడిన విద్యార్థులపై కఠిన క్రమశిక్షణా చర్యలు తీసుకుంటారు.",
+    "duration_est_sec": 5.1
+  },
+  {
+    "id": "sample_0041",
+    "category": "academic",
+    "text": "సప్లిమెంటరీ పరీక్షల టైమ్ టేబుల్ వచ్చే వారం విడుదల అవుతుంది.",
+    "duration_est_sec": 4.4
+  },
+  {
+    "id": "sample_0042",
+    "category": "academic",
+    "text": "గ్రేడ్ పాయింట్ యావరేజ్ గణనలో థియరీ మరియు ప్రాక్టికల్ క్రెడిట్స్ రెండూ పరిగణించబడతాయి.",
+    "duration_est_sec": 5.9
+  },
+  {
+    "id": "sample_0043",
+    "category": "academic",
+    "text": "ప్రతి విద్యార్థి ప్రాజెక్ట్ వర్క్ సమర్పణకు ముందు గైడ్ ఆమోదం పొందాలి.",
+    "duration_est_sec": 4.9
+  },
+  {
+    "id": "sample_0044",
+    "category": "academic",
+    "text": "టర్మ్ ఎండ్ ప్రాక్టికల్ పరీక్షలకు బాహ్య పరిశీలకులు హాజరవుతారు.",
+    "duration_est_sec": 4.5
+  },
+  {
+    "id": "sample_0045",
+    "category": "academic",
+    "text": "స్కాలర్‌షిప్ పునరుద్ధరణ కోసం ఆదాయ ధ్రువీకరణ పత్రం తప్పనిసరి.",
+    "duration_est_sec": 4.7
+  },
+  {
+    "id": "sample_0046",
+    "category": "academic",
+    "text": "సెమిస్టర్ రిజిస్ట్రేషన్ ప్రక్రియ గడువు ముగిసిన తర్వాత ఎలాంటి దరఖాస్తులు స్వీకరించబడవు.",
+    "duration_est_sec": 5.8
+  },
+  {
+    "id": "sample_0047",
+    "category": "academic",
+    "text": "లెక్చర్ నోట్స్ మరియు రిఫరెన్స్ పుస్తకాలు డిపార్ట్‌మెంట్ లైబ్రరీలో లభిస్తాయి.",
+    "duration_est_sec": 5.2
+  },
+  {
+    "id": "sample_0048",
+    "category": "academic",
+    "text": "విద్యార్థులు తమ అకడమిక్ రికార్డులను ఎప్పటికప్పుడు సమీక్షించుకోవాలి.",
+    "duration_est_sec": 4.5
+  },
+  {
+    "id": "sample_0049",
+    "category": "academic",
+    "text": "అసైనమెంట్స్ సమర్పణలో జాప్యం జరిగితే అంతర్గత మార్కులు తగ్గే అవకాశం ఉంది.",
+    "duration_est_sec": 5.5
+  },
+  {
+    "id": "sample_0050",
+    "category": "academic",
+    "text": "బోనఫైడ్ మరియు బదిలీ సర్టిఫికెట్ల కోసం ఆన్‌లైన్‌లో దరఖాస్తు చేసుకోవచ్చు.",
+    "duration_est_sec": 5.0
+  },
+  {
+    "id": "sample_0051",
+    "category": "academic",
+    "text": "ఎలెక్టివ్ సబ్జెక్టుల ఎంపిక మొదటి వారంలోనే పూర్తి చేసుకోవాలి.",
+    "duration_est_sec": 4.4
+  },
+  {
+    "id": "sample_0052",
+    "category": "academic",
+    "text": "సెమిస్టర్ పరీక్షలకు హాజరు కావడానికి బకాయి ఫీజులన్నీ చెల్లించి ఉండాలి.",
+    "duration_est_sec": 5.1
+  },
+  {
+    "id": "sample_0053",
+    "category": "academic",
+    "text": "పరిశోధన విభాగానికి సంబంధించి ప్రత్యేక నిబంధనలు వర్తిస్తాయి.",
+    "duration_est_sec": 4.2
+  },
+  {
+    "id": "sample_0054",
+    "category": "academic",
+    "text": "కళాశాల నిబంధనావళి ఉల్లంఘిస్తే విద్యార్థిపై విచారణ కమిటీ ఏర్పాటు చేయబడుతుంది.",
+    "duration_est_sec": 5.7
+  },
+  {
+    "id": "sample_0055",
+    "category": "academic",
+    "text": "ఫైనల్ ఇయర్ విద్యార్థులు ఇంటర్న్‌షిప్ సర్టిఫికేట్ తప్పనిసరిగా సమర్పించాలి.",
+    "duration_est_sec": 5.2
+  },
+  {
+    "id": "sample_0056",
+    "category": "academic",
+    "text": "రీకౌంటింగ్ ఫలితాలు సాధారణంగా మూడు వారాల్లోగా వెల్లడవుతాయి.",
+    "duration_est_sec": 4.6
+  },
+  {
+    "id": "sample_0057",
+    "category": "academic",
+    "text": "గ్రేడ్ మెరుగుదల కోసం ఇంప్రూవ్‌మెంట్ పరీక్షలు రాసే అవకాశం ఉంది.",
+    "duration_est_sec": 4.8
+  },
+  {
+    "id": "sample_0058",
+    "category": "academic",
+    "text": "అకాడమిక్ క్యాలెండర్ ప్రకారం వచ్చే నెలలో మిడ్ పరీక్షలు ప్రారంభమవుతాయి.",
+    "duration_est_sec": 5.0
+  },
+  {
+    "id": "sample_0059",
+    "category": "academic",
+    "text": "ల్యాబ్ రికార్డులపై ఫ్యాకల్టీ సంతకం లేకపోతే ప్రాక్టికల్ పరీక్షకు అనుమతించరు.",
+    "duration_est_sec": 5.3
+  },
+  {
+    "id": "sample_0060",
+    "category": "academic",
+    "text": "విద్యార్థుల సమస్యల పరిష్కారానికి గ్రీవెన్స్ సెల్ అందుబాటులో ఉంది.",
+    "duration_est_sec": 4.7
+  },
+  {
+    "id": "sample_0061",
+    "category": "academic",
+    "text": "డిగ్రీ ప్రదానోత్సవానికి సంబంధించిన రిజిస్ట్రేషన్ పోర్టల్ ప్రారంభమైంది.",
+    "duration_est_sec": 4.9
+  },
+  {
+    "id": "sample_0062",
+    "category": "academic",
+    "text": "హాజరు వివరాలు ప్రతి నెలా తల్లిదండ్రులకు ఎస్ఎంఎస్ ద్వారా పంపబడతాయి.",
+    "duration_est_sec": 5.1
+  },
+  {
+    "id": "sample_0063",
+    "category": "academic",
+    "text": "స్పెషల్ క్లాసులకు హాజరైతే అదనపు హాజరు శాతం కలుపబడుతుంది.",
+    "duration_est_sec": 4.6
+  },
+  {
+    "id": "sample_0064",
+    "category": "academic",
+    "text": "క్రెడిట్ బదిలీ విధానం కొత్త విద్యా విధానం ప్రకారం అమలు చేయబడుతోంది.",
+    "duration_est_sec": 5.2
+  },
+  {
+    "id": "sample_0065",
+    "category": "academic",
+    "text": "పరీక్ష గదిలోకి ఎలాంటి ఎలక్ట్రానిక్ పరికరాలను అనుమతించరు.",
+    "duration_est_sec": 4.3
+  },
+
+  {
+    "id": "sample_0066",
+    "category": "technical_codemixed",
+    "text": "ఈ application లో database నుండి student details సులభంగా తీసుకోవచ్చు.",
+    "duration_est_sec": 5.2
+  },
+  {
+    "id": "sample_0067",
+    "category": "technical_codemixed",
+    "text": "మా సిస్టమ్ లో dense embeddings మరియు sparse BM25 ఆధారంగా hybrid retrieval పనిచేస్తుంది.",
+    "duration_est_sec": 7.0
+  },
+  {
+    "id": "sample_0068",
+    "category": "technical_codemixed",
+    "text": "LangGraph multi-agent workflow ద్వారా యూజర్ ప్రశ్నను విశ్లేషించి సరైన రూటింగ్‌ను ఎంపిక చేస్తాము.",
+    "duration_est_sec": 7.5
+  },
+  {
+    "id": "sample_0069",
+    "category": "technical_codemixed",
+    "text": "PostgreSQL డేటాబేస్ లో మునుపటి సంభాషణల హిస్టరీ భద్రపరచబడుతుంది.",
+    "duration_est_sec": 5.4
+  },
+  {
+    "id": "sample_0070",
+    "category": "technical_codemixed",
+    "text": "Qdrant vector database లో డాక్యుమెంట్ చంక్స్ మరియు వాటి వెక్టర్స్ భద్రపరుస్తాము.",
+    "duration_est_sec": 6.1
+  },
+  {
+    "id": "sample_0071",
+    "category": "technical_codemixed",
+    "text": "FastAPI backend ద్వారా Speech-to-Text మరియు Text-to-Speech ఎండ్‌పాయింట్స్ అందుబాటులో ఉన్నాయి.",
+    "duration_est_sec": 7.1
+  },
+  {
+    "id": "sample_0072",
+    "category": "technical_codemixed",
+    "text": "యూజర్ మైక్రోఫోన్ ఆడియోను పదహారు కిలోహెర్ట్జ్ మోనో వేవ్‌ఫామ్‌గా మార్చి STT మోడల్‌కు పంపుతాము.",
+    "duration_est_sec": 6.9
+  },
+  {
+    "id": "sample_0073",
+    "category": "technical_codemixed",
+    "text": "Cross-Encoder reranking ద్వారా శోధన ఫలితాల ఖచ్చితత్వాన్ని మరింత పెంచవచ్చు.",
+    "duration_est_sec": 6.0
+  },
+  {
+    "id": "sample_0074",
+    "category": "technical_codemixed",
+    "text": "Next.js frontend లో రియాక్ట్ మరియు టైప్‌స్క్రిప్ట్ ఉపయోగించి రెస్పాన్సివ్ ఇంటర్‌ఫేస్ రూపొందించాము.",
+    "duration_est_sec": 6.8
+  },
+  {
+    "id": "sample_0075",
+    "category": "technical_codemixed",
+    "text": "Python లో Safe AST calculator ద్వారా సంక్లిష్టమైన గణిత సమస్యలను సాధించవచ్చు.",
+    "duration_est_sec": 6.2
+  },
+  {
+    "id": "sample_0076",
+    "category": "technical_codemixed",
+    "text": "LoRA fine-tuning ద్వారా తక్కువ మెమరీతో మోడల్‌ను కొత్త స్పీకర్ వాయిస్‌కు అనుకూలీకరించవచ్చు.",
+    "duration_est_sec": 6.7
+  },
+  {
+    "id": "sample_0077",
+    "category": "technical_codemixed",
+    "text": "IndicF5 diffusion architecture లో ఫ్లో మ్యాచింగ్ టెక్నిక్ ఉపయోగించి సహజమైన శబ్దాన్ని రూపొందిస్తారు.",
+    "duration_est_sec": 7.4
+  },
+  {
+    "id": "sample_0078",
+    "category": "technical_codemixed",
+    "text": "ఈ RAG పైప్‌లైన్ ద్వారా విద్యార్థులకు నిబంధనల ఆధారంగా ఖచ్చితమైన సమాచారం లభిస్తుంది.",
+    "duration_est_sec": 6.5
+  },
+  {
+    "id": "sample_0079",
+    "category": "technical_codemixed",
+    "text": "Docker compose ద్వారా డేటాబేస్ మరియు వెక్టర్ సర్వర్‌ను సులభంగా రన్ చేయవచ్చు.",
+    "duration_est_sec": 5.9
+  },
+  {
+    "id": "sample_0080",
+    "category": "technical_codemixed",
+    "text": "API response లో ఆడియో బేస్ అరవై నాలుగు ఫార్మాట్‌లో మరియు టెక్స్ట్ ఆన్సర్ రెండూ వస్తాయి.",
+    "duration_est_sec": 6.8
+  },
+  {
+    "id": "sample_0081",
+    "category": "technical_codemixed",
+    "text": "యూజర్ క్వెరీ ఆధారంగా ఇంటెంట్ క్లాసిఫికేషన్ ప్రక్రియ నిర్వహించబడుతుంది.",
+    "duration_est_sec": 5.2
+  },
+  {
+    "id": "sample_0082",
+    "category": "technical_codemixed",
+    "text": "Reciprocal Rank Fusion అల్గారిథమ్ సహాయంతో ర్యాంకింగ్ స్కోర్‌లను కలుపుతాము.",
+    "duration_est_sec": 6.1
+  },
+  {
+    "id": "sample_0083",
+    "category": "technical_codemixed",
+    "text": "PyTorch లో ടെన్సార్ ప్రాసెసింగ్ మరియు బ్యాక్‌ప్రొపగేషన్ చాలా వేగంగా జరుగుతాయి.",
+    "duration_est_sec": 5.8
+  },
+  {
+    "id": "sample_0084",
+    "category": "technical_codemixed",
+    "text": "Whisper large-v3-turbo మోడల్ తెలుగు మరియు ఇంగ్లీష్ ఆడియోను ఖచ్చితంగా గుర్తిస్తుంది.",
+    "duration_est_sec": 6.7
+  },
+  {
+    "id": "sample_0085",
+    "category": "technical_codemixed",
+    "text": "ట్రాన్స్‌క్రిప్ట్ వెరిఫికేషన్ కోసం CER మరియు WER గణాంకాలను పరిశీలిస్తాము.",
+    "duration_est_sec": 5.6
+  },
+  {
+    "id": "sample_0086",
+    "category": "technical_codemixed",
+    "text": "ఈ సిస్టమ్‌లో టోకనైజర్ తెలుగు అక్షరాలను సరైన ఐడీలుగా మారుస్తుంది.",
+    "duration_est_sec": 5.1
+  },
+  {
+    "id": "sample_0087",
+    "category": "technical_codemixed",
+    "text": "ఆటోమేటెడ్ యూనిట్ టెస్ట్స్ ద్వారా కోడ్ నాణ్యతను నిరంతరం పర్యవేక్షిస్తాము.",
+    "duration_est_sec": 5.0
+  },
+  {
+    "id": "sample_0088",
+    "category": "technical_codemixed",
+    "text": "మల్టీలింగ్వల్ E5 ఎంబెడ్డింగ్ మోడల్ వెయ్యి ఇరవై నాలుగు డైమెన్షన్స్ వెక్టర్స్ ఉత్పత్తి చేస్తుంది.",
+    "duration_est_sec": 6.9
+  },
+  {
+    "id": "sample_0089",
+    "category": "technical_codemixed",
+    "text": "ఫ్రంటెండ్‌లో ఆడియో ప్లేయర్ ద్వారా అసిస్టెంట్ సమాధానాన్ని వినవచ్చు.",
+    "duration_est_sec": 5.1
+  },
+  {
+    "id": "sample_0090",
+    "category": "technical_codemixed",
+    "text": "మెటాడేటా ఫైల్ లో ప్రతి ఆడియోకు సంబంధించిన పాత్ మరియు టెక్స్ట్ పొందుపరిచాము.",
+    "duration_est_sec": 5.7
+  },
+  {
+    "id": "sample_0091",
+    "category": "technical_codemixed",
+    "text": "డాక్యుమెంట్ పార్సింగ్ కోసం PyMuPDF లైబ్రరీ ఉపయోగించబడుతోంది.",
+    "duration_est_sec": 4.8
+  },
+  {
+    "id": "sample_0092",
+    "category": "technical_codemixed",
+    "text": "Cosine similarity స్కోర్ ఆధారంగా అత్యంత సంబంధిత సమాచారాన్ని వెలికితీస్తాము.",
+    "duration_est_sec": 5.8
+  },
+  {
+    "id": "sample_0093",
+    "category": "technical_codemixed",
+    "text": "ఈ ప్రాజెక్ట్ రీసెర్చ్ పేపర్స్ మరియు అకాడమిక్ కాన్ఫరెన్సెస్ కోసం సిద్ధం చేయబడింది.",
+    "duration_est_sec": 5.9
+  },
+  {
+    "id": "sample_0094",
+    "category": "technical_codemixed",
+    "text": "సిస్టమ్ హెల్త్ చెక్ ఎండ్‌పాయింట్ అన్ని సేవల పనితీరును నిర్ధారిస్తుంది.",
+    "duration_est_sec": 5.1
+  },
+  {
+    "id": "sample_0095",
+    "category": "technical_codemixed",
+    "text": "మైక్రోఫోన్ రికార్డింగ్ ఆగిన వెంటనే బ్రౌజర్ ఆడియోను సర్వర్‌కు పంపుతుంది.",
+    "duration_est_sec": 5.4
+  },
+  {
+    "id": "sample_0096",
+    "category": "technical_codemixed",
+    "text": "డైలాగ్ మేనేజ్‌మెంట్ ద్వారా సంభాషణ సందర్భం కోల్పోకుండా కొనసాగుతుంది.",
+    "duration_est_sec": 5.3
+  },
+  {
+    "id": "sample_0097",
+    "category": "technical_codemixed",
+    "text": "వాయిస్ క్లోనింగ్ కోసం రిఫరెన్స్ ఆడియో మరియు ట్రాన్స్‌క్రిప్ట్ రెండూ అవసరం.",
+    "duration_est_sec": 5.6
+  },
+  {
+    "id": "sample_0098",
+    "category": "technical_codemixed",
+    "text": "హైపర్ పారామీటర్ ట్యూనింగ్ ద్వారా ట్రైనింగ్ లాస్ క్రమంగా తగ్గుతుంది.",
+    "duration_est_sec": 5.2
+  },
+  {
+    "id": "sample_0099",
+    "category": "technical_codemixed",
+    "text": "సర్వర్ లోడ్ తగ్గించడానికి బ్యాచ్ ప్రాసెసింగ్ పద్ధతి ఉపయోగపడుతుంది.",
+    "duration_est_sec": 4.9
+  },
+  {
+    "id": "sample_0100",
+    "category": "technical_codemixed",
+    "text": "ఈ మోడల్ లో టెక్స్ట్ మరియు ఆడియో అలైన్‌మెంట్ ఖచ్చితంగా ఉంటుంది.",
+    "duration_est_sec": 4.8
+  },
+
+  {
+    "id": "sample_0101",
+    "category": "numeric_percentage",
+    "text": "కనీసం 75% హాజరు ఉంటేనే సెమిస్టర్ పరీక్షలు రాయడానికి అర్హత ఉంటుంది.",
+    "duration_est_sec": 5.3
+  },
+  {
+    "id": "sample_0102",
+    "category": "numeric_percentage",
+    "text": "విద్యార్థి హాజరు 65% నుండి 75% మధ్య ఉంటే ₹500 కండోనేషన్ ఫీజు చెల్లించాలి.",
+    "duration_est_sec": 6.2
+  },
+  {
+    "id": "sample_0103",
+    "category": "numeric_percentage",
+    "text": "2026 విద్యా సంవత్సరంలో మొత్తం 160 క్రెడిట్స్ పూర్తి చేయాలి.",
+    "duration_est_sec": 5.1
+  },
+  {
+    "id": "sample_0104",
+    "category": "numeric_percentage",
+    "text": "రీవాల్యుయేషన్ కోసం ప్రతి సబ్జెక్టుకు ₹1000 ఫీజు చెల్లించాలి.",
+    "duration_est_sec": 4.9
+  },
+  {
+    "id": "sample_0105",
+    "category": "numeric_percentage",
+    "text": "అంతర్గత పరీక్షల్లో కనీసం 40% మార్కులు సాధించడం తప్పనిసరి.",
+    "duration_est_sec": 4.7
+  },
+  {
+    "id": "sample_0106",
+    "category": "numeric_percentage",
+    "text": "ఈ సెమిస్టర్‌లో నా SGPA 8.5 మరియు మొత్తం CGPA 8.2 గా నమోదైంది.",
+    "duration_est_sec": 6.1
+  },
+  {
+    "id": "sample_0107",
+    "category": "numeric_percentage",
+    "text": "హాస్టల్ ఫీజు నెలకు ₹4500 చొప్పున చెల్లించాల్సి ఉంటుంది.",
+    "duration_est_sec": 4.8
+  },
+  {
+    "id": "sample_0108",
+    "category": "numeric_percentage",
+    "text": "పరీక్షల దరఖాస్తు గడువు ఈ నెల 15వ తేదీ సాయంత్రం 5:00 గంటలకు ముగుస్తుంది.",
+    "duration_est_sec": 5.8
+  },
+  {
+    "id": "sample_0109",
+    "category": "numeric_percentage",
+    "text": "స్కాలర్‌షిప్ కింద వార్షిక రుసుములో 50% తగ్గింపు లభిస్తుంది.",
+    "duration_est_sec": 4.9
+  },
+  {
+    "id": "sample_0110",
+    "category": "numeric_percentage",
+    "text": "మొత్తం 100 మార్కులలో థియరీకి 70 మరియు ప్రాక్టికల్స్‌కి 30 మార్కులు ఉంటాయి.",
+    "duration_est_sec": 6.0
+  },
+  {
+    "id": "sample_0111",
+    "category": "numeric_percentage",
+    "text": "ఈ కోర్సు వ్యవధి 4 సంవత్సరాలు మరియు 8 సెమిస్టర్లుగా విభజించబడింది.",
+    "duration_est_sec": 5.5
+  },
+  {
+    "id": "sample_0112",
+    "category": "numeric_percentage",
+    "text": "లైబ్రరీ నుండి ఒకేసారి 3 పుస్తకాలను 14 రోజుల పాటు తీసుకోవచ్చు.",
+    "duration_est_sec": 5.2
+  },
+  {
+    "id": "sample_0113",
+    "category": "numeric_percentage",
+    "text": "పరీక్షలో 90% కంటే ఎక్కువ మార్కులు సాధిస్తే ఓ గ్రేడ్ కేటాయిస్తారు.",
+    "duration_est_sec": 5.3
+  },
+  {
+    "id": "sample_0114",
+    "category": "numeric_percentage",
+    "text": "కళాశాల బస్సు సమయం ఉదయం 7:45 గంటలకు ప్రారంభమవుతుంది.",
+    "duration_est_sec": 4.6
+  },
+  {
+    "id": "sample_0115",
+    "category": "numeric_percentage",
+    "text": "డిపార్ట్‌మెంట్‌లో మొత్తం 12 మంది ప్రొఫెసర్లు మరియు 240 మంది విద్యార్థులు ఉన్నారు.",
+    "duration_est_sec": 6.2
+  },
+  {
+    "id": "sample_0116",
+    "category": "numeric_percentage",
+    "text": "గ్రేస్ మార్కుల కింద గరిష్టంగా 0.5% వరకు కలపడానికి అవకాశం ఉంది.",
+    "duration_est_sec": 5.2
+  },
+  {
+    "id": "sample_0117",
+    "category": "numeric_percentage",
+    "text": "ఈ ప్రయోగశాలలో 60 కంప్యూటర్లు మరియు హై స్పీడ్ ఇంటర్నెట్ ఉన్నాయి.",
+    "duration_est_sec": 5.0
+  },
+  {
+    "id": "sample_0118",
+    "category": "numeric_percentage",
+    "text": "గత సంవత్సరం ప్లేస్‌మెంట్స్‌లో 85% విద్యార్థులు ఉద్యోగాలు పొందారు.",
+    "duration_est_sec": 5.4
+  },
+  {
+    "id": "sample_0119",
+    "category": "numeric_percentage",
+    "text": "తదుపరి సెమిస్టర్ ఫీజు ₹25,000 ఆన్‌లైన్‌లో చెల్లించాలి.",
+    "duration_est_sec": 4.8
+  },
+  {
+    "id": "sample_0120",
+    "category": "numeric_percentage",
+    "text": "2024 నుండి 2028 బ్యాచ్ విద్యార్థులకు కొత్త సిలబస్ వర్తిస్తుంది.",
+    "duration_est_sec": 5.5
+  }
+]

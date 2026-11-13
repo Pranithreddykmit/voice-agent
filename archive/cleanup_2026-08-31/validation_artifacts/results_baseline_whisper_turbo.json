@@ -1,0 +1,227 @@
+[
+  {
+    "id": "A1_te_human_syspin",
+    "category": "A. Pure Telugu",
+    "duration_sec": 7.79,
+    "latency_ms": 5359.54,
+    "rtf": 0.688,
+    "detected_lang": "te",
+    "ref_text": "మల విసర్జనాన్ని శరీరంలోని ఏ భాగం నియంత్రిస్తుంది? ఈ చర్య నియంత్రితమా? అనియంత్రితమా? ఎందుకు?",
+    "transcript": "मలవి సర్జనాన్ని జరిరంలోనయే భాగం నఈయంత్రస్తుంది ీ చరయా నీయనుతెరతమ అణి�",
+    "wer": 0.6389,
+    "cer": 0.4444,
+    "errors": [
+      "Devanagari script bleed"
+    ]
+  },
+  {
+    "id": "A2_te_human_indictts",
+    "category": "A. Pure Telugu",
+    "duration_sec": 3.2,
+    "latency_ms": 4104.67,
+    "rtf": 1.283,
+    "detected_lang": "te",
+    "ref_text": "చిత్తం పదండి, అన్నాడు విజయదాసు.",
+    "transcript": "12 అన్నాడు, విజయ దాసు",
+    "wer": 0.6364,
+    "cer": 0.5,
+    "errors": [
+      "Phonetic/Subword mismatch"
+    ]
+  },
+  {
+    "id": "A3_te_synthetic",
+    "category": "A. Pure Telugu",
+    "duration_sec": 7.54,
+    "latency_ms": 5274.66,
+    "rtf": 0.7,
+    "detected_lang": "te",
+    "ref_text": "విశ్వవిద్యాలయ గ్రంథాలయం ప్రతిరోజూ ఉదయం ఎనిమిది గంటల నుండి సాయంత్రం ఎనిమిది గంటల వరకు తెరిచి ఉంటుంది.",
+    "transcript": "विश्व वित्यलय ग्रन्थालयं ప్రతిరోజు ఉదేయం ఎనిమిది గంటల నుండి జాయన్త్యాం జెనందా�",
+    "wer": 0.6842,
+    "cer": 0.6136,
+    "errors": [
+      "Devanagari script bleed"
+    ]
+  },
+  {
+    "id": "B1_en_policy",
+    "category": "B. Pure English",
+    "duration_sec": 3.89,
+    "latency_ms": 3749.82,
+    "rtf": 0.964,
+    "detected_lang": "en",
+    "ref_text": "What is the minimum attendance requirement for semester exams?",
+    "transcript": "What is the minimum attendance requirement for semester exams?",
+    "wer": 0.0,
+    "cer": 0.0,
+    "errors": [
+      "Clean / Faithful"
+    ]
+  },
+  {
+    "id": "B2_en_hostel",
+    "category": "B. Pure English",
+    "duration_sec": 3.91,
+    "latency_ms": 3791.0,
+    "rtf": 0.97,
+    "detected_lang": "en",
+    "ref_text": "How can students apply for hostel accommodation in the second year?",
+    "transcript": "How can students apply for hostel accommodation in the second year?",
+    "wer": 0.0,
+    "cer": 0.0,
+    "errors": [
+      "Clean / Faithful"
+    ]
+  },
+  {
+    "id": "C1_mixed_attendance",
+    "category": "C. Telugu-English Code-Mixed",
+    "duration_sec": 3.22,
+    "latency_ms": 3796.44,
+    "rtf": 1.179,
+    "detected_lang": "te",
+    "ref_text": "Semester exams ki minimum attendance entha undali?",
+    "transcript": "semester exams ki minimum attendance enter an ndali?",
+    "wer": 0.4286,
+    "cer": 0.0909,
+    "errors": [
+      "Phonetic/Subword mismatch"
+    ]
+  },
+  {
+    "id": "C2_mixed_fee_deadline",
+    "category": "C. Telugu-English Code-Mixed",
+    "duration_sec": 2.65,
+    "latency_ms": 3792.64,
+    "rtf": 1.431,
+    "detected_lang": "en",
+    "ref_text": "Hostel fee payment deadline eppudu untundi?",
+    "transcript": "Hostel fee payment deadline if you do untundy?",
+    "wer": 0.6667,
+    "cer": 0.1579,
+    "errors": [
+      "Phonetic/Subword mismatch"
+    ]
+  },
+  {
+    "id": "C3_mixed_library_docs",
+    "category": "C. Telugu-English Code-Mixed",
+    "duration_sec": 3.88,
+    "latency_ms": 3871.04,
+    "rtf": 0.998,
+    "detected_lang": "te",
+    "ref_text": "Naku library card apply cheyadaniki em documents kavali?",
+    "transcript": "Naku library card apply qi adaniki em documents ka wali?",
+    "wer": 0.5,
+    "cer": 0.102,
+    "errors": [
+      "Phonetic/Subword mismatch"
+    ]
+  },
+  {
+    "id": "C4_mixed_medical_leave",
+    "category": "C. Telugu-English Code-Mixed",
+    "duration_sec": 3.46,
+    "latency_ms": 3871.84,
+    "rtf": 1.119,
+    "detected_lang": "en",
+    "ref_text": "Naku medical leave apply cheyyali, procedure enti?",
+    "transcript": "NACU Medical Leave Apply CHILE. Procedure NT",
+    "wer": 0.4286,
+    "cer": 0.4773,
+    "errors": [
+      "Phonetic/Subword mismatch"
+    ]
+  },
+  {
+    "id": "D1_te_tech_terms",
+    "category": "D. Conversational Telugu + Technical Terms",
+    "duration_sec": 2.87,
+    "latency_ms": 4497.06,
+    "rtf": 1.567,
+    "detected_lang": "te",
+    "ref_text": "కళాశాల లైబ్రరీ తెరిచే సమయాలు ఏమిటి?",
+    "transcript": "कला स्याल लाइबरारी తెరిచి సమాయాలు ఏమిటి?",
+    "wer": 0.6923,
+    "cer": 0.5806,
+    "errors": [
+      "Devanagari script bleed"
+    ]
+  },
+  {
+    "id": "D2_mixed_wifi_login",
+    "category": "D. Conversational Telugu + Technical Terms",
+    "duration_sec": 3.31,
+    "latency_ms": 4667.98,
+    "rtf": 1.41,
+    "detected_lang": "te",
+    "ref_text": "కాలేజీ క్యాంపస్ లో వైఫై పాస్వర్డ్ మార్చడం ఎలా?",
+    "transcript": "कॉलेजी కెమ్పస్ లో వయటై పాసుర్ద్ జిన్డం యలా?",
+    "wer": 0.7059,
+    "cer": 0.5,
+    "errors": [
+      "Devanagari script bleed"
+    ]
+  },
+  {
+    "id": "E1_te_short_greeting",
+    "category": "E. Short Questions",
+    "duration_sec": 1.95,
+    "latency_ms": 4188.28,
+    "rtf": 2.148,
+    "detected_lang": "te",
+    "ref_text": "నమస్కారం! మీరు ఎలా ఉన్నారు?",
+    "transcript": "नमस्कारం, मीरు యలా హున్నరు.",
+    "wer": 0.8889,
+    "cer": 0.6667,
+    "errors": [
+      "Devanagari script bleed"
+    ]
+  },
+  {
+    "id": "E2_mixed_exam_deadline",
+    "category": "E. Short Questions",
+    "duration_sec": 1.66,
+    "latency_ms": 3745.17,
+    "rtf": 2.256,
+    "detected_lang": "en",
+    "ref_text": "Exam fee deadline eppudu?",
+    "transcript": "Exam fee deadline if you do.",
+    "wer": 0.75,
+    "cer": 0.2727,
+    "errors": [
+      "Phonetic/Subword mismatch"
+    ]
+  },
+  {
+    "id": "F1_en_long_medical",
+    "category": "F. Longer Conversational Questions",
+    "duration_sec": 4.82,
+    "latency_ms": 3932.83,
+    "rtf": 0.816,
+    "detected_lang": "en",
+    "ref_text": "Can you explain the procedure to apply for medical leave if I fall sick during the semester?",
+    "transcript": "Can you explain the procedure to apply for medical leave if I fall sick during the semester?",
+    "wer": 0.0,
+    "cer": 0.0,
+    "errors": [
+      "Clean / Faithful"
+    ]
+  },
+  {
+    "id": "F2_mixed_long_reschedule",
+    "category": "F. Longer Conversational Questions",
+    "duration_sec": 7.2,
+    "latency_ms": 4156.29,
+    "rtf": 0.577,
+    "detected_lang": "en",
+    "ref_text": "Mid term exams reschedule chesukovadaniki Dean permission teesukovalandi, application form ekkada submit cheyyali?",
+    "transcript": "Midterm exams reschedule. Chisoo Kavadaniki Dean permission. Tisoo Kavalandi. Application form. Eka da submit chai ali?",
+    "wer": 0.7692,
+    "cer": 0.2059,
+    "errors": [
+      "Phonetic/Subword mismatch"
+    ]
+  }
+]

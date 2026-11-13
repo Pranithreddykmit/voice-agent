@@ -1,0 +1,43 @@
+{
+  "total_samples": 100,
+  "router_accuracy_pct": 51.0,
+  "router_confusion_matrix": {
+    "en": {
+      "en": 25,
+      "te": 0
+    },
+    "te": {
+      "en": 0,
+      "te": 25
+    },
+    "mixed": {
+      "en": 49,
+      "te": 1
+    }
+  },
+  "models": {
+    "openai/whisper-large-v3-turbo": {
+      "overall_wer_pct": 1.11,
+      "overall_cer_pct": 1.08,
+      "devanagari_bleed_pct": 1.0,
+      "tamil_bleed_pct": 0.0,
+      "peak_vram_gb": 3.8
+    },
+    "vasista22/whisper-telugu-large-v2": {
+      "overall_wer_pct": 23.9,
+      "overall_cer_pct": 24.34,
+      "devanagari_bleed_pct": 0.0,
+      "tamil_bleed_pct": 0.0,
+      "peak_vram_gb": 6.2
+    },
+    "dual_asr_routed_pipeline": {
+      "overall_wer_pct": 0.95,
+      "overall_cer_pct": 0.91,
+      "devanagari_bleed_pct": 0.0,
+      "tamil_bleed_pct": 0.0,
+      "avg_latency_ms": 477.9,
+      "avg_rtf": 0.115,
+      "peak_vram_gb": 6.4
+    }
+  }
+}

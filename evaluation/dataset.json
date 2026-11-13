@@ -1,0 +1,122 @@
+[
+  {
+    "id": "q01_en_attendance",
+    "question": "What is the minimum attendance percentage required to write semester exams?",
+    "language": "en",
+    "category": "attendance",
+    "is_in_corpus": true,
+    "relevant_documents": ["academic_regulations.pdf"],
+    "relevant_pages": [1],
+    "relevant_keywords": ["75%", "minimum attendance", "condonation", "detained"]
+  },
+  {
+    "id": "q02_en_condonation",
+    "question": "Under what medical condition can attendance shortage between 65% and 75% be condoned?",
+    "language": "en",
+    "category": "attendance",
+    "is_in_corpus": true,
+    "relevant_documents": ["academic_regulations.pdf"],
+    "relevant_pages": [1],
+    "relevant_keywords": ["medical grounds", "65%", "75%", "medical certificate"]
+  },
+  {
+    "id": "q03_te_attendance",
+    "question": "సెమిస్టర్ పరీక్షలకు హాజరు కావడానికి కనీసం ఎంత శాతం హాజరు తప్పనిసరి?",
+    "language": "te",
+    "category": "attendance",
+    "is_in_corpus": true,
+    "relevant_documents": ["academic_regulations.pdf"],
+    "relevant_pages": [1],
+    "relevant_keywords": ["75%", "హాజరు", "కనీసం", "పరీక్షలకు"]
+  },
+  {
+    "id": "q04_mixed_attendance",
+    "question": "ఈ regulations ప్రకారం attendance 65% కంటే తక్కువ ఉంటే detention అవుతుందా?",
+    "language": "mixed",
+    "category": "attendance",
+    "is_in_corpus": true,
+    "relevant_documents": ["academic_regulations.pdf"],
+    "relevant_pages": [1],
+    "relevant_keywords": ["detention", "65%", "తక్కువ", "detained"]
+  },
+  {
+    "id": "q05_en_grading",
+    "question": "What percentage score is needed to achieve Grade O (Outstanding)?",
+    "language": "en",
+    "category": "grading",
+    "is_in_corpus": true,
+    "relevant_documents": ["academic_regulations.pdf"],
+    "relevant_pages": [2],
+    "relevant_keywords": ["Grade O", "90%", "100%", "10-point"]
+  },
+  {
+    "id": "q06_en_pass_mark",
+    "question": "What is the minimum passing percentage in end semester and internal examinations?",
+    "language": "en",
+    "category": "grading",
+    "is_in_corpus": true,
+    "relevant_documents": ["academic_regulations.pdf"],
+    "relevant_pages": [2],
+    "relevant_keywords": ["40%", "passing standard", "internal assessment", "clear the course"]
+  },
+  {
+    "id": "q07_te_grading",
+    "question": "గ్రేడింగ్ స్కేల్ ప్రకారం Grade A సాధించడానికి ఎంత శాతం మార్కులు రావాలి?",
+    "language": "te",
+    "category": "grading",
+    "is_in_corpus": true,
+    "relevant_documents": ["academic_regulations.pdf"],
+    "relevant_pages": [2],
+    "relevant_keywords": ["Grade A", "70%", "79%", "గ్రేడింగ్"]
+  },
+  {
+    "id": "q08_en_revaluation_fee",
+    "question": "What is the fee charged per subject for examination revaluation?",
+    "language": "en",
+    "category": "examination_fee",
+    "is_in_corpus": true,
+    "relevant_documents": ["academic_regulations.pdf"],
+    "relevant_pages": [3],
+    "relevant_keywords": ["Rs. 1000", "revaluation fee", "theory subject"]
+  },
+  {
+    "id": "q09_en_exam_deadline",
+    "question": "What is the final deadline to submit examination registration with a late fee of Rs. 500?",
+    "language": "en",
+    "category": "examination_fee",
+    "is_in_corpus": true,
+    "relevant_documents": ["academic_regulations.pdf"],
+    "relevant_pages": [3],
+    "relevant_keywords": ["October 22, 2026", "late registration", "fine of Rs. 500"]
+  },
+  {
+    "id": "q10_te_revaluation",
+    "question": "థియరీ పరీక్షల రీవాల్యుయేషన్ దరఖాస్తుకు ఎంత ఫీజు చెల్లించాలి మరియు గడువు ఎంత?",
+    "language": "te",
+    "category": "examination_fee",
+    "is_in_corpus": true,
+    "relevant_documents": ["academic_regulations.pdf"],
+    "relevant_pages": [3],
+    "relevant_keywords": ["రీవాల్యుయేషన్", "Rs. 1000", "10 calendar days", "దరఖాస్తు"]
+  },
+  {
+    "id": "q11_neg_quantum",
+    "question": "What is the mathematical formulation of quantum superposition in qubits?",
+    "language": "en",
+    "category": "negative_control",
+    "is_in_corpus": false,
+    "relevant_documents": [],
+    "relevant_pages": [],
+    "relevant_keywords": []
+  },
+  {
+    "id": "q12_neg_telugu_history",
+    "question": "విజయనగర సామ్రాజ్య స్థాపన ఏ సంవత్సరంలో జరిగింది?",
+    "language": "te",
+    "category": "negative_control",
+    "is_in_corpus": false,
+    "relevant_documents": [],
+    "relevant_pages": [],
+    "relevant_keywords": []
+  }
+]

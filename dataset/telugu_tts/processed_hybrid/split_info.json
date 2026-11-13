@@ -1,0 +1,22 @@
+{
+  "random_seed": 42,
+  "leakage_free": true,
+  "counts": {
+    "total": 140,
+    "train": 112,
+    "val": 14,
+    "test": 14
+  },
+  "speakers": {
+    "indic_female": 60,
+    "syspin_female": 40,
+    "syspin_male": 40
+  },
+  "durations_sec": {
+    "total": 1072.09,
+    "total_min": 17.87,
+    "train": 874.81,
+    "val": 104.99,
+    "test": 92.29
+  }
+}

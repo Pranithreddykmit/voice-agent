@@ -1,0 +1,110 @@
+{
+  "audit_metadata": {
+    "title": "Comprehensive ASR Model Landscape Audit & Shortlist",
+    "version": "1.0.0",
+    "target_application": "Telugu / English Academic Voice Agent",
+    "created_at": "2026-08-31T18:05:00Z",
+    "total_models_audited": 9,
+    "shortlisted_models_count": 6
+  },
+  "shortlisted_candidates": [
+    {
+      "rank": 1,
+      "model_id": "sarvam-saaras-v4",
+      "display_name": "Sarvam AI Saaras v4",
+      "organization": "Sarvam AI",
+      "architecture": "Proprietary Indian Speech Foundation Architecture",
+      "parameter_count": "Proprietary (~1B+ class)",
+      "hosting_type": "Cloud REST & WebSocket Streaming API",
+      "license": "Proprietary Commercial (Pay-per-minute / Developer Credits)",
+      "languages": ["te-IN", "en-IN", "Global English", "22 Indian Languages"],
+      "code_mixing_support": "Native (explicit mode='codemix' and mode='transcribe')",
+      "key_strengths": "State-of-the-art Indian accent handling, native code-mixed transcript formatting, ultra-low streaming latency.",
+      "benchmark_feasibility": "Colab / REST API integration via API key."
+    },
+    {
+      "rank": 2,
+      "model_id": "ai4bharat/indic-conformer-600m-multilingual",
+      "display_name": "AI4Bharat IndicConformer 600M Multilingual",
+      "organization": "AI4Bharat (IIT Madras)",
+      "architecture": "Multilingual Conformer-CTC / Hybrid",
+      "parameter_count": "600M",
+      "hosting_type": "Local / Colab GPU / ONNX Runtime",
+      "license": "MIT (Permissive Open Source)",
+      "languages": ["te", "en-IN", "22 Indian Languages"],
+      "code_mixing_support": "Strong (Multilingual subword vocabularies across Indic & English)",
+      "key_strengths": "Completely free open-source weights, robust multi-dialect Telugu training (IndicVoices + Kathbath), no language-ID hallucination.",
+      "benchmark_feasibility": "Fully executable in Colab GPU (T4, ~1.4GB VRAM) and local CPU."
+    },
+    {
+      "rank": 3,
+      "model_id": "ARTPARK-IISc/Vaani-FastConformer-Telugu",
+      "display_name": "ARTPARK-IISc Vaani FastConformer Telugu",
+      "organization": "ARTPARK / Indian Institute of Science (IISc)",
+      "architecture": "FastConformer-CTC (NVIDIA NeMo)",
+      "parameter_count": "115M",
+      "hosting_type": "Local / Colab GPU (NVIDIA NeMo / PyTorch)",
+      "license": "MIT (Permissive Open Source)",
+      "languages": ["te"],
+      "code_mixing_support": "Moderate (Phonetic Telugu transcription of English terms)",
+      "key_strengths": "Ultra-lightweight (115M), exceptional native Telugu dialect acoustic accuracy from real rural/urban district recordings.",
+      "benchmark_feasibility": "Fully executable in Colab GPU (T4, <500MB VRAM)."
+    },
+    {
+      "rank": 4,
+      "model_id": "swechatelangana/swecha-gonthuka-asr",
+      "display_name": "Swecha Telangana Gonthuka ASR",
+      "organization": "Swecha Telangana",
+      "architecture": "Wav2Vec2ForCTC (CLSRIL-23 base)",
+      "parameter_count": "317M",
+      "hosting_type": "Local / Colab GPU (Hugging Face Transformers)",
+      "license": "AGPL-3.0 (Copyleft Open Source)",
+      "languages": ["te"],
+      "code_mixing_support": "Low (Telugu script only)",
+      "key_strengths": "Trained on authentic colloquial Telangana Telugu accents and crowdsourced conversational audio.",
+      "benchmark_feasibility": "Fully executable in Colab GPU (T4, ~800MB VRAM)."
+    },
+    {
+      "rank": 5,
+      "model_id": "liodon-ai/whisper-large-v3-te",
+      "display_name": "Liodon AI Whisper Large-v3 Telugu",
+      "organization": "Liodon AI",
+      "architecture": "Whisper Encoder-Decoder (Seq2Seq)",
+      "parameter_count": "1.54B",
+      "hosting_type": "Local / Colab GPU (Hugging Face Transformers)",
+      "license": "Apache-2.0",
+      "languages": ["te", "en"],
+      "code_mixing_support": "Moderate (Seq2Seq text generation)",
+      "key_strengths": "Fine-tuned on 10,000+ hours of IndicVoices and Kathbath on Whisper-v3 base (Published WER: 38.15%).",
+      "benchmark_feasibility": "Executable in Colab GPU (T4 FP16, ~3.2GB VRAM)."
+    },
+    {
+      "rank": 6,
+      "model_id": "openai/whisper-large-v3-turbo",
+      "display_name": "OpenAI Whisper Large-v3-Turbo (Production Baseline)",
+      "organization": "OpenAI",
+      "architecture": "Whisper Encoder-Decoder (Seq2Seq)",
+      "parameter_count": "809M",
+      "hosting_type": "Local / Colab GPU / CPU",
+      "license": "MIT",
+      "languages": ["Multilingual (99 languages)"],
+      "code_mixing_support": "High (Prompt-conditioned)",
+      "key_strengths": "Flawless English (0.0% WER), fast inference (~84ms on T4), established production integration.",
+      "benchmark_feasibility": "Active baseline."
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "model_id": "vasista22/whisper-telugu-large-v2",
+      "reason": "Superseded by Whisper-v3-te and Whisper Turbo; based on older Whisper-v2 architecture; trained solely on Common Voice 11."
+    },
+    {
+      "model_id": "ai4bharat/indicwav2vec-v1-te",
+      "reason": "Superseded by AI4Bharat IndicConformer 600M; monolingual character CTC without bilingual vocabulary."
+    },
+    {
+      "model_id": "sarvam-saaras-v3",
+      "reason": "Superseded by Saaras v4 (v4 includes all v3 features plus Global English and improved code-mixed formatting)."
+    }
+  ]
+}

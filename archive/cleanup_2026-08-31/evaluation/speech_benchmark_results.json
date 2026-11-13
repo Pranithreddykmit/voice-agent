@@ -1,0 +1,345 @@
+{
+  "summary": {
+    "total_utterances": 25,
+    "mean_cer": 0.9935,
+    "mean_wer": 1.0,
+    "mean_stt_latency_ms": 18568.27,
+    "mean_tts_latency_ms": 1.14,
+    "mean_voice_roundtrip_ms": 18599.4,
+    "peak_ram_mb": 5060.86,
+    "category_breakdown": {
+      "telugu_pure": {
+        "cer": 1.0,
+        "wer": 1.0,
+        "avg_stt_ms": 18412.88,
+        "avg_tts_ms": 1.12
+      },
+      "code_mixed": {
+        "cer": 1.0,
+        "wer": 1.0,
+        "avg_stt_ms": 20045.07,
+        "avg_tts_ms": 1.19
+      },
+      "english_academic": {
+        "cer": 1.0,
+        "wer": 1.0,
+        "avg_stt_ms": 22374.65,
+        "avg_tts_ms": 1.54
+      },
+      "arithmetic_tool": {
+        "cer": 0.9591,
+        "wer": 1.0,
+        "avg_stt_ms": 7587.04,
+        "avg_tts_ms": 0.73
+      },
+      "casual_speech": {
+        "cer": 1.0,
+        "wer": 1.0,
+        "avg_stt_ms": 22954.31,
+        "avg_tts_ms": 0.78
+      }
+    }
+  },
+  "results": [
+    {
+      "id": "te_01",
+      "category": "telugu_pure",
+      "language": "te",
+      "ground_truth": "కనీస హాజరు ఎంత శాతం ఉండాలి?",
+      "transcript": "ందాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాా",
+      "cer": 1.0,
+      "wer": 1.0,
+      "stt_latency_ms": 18254.17,
+      "tts_latency_ms": 0.97,
+      "audio_bytes_generated": 60524
+    },
+    {
+      "id": "te_02",
+      "category": "telugu_pure",
+      "language": "te",
+      "ground_truth": "పరీక్షల రీవాల్యుయేషన్ ఫీజు ఎంత?",
+      "transcript": "ందాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాా",
+      "cer": 1.0,
+      "wer": 1.0,
+      "stt_latency_ms": 18093.37,
+      "tts_latency_ms": 0.88,
+      "audio_bytes_generated": 69484
+    },
+    {
+      "id": "te_03",
+      "category": "telugu_pure",
+      "language": "te",
+      "ground_truth": "సెమిస్టర్ పరీక్షలకు హాజరు నిబంధనలు ఏమిటి?",
+      "transcript": "ందాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాా",
+      "cer": 1.0,
+      "wer": 1.0,
+      "stt_latency_ms": 18138.13,
+      "tts_latency_ms": 1.09,
+      "audio_bytes_generated": 91884
+    },
+    {
+      "id": "te_04",
+      "category": "telugu_pure",
+      "language": "te",
+      "ground_truth": "పది పాయింట్ల గ్రేడింగ్ స్కేల్ వివరాలు ఏమిటి?",
+      "transcript": "ందాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాా",
+      "cer": 1.0,
+      "wer": 1.0,
+      "stt_latency_ms": 18144.56,
+      "tts_latency_ms": 1.18,
+      "audio_bytes_generated": 98604
+    },
+    {
+      "id": "te_05",
+      "category": "telugu_pure",
+      "language": "te",
+      "ground_truth": "రీకౌంటింగ్ దరఖాస్తు గడువు ఎప్పుడు ముగుస్తుంది?",
+      "transcript": "ందాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాా",
+      "cer": 1.0,
+      "wer": 1.0,
+      "stt_latency_ms": 19523.36,
+      "tts_latency_ms": 1.47,
+      "audio_bytes_generated": 103084
+    },
+    {
+      "id": "te_06",
+      "category": "telugu_pure",
+      "language": "te",
+      "ground_truth": "వైద్య కారణాలతో హాజరు మినహాయింపు లభిస్తుందా?",
+      "transcript": "ందాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాా",
+      "cer": 1.0,
+      "wer": 1.0,
+      "stt_latency_ms": 18323.7,
+      "tts_latency_ms": 1.15,
+      "audio_bytes_generated": 96364
+    },
+    {
+      "id": "mixed_01",
+      "category": "code_mixed",
+      "language": "mixed",
+      "ground_truth": "attendance 75% లేకపోతే exam రాయవచ్చా?",
+      "transcript": "ందాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాా",
+      "cer": 1.0,
+      "wer": 1.0,
+      "stt_latency_ms": 18455.65,
+      "tts_latency_ms": 1.02,
+      "audio_bytes_generated": 82924
+    },
+    {
+      "id": "mixed_02",
+      "category": "code_mixed",
+      "language": "mixed",
+      "ground_truth": "revaluation fee మరియు application deadline ఏమిటి?",
+      "transcript": "ందాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాా",
+      "cer": 1.0,
+      "wer": 1.0,
+      "stt_latency_ms": 17991.01,
+      "tts_latency_ms": 1.3,
+      "audio_bytes_generated": 109804
+    },
+    {
+      "id": "mixed_03",
+      "category": "code_mixed",
+      "language": "mixed",
+      "ground_truth": "SGPA calculation formula వివరించండి",
+      "transcript": "ందాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాా",
+      "cer": 1.0,
+      "wer": 1.0,
+      "stt_latency_ms": 19390.75,
+      "tts_latency_ms": 1.02,
+      "audio_bytes_generated": 78444
+    },
+    {
+      "id": "mixed_04",
+      "category": "code_mixed",
+      "language": "mixed",
+      "ground_truth": "internal marks minimum passing score ఎంత?",
+      "transcript": "ందాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాా",
+      "cer": 1.0,
+      "wer": 1.0,
+      "stt_latency_ms": 20522.7,
+      "tts_latency_ms": 1.22,
+      "audio_bytes_generated": 91884
+    },
+    {
+      "id": "mixed_05",
+      "category": "code_mixed",
+      "language": "mixed",
+      "ground_truth": "malpractice penalties గురించి rules ఏమిటి?",
+      "transcript": "ందాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాా",
+      "cer": 1.0,
+      "wer": 1.0,
+      "stt_latency_ms": 21568.42,
+      "tts_latency_ms": 1.23,
+      "audio_bytes_generated": 94124
+    },
+    {
+      "id": "mixed_06",
+      "category": "code_mixed",
+      "language": "mixed",
+      "ground_truth": "challenge evaluation fee refundable అవుతుందా?",
+      "transcript": "ందాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాా",
+      "cer": 1.0,
+      "wer": 1.0,
+      "stt_latency_ms": 22341.87,
+      "tts_latency_ms": 1.37,
+      "audio_bytes_generated": 100844
+    },
+    {
+      "id": "en_01",
+      "category": "english_academic",
+      "language": "en",
+      "ground_truth": "What is the minimum attendance requirement for semester examinations?",
+      "transcript": "Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you.",
+      "cer": 1.0,
+      "wer": 1.0,
+      "stt_latency_ms": 22363.9,
+      "tts_latency_ms": 1.92,
+      "audio_bytes_generated": 154604
+    },
+    {
+      "id": "en_02",
+      "category": "english_academic",
+      "language": "en",
+      "ground_truth": "What is the condonation fee for attendance shortage?",
+      "transcript": "Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you.",
+      "cer": 1.0,
+      "wer": 1.0,
+      "stt_latency_ms": 22363.91,
+      "tts_latency_ms": 1.46,
+      "audio_bytes_generated": 116524
+    },
+    {
+      "id": "en_03",
+      "category": "english_academic",
+      "language": "en",
+      "ground_truth": "How is Cumulative Grade Point Average calculated?",
+      "transcript": "Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you.",
+      "cer": 1.0,
+      "wer": 1.0,
+      "stt_latency_ms": 22170.81,
+      "tts_latency_ms": 1.42,
+      "audio_bytes_generated": 109804
+    },
+    {
+      "id": "en_04",
+      "category": "english_academic",
+      "language": "en",
+      "ground_truth": "What are the penalties for exam malpractice?",
+      "transcript": "Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you.",
+      "cer": 1.0,
+      "wer": 1.0,
+      "stt_latency_ms": 22157.76,
+      "tts_latency_ms": 1.3,
+      "audio_bytes_generated": 98604
+    },
+    {
+      "id": "en_05",
+      "category": "english_academic",
+      "language": "en",
+      "ground_truth": "What is the revaluation fee per theory subject?",
+      "transcript": "Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you.",
+      "cer": 1.0,
+      "wer": 1.0,
+      "stt_latency_ms": 22555.31,
+      "tts_latency_ms": 1.35,
+      "audio_bytes_generated": 105324
+    },
+    {
+      "id": "en_06",
+      "category": "english_academic",
+      "language": "en",
+      "ground_truth": "What is the minimum passing percentage for internal assessment?",
+      "transcript": "Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you.",
+      "cer": 1.0,
+      "wer": 1.0,
+      "stt_latency_ms": 22636.19,
+      "tts_latency_ms": 1.77,
+      "audio_bytes_generated": 141164
+    },
+    {
+      "id": "tool_01",
+      "category": "arithmetic_tool",
+      "language": "en",
+      "ground_truth": "What is 15% of 240?",
+      "transcript": "you",
+      "cer": 0.9474,
+      "wer": 1.0,
+      "stt_latency_ms": 2593.45,
+      "tts_latency_ms": 0.85,
+      "audio_bytes_generated": 42604
+    },
+    {
+      "id": "tool_02",
+      "category": "arithmetic_tool",
+      "language": "en",
+      "ground_truth": "Calculate 125 * 18",
+      "transcript": "Thank you.",
+      "cer": 0.8889,
+      "wer": 1.0,
+      "stt_latency_ms": 2545.74,
+      "tts_latency_ms": 0.76,
+      "audio_bytes_generated": 40364
+    },
+    {
+      "id": "tool_03",
+      "category": "arithmetic_tool",
+      "language": "mixed",
+      "ground_truth": "50 + 20 divided by 7 ఎంత?",
+      "transcript": "ందాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాా",
+      "cer": 1.0,
+      "wer": 1.0,
+      "stt_latency_ms": 22642.96,
+      "tts_latency_ms": 0.85,
+      "audio_bytes_generated": 56044
+    },
+    {
+      "id": "tool_04",
+      "category": "arithmetic_tool",
+      "language": "en",
+      "ground_truth": "100 - 45",
+      "transcript": "Hmm.",
+      "cer": 1.0,
+      "wer": 1.0,
+      "stt_latency_ms": 2566.02,
+      "tts_latency_ms": 0.48,
+      "audio_bytes_generated": 17964
+    },
+    {
+      "id": "casual_01",
+      "category": "casual_speech",
+      "language": "te",
+      "ground_truth": "నమస్కారం! మీరు ఎలా ఉన్నారు?",
+      "transcript": "ందాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాా",
+      "cer": 1.0,
+      "wer": 1.0,
+      "stt_latency_ms": 22874.09,
+      "tts_latency_ms": 0.89,
+      "audio_bytes_generated": 60524
+    },
+    {
+      "id": "casual_02",
+      "category": "casual_speech",
+      "language": "en",
+      "ground_truth": "Hello, how can you help me today?",
+      "transcript": "Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you. Thank you.",
+      "cer": 1.0,
+      "wer": 1.0,
+      "stt_latency_ms": 22999.56,
+      "tts_latency_ms": 1.01,
+      "audio_bytes_generated": 73964
+    },
+    {
+      "id": "casual_03",
+      "category": "casual_speech",
+      "language": "te",
+      "ground_truth": "ధన్యవాదాలు",
+      "transcript": "ందాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాదాా",
+      "cer": 1.0,
+      "wer": 1.0,
+      "stt_latency_ms": 22989.29,
+      "tts_latency_ms": 0.45,
+      "audio_bytes_generated": 22444
+    }
+  ]
+}

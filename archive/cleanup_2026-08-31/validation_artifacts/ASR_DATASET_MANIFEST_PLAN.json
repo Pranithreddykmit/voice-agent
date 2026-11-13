@@ -1,0 +1,136 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Verified Telugu & Code-Mixed ASR Dataset Stack & Evaluation Manifest Plan",
+  "version": "1.1.0",
+  "date_verified": "2026-08-30",
+  "verification_status": "VERIFIED_AGAINST_OFFICIAL_PAPERS_AND_REPOSITORIES",
+  "dataset_stack": {
+    "tier_1_development": {
+      "name": "AI4Bharat IndicVoices (Telugu Subset)",
+      "hf_identifier": "ai4bharat/IndicVoices",
+      "organization": "AI4Bharat, IIT Madras",
+      "paper": "arXiv:2403.01926",
+      "license": "CC-BY-4.0",
+      "commercial_use_allowed": true,
+      "audio_type": "Real Human Native Spoken Speech",
+      "sample_rate_hz": 16000,
+      "exact_hours": 73.0,
+      "speaker_count": 150,
+      "language_profile": {
+        "telugu_pct": 85.0,
+        "english_loanwords_pct": 15.0,
+        "code_mixing_type": "Spontaneous extempore with natural loanwords"
+      },
+      "usage": "Acoustic exploration, prompt conditioning tuning, and language probe threshold verification"
+    },
+    "tier_2_training_optional": {
+      "name": "AI4Bharat Kathbath + CoSTA Training Split",
+      "hf_identifier": "ai4bharat/IndicSuperb",
+      "organization": "AI4Bharat / IIT Bombay CSALT",
+      "paper": "arXiv:2207.00696 / COLING 2025",
+      "license": "CC-BY-4.0 / Academic Open Access",
+      "commercial_use_allowed": true,
+      "audio_type": "Real Human Field & Synthetically Aligned Speech",
+      "sample_rate_hz": 16000,
+      "exact_hours": 100.0,
+      "language_profile": {
+        "telugu_pct": 80.0,
+        "english_code_mixed_pct": 20.0,
+        "code_mixing_type": "Multi-district Telugu + Intra-sentential code-switching"
+      },
+      "usage": "Optional LoRA fine-tuning on Colab GPU if pretrained models fail acceptance criteria"
+    },
+    "tier_3_public_benchmark": {
+      "name": "CoSTA Code-Switched Benchmark + Vistaar Telugu Suite + LibriSpeech Clean",
+      "repositories": [
+        "https://github.com/csalt-research/CoSTA",
+        "ai4bharat/vistaar",
+        "librispeech_asr"
+      ],
+      "license": "CC-BY-4.0 / Open Access",
+      "audio_type": "Real Human Spoken Speech",
+      "sample_rate_hz": 16000,
+      "approx_hours": 15.0,
+      "language_profile": {
+        "pure_telugu_pct": 40.0,
+        "code_mixed_pct": 40.0,
+        "pure_english_pct": 20.0,
+        "code_mixing_type": "Genuine intra-sentential Telugu-English switching"
+      },
+      "usage": "Standardized, speaker-disjoint public comparison across all candidate models"
+    },
+    "tier_4_private_application_gold_standard": {
+      "name": "University Campus Telugu-English Spoken Query Benchmark",
+      "location": "validation_artifacts/private_gold_standard/",
+      "target_sample_count": 80,
+      "approx_minutes": 35.0,
+      "speaker_count": 12,
+      "audio_type": "Real Human University Students",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "quarantine_status": "STRICTLY QUARANTINED (Zero training exposure)",
+      "category_allocation": {
+        "pure_telugu_formal": 15,
+        "pure_english_academic": 15,
+        "code_mixed_administrative": 25,
+        "technical_it_inquiries": 10,
+        "short_commands": 8,
+        "noisy_background": 7
+      },
+      "usage": "Final gating for production readiness"
+    }
+  },
+  "local_quarantine_manifest": {
+    "quarantined_benchmark_15": {
+      "location": "validation_artifacts/benchmark_test_set/",
+      "count": 15,
+      "status": "STRICTLY QUARANTINED"
+    },
+    "reusable_studio_tts_corpora": {
+      "syspin_raw": {
+        "location": "dataset/telugu_tts/raw_syspin/",
+        "count": 80,
+        "status": "TRUSTED (TTS / Clean STT Acoustic Checks)"
+      },
+      "indictts_raw": {
+        "location": "dataset/telugu_tts/raw_indictts/",
+        "count": 60,
+        "status": "TRUSTED (TTS / Clean STT Acoustic Checks)"
+      }
+    }
+  },
+  "candidate_models_bakeoff": [
+    {
+      "model_id": "openai/whisper-large-v3-turbo",
+      "arch": "Whisper 809M",
+      "runtime": "Local / Hugging Face",
+      "vram_gb": 3.8,
+      "code_mix_mode": "native_multilingual",
+      "license": "MIT"
+    },
+    {
+      "model_id": "vasista22/whisper-telugu-large-v2",
+      "arch": "Whisper v2 1.55B",
+      "runtime": "Local / Hugging Face",
+      "vram_gb": 6.2,
+      "code_mix_mode": "telugu_unicode_transliteration",
+      "license": "Apache 2.0"
+    },
+    {
+      "model_id": "ai4bharat/indicconformer-600m",
+      "arch": "Conformer CTC/RNN-T 600M",
+      "runtime": "Cloud GPU / PyTorch",
+      "vram_gb": 2.4,
+      "code_mix_mode": "telugu_phonetic",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "model_id": "sarvamai/saaras:v3",
+      "arch": "Sarvam Foundation Speech Model",
+      "runtime": "Cloud REST/WebSocket API",
+      "vram_gb": 0.0,
+      "code_mix_mode": "mode=codemix (Native Bilingual Separation)",
+      "license": "Commercial API"
+    }
+  ]
+}

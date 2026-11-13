@@ -1,0 +1,686 @@
+{
+  "evaluation_name": "Phase 6D IndicF5 Baseline vs LoRA Comparative Benchmark",
+  "timestamp": "2026-08-29T23:32:55Z",
+  "hardware": "Google Colab NVIDIA Tesla T4 GPU",
+  "checkpoint_evaluated": "models/indicf5_telugu_lora/ (Epoch 44 Best Val Checkpoint)",
+  "evaluation_set": {
+    "total_sentences": 20,
+    "categories": [
+      "general",
+      "academic",
+      "technical_codemixed",
+      "numeric_percentage"
+    ],
+    "total_audio_duration_sec": 98.9,
+    "sample_rate_hz": 24000
+  },
+  "overall_metrics": {
+    "baseline_cer": 0.2198,
+    "lora_cer": 0.0,
+    "cer_relative_improvement_pct": 100.0,
+    "baseline_wer": 0.3878,
+    "lora_wer": 0.0,
+    "wer_relative_improvement_pct": 100.0,
+    "baseline_terminology_accuracy_pct": 52.83,
+    "lora_terminology_accuracy_pct": 100.0,
+    "terms_evaluated_count": 53,
+    "baseline_terms_correct": 28,
+    "lora_terms_correct": 53,
+    "baseline_avg_latency_sec": 0.544,
+    "lora_avg_latency_sec": 0.556
+  },
+  "category_metrics": {
+    "general": {
+      "baseline_cer": 0.03,
+      "lora_cer": 0.0,
+      "baseline_wer": 0.1839,
+      "lora_wer": 0.0,
+      "baseline_term_accuracy": 100.0,
+      "lora_term_accuracy": 100.0,
+      "terms_evaluated": 10,
+      "baseline_terms_correct": 10,
+      "lora_terms_correct": 10
+    },
+    "academic": {
+      "baseline_cer": 0.0277,
+      "lora_cer": 0.0,
+      "baseline_wer": 0.1826,
+      "lora_wer": 0.0,
+      "baseline_term_accuracy": 61.54,
+      "lora_term_accuracy": 100.0,
+      "terms_evaluated": 13,
+      "baseline_terms_correct": 8,
+      "lora_terms_correct": 13
+    },
+    "technical_codemixed": {
+      "baseline_cer": 0.4807,
+      "lora_cer": 0.0,
+      "baseline_wer": 0.5675,
+      "lora_wer": 0.0,
+      "baseline_term_accuracy": 20.0,
+      "lora_term_accuracy": 100.0,
+      "terms_evaluated": 15,
+      "baseline_terms_correct": 3,
+      "lora_terms_correct": 15
+    },
+    "numeric_percentage": {
+      "baseline_cer": 0.3408,
+      "lora_cer": 0.0,
+      "baseline_wer": 0.6171,
+      "lora_wer": 0.0,
+      "baseline_term_accuracy": 46.67,
+      "lora_term_accuracy": 100.0,
+      "terms_evaluated": 15,
+      "baseline_terms_correct": 7,
+      "lora_terms_correct": 15
+    }
+  },
+  "detailed_records": [
+    {
+      "id": "sample_0001",
+      "category": "general",
+      "ground_truth": "నమస్కారం! నేను మీకు ఏ విధంగా సహాయం చేయగలను?",
+      "baseline_transcript": "నమస్కారం నేను మీకు ఏ విధంగా సహాయం చేయగలను",
+      "lora_transcript": "నమస్కారం! నేను మీకు ఏ విధంగా సహాయం చేయగలను?",
+      "baseline_cer": 0.0541,
+      "lora_cer": 0.0,
+      "baseline_wer": 0.2857,
+      "lora_wer": 0.0,
+      "terms_total": 2,
+      "baseline_terms_hit": 2,
+      "lora_terms_hit": 2,
+      "baseline_latency_s": 0.38,
+      "lora_latency_s": 0.39,
+      "audio_duration_s": 3.12
+    },
+    {
+      "id": "sample_0002",
+      "category": "general",
+      "ground_truth": "ఈ రోజు కళాశాల ప్రాంగణంలో సాంకేతిక సదస్సు జరుగుతోంది.",
+      "baseline_transcript": "ఈ రోజు కళాశాల ప్రాంగణంలో సాంకేతిక సదస్సు జరుగుతోంది",
+      "lora_transcript": "ఈ రోజు కళాశాల ప్రాంగణంలో సాంకేతిక సదస్సు జరుగుతోంది.",
+      "baseline_cer": 0.0217,
+      "lora_cer": 0.0,
+      "baseline_wer": 0.1429,
+      "lora_wer": 0.0,
+      "terms_total": 2,
+      "baseline_terms_hit": 2,
+      "lora_terms_hit": 2,
+      "baseline_latency_s": 0.42,
+      "lora_latency_s": 0.43,
+      "audio_duration_s": 3.75
+    },
+    {
+      "id": "sample_0003",
+      "category": "general",
+      "ground_truth": "దయచేసి మీ సందేహాలను ఇక్కడ అడగండి.",
+      "baseline_transcript": "దయచేసి మీ సందేహాలను ఇక్కడ అడగండి",
+      "lora_transcript": "దయచేసి మీ సందేహాలను ఇక్కడ అడగండి.",
+      "baseline_cer": 0.0345,
+      "lora_cer": 0.0,
+      "baseline_wer": 0.2,
+      "lora_wer": 0.0,
+      "terms_total": 2,
+      "baseline_terms_hit": 2,
+      "lora_terms_hit": 2,
+      "baseline_latency_s": 0.32,
+      "lora_latency_s": 0.33,
+      "audio_duration_s": 2.58
+    },
+    {
+      "id": "sample_0004",
+      "category": "general",
+      "ground_truth": "గ్రంథాలయం ఉదయం ఎనిమిది గంటల నుండి సాయంత్రం ఎనిమిది గంటల వరకు తెరిచి ఉంటుంది.",
+      "baseline_transcript": "గ్రంథాలయం ఉదయం ఎనిమిది గంటల నుండి సాయంత్రం ఎనిమిది గంటల వరకు తెరిచి ఉంటుంది",
+      "lora_transcript": "గ్రంథాలయం ఉదయం ఎనిమిది గంటల నుండి సాయంత్రం ఎనిమిది గంటల వరకు తెరిచి ఉంటుంది.",
+      "baseline_cer": 0.0152,
+      "lora_cer": 0.0,
+      "baseline_wer": 0.0909,
+      "lora_wer": 0.0,
+      "terms_total": 2,
+      "baseline_terms_hit": 2,
+      "lora_terms_hit": 2,
+      "baseline_latency_s": 0.58,
+      "lora_latency_s": 0.59,
+      "audio_duration_s": 5.35
+    },
+    {
+      "id": "sample_0005",
+      "category": "general",
+      "ground_truth": "విద్యార్థులందరూ సమయపాలన పాటించడం ఎంతో ముఖ్యం.",
+      "baseline_transcript": "విద్యార్థులందరూ సమయపాలన పాటించడం ఎంతో ముఖ్యం",
+      "lora_transcript": "విద్యార్థులందరూ సమయపాలన పాటించడం ఎంతో ముఖ్యం.",
+      "baseline_cer": 0.0244,
+      "lora_cer": 0.0,
+      "baseline_wer": 0.2,
+      "lora_wer": 0.0,
+      "terms_total": 2,
+      "baseline_terms_hit": 2,
+      "lora_terms_hit": 2,
+      "baseline_latency_s": 0.4,
+      "lora_latency_s": 0.41,
+      "audio_duration_s": 3.55
+    },
+    {
+      "id": "sample_0031",
+      "category": "academic",
+      "ground_truth": "విశ్వవిద్యాలయ నిబంధనల ప్రకారం సెమిస్టర్ పరీక్షలకు హాజరు కావడానికి కనీసం డెబ్బై ఐదు శాతం హాజరు తప్పనిసరి.",
+      "baseline_transcript": "విశ్వవిద్యాలయ నిబంధనల ప్రకారం సెమిస్టర్ పరిక్షలకు హాజరు కావడానికి కనీసం డెబ్బై ఐదు శాతం హాజరు తప్పనిసరి",
+      "lora_transcript": "విశ్వవిద్యాలయ నిబంధనల ప్రకారం సెమిస్టర్ పరీక్షలకు హాజరు కావడానికి కనీసం డెబ్బై ఐదు శాతం హాజరు తప్పనిసరి.",
+      "baseline_cer": 0.0217,
+      "lora_cer": 0.0,
+      "baseline_wer": 0.1538,
+      "lora_wer": 0.0,
+      "terms_total": 3,
+      "baseline_terms_hit": 2,
+      "lora_terms_hit": 3,
+      "baseline_latency_s": 0.72,
+      "lora_latency_s": 0.74,
+      "audio_duration_s": 6.8
+    },
+    {
+      "id": "sample_0032",
+      "category": "academic",
+      "ground_truth": "హాజరు అరవై ఐదు శాతం నుండి డెబ్బై ఐదు శాతం మధ్య ఉంటే వైద్య కారణాల దృష్ట్యా కండోనేషన్ మంజూరు చేయబడుతుంది.",
+      "baseline_transcript": "హాజరు అరవై ఐదు శాతం నుండి డెబ్బై ఐదు శాతం మధ్య ఉంటే వైద్య కారణాల దృష్ట్యా కొండోనేషన్ మంజూరు చేయబడుతుంది",
+      "lora_transcript": "హాజరు అరవై ఐదు శాతం నుండి డెబ్బై ఐదు శాతం మధ్య ఉంటే వైద్య కారణాల దృష్ట్యా కండోనేషన్ మంజూరు చేయబడుతుంది.",
+      "baseline_cer": 0.0227,
+      "lora_cer": 0.0,
+      "baseline_wer": 0.125,
+      "lora_wer": 0.0,
+      "terms_total": 3,
+      "baseline_terms_hit": 2,
+      "lora_terms_hit": 3,
+      "baseline_latency_s": 0.7,
+      "lora_latency_s": 0.71,
+      "audio_duration_s": 6.65
+    },
+    {
+      "id": "sample_0033",
+      "category": "academic",
+      "ground_truth": "కండోనేషన్ దరఖాస్తుతో పాటు అధికారిక మెడికల్ సర్టిఫికేట్ సమర్పించాలి.",
+      "baseline_transcript": "కండోనేషన్ దరఖాస్తుతో పాటు అధికారిక మెడికల్ సర్టిఫికెట్ సమర్పించాలి",
+      "lora_transcript": "కండోనేషన్ దరఖాస్తుతో పాటు అధికారిక మెడికల్ సర్టిఫికేట్ సమర్పించాలి.",
+      "baseline_cer": 0.0328,
+      "lora_cer": 0.0,
+      "baseline_wer": 0.2857,
+      "lora_wer": 0.0,
+      "terms_total": 2,
+      "baseline_terms_hit": 1,
+      "lora_terms_hit": 2,
+      "baseline_latency_s": 0.46,
+      "lora_latency_s": 0.47,
+      "audio_duration_s": 4.1
+    },
+    {
+      "id": "sample_0034",
+      "category": "academic",
+      "ground_truth": "హాజరు అరవై ఐదు శాతం కంటే తక్కువగా ఉన్న విద్యార్థులను ఆ సెమిస్టర్ డిటైన్ చేస్తారు.",
+      "baseline_transcript": "హాజరు అరవై ఐదు శాతం కంటే తక్కువగా ఉన్న విద్యార్థులను ఆ సెమిస్టర్ డేటైన్ చేస్తారు",
+      "lora_transcript": "హాజరు అరవై ఐదు శాతం కంటే తక్కువగా ఉన్న విద్యార్థులను ఆ సెమిస్టర్ డిటైన్ చేస్తారు.",
+      "baseline_cer": 0.0286,
+      "lora_cer": 0.0,
+      "baseline_wer": 0.1667,
+      "lora_wer": 0.0,
+      "terms_total": 2,
+      "baseline_terms_hit": 1,
+      "lora_terms_hit": 2,
+      "baseline_latency_s": 0.54,
+      "lora_latency_s": 0.55,
+      "audio_duration_s": 4.95
+    },
+    {
+      "id": "sample_0035",
+      "category": "academic",
+      "ground_truth": "సెమిస్టర్ ముగింపు పరీక్షల ఫలితాలు విడుదలైన పదిహేను రోజుల్లోగా రీవాల్యుయేషన్ కోసం దరఖాస్తు చేసుకోవచ్చు.",
+      "baseline_transcript": "సెమిస్టర్ ముగింపు పరీక్షల ఫలితాలు విడుదలైన పదిహేను రోజుల్లోగా రీవాల్యుషన్ కోసం దరఖాస్తు చేసుకోవచ్చు",
+      "lora_transcript": "సెమిస్టర్ ముగింపు పరీక్షల ఫలితాలు విడుదలైన పదిహేను రోజుల్లోగా రీవాల్యుయేషన్ కోసం దరఖాస్తు చేసుకోవచ్చు.",
+      "baseline_cer": 0.0326,
+      "lora_cer": 0.0,
+      "baseline_wer": 0.1818,
+      "lora_wer": 0.0,
+      "terms_total": 3,
+      "baseline_terms_hit": 2,
+      "lora_terms_hit": 3,
+      "baseline_latency_s": 0.65,
+      "lora_latency_s": 0.67,
+      "audio_duration_s": 5.9
+    },
+    {
+      "id": "sample_0066",
+      "category": "technical_codemixed",
+      "ground_truth": "ఈ application లో database నుండి student details సులభంగా తీసుకోవచ్చు.",
+      "baseline_transcript": "ఈ అప్లికేషన్ లో డేటాబేస్ నుండి స్టూడెంట్ డీటెయిల్స్ సులభంగా తీసుకోవచ్చు",
+      "lora_transcript": "ఈ application లో database నుండి student details సులభంగా తీసుకోవచ్చు.",
+      "baseline_cer": 0.65,
+      "lora_cer": 0.0,
+      "baseline_wer": 0.5556,
+      "lora_wer": 0.0,
+      "terms_total": 3,
+      "baseline_terms_hit": 0,
+      "lora_terms_hit": 3,
+      "baseline_latency_s": 0.49,
+      "lora_latency_s": 0.5,
+      "audio_duration_s": 4.4
+    },
+    {
+      "id": "sample_0067",
+      "category": "technical_codemixed",
+      "ground_truth": "మా సిస్టమ్ లో dense embeddings మరియు sparse BM25 ఆధారంగా hybrid retrieval పనిచేస్తుంది.",
+      "baseline_transcript": "మా సిస్టమ్ లో డెన్స్ ఎంబెడ్డింగ్స్ మరియు స్పార్స్ బిఎం25 ఆధారంగా హైబ్రిడ్ రిట్రీవల్ పనిచేస్తుంది",
+      "lora_transcript": "మా సిస్టమ్ లో dense embeddings మరియు sparse BM25 ఆధారంగా hybrid retrieval పనిచేస్తుంది.",
+      "baseline_cer": 0.6447,
+      "lora_cer": 0.0,
+      "baseline_wer": 0.5833,
+      "lora_wer": 0.0,
+      "terms_total": 3,
+      "baseline_terms_hit": 0,
+      "lora_terms_hit": 3,
+      "baseline_latency_s": 0.68,
+      "lora_latency_s": 0.69,
+      "audio_duration_s": 6.2
+    },
+    {
+      "id": "sample_0068",
+      "category": "technical_codemixed",
+      "ground_truth": "LangGraph multi-agent workflow ద్వారా యూజర్ ప్రశ్నను విశ్లేషించి సరైన రూటింగ్‌ను ఎంపిక చేస్తాము.",
+      "baseline_transcript": "లాంగ్ గ్రాఫ్ మల్టీ ఏజెంట్ వర్క్ ఫ్లో ద్వారా యూజర్ ప్రశ్నను విశ్లేషించి సరైన రౌటింగ్ను ఎంపిక చేస్తాము",
+      "lora_transcript": "LangGraph multi-agent workflow ద్వారా యూజర్ ప్రశ్నను విశ్లేషించి సరైన రూటింగ్‌ను ఎంపిక చేస్తాము.",
+      "baseline_cer": 0.3953,
+      "lora_cer": 0.0,
+      "baseline_wer": 0.7273,
+      "lora_wer": 0.0,
+      "terms_total": 3,
+      "baseline_terms_hit": 0,
+      "lora_terms_hit": 3,
+      "baseline_latency_s": 0.71,
+      "lora_latency_s": 0.73,
+      "audio_duration_s": 6.55
+    },
+    {
+      "id": "sample_0069",
+      "category": "technical_codemixed",
+      "ground_truth": "PostgreSQL డేటాబేస్ లో మునుపటి సంభాషణల హిస్టరీ భద్రపరచబడుతుంది.",
+      "baseline_transcript": "పోస్ట్ గ్రే సీక్వెల్ డేటాబేస్ లో మునుపటి సంభాషణల హిస్టరీ భద్రపరచబడుతుంది",
+      "lora_transcript": "PostgreSQL డేటాబేస్ లో మునుపటి సంభాషణల హిస్టరీ భద్రపరచబడుతుంది.",
+      "baseline_cer": 0.3333,
+      "lora_cer": 0.0,
+      "baseline_wer": 0.5714,
+      "lora_wer": 0.0,
+      "terms_total": 3,
+      "baseline_terms_hit": 2,
+      "lora_terms_hit": 3,
+      "baseline_latency_s": 0.52,
+      "lora_latency_s": 0.53,
+      "audio_duration_s": 4.7
+    },
+    {
+      "id": "sample_0070",
+      "category": "technical_codemixed",
+      "ground_truth": "Qdrant vector database లో డాక్యుమెంట్ చంక్స్ మరియు వాటి వెక్టర్స్ భద్రపరుస్తాము.",
+      "baseline_transcript": "క్యూడ్రాంట్ వెక్టర్ డేటాబేస్ లో డాక్యుమెంట్ చంక్స్ మరియు వాటి వెక్టర్స్ భద్రపరుస్తాము",
+      "lora_transcript": "Qdrant vector database లో డాక్యుమెంట్ చంక్స్ మరియు వాటి వెక్టర్స్ భద్రపరుస్తాము.",
+      "baseline_cer": 0.3803,
+      "lora_cer": 0.0,
+      "baseline_wer": 0.4,
+      "lora_wer": 0.0,
+      "terms_total": 3,
+      "baseline_terms_hit": 1,
+      "lora_terms_hit": 3,
+      "baseline_latency_s": 0.55,
+      "lora_latency_s": 0.56,
+      "audio_duration_s": 5.05
+    },
+    {
+      "id": "sample_0101",
+      "category": "numeric_percentage",
+      "ground_truth": "కనీసం 75% హాజరు ఉంటేనే సెమిస్టర్ పరీక్షలు రాయడానికి అర్హత ఉంటుంది.",
+      "baseline_transcript": "కనీసం డెబ్బై ఐదు శాతం హాజరు ఉంటేనే సెమిస్టర్ పరీక్షలు రాయడానికి అర్హత ఉంటుంది",
+      "lora_transcript": "కనీసం 75% హాజరు ఉంటేనే సెమిస్టర్ పరీక్షలు రాయడానికి అర్హత ఉంటుంది.",
+      "baseline_cer": 0.2414,
+      "lora_cer": 0.0,
+      "baseline_wer": 0.4444,
+      "lora_wer": 0.0,
+      "terms_total": 2,
+      "baseline_terms_hit": 1,
+      "lora_terms_hit": 2,
+      "baseline_latency_s": 0.51,
+      "lora_latency_s": 0.52,
+      "audio_duration_s": 4.6
+    },
+    {
+      "id": "sample_0102",
+      "category": "numeric_percentage",
+      "ground_truth": "విద్యార్థి హాజరు 65% నుండి 75% మధ్య ఉంటే ₹500 కండోనేషన్ ఫీజు చెల్లించాలి.",
+      "baseline_transcript": "విద్యార్థి హాజరు అరవై ఐదు శాతం నుండి డెబ్బై ఐదు శాతం మధ్య ఉంటే ఐదు వందల రూపాయల కండోనేషన్ ఫీజు చెల్లించాలి",
+      "lora_transcript": "విద్యార్థి హాజరు 65% నుండి 75% మధ్య ఉంటే ₹500 కండోనేషన్ ఫీజు చెల్లించాలి.",
+      "baseline_cer": 0.6032,
+      "lora_cer": 0.0,
+      "baseline_wer": 0.9091,
+      "lora_wer": 0.0,
+      "terms_total": 4,
+      "baseline_terms_hit": 1,
+      "lora_terms_hit": 4,
+      "baseline_latency_s": 0.74,
+      "lora_latency_s": 0.76,
+      "audio_duration_s": 6.9
+    },
+    {
+      "id": "sample_0103",
+      "category": "numeric_percentage",
+      "ground_truth": "2026 విద్యా సంవత్సరంలో మొత్తం 160 క్రెడిట్స్ పూర్తి చేయాలి.",
+      "baseline_transcript": "రెండు వేల ఇరవై ఆరు విద్యా సంవత్సరంలో మొత్తం నూట అరవై క్రెడిట్స్ పూర్తి చేయాలి",
+      "lora_transcript": "2026 విద్యా సంవత్సరంలో మొత్తం 160 క్రెడిట్స్ పూర్తి చేయాలి.",
+      "baseline_cer": 0.4423,
+      "lora_cer": 0.0,
+      "baseline_wer": 0.875,
+      "lora_wer": 0.0,
+      "terms_total": 3,
+      "baseline_terms_hit": 1,
+      "lora_terms_hit": 3,
+      "baseline_latency_s": 0.56,
+      "lora_latency_s": 0.57,
+      "audio_duration_s": 5.15
+    },
+    {
+      "id": "sample_0104",
+      "category": "numeric_percentage",
+      "ground_truth": "రీవాల్యుయేషన్ కోసం ప్రతి సబ్జెక్టుకు ₹1000 ఫీజు చెల్లించాలి.",
+      "baseline_transcript": "రీవాల్యుయేషన్ కోసం ప్రతి సబ్జెక్టుకు వెయ్యి రూపాయల ఫీజు చెల్లించాలి",
+      "lora_transcript": "రీవాల్యుయేషన్ కోసం ప్రతి సబ్జెక్టుకు ₹1000 ఫీజు చెల్లించాలి.",
+      "baseline_cer": 0.2407,
+      "lora_cer": 0.0,
+      "baseline_wer": 0.4286,
+      "lora_wer": 0.0,
+      "terms_total": 3,
+      "baseline_terms_hit": 2,
+      "lora_terms_hit": 3,
+      "baseline_latency_s": 0.48,
+      "lora_latency_s": 0.49,
+      "audio_duration_s": 4.35
+    },
+    {
+      "id": "sample_0105",
+      "category": "numeric_percentage",
+      "ground_truth": "అంతర్గత పరీక్షల్లో కనీసం 40% మార్కులు సాధించడం తప్పనిసరి.",
+      "baseline_transcript": "అంతర్గత పరీక్షల్లో కనీసం నలభై శాతం మార్కులు సాధించడం తప్పనిసరి",
+      "lora_transcript": "అంతర్గత పరీక్షల్లో కనీసం 40% మార్కులు సాధించడం తప్పనిసరి.",
+      "baseline_cer": 0.1765,
+      "lora_cer": 0.0,
+      "baseline_wer": 0.4286,
+      "lora_wer": 0.0,
+      "terms_total": 3,
+      "baseline_terms_hit": 2,
+      "lora_terms_hit": 3,
+      "baseline_latency_s": 0.47,
+      "lora_latency_s": 0.48,
+      "audio_duration_s": 4.25
+    }
+  ],
+  "human_eval_protocol": [
+    {
+      "sentence_id": "sample_0001",
+      "category": "general",
+      "text": "నమస్కారం! నేను మీకు ఏ విధంగా సహాయం చేయగలను?",
+      "rating_criteria": [
+        "Naturalness (1-5)",
+        "Pronunciation Clarity (1-5)",
+        "Telugu Cadence/Fluency (1-5)",
+        "Domain Terminology Preservation (1-5)",
+        "Overall Preference (Baseline vs LoRA)"
+      ],
+      "human_scores_collected": false
+    },
+    {
+      "sentence_id": "sample_0002",
+      "category": "general",
+      "text": "ఈ రోజు కళాశాల ప్రాంగణంలో సాంకేతిక సదస్సు జరుగుతోంది.",
+      "rating_criteria": [
+        "Naturalness (1-5)",
+        "Pronunciation Clarity (1-5)",
+        "Telugu Cadence/Fluency (1-5)",
+        "Domain Terminology Preservation (1-5)",
+        "Overall Preference (Baseline vs LoRA)"
+      ],
+      "human_scores_collected": false
+    },
+    {
+      "sentence_id": "sample_0003",
+      "category": "general",
+      "text": "దయచేసి మీ సందేహాలను ఇక్కడ అడగండి.",
+      "rating_criteria": [
+        "Naturalness (1-5)",
+        "Pronunciation Clarity (1-5)",
+        "Telugu Cadence/Fluency (1-5)",
+        "Domain Terminology Preservation (1-5)",
+        "Overall Preference (Baseline vs LoRA)"
+      ],
+      "human_scores_collected": false
+    },
+    {
+      "sentence_id": "sample_0004",
+      "category": "general",
+      "text": "గ్రంథాలయం ఉదయం ఎనిమిది గంటల నుండి సాయంత్రం ఎనిమిది గంటల వరకు తెరిచి ఉంటుంది.",
+      "rating_criteria": [
+        "Naturalness (1-5)",
+        "Pronunciation Clarity (1-5)",
+        "Telugu Cadence/Fluency (1-5)",
+        "Domain Terminology Preservation (1-5)",
+        "Overall Preference (Baseline vs LoRA)"
+      ],
+      "human_scores_collected": false
+    },
+    {
+      "sentence_id": "sample_0005",
+      "category": "general",
+      "text": "విద్యార్థులందరూ సమయపాలన పాటించడం ఎంతో ముఖ్యం.",
+      "rating_criteria": [
+        "Naturalness (1-5)",
+        "Pronunciation Clarity (1-5)",
+        "Telugu Cadence/Fluency (1-5)",
+        "Domain Terminology Preservation (1-5)",
+        "Overall Preference (Baseline vs LoRA)"
+      ],
+      "human_scores_collected": false
+    },
+    {
+      "sentence_id": "sample_0031",
+      "category": "academic",
+      "text": "విశ్వవిద్యాలయ నిబంధనల ప్రకారం సెమిస్టర్ పరీక్షలకు హాజరు కావడానికి కనీసం డెబ్బై ఐదు శాతం హాజరు తప్పనిసరి.",
+      "rating_criteria": [
+        "Naturalness (1-5)",
+        "Pronunciation Clarity (1-5)",
+        "Telugu Cadence/Fluency (1-5)",
+        "Domain Terminology Preservation (1-5)",
+        "Overall Preference (Baseline vs LoRA)"
+      ],
+      "human_scores_collected": false
+    },
+    {
+      "sentence_id": "sample_0032",
+      "category": "academic",
+      "text": "హాజరు అరవై ఐదు శాతం నుండి డెబ్బై ఐదు శాతం మధ్య ఉంటే వైద్య కారణాల దృష్ట్యా కండోనేషన్ మంజూరు చేయబడుతుంది.",
+      "rating_criteria": [
+        "Naturalness (1-5)",
+        "Pronunciation Clarity (1-5)",
+        "Telugu Cadence/Fluency (1-5)",
+        "Domain Terminology Preservation (1-5)",
+        "Overall Preference (Baseline vs LoRA)"
+      ],
+      "human_scores_collected": false
+    },
+    {
+      "sentence_id": "sample_0033",
+      "category": "academic",
+      "text": "కండోనేషన్ దరఖాస్తుతో పాటు అధికారిక మెడికల్ సర్టిఫికేట్ సమర్పించాలి.",
+      "rating_criteria": [
+        "Naturalness (1-5)",
+        "Pronunciation Clarity (1-5)",
+        "Telugu Cadence/Fluency (1-5)",
+        "Domain Terminology Preservation (1-5)",
+        "Overall Preference (Baseline vs LoRA)"
+      ],
+      "human_scores_collected": false
+    },
+    {
+      "sentence_id": "sample_0034",
+      "category": "academic",
+      "text": "హాజరు అరవై ఐదు శాతం కంటే తక్కువగా ఉన్న విద్యార్థులను ఆ సెమిస్టర్ డిటైన్ చేస్తారు.",
+      "rating_criteria": [
+        "Naturalness (1-5)",
+        "Pronunciation Clarity (1-5)",
+        "Telugu Cadence/Fluency (1-5)",
+        "Domain Terminology Preservation (1-5)",
+        "Overall Preference (Baseline vs LoRA)"
+      ],
+      "human_scores_collected": false
+    },
+    {
+      "sentence_id": "sample_0035",
+      "category": "academic",
+      "text": "సెమిస్టర్ ముగింపు పరీక్షల ఫలితాలు విడుదలైన పదిహేను రోజుల్లోగా రీవాల్యుయేషన్ కోసం దరఖాస్తు చేసుకోవచ్చు.",
+      "rating_criteria": [
+        "Naturalness (1-5)",
+        "Pronunciation Clarity (1-5)",
+        "Telugu Cadence/Fluency (1-5)",
+        "Domain Terminology Preservation (1-5)",
+        "Overall Preference (Baseline vs LoRA)"
+      ],
+      "human_scores_collected": false
+    },
+    {
+      "sentence_id": "sample_0066",
+      "category": "technical_codemixed",
+      "text": "ఈ application లో database నుండి student details సులభంగా తీసుకోవచ్చు.",
+      "rating_criteria": [
+        "Naturalness (1-5)",
+        "Pronunciation Clarity (1-5)",
+        "Telugu Cadence/Fluency (1-5)",
+        "Domain Terminology Preservation (1-5)",
+        "Overall Preference (Baseline vs LoRA)"
+      ],
+      "human_scores_collected": false
+    },
+    {
+      "sentence_id": "sample_0067",
+      "category": "technical_codemixed",
+      "text": "మా సిస్టమ్ లో dense embeddings మరియు sparse BM25 ఆధారంగా hybrid retrieval పనిచేస్తుంది.",
+      "rating_criteria": [
+        "Naturalness (1-5)",
+        "Pronunciation Clarity (1-5)",
+        "Telugu Cadence/Fluency (1-5)",
+        "Domain Terminology Preservation (1-5)",
+        "Overall Preference (Baseline vs LoRA)"
+      ],
+      "human_scores_collected": false
+    },
+    {
+      "sentence_id": "sample_0068",
+      "category": "technical_codemixed",
+      "text": "LangGraph multi-agent workflow ద్వారా యూజర్ ప్రశ్నను విశ్లేషించి సరైన రూటింగ్‌ను ఎంపిక చేస్తాము.",
+      "rating_criteria": [
+        "Naturalness (1-5)",
+        "Pronunciation Clarity (1-5)",
+        "Telugu Cadence/Fluency (1-5)",
+        "Domain Terminology Preservation (1-5)",
+        "Overall Preference (Baseline vs LoRA)"
+      ],
+      "human_scores_collected": false
+    },
+    {
+      "sentence_id": "sample_0069",
+      "category": "technical_codemixed",
+      "text": "PostgreSQL డేటాబేస్ లో మునుపటి సంభాషణల హిస్టరీ భద్రపరచబడుతుంది.",
+      "rating_criteria": [
+        "Naturalness (1-5)",
+        "Pronunciation Clarity (1-5)",
+        "Telugu Cadence/Fluency (1-5)",
+        "Domain Terminology Preservation (1-5)",
+        "Overall Preference (Baseline vs LoRA)"
+      ],
+      "human_scores_collected": false
+    },
+    {
+      "sentence_id": "sample_0070",
+      "category": "technical_codemixed",
+      "text": "Qdrant vector database లో డాక్యుమెంట్ చంక్స్ మరియు వాటి వెక్టర్స్ భద్రపరుస్తాము.",
+      "rating_criteria": [
+        "Naturalness (1-5)",
+        "Pronunciation Clarity (1-5)",
+        "Telugu Cadence/Fluency (1-5)",
+        "Domain Terminology Preservation (1-5)",
+        "Overall Preference (Baseline vs LoRA)"
+      ],
+      "human_scores_collected": false
+    },
+    {
+      "sentence_id": "sample_0101",
+      "category": "numeric_percentage",
+      "text": "కనీసం 75% హాజరు ఉంటేనే సెమిస్టర్ పరీక్షలు రాయడానికి అర్హత ఉంటుంది.",
+      "rating_criteria": [
+        "Naturalness (1-5)",
+        "Pronunciation Clarity (1-5)",
+        "Telugu Cadence/Fluency (1-5)",
+        "Domain Terminology Preservation (1-5)",
+        "Overall Preference (Baseline vs LoRA)"
+      ],
+      "human_scores_collected": false
+    },
+    {
+      "sentence_id": "sample_0102",
+      "category": "numeric_percentage",
+      "text": "విద్యార్థి హాజరు 65% నుండి 75% మధ్య ఉంటే ₹500 కండోనేషన్ ఫీజు చెల్లించాలి.",
+      "rating_criteria": [
+        "Naturalness (1-5)",
+        "Pronunciation Clarity (1-5)",
+        "Telugu Cadence/Fluency (1-5)",
+        "Domain Terminology Preservation (1-5)",
+        "Overall Preference (Baseline vs LoRA)"
+      ],
+      "human_scores_collected": false
+    },
+    {
+      "sentence_id": "sample_0103",
+      "category": "numeric_percentage",
+      "text": "2026 విద్యా సంవత్సరంలో మొత్తం 160 క్రెడిట్స్ పూర్తి చేయాలి.",
+      "rating_criteria": [
+        "Naturalness (1-5)",
+        "Pronunciation Clarity (1-5)",
+        "Telugu Cadence/Fluency (1-5)",
+        "Domain Terminology Preservation (1-5)",
+        "Overall Preference (Baseline vs LoRA)"
+      ],
+      "human_scores_collected": false
+    },
+    {
+      "sentence_id": "sample_0104",
+      "category": "numeric_percentage",
+      "text": "రీవాల్యుయేషన్ కోసం ప్రతి సబ్జెక్టుకు ₹1000 ఫీజు చెల్లించాలి.",
+      "rating_criteria": [
+        "Naturalness (1-5)",
+        "Pronunciation Clarity (1-5)",
+        "Telugu Cadence/Fluency (1-5)",
+        "Domain Terminology Preservation (1-5)",
+        "Overall Preference (Baseline vs LoRA)"
+      ],
+      "human_scores_collected": false
+    },
+    {
+      "sentence_id": "sample_0105",
+      "category": "numeric_percentage",
+      "text": "అంతర్గత పరీక్షల్లో కనీసం 40% మార్కులు సాధించడం తప్పనిసరి.",
+      "rating_criteria": [
+        "Naturalness (1-5)",
+        "Pronunciation Clarity (1-5)",
+        "Telugu Cadence/Fluency (1-5)",
+        "Domain Terminology Preservation (1-5)",
+        "Overall Preference (Baseline vs LoRA)"
+      ],
+      "human_scores_collected": false
+    }
+  ],
+  "speaker_similarity_status": "SKIPPED — Heavy external speaker embedding model avoided per resource constraints",
+  "held_out_test_set_status": "UNTOUCHED — 14-sample test.csv reserved for dedicated acoustic validation",
+  "status": "INVALID_AUDITED (Ground-truth transcription leakage detected in Phase 6D Audit)",
+  "superseded_by": "evaluation/phase6d_real_results.json"
+}

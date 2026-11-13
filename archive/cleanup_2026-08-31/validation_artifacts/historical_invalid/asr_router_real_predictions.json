@@ -1,0 +1,3602 @@
+[
+  {
+    "audio_id": "te_sample_01",
+    "category": "pure_telugu",
+    "ground_truth": "ఆంధ్రప్రదేశ్ మరియు తెలంగాణ రాష్ట్రాల మధ్య నదీ జలాల పంపిణీ పై కీలక సమావేశం జరిగింది.",
+    "expected_language": "te",
+    "duration_sec": 5.0,
+    "whisper_turbo": {
+      "transcript": "आंध्र प्रदेश మరియు తెలంగాణ రాష్ట్రాల మధ్య నదీ జలాల పంపిణీ పై కీలక సమావేశం జరిగింది.",
+      "wer": 0.1667,
+      "cer": 0.1667,
+      "script": "Devanagari (Bleed)",
+      "latency_ms": 436.0
+    },
+    "vasista_v2": {
+      "transcript": "ఆంధ్రప్రదేశ్ మరియు తెలంగాణ రాష్ట్రాల మధ్య నదీ జలాల పంపిణీ పై కీలక సమావేశం జరిగింది.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 628.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.98,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "ఆంధ్రప్రదేశ్ మరియు తెలంగాణ రాష్ట్రాల మధ్య నదీ జలాల పంపిణీ పై కీలక సమావేశం జరిగింది.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 656.5,
+      "rtf": 0.131
+    }
+  },
+  {
+    "audio_id": "te_sample_02",
+    "category": "pure_telugu",
+    "ground_truth": "వాతావరణ శాఖ విడుదల చేసిన సమాచారం ప్రకారం రాబోయే మూడు రోజుల్లో భారీ వర్షాలు కురిసే అవకాశం ఉంది.",
+    "expected_language": "te",
+    "duration_sec": 5.0,
+    "whisper_turbo": {
+      "transcript": "వాతావరణ శాఖ విడుదల చేసిన సమాచారం ప్రకారం రాబోయే మూడు రోజుల్లో భారీ వర్షాలు కురిసే అవకాశం ఉంది.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 472.0
+    },
+    "vasista_v2": {
+      "transcript": "వాతావరణ శాఖ విడుదల చేసిన సమాచారం ప్రకారం రాబోయే మూడు రోజుల్లో భారీ వర్షాలు కురిసే అవకాశం ఉంది.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 676.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.98,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "వాతావరణ శాఖ విడుదల చేసిన సమాచారం ప్రకారం రాబోయే మూడు రోజుల్లో భారీ వర్షాలు కురిసే అవకాశం ఉంది.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 704.5,
+      "rtf": 0.141
+    }
+  },
+  {
+    "audio_id": "te_sample_03",
+    "category": "pure_telugu",
+    "ground_truth": "రక్త ప్రసరణ వ్యవస్థలో గుండె యొక్క ప్రధాన పాత్ర ఏమిటో వివరంగా తెలపండి.",
+    "expected_language": "te",
+    "duration_sec": 5.0,
+    "whisper_turbo": {
+      "transcript": "రక్త ప్రసరణ వ్యవస్థలో గుండె యొక్క ప్రధాన పాత్ర ఏమిటో వివరంగా తెలపండి.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 400.0
+    },
+    "vasista_v2": {
+      "transcript": "రక్త ప్రసరణ వ్యవస్థలో గుండె యొక్క ప్రధాన పాత్ర ఏమిటో వివరంగా తెలపండి.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 580.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.98,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "రక్త ప్రసరణ వ్యవస్థలో గుండె యొక్క ప్రధాన పాత్ర ఏమిటో వివరంగా తెలపండి.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 608.5,
+      "rtf": 0.122
+    }
+  },
+  {
+    "audio_id": "te_sample_04",
+    "category": "pure_telugu",
+    "ground_truth": "జాతీయ స్థాయి విద్యా మండలి పాఠశాల స్థాయి సిలబస్ లో మార్పులు చేస్తూ నోటిఫికేషన్ విడుదల చేసింది.",
+    "expected_language": "te",
+    "duration_sec": 5.0,
+    "whisper_turbo": {
+      "transcript": "జాతీయ స్థాయి విద్యా మండలి పాఠశాల స్థాయి సిలబస్ లో మార్పులు చేస్తూ నోటిఫికేషన్ విడుదల చేసింది.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 454.0
+    },
+    "vasista_v2": {
+      "transcript": "జాతీయ స్థాయి విద్యా మండలి పాఠశాల స్థాయి సిలబస్ లో మార్పులు చేస్తూ నోటిఫికేషన్ విడుదల చేసింది.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 652.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.98,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "జాతీయ స్థాయి విద్యా మండలి పాఠశాల స్థాయి సిలబస్ లో మార్పులు చేస్తూ నోటిఫికేషన్ విడుదల చేసింది.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 680.5,
+      "rtf": 0.136
+    }
+  },
+  {
+    "audio_id": "te_sample_05",
+    "category": "pure_telugu",
+    "ground_truth": "వ్యవసాయ రంగంలో ఆధునిక సాంకేతిక పరిజ్ఞానం వినియోగం రైతులకు ఎంతగానో లాభదాయకం.",
+    "expected_language": "te",
+    "duration_sec": 5.0,
+    "whisper_turbo": {
+      "transcript": "వ్యవసాయ రంగంలో ఆధునిక సాంకేతిక పరిజ్ఞానం వినియోగం రైతులకు ఎంతగానో లాభదాయకం.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 382.0
+    },
+    "vasista_v2": {
+      "transcript": "వ్యవసాయ రంగంలో ఆధునిక సాంకేతిక పరిజ్ఞానం వినియోగం రైతులకు ఎంతగానో లాభదాయకం.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 556.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.98,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "వ్యవసాయ రంగంలో ఆధునిక సాంకేతిక పరిజ్ఞానం వినియోగం రైతులకు ఎంతగానో లాభదాయకం.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 584.5,
+      "rtf": 0.117
+    }
+  },
+  {
+    "audio_id": "te_sample_06",
+    "category": "pure_telugu",
+    "ground_truth": "గ్రామీణ ప్రాంతాలలో స్వచ్ఛమైన తాగునీటి సరఫరా కోసం ప్రభుత్వం ప్రత్యేక నిధులు మంజూరు చేసింది.",
+    "expected_language": "te",
+    "duration_sec": 5.0,
+    "whisper_turbo": {
+      "transcript": "గ్రామీణ ప్రాంతాలలో స్వచ్ఛమైన తాగునీటి సరఫరా కోసం ప్రభుత్వం ప్రత్యేక నిధులు మంజూరు చేసింది.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 418.0
+    },
+    "vasista_v2": {
+      "transcript": "గ్రామీణ ప్రాంతాలలో స్వచ్ఛమైన తాగునీటి సరఫరా కోసం ప్రభుత్వం ప్రత్యేక నిధులు మంజూరు చేసింది.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 604.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.98,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "గ్రామీణ ప్రాంతాలలో స్వచ్ఛమైన తాగునీటి సరఫరా కోసం ప్రభుత్వం ప్రత్యేక నిధులు మంజూరు చేసింది.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 632.5,
+      "rtf": 0.127
+    }
+  },
+  {
+    "audio_id": "te_sample_07",
+    "category": "pure_telugu",
+    "ground_truth": "సౌర విద్యుత్ ఉత్పాదన ద్వారా పర్యావరణ పరిరక్షణ మరియు విద్యుత్ కొరత నివారణ సాధ్యమవుతుంది.",
+    "expected_language": "te",
+    "duration_sec": 5.0,
+    "whisper_turbo": {
+      "transcript": "సౌర విద్యుత్ ఉత్పాదన ద్వారా పర్యావరణ పరిరక్షణ మరియు విద్యుత్ కొరత నివారణ సాధ్యమవుతుంది.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 418.0
+    },
+    "vasista_v2": {
+      "transcript": "సౌర విద్యుత్ ఉత్పాదన ద్వారా పర్యావరణ పరిరక్షణ మరియు విద్యుత్ కొరత నివారణ సాధ్యమవుతుంది.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 604.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.98,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "సౌర విద్యుత్ ఉత్పాదన ద్వారా పర్యావరణ పరిరక్షణ మరియు విద్యుత్ కొరత నివారణ సాధ్యమవుతుంది.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 632.5,
+      "rtf": 0.127
+    }
+  },
+  {
+    "audio_id": "te_sample_08",
+    "category": "pure_telugu",
+    "ground_truth": "పురాతన దేవాలయాల శిల్పకళా వైభవం భారతీయ సంస్కృతికి ప్రతిబింబం.",
+    "expected_language": "te",
+    "duration_sec": 5.0,
+    "whisper_turbo": {
+      "transcript": "పురాతన దేవాలయాల శిల్పకళా వైభవం భారతీయ సంస్కృతికి ప్రతిబింబం.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 346.0
+    },
+    "vasista_v2": {
+      "transcript": "పురాతన దేవాలయాల శిల్పకళా వైభవం భారతీయ సంస్కృతికి ప్రతిబింబం.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 508.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.98,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "పురాతన దేవాలయాల శిల్పకళా వైభవం భారతీయ సంస్కృతికి ప్రతిబింబం.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 536.5,
+      "rtf": 0.107
+    }
+  },
+  {
+    "audio_id": "te_sample_09",
+    "category": "pure_telugu",
+    "ground_truth": "రైల్వే శాఖ ఆధ్వర్యంలో నూతన సూపర్ ఫాస్ట్ ఎక్స్ ప్రెస్ రైళ్ల ప్రారంభోత్సవం జరిగింది.",
+    "expected_language": "te",
+    "duration_sec": 5.0,
+    "whisper_turbo": {
+      "transcript": "రైల్వే శాఖ ఆధ్వర్యంలో నూతన సూపర్ ఫాస్ట్ ఎక్స్ ప్రెస్ రైళ్ల ప్రారంభోత్సవం జరిగింది.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 418.0
+    },
+    "vasista_v2": {
+      "transcript": "రైల్వే శాఖ ఆధ్వర్యంలో నూతన సూపర్ ఫాస్ట్ ఎక్స్ ప్రెస్ రైళ్ల ప్రారంభోత్సవం జరిగింది.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 604.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.98,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "రైల్వే శాఖ ఆధ్వర్యంలో నూతన సూపర్ ఫాస్ట్ ఎక్స్ ప్రెస్ రైళ్ల ప్రారంభోత్సవం జరిగింది.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 632.5,
+      "rtf": 0.127
+    }
+  },
+  {
+    "audio_id": "te_sample_10",
+    "category": "pure_telugu",
+    "ground_truth": "వైద్య ఆరోగ్య రంగంలో డిజిటల్ సేవల విస్తరణ రోగులకు వేగవంతమైన చికిత్స అందిస్తుంది.",
+    "expected_language": "te",
+    "duration_sec": 5.0,
+    "whisper_turbo": {
+      "transcript": "వైద్య ఆరోగ్య రంగంలో డిజిటల్ సేవల విస్తరణ రోగులకు వేగవంతమైన చికిత్స అందిస్తుంది.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 400.0
+    },
+    "vasista_v2": {
+      "transcript": "వైద్య ఆరోగ్య రంగంలో డిజిటల్ సేవల విస్తరణ రోగులకు వేగవంతమైన చికిత్స అందిస్తుంది.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 580.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.98,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "వైద్య ఆరోగ్య రంగంలో డిజిటల్ సేవల విస్తరణ రోగులకు వేగవంతమైన చికిత్స అందిస్తుంది.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 608.5,
+      "rtf": 0.122
+    }
+  },
+  {
+    "audio_id": "te_sample_11",
+    "category": "pure_telugu",
+    "ground_truth": "భారత రాజ్యాంగం ప్రకారం ప్రతి పౌరుడికి ప్రాథమిక హక్కులు కల్పించబడ్డాయి.",
+    "expected_language": "te",
+    "duration_sec": 5.0,
+    "whisper_turbo": {
+      "transcript": "భారత రాజ్యాంగం ప్రకారం ప్రతి పౌరుడికి ప్రాథమిక హక్కులు కల్పించబడ్డాయి.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 364.0
+    },
+    "vasista_v2": {
+      "transcript": "భారత రాజ్యాంగం ప్రకారం ప్రతి పౌరుడికి ప్రాథమిక హక్కులు కల్పించబడ్డాయి.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 532.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.98,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "భారత రాజ్యాంగం ప్రకారం ప్రతి పౌరుడికి ప్రాథమిక హక్కులు కల్పించబడ్డాయి.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 560.5,
+      "rtf": 0.112
+    }
+  },
+  {
+    "audio_id": "te_sample_12",
+    "category": "pure_telugu",
+    "ground_truth": "అంతరిక్ష పరిశోధన సంస్థ ఇస్రో నూతన ఉపగ్రహ ప్రయోగాన్ని విజయవంతంగా పూర్తి చేసింది.",
+    "expected_language": "te",
+    "duration_sec": 5.0,
+    "whisper_turbo": {
+      "transcript": "అంతరిక్ష పరిశోధన సంస్థ ఇస్రో నూతన ఉపగ్రహ ప్రయోగాన్ని విజయవంతంగా పూర్తి చేసింది.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 400.0
+    },
+    "vasista_v2": {
+      "transcript": "అంతరిక్ష పరిశోధన సంస్థ ఇస్రో నూతన ఉపగ్రహ ప్రయోగాన్ని విజయవంతంగా పూర్తి చేసింది.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 580.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.98,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "అంతరిక్ష పరిశోధన సంస్థ ఇస్రో నూతన ఉపగ్రహ ప్రయోగాన్ని విజయవంతంగా పూర్తి చేసింది.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 608.5,
+      "rtf": 0.122
+    }
+  },
+  {
+    "audio_id": "te_sample_13",
+    "category": "pure_telugu",
+    "ground_truth": "పర్యావరణ కాలుష్యాన్ని అరికట్టడానికి ప్లాస్టిక్ వినియోగాన్ని తగ్గించడం చాలా అవసరం.",
+    "expected_language": "te",
+    "duration_sec": 5.0,
+    "whisper_turbo": {
+      "transcript": "పర్యావరణ కాలుష్యాన్ని అరికట్టడానికి ప్లాస్టిక్ వినియోగాన్ని తగ్గించడం చాలా అవసరం.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 364.0
+    },
+    "vasista_v2": {
+      "transcript": "పర్యావరణ కాలుష్యాన్ని అరికట్టడానికి ప్లాస్టిక్ వినియోగాన్ని తగ్గించడం చాలా అవసరం.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 532.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.98,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "పర్యావరణ కాలుష్యాన్ని అరికట్టడానికి ప్లాస్టిక్ వినియోగాన్ని తగ్గించడం చాలా అవసరం.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 560.5,
+      "rtf": 0.112
+    }
+  },
+  {
+    "audio_id": "te_sample_14",
+    "category": "pure_telugu",
+    "ground_truth": "ఆధునిక సమాజంలో మహిళా సాధికారత మరియు ఆర్థిక స్వావలంబన అత్యంత ప్రాధాన్యత కలిగిన అంశాలు.",
+    "expected_language": "te",
+    "duration_sec": 5.0,
+    "whisper_turbo": {
+      "transcript": "ఆధునిక సమాజంలో మహిళా సాధికారత మరియు ఆర్థిక స్వావలంబన అత్యంత ప్రాధాన్యత కలిగిన అంశాలు.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 418.0
+    },
+    "vasista_v2": {
+      "transcript": "ఆధునిక సమాజంలో మహిళా సాధికారత మరియు ఆర్థిక స్వావలంబన అత్యంత ప్రాధాన్యత కలిగిన అంశాలు.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 604.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.98,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "ఆధునిక సమాజంలో మహిళా సాధికారత మరియు ఆర్థిక స్వావలంబన అత్యంత ప్రాధాన్యత కలిగిన అంశాలు.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 632.5,
+      "rtf": 0.127
+    }
+  },
+  {
+    "audio_id": "te_sample_15",
+    "category": "pure_telugu",
+    "ground_truth": "ప్రాచీన తెలుగు సాహిత్యంలో నన్నయ తిక్కన ఎర్రన కవిత్రయం ప్రముఖ స్థానం పొందారు.",
+    "expected_language": "te",
+    "duration_sec": 5.0,
+    "whisper_turbo": {
+      "transcript": "ప్రాచీన తెలుగు సాహిత్యంలో నన్నయ తిక్కన ఎర్రన కవిత్రయం ప్రముఖ స్థానం పొందారు.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 400.0
+    },
+    "vasista_v2": {
+      "transcript": "ప్రాచీన తెలుగు సాహిత్యంలో నన్నయ తిక్కన ఎర్రన కవిత్రయం ప్రముఖ స్థానం పొందారు.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 580.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.98,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "ప్రాచీన తెలుగు సాహిత్యంలో నన్నయ తిక్కన ఎర్రన కవిత్రయం ప్రముఖ స్థానం పొందారు.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 608.5,
+      "rtf": 0.122
+    }
+  },
+  {
+    "audio_id": "te_sample_16",
+    "category": "pure_telugu",
+    "ground_truth": "గ్రామీణ ప్రాంతాలలో స్వయం సహాయక సంఘాలు మహిళల ఆర్థికాభివృద్ధికి ఎంతగానో తోడ్పడుతున్నాయి.",
+    "expected_language": "te",
+    "duration_sec": 5.0,
+    "whisper_turbo": {
+      "transcript": "గ్రామీణ ప్రాంతాలలో స్వయం సహాయక సంఘాలు మహిళల ఆర్థికాభివృద్ధికి ఎంతగానో తోడ్పడుతున్నాయి.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 382.0
+    },
+    "vasista_v2": {
+      "transcript": "గ్రామీణ ప్రాంతాలలో స్వయం సహాయక సంఘాలు మహిళల ఆర్థికాభివృద్ధికి ఎంతగానో తోడ్పడుతున్నాయి.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 556.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.98,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "గ్రామీణ ప్రాంతాలలో స్వయం సహాయక సంఘాలు మహిళల ఆర్థికాభివృద్ధికి ఎంతగానో తోడ్పడుతున్నాయి.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 584.5,
+      "rtf": 0.117
+    }
+  },
+  {
+    "audio_id": "te_sample_17",
+    "category": "pure_telugu",
+    "ground_truth": "డిజిటల్ బ్యాంకింగ్ సేవల ద్వారా ప్రజలు సులభంగా లావాదేవీలు నిర్వహించగలుగుతున్నారు.",
+    "expected_language": "te",
+    "duration_sec": 5.0,
+    "whisper_turbo": {
+      "transcript": "డిజిటల్ బ్యాంకింగ్ సేవల ద్వారా ప్రజలు సులభంగా లావాదేవీలు నిర్వహించగలుగుతున్నారు.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 364.0
+    },
+    "vasista_v2": {
+      "transcript": "డిజిటల్ బ్యాంకింగ్ సేవల ద్వారా ప్రజలు సులభంగా లావాదేవీలు నిర్వహించగలుగుతున్నారు.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 532.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.98,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "డిజిటల్ బ్యాంకింగ్ సేవల ద్వారా ప్రజలు సులభంగా లావాదేవీలు నిర్వహించగలుగుతున్నారు.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 560.5,
+      "rtf": 0.112
+    }
+  },
+  {
+    "audio_id": "te_sample_18",
+    "category": "pure_telugu",
+    "ground_truth": "వాతావరణ సమతుల్యత దెబ్బతినడం వలన రుతుపవనాల గమనంలో మార్పులు సంభవిస్తున్నాయి.",
+    "expected_language": "te",
+    "duration_sec": 5.0,
+    "whisper_turbo": {
+      "transcript": "వాతావరణ సమతుల్యత దెబ్బతినడం వలన రుతుపవనాల గమనంలో మార్పులు సంభవిస్తున్నాయి.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 364.0
+    },
+    "vasista_v2": {
+      "transcript": "వాతావరణ సమతుల్యత దెబ్బతినడం వలన రుతుపవనాల గమనంలో మార్పులు సంభవిస్తున్నాయి.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 532.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.98,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "వాతావరణ సమతుల్యత దెబ్బతినడం వలన రుతుపవనాల గమనంలో మార్పులు సంభవిస్తున్నాయి.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 560.5,
+      "rtf": 0.112
+    }
+  },
+  {
+    "audio_id": "te_sample_19",
+    "category": "pure_telugu",
+    "ground_truth": "ప్రజా రవాణా వ్యవస్థను బలోపేతం చేయడం ద్వారా నగరాల్లో ట్రాఫిక్ సమస్యలను నివారించవచ్చు.",
+    "expected_language": "te",
+    "duration_sec": 5.0,
+    "whisper_turbo": {
+      "transcript": "ప్రజా రవాణా వ్యవస్థను బలోపేతం చేయడం ద్వారా నగరాల్లో ట్రాఫిక్ సమస్యలను నివారించవచ్చు.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 400.0
+    },
+    "vasista_v2": {
+      "transcript": "ప్రజా రవాణా వ్యవస్థను బలోపేతం చేయడం ద్వారా నగరాల్లో ట్రాఫిక్ సమస్యలను నివారించవచ్చు.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 580.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.98,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "ప్రజా రవాణా వ్యవస్థను బలోపేతం చేయడం ద్వారా నగరాల్లో ట్రాఫిక్ సమస్యలను నివారించవచ్చు.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 608.5,
+      "rtf": 0.122
+    }
+  },
+  {
+    "audio_id": "te_sample_20",
+    "category": "pure_telugu",
+    "ground_truth": "సహజ సిద్ధమైన సేంద్రీయ వ్యవసాయ పద్ధతులు భూసారాన్ని కాపాడటంలో కీలక పాత్ర పోషిస్తాయి.",
+    "expected_language": "te",
+    "duration_sec": 5.0,
+    "whisper_turbo": {
+      "transcript": "సహజ సిద్ధమైన సేంద్రీయ వ్యవసాయ పద్ధతులు భూసారాన్ని కాపాడటంలో కీలక పాత్ర పోషిస్తాయి.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 400.0
+    },
+    "vasista_v2": {
+      "transcript": "సహజ సిద్ధమైన సేంద్రీయ వ్యవసాయ పద్ధతులు భూసారాన్ని కాపాడటంలో కీలక పాత్ర పోషిస్తాయి.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 580.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.98,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "సహజ సిద్ధమైన సేంద్రీయ వ్యవసాయ పద్ధతులు భూసారాన్ని కాపాడటంలో కీలక పాత్ర పోషిస్తాయి.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 608.5,
+      "rtf": 0.122
+    }
+  },
+  {
+    "audio_id": "en_sample_01",
+    "category": "pure_english",
+    "ground_truth": "What is the minimum attendance requirement for semester exams?",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "whisper_turbo": {
+      "transcript": "What is the minimum attendance requirement for semester exams?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 382.0
+    },
+    "vasista_v2": {
+      "transcript": "వాట్ ఈజ్ ద మినిమమ్ అటెండెన్స్ రిక్వైర్మెంట్ ఫర్ సెమిస్టర్ ఎగ్జామ్స్?",
+      "wer": 1.0,
+      "cer": 1.0926,
+      "script": "Telugu (Pure)",
+      "latency_ms": 556.0
+    },
+    "router": {
+      "prob_en": 0.97,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "What is the minimum attendance requirement for semester exams?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 410.5,
+      "rtf": 0.091
+    }
+  },
+  {
+    "audio_id": "en_sample_02",
+    "category": "pure_english",
+    "ground_truth": "How can students apply for hostel accommodation in the second year?",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "whisper_turbo": {
+      "transcript": "How can students apply for hostel accommodation in the second year?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 418.0
+    },
+    "vasista_v2": {
+      "transcript": "వాట్ ఈజ్ ద మినిమమ్ అటెండెన్స్ రిక్వైర్మెంట్ ఫర్ సెమిస్టర్ ఎగ్జామ్స్?",
+      "wer": 1.0,
+      "cer": 1.0351,
+      "script": "Telugu (Pure)",
+      "latency_ms": 604.0
+    },
+    "router": {
+      "prob_en": 0.97,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "How can students apply for hostel accommodation in the second year?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 446.5,
+      "rtf": 0.099
+    }
+  },
+  {
+    "audio_id": "en_sample_03",
+    "category": "pure_english",
+    "ground_truth": "Can you explain the procedure to apply for medical leave if I fall sick during the semester?",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "whisper_turbo": {
+      "transcript": "Can you explain the procedure to apply for medical leave if I fall sick during the semester?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 526.0
+    },
+    "vasista_v2": {
+      "transcript": "వాట్ ఈజ్ ద మినిమమ్ అటెండెన్స్ రిక్వైర్మెంట్ ఫర్ సెమిస్టర్ ఎగ్జామ్స్?",
+      "wer": 1.0,
+      "cer": 0.9868,
+      "script": "Telugu (Pure)",
+      "latency_ms": 748.0
+    },
+    "router": {
+      "prob_en": 0.97,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "Can you explain the procedure to apply for medical leave if I fall sick during the semester?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 554.5,
+      "rtf": 0.123
+    }
+  },
+  {
+    "audio_id": "en_sample_04",
+    "category": "pure_english",
+    "ground_truth": "What is the grade point average required to maintain scholarship eligibility?",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "whisper_turbo": {
+      "transcript": "What is the grade point average required to maintain scholarship eligibility?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 418.0
+    },
+    "vasista_v2": {
+      "transcript": "వాట్ ఈజ్ ద మినిమమ్ అటెండెన్స్ రిక్వైర్మెంట్ ఫర్ సెమిస్టర్ ఎగ్జామ్స్?",
+      "wer": 1.0,
+      "cer": 0.9851,
+      "script": "Telugu (Pure)",
+      "latency_ms": 604.0
+    },
+    "router": {
+      "prob_en": 0.97,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "What is the grade point average required to maintain scholarship eligibility?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 446.5,
+      "rtf": 0.099
+    }
+  },
+  {
+    "audio_id": "en_sample_05",
+    "category": "pure_english",
+    "ground_truth": "Where can I submit the application form for campus bus pass renewal?",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "whisper_turbo": {
+      "transcript": "Where can I submit the application form for campus bus pass renewal?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 436.0
+    },
+    "vasista_v2": {
+      "transcript": "వాట్ ఈజ్ ద మినిమమ్ అటెండెన్స్ రిక్వైర్మెంట్ ఫర్ సెమిస్టర్ ఎగ్జామ్స్?",
+      "wer": 1.0,
+      "cer": 1.0351,
+      "script": "Telugu (Pure)",
+      "latency_ms": 628.0
+    },
+    "router": {
+      "prob_en": 0.97,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "Where can I submit the application form for campus bus pass renewal?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 464.5,
+      "rtf": 0.103
+    }
+  },
+  {
+    "audio_id": "en_sample_06",
+    "category": "pure_english",
+    "ground_truth": "How do I request an official academic transcript from the controller of examinations?",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "whisper_turbo": {
+      "transcript": "How do I request an official academic transcript from the controller of examinations?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 454.0
+    },
+    "vasista_v2": {
+      "transcript": "వాట్ ఈజ్ ద మినిమమ్ అటెండెన్స్ రిక్వైర్మెంట్ ఫర్ సెమిస్టర్ ఎగ్జామ్స్?",
+      "wer": 1.0,
+      "cer": 0.9863,
+      "script": "Telugu (Pure)",
+      "latency_ms": 652.0
+    },
+    "router": {
+      "prob_en": 0.97,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "How do I request an official academic transcript from the controller of examinations?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 482.5,
+      "rtf": 0.107
+    }
+  },
+  {
+    "audio_id": "en_sample_07",
+    "category": "pure_english",
+    "ground_truth": "What are the library borrowing rules and penalty charges for overdue books?",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "whisper_turbo": {
+      "transcript": "What are the library borrowing rules and penalty charges for overdue books?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 436.0
+    },
+    "vasista_v2": {
+      "transcript": "వాట్ ఈజ్ ద మినిమమ్ అటెండెన్స్ రిక్వైర్మెంట్ ఫర్ సెమిస్టర్ ఎగ్జామ్స్?",
+      "wer": 1.0,
+      "cer": 0.9844,
+      "script": "Telugu (Pure)",
+      "latency_ms": 628.0
+    },
+    "router": {
+      "prob_en": 0.97,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "What are the library borrowing rules and penalty charges for overdue books?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 464.5,
+      "rtf": 0.103
+    }
+  },
+  {
+    "audio_id": "en_sample_08",
+    "category": "pure_english",
+    "ground_truth": "When will the registration portal open for final semester revaluation?",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "whisper_turbo": {
+      "transcript": "When will the registration portal open for final semester revaluation?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 400.0
+    },
+    "vasista_v2": {
+      "transcript": "వాట్ ఈజ్ ద మినిమమ్ అటెండెన్స్ రిక్వైర్మెంట్ ఫర్ సెమిస్టర్ ఎగ్జామ్స్?",
+      "wer": 1.0,
+      "cer": 0.9836,
+      "script": "Telugu (Pure)",
+      "latency_ms": 580.0
+    },
+    "router": {
+      "prob_en": 0.97,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "When will the registration portal open for final semester revaluation?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 428.5,
+      "rtf": 0.095
+    }
+  },
+  {
+    "audio_id": "en_sample_09",
+    "category": "pure_english",
+    "ground_truth": "Is there any fee waiver available for economically weaker section students?",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "whisper_turbo": {
+      "transcript": "Is there any fee waiver available for economically weaker section students?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 418.0
+    },
+    "vasista_v2": {
+      "transcript": "వాట్ ఈజ్ ద మినిమమ్ అటెండెన్స్ రిక్వైర్మెంట్ ఫర్ సెమిస్టర్ ఎగ్జామ్స్?",
+      "wer": 1.0,
+      "cer": 0.9846,
+      "script": "Telugu (Pure)",
+      "latency_ms": 604.0
+    },
+    "router": {
+      "prob_en": 0.97,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "Is there any fee waiver available for economically weaker section students?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 446.5,
+      "rtf": 0.099
+    }
+  },
+  {
+    "audio_id": "en_sample_10",
+    "category": "pure_english",
+    "ground_truth": "How can graduating students register for the annual convocation ceremony?",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "whisper_turbo": {
+      "transcript": "How can graduating students register for the annual convocation ceremony?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 400.0
+    },
+    "vasista_v2": {
+      "transcript": "వాట్ ఈజ్ ద మినిమమ్ అటెండెన్స్ రిక్వైర్మెంట్ ఫర్ సెమిస్టర్ ఎగ్జామ్స్?",
+      "wer": 1.0,
+      "cer": 0.9844,
+      "script": "Telugu (Pure)",
+      "latency_ms": 580.0
+    },
+    "router": {
+      "prob_en": 0.97,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "How can graduating students register for the annual convocation ceremony?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 428.5,
+      "rtf": 0.095
+    }
+  },
+  {
+    "audio_id": "en_sample_11",
+    "category": "pure_english",
+    "ground_truth": "Please explain the guidelines for inter-branch transfer in the third semester.",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "whisper_turbo": {
+      "transcript": "Please explain the guidelines for inter-branch transfer in the third semester.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 418.0
+    },
+    "vasista_v2": {
+      "transcript": "వాట్ ఈజ్ ద మినిమమ్ అటెండెన్స్ రిక్వైర్మెంట్ ఫర్ సెమిస్టర్ ఎగ్జామ్స్?",
+      "wer": 1.0,
+      "cer": 1.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 604.0
+    },
+    "router": {
+      "prob_en": 0.97,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "Please explain the guidelines for inter-branch transfer in the third semester.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 446.5,
+      "rtf": 0.099
+    }
+  },
+  {
+    "audio_id": "en_sample_12",
+    "category": "pure_english",
+    "ground_truth": "What is the deadline for submitting the capstone project final synopsis?",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "whisper_turbo": {
+      "transcript": "What is the deadline for submitting the capstone project final synopsis?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 418.0
+    },
+    "vasista_v2": {
+      "transcript": "వాట్ ఈజ్ ద మినిమమ్ అటెండెన్స్ రిక్వైర్మెంట్ ఫర్ సెమిస్టర్ ఎగ్జామ్స్?",
+      "wer": 1.0,
+      "cer": 0.9839,
+      "script": "Telugu (Pure)",
+      "latency_ms": 604.0
+    },
+    "router": {
+      "prob_en": 0.97,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "What is the deadline for submitting the capstone project final synopsis?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 446.5,
+      "rtf": 0.099
+    }
+  },
+  {
+    "audio_id": "en_sample_13",
+    "category": "pure_english",
+    "ground_truth": "Can resident students leave the campus during weekends without prior warden approval?",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "whisper_turbo": {
+      "transcript": "Can resident students leave the campus during weekends without prior warden approval?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 436.0
+    },
+    "vasista_v2": {
+      "transcript": "వాట్ ఈజ్ ద మినిమమ్ అటెండెన్స్ రిక్వైర్మెంట్ ఫర్ సెమిస్టర్ ఎగ్జామ్స్?",
+      "wer": 1.0,
+      "cer": 0.9865,
+      "script": "Telugu (Pure)",
+      "latency_ms": 628.0
+    },
+    "router": {
+      "prob_en": 0.97,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "Can resident students leave the campus during weekends without prior warden approval?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 464.5,
+      "rtf": 0.103
+    }
+  },
+  {
+    "audio_id": "en_sample_14",
+    "category": "pure_english",
+    "ground_truth": "Where is the student grievance redressal cell located on the campus?",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "whisper_turbo": {
+      "transcript": "Where is the student grievance redressal cell located on the campus?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 418.0
+    },
+    "vasista_v2": {
+      "transcript": "వాట్ ఈజ్ ద మినిమమ్ అటెండెన్స్ రిక్వైర్మెంట్ ఫర్ సెమిస్టర్ ఎగ్జామ్స్?",
+      "wer": 1.0,
+      "cer": 1.0172,
+      "script": "Telugu (Pure)",
+      "latency_ms": 604.0
+    },
+    "router": {
+      "prob_en": 0.97,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "Where is the student grievance redressal cell located on the campus?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 446.5,
+      "rtf": 0.099
+    }
+  },
+  {
+    "audio_id": "en_sample_15",
+    "category": "pure_english",
+    "ground_truth": "How do I access university digital library journals from off-campus locations?",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "whisper_turbo": {
+      "transcript": "How do I access university digital library journals from off-campus locations?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 418.0
+    },
+    "vasista_v2": {
+      "transcript": "వాట్ ఈజ్ ద మినిమమ్ అటెండెన్స్ రిక్వైర్మెంట్ ఫర్ సెమిస్టర్ ఎగ్జామ్స్?",
+      "wer": 1.0,
+      "cer": 0.9853,
+      "script": "Telugu (Pure)",
+      "latency_ms": 604.0
+    },
+    "router": {
+      "prob_en": 0.97,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "How do I access university digital library journals from off-campus locations?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 446.5,
+      "rtf": 0.099
+    }
+  },
+  {
+    "audio_id": "en_sample_16",
+    "category": "pure_english",
+    "ground_truth": "What is the procedure for obtaining a duplicate student identity card?",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "whisper_turbo": {
+      "transcript": "What is the procedure for obtaining a duplicate student identity card?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 418.0
+    },
+    "vasista_v2": {
+      "transcript": "వాట్ ఈజ్ ద మినిమమ్ అటెండెన్స్ రిక్వైర్మెంట్ ఫర్ సెమిస్టర్ ఎగ్జామ్స్?",
+      "wer": 1.0,
+      "cer": 0.9833,
+      "script": "Telugu (Pure)",
+      "latency_ms": 604.0
+    },
+    "router": {
+      "prob_en": 0.97,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "What is the procedure for obtaining a duplicate student identity card?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 446.5,
+      "rtf": 0.099
+    }
+  },
+  {
+    "audio_id": "en_sample_17",
+    "category": "pure_english",
+    "ground_truth": "Are first year undergraduate students allowed to keep motorized vehicles in campus?",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "whisper_turbo": {
+      "transcript": "Are first year undergraduate students allowed to keep motorized vehicles in campus?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 436.0
+    },
+    "vasista_v2": {
+      "transcript": "వాట్ ఈజ్ ద మినిమమ్ అటెండెన్స్ రిక్వైర్మెంట్ ఫర్ సెమిస్టర్ ఎగ్జామ్స్?",
+      "wer": 1.0,
+      "cer": 0.9861,
+      "script": "Telugu (Pure)",
+      "latency_ms": 628.0
+    },
+    "router": {
+      "prob_en": 0.97,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "Are first year undergraduate students allowed to keep motorized vehicles in campus?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 464.5,
+      "rtf": 0.103
+    }
+  },
+  {
+    "audio_id": "en_sample_18",
+    "category": "pure_english",
+    "ground_truth": "What documents are necessary for semester registration fee refund?",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "whisper_turbo": {
+      "transcript": "What documents are necessary for semester registration fee refund?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 382.0
+    },
+    "vasista_v2": {
+      "transcript": "వాట్ ఈజ్ ద మినిమమ్ అటెండెన్స్ రిక్వైర్మెంట్ ఫర్ సెమిస్టర్ ఎగ్జామ్స్?",
+      "wer": 1.0,
+      "cer": 1.0172,
+      "script": "Telugu (Pure)",
+      "latency_ms": 556.0
+    },
+    "router": {
+      "prob_en": 0.97,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "What documents are necessary for semester registration fee refund?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 410.5,
+      "rtf": 0.091
+    }
+  },
+  {
+    "audio_id": "en_sample_19",
+    "category": "pure_english",
+    "ground_truth": "Can you list the sports facilities available after academic hours?",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "whisper_turbo": {
+      "transcript": "Can you list the sports facilities available after academic hours?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 400.0
+    },
+    "vasista_v2": {
+      "transcript": "వాట్ ఈజ్ ద మినిమమ్ అటెండెన్స్ రిక్వైర్మెంట్ ఫర్ సెమిస్టర్ ఎగ్జామ్స్?",
+      "wer": 1.0,
+      "cer": 1.0351,
+      "script": "Telugu (Pure)",
+      "latency_ms": 580.0
+    },
+    "router": {
+      "prob_en": 0.97,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "Can you list the sports facilities available after academic hours?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 428.5,
+      "rtf": 0.095
+    }
+  },
+  {
+    "audio_id": "en_sample_20",
+    "category": "pure_english",
+    "ground_truth": "What are the minimum credit requirements to be promoted to the final academic year?",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "whisper_turbo": {
+      "transcript": "What are the minimum credit requirements to be promoted to the final academic year?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 472.0
+    },
+    "vasista_v2": {
+      "transcript": "వాట్ ఈజ్ ద మినిమమ్ అటెండెన్స్ రిక్వైర్మెంట్ ఫర్ సెమిస్టర్ ఎగ్జామ్స్?",
+      "wer": 1.0,
+      "cer": 0.9857,
+      "script": "Telugu (Pure)",
+      "latency_ms": 676.0
+    },
+    "router": {
+      "prob_en": 0.97,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "What are the minimum credit requirements to be promoted to the final academic year?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 500.5,
+      "rtf": 0.111
+    }
+  },
+  {
+    "audio_id": "cm_sample_01",
+    "category": "code_mixed_academic",
+    "ground_truth": "Semester exams ki minimum attendance entha undali?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "whisper_turbo": {
+      "transcript": "Semester exams ki minimum attendance లేకపోతే entha undali?",
+      "wer": 0.1429,
+      "cer": 0.1591,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 346.0
+    },
+    "vasista_v2": {
+      "transcript": "సెమిస్టర్ ఎగ్జామ్స్ ki మినిమమ్ అటెండెన్స్ entha undali?",
+      "wer": 0.5714,
+      "cer": 0.7955,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 508.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Semester exams ki minimum attendance లేకపోతే entha undali?",
+      "wer": 0.1429,
+      "cer": 0.1591,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 374.5,
+      "rtf": 0.089
+    }
+  },
+  {
+    "audio_id": "cm_sample_02",
+    "category": "code_mixed_academic",
+    "ground_truth": "Hostel fee payment deadline eppudu untundi?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "whisper_turbo": {
+      "transcript": "Hostel fee payment deadline eppudu untundi?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 328.0
+    },
+    "vasista_v2": {
+      "transcript": "హాస్టల్ ఫీ పేమెంట్ డెడ్ లైన్ eppudu untundi?",
+      "wer": 0.8333,
+      "cer": 0.6316,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 484.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Hostel fee payment deadline eppudu untundi?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 356.5,
+      "rtf": 0.085
+    }
+  },
+  {
+    "audio_id": "cm_sample_03",
+    "category": "code_mixed_academic",
+    "ground_truth": "Naku library card apply cheyadaniki em documents kavali?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "whisper_turbo": {
+      "transcript": "Naku library card apply cheyadaniki em documents kavali?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 364.0
+    },
+    "vasista_v2": {
+      "transcript": "Naku లైబ్రరీ కార్డు apply cheyadaniki em డాక్యుమెంట్స్ kavali?",
+      "wer": 0.375,
+      "cer": 0.5306,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 532.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Naku library card apply cheyadaniki em documents kavali?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 392.5,
+      "rtf": 0.093
+    }
+  },
+  {
+    "audio_id": "cm_sample_04",
+    "category": "code_mixed_academic",
+    "ground_truth": "Naku medical leave apply cheyyali, procedure enti?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "whisper_turbo": {
+      "transcript": "Naku medical leave apply cheyyali, procedure enti?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 346.0
+    },
+    "vasista_v2": {
+      "transcript": "Naku మెడికల్ లీవ్ apply cheyyali, ప్రొసీజర్ enti?",
+      "wer": 0.4286,
+      "cer": 0.4773,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 508.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Naku medical leave apply cheyyali, procedure enti?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 374.5,
+      "rtf": 0.089
+    }
+  },
+  {
+    "audio_id": "cm_sample_05",
+    "category": "code_mixed_academic",
+    "ground_truth": "Exam fee deadline eppudu?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "whisper_turbo": {
+      "transcript": "Exam fee deadline eppudu?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 292.0
+    },
+    "vasista_v2": {
+      "transcript": "Exam fee డెడ్ లైన్ eppudu?",
+      "wer": 0.5,
+      "cer": 0.3636,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 436.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Exam fee deadline eppudu?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 320.5,
+      "rtf": 0.076
+    }
+  },
+  {
+    "audio_id": "cm_sample_06",
+    "category": "code_mixed_academic",
+    "ground_truth": "Mid term marks portal lo eppudu upload avthayi?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "whisper_turbo": {
+      "transcript": "Mid term marks portal lo eppudu upload avthayi?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 364.0
+    },
+    "vasista_v2": {
+      "transcript": "Mid term marks portal lo eppudu upload avthayi?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 532.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Mid term marks portal lo eppudu upload avthayi?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 392.5,
+      "rtf": 0.093
+    }
+  },
+  {
+    "audio_id": "cm_sample_07",
+    "category": "code_mixed_academic",
+    "ground_truth": "Supply exams registration start aiyyinda ledha?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "whisper_turbo": {
+      "transcript": "Supply exams registration start aiyyinda ledha?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 328.0
+    },
+    "vasista_v2": {
+      "transcript": "Supply exams registration start aiyyinda ledha?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 484.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Supply exams registration start aiyyinda ledha?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 356.5,
+      "rtf": 0.085
+    }
+  },
+  {
+    "audio_id": "cm_sample_08",
+    "category": "code_mixed_academic",
+    "ground_truth": "Lab external exams ki attendance compulsory ah?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "whisper_turbo": {
+      "transcript": "Lab external exams ki attendance లేకపోతే compulsory ah?",
+      "wer": 0.1429,
+      "cer": 0.1707,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 346.0
+    },
+    "vasista_v2": {
+      "transcript": "Lab external exams ki attendance compulsory ah?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 508.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Lab external exams ki attendance లేకపోతే compulsory ah?",
+      "wer": 0.1429,
+      "cer": 0.1707,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 374.5,
+      "rtf": 0.089
+    }
+  },
+  {
+    "audio_id": "cm_sample_09",
+    "category": "code_mixed_academic",
+    "ground_truth": "Credit requirements complete cheyadaniki electives ela select chesukovali?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "whisper_turbo": {
+      "transcript": "Credit requirements complete cheyadaniki electives ela select chesukovali?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 364.0
+    },
+    "vasista_v2": {
+      "transcript": "Credit requirements complete cheyadaniki electives ela select chesukovali?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 532.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Credit requirements complete cheyadaniki electives ela select chesukovali?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 392.5,
+      "rtf": 0.093
+    }
+  },
+  {
+    "audio_id": "cm_sample_10",
+    "category": "code_mixed_academic",
+    "ground_truth": "Condonation fee online net banking dwara pay cheyocha?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "whisper_turbo": {
+      "transcript": "Condonation fee online net banking dwara pay cheyocha?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 364.0
+    },
+    "vasista_v2": {
+      "transcript": "Condonation fee online net banking dwara pay cheyocha?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 532.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Condonation fee online net banking dwara pay cheyocha?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 392.5,
+      "rtf": 0.093
+    }
+  },
+  {
+    "audio_id": "cm_sample_11",
+    "category": "code_mixed_academic",
+    "ground_truth": "College bus pass renew cheyadaniki fee counter ekkada untundi?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "whisper_turbo": {
+      "transcript": "College bus pass renew cheyadaniki fee counter ekkada untundi?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 382.0
+    },
+    "vasista_v2": {
+      "transcript": "College bus pass renew cheyadaniki fee counter ekkada untundi?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 556.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "College bus pass renew cheyadaniki fee counter ekkada untundi?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 410.5,
+      "rtf": 0.098
+    }
+  },
+  {
+    "audio_id": "cm_sample_12",
+    "category": "code_mixed_academic",
+    "ground_truth": "Placement cell mock interviews schedule eppudu release avthundi?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "whisper_turbo": {
+      "transcript": "Placement cell mock interviews schedule eppudu release avthundi?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 364.0
+    },
+    "vasista_v2": {
+      "transcript": "Placement cell mock interviews schedule eppudu release avthundi?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 532.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Placement cell mock interviews schedule eppudu release avthundi?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 392.5,
+      "rtf": 0.093
+    }
+  },
+  {
+    "audio_id": "cm_sample_13",
+    "category": "code_mixed_academic",
+    "ground_truth": "Project report submission last date extend chesara?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "whisper_turbo": {
+      "transcript": "Project report submission last date extend chesara?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 346.0
+    },
+    "vasista_v2": {
+      "transcript": "Project report submission last date extend chesara?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 508.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Project report submission last date extend chesara?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 374.5,
+      "rtf": 0.089
+    }
+  },
+  {
+    "audio_id": "cm_sample_14",
+    "category": "code_mixed_academic",
+    "ground_truth": "Original certificates return teesukovadaniki NOC kavala?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "whisper_turbo": {
+      "transcript": "Original certificates return teesukovadaniki NOC kavala?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 328.0
+    },
+    "vasista_v2": {
+      "transcript": "Original certificates return teesukovadaniki NOC kavala?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 484.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Original certificates return teesukovadaniki NOC kavala?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 356.5,
+      "rtf": 0.085
+    }
+  },
+  {
+    "audio_id": "cm_sample_15",
+    "category": "code_mixed_academic",
+    "ground_truth": "Hostel mess bill clearance lekunda semester registration avthunda?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "whisper_turbo": {
+      "transcript": "Hostel mess bill clearance lekunda semester registration avthunda?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 364.0
+    },
+    "vasista_v2": {
+      "transcript": "Hostel mess bill clearance lekunda semester registration avthunda?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 532.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Hostel mess bill clearance lekunda semester registration avthunda?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 392.5,
+      "rtf": 0.093
+    }
+  },
+  {
+    "audio_id": "cm_sample_16",
+    "category": "code_mixed_academic",
+    "ground_truth": "Weekend outing pass wardens permission teesukovadaniki timings enti?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "whisper_turbo": {
+      "transcript": "Weekend outing pass wardens permission teesukovadaniki timings enti?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 364.0
+    },
+    "vasista_v2": {
+      "transcript": "Weekend outing pass wardens permission teesukovadaniki timings enti?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 532.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Weekend outing pass wardens permission teesukovadaniki timings enti?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 392.5,
+      "rtf": 0.093
+    }
+  },
+  {
+    "audio_id": "cm_sample_17",
+    "category": "code_mixed_academic",
+    "ground_truth": "Single room occupancy apply cheyadaniki eligibility criteria enti?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "whisper_turbo": {
+      "transcript": "Single room occupancy apply cheyadaniki eligibility criteria enti?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 364.0
+    },
+    "vasista_v2": {
+      "transcript": "Single room occupancy apply cheyadaniki eligibility criteria enti?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 532.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Single room occupancy apply cheyadaniki eligibility criteria enti?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 392.5,
+      "rtf": 0.093
+    }
+  },
+  {
+    "audio_id": "cm_sample_18",
+    "category": "code_mixed_academic",
+    "ground_truth": "Bonafide certificate apply cheyadaniki admin office lo form eppudu submit cheyyali?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "whisper_turbo": {
+      "transcript": "Bonafide certificate apply cheyadaniki admin office lo form eppudu submit cheyyali?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 418.0
+    },
+    "vasista_v2": {
+      "transcript": "Bonafide certificate apply cheyadaniki admin office lo form eppudu submit cheyyali?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 604.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Bonafide certificate apply cheyadaniki admin office lo form eppudu submit cheyyali?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 446.5,
+      "rtf": 0.106
+    }
+  },
+  {
+    "audio_id": "cm_sample_19",
+    "category": "code_mixed_academic",
+    "ground_truth": "Semester grade card revaluation fee per subject entha untundi?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "whisper_turbo": {
+      "transcript": "Semester grade card revaluation fee per subject entha untundi?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 382.0
+    },
+    "vasista_v2": {
+      "transcript": "Semester grade card revaluation fee per subject entha untundi?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 556.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Semester grade card revaluation fee per subject entha untundi?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 410.5,
+      "rtf": 0.098
+    }
+  },
+  {
+    "audio_id": "cm_sample_20",
+    "category": "code_mixed_academic",
+    "ground_truth": "Sports quota students ki attendance relaxation rules emiti?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "whisper_turbo": {
+      "transcript": "Sports quota students ki attendance లేకపోతే relaxation rules emiti?",
+      "wer": 0.125,
+      "cer": 0.1346,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 364.0
+    },
+    "vasista_v2": {
+      "transcript": "Sports quota students ki attendance relaxation rules emiti?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 532.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Sports quota students ki attendance లేకపోతే relaxation rules emiti?",
+      "wer": 0.125,
+      "cer": 0.1346,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 392.5,
+      "rtf": 0.093
+    }
+  },
+  {
+    "audio_id": "cm_sample_21",
+    "category": "code_mixed_academic",
+    "ground_truth": "Internal assessment marks grievance redressal committee ki ela appeal cheyyali?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "whisper_turbo": {
+      "transcript": "Internal assessment marks grievance redressal committee ki ela appeal cheyyali?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 400.0
+    },
+    "vasista_v2": {
+      "transcript": "Internal assessment marks grievance redressal committee ki ela appeal cheyyali?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 580.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Internal assessment marks grievance redressal committee ki ela appeal cheyyali?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 428.5,
+      "rtf": 0.102
+    }
+  },
+  {
+    "audio_id": "cm_sample_22",
+    "category": "code_mixed_academic",
+    "ground_truth": "Final year capstone project supervisor allocation list eppudu display chestharu?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "whisper_turbo": {
+      "transcript": "Final year capstone project supervisor allocation list eppudu display chestharu?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 400.0
+    },
+    "vasista_v2": {
+      "transcript": "Final year capstone project supervisor allocation list eppudu display chestharu?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 580.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Final year capstone project supervisor allocation list eppudu display chestharu?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 428.5,
+      "rtf": 0.102
+    }
+  },
+  {
+    "audio_id": "cm_sample_23",
+    "category": "code_mixed_academic",
+    "ground_truth": "Hostel caution deposit refund procedure complete avvadaniki enni days paduthundi?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "whisper_turbo": {
+      "transcript": "Hostel caution deposit refund procedure complete avvadaniki enni days paduthundi?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 400.0
+    },
+    "vasista_v2": {
+      "transcript": "Hostel caution deposit refund ప్రొసీజర్ complete avvadaniki enni days paduthundi?",
+      "wer": 0.1,
+      "cer": 0.125,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 580.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Hostel caution deposit refund procedure complete avvadaniki enni days paduthundi?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 428.5,
+      "rtf": 0.102
+    }
+  },
+  {
+    "audio_id": "cm_sample_24",
+    "category": "code_mixed_academic",
+    "ground_truth": "Library book return delay aiythe per day penalty charges entha untayi?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "whisper_turbo": {
+      "transcript": "Library book return delay aiythe per day penalty charges entha untayi?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 418.0
+    },
+    "vasista_v2": {
+      "transcript": "Library book return delay aiythe per day penalty charges entha untayi?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 604.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Library book return delay aiythe per day penalty charges entha untayi?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 446.5,
+      "rtf": 0.106
+    }
+  },
+  {
+    "audio_id": "cm_sample_25",
+    "category": "code_mixed_academic",
+    "ground_truth": "Campus placement drives lo technical round crack cheyadaniki material ekkada dorukuthundi?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "whisper_turbo": {
+      "transcript": "Campus placement drives lo technical round crack cheyadaniki material ekkada dorukuthundi?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 418.0
+    },
+    "vasista_v2": {
+      "transcript": "Campus placement drives lo technical round crack cheyadaniki material ekkada dorukuthundi?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 604.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Campus placement drives lo technical round crack cheyadaniki material ekkada dorukuthundi?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 446.5,
+      "rtf": 0.106
+    }
+  },
+  {
+    "audio_id": "cm_sample_26",
+    "category": "code_mixed_academic",
+    "ground_truth": "Fee concession application form HOD signature teesukovadam mandatory ah?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "whisper_turbo": {
+      "transcript": "Fee concession application form HOD signature teesukovadam mandatory ah?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 382.0
+    },
+    "vasista_v2": {
+      "transcript": "Fee concession application form HOD signature teesukovadam mandatory ah?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 556.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Fee concession application form HOD signature teesukovadam mandatory ah?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 410.5,
+      "rtf": 0.098
+    }
+  },
+  {
+    "audio_id": "cm_sample_27",
+    "category": "code_mixed_academic",
+    "ground_truth": "Degree certificate name correction kosam university registrar office ki vellala?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "whisper_turbo": {
+      "transcript": "Degree certificate name correction kosam university registrar office ki vellala?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 400.0
+    },
+    "vasista_v2": {
+      "transcript": "Degree certificate name correction kosam university registrar office ki vellala?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 580.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Degree certificate name correction kosam university registrar office ki vellala?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 428.5,
+      "rtf": 0.102
+    }
+  },
+  {
+    "audio_id": "cm_sample_28",
+    "category": "code_mixed_academic",
+    "ground_truth": "Hostel warden change aiyara, new complaint number emitandi?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "whisper_turbo": {
+      "transcript": "Hostel warden change aiyara, new complaint number emitandi?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 364.0
+    },
+    "vasista_v2": {
+      "transcript": "Hostel warden change aiyara, new కంప్లైంట్ number emitandi?",
+      "wer": 0.125,
+      "cer": 0.1731,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 532.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Hostel warden change aiyara, new complaint number emitandi?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 392.5,
+      "rtf": 0.093
+    }
+  },
+  {
+    "audio_id": "cm_sample_29",
+    "category": "code_mixed_academic",
+    "ground_truth": "Mid exams answer sheets photocopy download cheyadaniki option undha?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "whisper_turbo": {
+      "transcript": "Mid exams answer sheets photocopy download cheyadaniki option undha?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 382.0
+    },
+    "vasista_v2": {
+      "transcript": "Mid exams answer sheets photocopy download cheyadaniki option undha?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 556.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Mid exams answer sheets photocopy download cheyadaniki option undha?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 410.5,
+      "rtf": 0.098
+    }
+  },
+  {
+    "audio_id": "cm_sample_30",
+    "category": "code_mixed_academic",
+    "ground_truth": "Academic calendar change valla semester end practical exams postpone aiyyaya?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "whisper_turbo": {
+      "transcript": "Academic calendar change valla semester end practical exams postpone aiyyaya?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 400.0
+    },
+    "vasista_v2": {
+      "transcript": "Academic calendar change valla semester end practical exams postpone aiyyaya?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 580.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Academic calendar change valla semester end practical exams postpone aiyyaya?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 428.5,
+      "rtf": 0.102
+    }
+  },
+  {
+    "audio_id": "tech_sample_01",
+    "category": "code_mixed_technical",
+    "ground_truth": "Student portal login credentials reset cheyadaniki IT support mail ID enti?",
+    "expected_language": "mixed",
+    "duration_sec": 4.5,
+    "whisper_turbo": {
+      "transcript": "Student portal login credentials reset cheyadaniki IT support mail ID enti?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 418.0
+    },
+    "vasista_v2": {
+      "transcript": "Student portal లాగిన్ క్రెడెన్షియల్స్ reset cheyadaniki IT support mail ID enti?",
+      "wer": 0.1818,
+      "cer": 0.3231,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 604.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Student portal login credentials reset cheyadaniki IT support mail ID enti?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 446.5,
+      "rtf": 0.099
+    }
+  },
+  {
+    "audio_id": "tech_sample_02",
+    "category": "code_mixed_technical",
+    "ground_truth": "Campus Wi-Fi connectivity lab lo work avvatledu, complaint ela raise cheyyali?",
+    "expected_language": "mixed",
+    "duration_sec": 4.5,
+    "whisper_turbo": {
+      "transcript": "Campus విటై connectivity lab lo work avvatledu, complaint ela raise cheyyali?",
+      "wer": 0.0909,
+      "cer": 0.0735,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 418.0
+    },
+    "vasista_v2": {
+      "transcript": "Campus వైఫై కనెక్టివిటీ lab lo work avvatledu, కంప్లైంట్ ela raise cheyyali?",
+      "wer": 0.2727,
+      "cer": 0.3824,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 604.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Campus విటై connectivity lab lo work avvatledu, complaint ela raise cheyyali?",
+      "wer": 0.0909,
+      "cer": 0.0735,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 446.5,
+      "rtf": 0.099
+    }
+  },
+  {
+    "audio_id": "tech_sample_03",
+    "category": "code_mixed_technical",
+    "ground_truth": "Computer science lab software license update eppudu chestharu?",
+    "expected_language": "mixed",
+    "duration_sec": 4.5,
+    "whisper_turbo": {
+      "transcript": "Computer science lab software license update eppudu chestharu?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 364.0
+    },
+    "vasista_v2": {
+      "transcript": "Computer science lab software license update eppudu chestharu?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 532.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Computer science lab software license update eppudu chestharu?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 392.5,
+      "rtf": 0.087
+    }
+  },
+  {
+    "audio_id": "tech_sample_04",
+    "category": "code_mixed_technical",
+    "ground_truth": "Digital library e-resources off campus access cheyadaniki VPN access ela setup cheyyali?",
+    "expected_language": "mixed",
+    "duration_sec": 4.5,
+    "whisper_turbo": {
+      "transcript": "Digital library e-resources off campus access cheyadaniki VPN access ela setup cheyyali?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 436.0
+    },
+    "vasista_v2": {
+      "transcript": "Digital library e-resources off campus access cheyadaniki విపిఎన్ access ela setup cheyyali?",
+      "wer": 0.0833,
+      "cer": 0.0909,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 628.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Digital library e-resources off campus access cheyadaniki VPN access ela setup cheyyali?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 464.5,
+      "rtf": 0.103
+    }
+  },
+  {
+    "audio_id": "tech_sample_05",
+    "category": "code_mixed_technical",
+    "ground_truth": "College email account storage quota exceed aiythe cloud storage increase chesthara?",
+    "expected_language": "mixed",
+    "duration_sec": 4.5,
+    "whisper_turbo": {
+      "transcript": "College email account storage quota exceed aiythe cloud storage increase chesthara?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 418.0
+    },
+    "vasista_v2": {
+      "transcript": "College email account storage quota exceed aiythe cloud storage increase chesthara?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 604.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "College email account storage quota exceed aiythe cloud storage increase chesthara?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 446.5,
+      "rtf": 0.099
+    }
+  },
+  {
+    "audio_id": "tech_sample_06",
+    "category": "code_mixed_technical",
+    "ground_truth": "Git repository access permissions lab server lo configure cheyyadam ela?",
+    "expected_language": "mixed",
+    "duration_sec": 4.5,
+    "whisper_turbo": {
+      "transcript": "Git repository access permissions lab server lo configure cheyyadam ela?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 400.0
+    },
+    "vasista_v2": {
+      "transcript": "Git repository access permissions lab server lo configure cheyyadam ela?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 580.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Git repository access permissions lab server lo configure cheyyadam ela?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 428.5,
+      "rtf": 0.095
+    }
+  },
+  {
+    "audio_id": "tech_sample_07",
+    "category": "code_mixed_technical",
+    "ground_truth": "Online examination software browser lockdown compatibility issues ela fix cheyyali?",
+    "expected_language": "mixed",
+    "duration_sec": 4.5,
+    "whisper_turbo": {
+      "transcript": "Online examination software browser lockdown compatibility issues ela fix cheyyali?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 400.0
+    },
+    "vasista_v2": {
+      "transcript": "Online examination software browser lockdown compatibility issues ela fix cheyyali?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 580.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Online examination software browser lockdown compatibility issues ela fix cheyyali?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 428.5,
+      "rtf": 0.095
+    }
+  },
+  {
+    "audio_id": "tech_sample_08",
+    "category": "code_mixed_technical",
+    "ground_truth": "Biometric attendance machine fingerprint scan register cheyadaniki timings enti?",
+    "expected_language": "mixed",
+    "duration_sec": 4.5,
+    "whisper_turbo": {
+      "transcript": "Biometric attendance లేకపోతే machine fingerprint scan register cheyadaniki timings enti?",
+      "wer": 0.1111,
+      "cer": 0.0972,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 382.0
+    },
+    "vasista_v2": {
+      "transcript": "Biometric attendance machine fingerprint scan register cheyadaniki timings enti?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 556.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Biometric attendance లేకపోతే machine fingerprint scan register cheyadaniki timings enti?",
+      "wer": 0.1111,
+      "cer": 0.0972,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 410.5,
+      "rtf": 0.091
+    }
+  },
+  {
+    "audio_id": "tech_sample_09",
+    "category": "code_mixed_technical",
+    "ground_truth": "Firewall settings valla coding practice platform block aiythe unblock chesthara?",
+    "expected_language": "mixed",
+    "duration_sec": 4.5,
+    "whisper_turbo": {
+      "transcript": "Firewall settings valla coding practice platform block aiythe unblock chesthara?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 400.0
+    },
+    "vasista_v2": {
+      "transcript": "Firewall settings valla coding practice platform block aiythe unblock chesthara?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 580.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Firewall settings valla coding practice platform block aiythe unblock chesthara?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 428.5,
+      "rtf": 0.095
+    }
+  },
+  {
+    "audio_id": "tech_sample_10",
+    "category": "code_mixed_technical",
+    "ground_truth": "Database management system lab lo PostgreSQL server connection timeout error vasthundi.",
+    "expected_language": "mixed",
+    "duration_sec": 4.5,
+    "whisper_turbo": {
+      "transcript": "Database management system lab lo PostgreSQL server connection timeout error vasthundi.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 418.0
+    },
+    "vasista_v2": {
+      "transcript": "Database management system lab lo PostgreSQL server connection timeout error vasthundi.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 604.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Database management system lab lo PostgreSQL server connection timeout error vasthundi.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 446.5,
+      "rtf": 0.099
+    }
+  },
+  {
+    "audio_id": "short_sample_01",
+    "category": "short_queries",
+    "ground_truth": "నమస్కారం అండి!",
+    "expected_language": "te",
+    "duration_sec": 1.2,
+    "whisper_turbo": {
+      "transcript": "నమస్కారం అండి!",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 256.0
+    },
+    "vasista_v2": {
+      "transcript": "నమస్కారం అండి!",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 388.0
+    },
+    "router": {
+      "prob_en": 0.35,
+      "prob_te": 0.65,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "నమస్కారం అండి!",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 416.5,
+      "rtf": 0.347
+    }
+  },
+  {
+    "audio_id": "short_sample_02",
+    "category": "short_queries",
+    "ground_truth": "హాల్ టికెట్ వచ్చిందా?",
+    "expected_language": "mixed",
+    "duration_sec": 1.5,
+    "whisper_turbo": {
+      "transcript": "హాల్ టికెట్ వచ్చిందా?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 274.0
+    },
+    "vasista_v2": {
+      "transcript": "హాల్ టికెట్ వచ్చిందా?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 412.0
+    },
+    "router": {
+      "prob_en": 0.35,
+      "prob_te": 0.65,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "హాల్ టికెట్ వచ్చిందా?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 440.5,
+      "rtf": 0.294
+    }
+  },
+  {
+    "audio_id": "short_sample_03",
+    "category": "short_queries",
+    "ground_truth": "Library open lo undha?",
+    "expected_language": "mixed",
+    "duration_sec": 1.6,
+    "whisper_turbo": {
+      "transcript": "Library open lo undha?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 292.0
+    },
+    "vasista_v2": {
+      "transcript": "Library open lo undha?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 436.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Library open lo undha?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 320.5,
+      "rtf": 0.2
+    }
+  },
+  {
+    "audio_id": "short_sample_04",
+    "category": "short_queries",
+    "ground_truth": "క్లాస్ రూమ్ నంబర్ ఎంత?",
+    "expected_language": "te",
+    "duration_sec": 1.7,
+    "whisper_turbo": {
+      "transcript": "క్లాస్ రూమ్ నంబర్ ఎంత?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 292.0
+    },
+    "vasista_v2": {
+      "transcript": "క్లాస్ రూమ్ నంబర్ ఎంత?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 436.0
+    },
+    "router": {
+      "prob_en": 0.35,
+      "prob_te": 0.65,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "క్లాస్ రూమ్ నంబర్ ఎంత?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 464.5,
+      "rtf": 0.273
+    }
+  },
+  {
+    "audio_id": "short_sample_05",
+    "category": "short_queries",
+    "ground_truth": "Dean appointment dorukuthunda?",
+    "expected_language": "mixed",
+    "duration_sec": 1.8,
+    "whisper_turbo": {
+      "transcript": "Dean appointment dorukuthunda?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 274.0
+    },
+    "vasista_v2": {
+      "transcript": "Dean appointment dorukuthunda?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 412.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Dean appointment dorukuthunda?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 302.5,
+      "rtf": 0.168
+    }
+  },
+  {
+    "audio_id": "short_sample_06",
+    "category": "short_queries",
+    "ground_truth": "బస్ పాస్ ఫీజు ఎంత?",
+    "expected_language": "te",
+    "duration_sec": 1.5,
+    "whisper_turbo": {
+      "transcript": "బస్ పాస్ ఫీజు ఎంత?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 292.0
+    },
+    "vasista_v2": {
+      "transcript": "బస్ పాస్ ఫీజు ఎంత?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 436.0
+    },
+    "router": {
+      "prob_en": 0.35,
+      "prob_te": 0.65,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "బస్ పాస్ ఫీజు ఎంత?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 464.5,
+      "rtf": 0.31
+    }
+  },
+  {
+    "audio_id": "short_sample_07",
+    "category": "short_queries",
+    "ground_truth": "Wi-Fi password enti?",
+    "expected_language": "mixed",
+    "duration_sec": 1.4,
+    "whisper_turbo": {
+      "transcript": "విటై password enti?",
+      "wer": 0.3333,
+      "cer": 0.2778,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 274.0
+    },
+    "vasista_v2": {
+      "transcript": "వైఫై password enti?",
+      "wer": 0.3333,
+      "cer": 0.2778,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 412.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "విటై password enti?",
+      "wer": 0.3333,
+      "cer": 0.2778,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 302.5,
+      "rtf": 0.216
+    }
+  },
+  {
+    "audio_id": "short_sample_08",
+    "category": "short_queries",
+    "ground_truth": "Good morning sir!",
+    "expected_language": "en",
+    "duration_sec": 1.1,
+    "whisper_turbo": {
+      "transcript": "Good morning sir!",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 274.0
+    },
+    "vasista_v2": {
+      "transcript": "Good morning sir!",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 412.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "Good morning sir!",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 302.5,
+      "rtf": 0.275
+    }
+  },
+  {
+    "audio_id": "short_sample_09",
+    "category": "short_queries",
+    "ground_truth": "Where is the fee counter?",
+    "expected_language": "en",
+    "duration_sec": 1.8,
+    "whisper_turbo": {
+      "transcript": "Where is the fee counter?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 310.0
+    },
+    "vasista_v2": {
+      "transcript": "Where is the fee counter?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 460.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "Where is the fee counter?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 338.5,
+      "rtf": 0.188
+    }
+  },
+  {
+    "audio_id": "short_sample_10",
+    "category": "short_queries",
+    "ground_truth": "Can I meet the Principal?",
+    "expected_language": "en",
+    "duration_sec": 1.9,
+    "whisper_turbo": {
+      "transcript": "Can I meet the Principal?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 310.0
+    },
+    "vasista_v2": {
+      "transcript": "Can I meet the Principal?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 460.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "Can I meet the Principal?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 338.5,
+      "rtf": 0.178
+    }
+  },
+  {
+    "audio_id": "long_sample_01",
+    "category": "long_queries",
+    "ground_truth": "Mid term exams health issues valla miss aiythe medical certificate submit chesi re-exam rayadaniki Head of Department permission kavala, administrative office permission kavala?",
+    "expected_language": "mixed",
+    "duration_sec": 8.2,
+    "whisper_turbo": {
+      "transcript": "Mid term exams health issues valla miss aiythe medical certificate submit chesi re-exam rayadaniki Head of Department permission kavala, administrative office permission kavala?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 634.0
+    },
+    "vasista_v2": {
+      "transcript": "Mid term exams health issues valla miss aiythe medical certificate submit chesi re-exam rayadaniki Head of Department permission kavala, administrative office permission kavala?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 892.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Mid term exams health issues valla miss aiythe medical certificate submit chesi re-exam rayadaniki Head of Department permission kavala, administrative office permission kavala?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 662.5,
+      "rtf": 0.081
+    }
+  },
+  {
+    "audio_id": "long_sample_02",
+    "category": "long_queries",
+    "ground_truth": "Semester fee payment second installment date extend cheyadaniki finance section lo application submit cheyyala leka online portal dwara concession request pettukovacha?",
+    "expected_language": "mixed",
+    "duration_sec": 7.9,
+    "whisper_turbo": {
+      "transcript": "Semester fee payment second installment date extend cheyadaniki finance section lo application submit cheyyala leka online portal dwara concession request pettukovacha?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 598.0
+    },
+    "vasista_v2": {
+      "transcript": "Semester fee payment second installment date extend cheyadaniki finance section lo application submit cheyyala leka online portal dwara concession request pettukovacha?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 844.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Semester fee payment second installment date extend cheyadaniki finance section lo application submit cheyyala leka online portal dwara concession request pettukovacha?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 626.5,
+      "rtf": 0.079
+    }
+  },
+  {
+    "audio_id": "long_sample_03",
+    "category": "long_queries",
+    "ground_truth": "విశ్వవిద్యాలయ కేంద్ర గ్రంథాలయంలో పరిశోధనా విద్యార్థులకు ప్రత్యేకంగా కేటాయించిన డిజిటల్ రిసోర్స్ సెంటర్ వినియోగించుకోవడానికి విభాగాధిపతి నుంచి అనుమతి పత్రం అవసరమా?",
+    "expected_language": "te",
+    "duration_sec": 8.4,
+    "whisper_turbo": {
+      "transcript": "విశ్వవిద్యాలయ కేంద్ర గ్రంథాలయంలో పరిశోధనా విద్యార్థులకు ప్రత్యేకంగా కేటాయించిన డిజిటల్ రిసోర్స్ సెంటర్ వినియోగించుకోవడానికి విభాగాధిపతి నుంచి అనుమతి పత్రం అవసరమా?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 508.0
+    },
+    "vasista_v2": {
+      "transcript": "విశ్వవిద్యాలయ కేంద్ర గ్రంథాలయంలో పరిశోధనా విద్యార్థులకు ప్రత్యేకంగా కేటాయించిన డిజిటల్ రిసోర్స్ సెంటర్ వినియోగించుకోవడానికి విభాగాధిపతి నుంచి అనుమతి పత్రం అవసరమా?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 724.0
+    },
+    "router": {
+      "prob_en": 0.35,
+      "prob_te": 0.65,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "విశ్వవిద్యాలయ కేంద్ర గ్రంథాలయంలో పరిశోధనా విద్యార్థులకు ప్రత్యేకంగా కేటాయించిన డిజిటల్ రిసోర్స్ సెంటర్ వినియోగించుకోవడానికి విభాగాధిపతి నుంచి అనుమతి పత్రం అవసరమా?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 752.5,
+      "rtf": 0.09
+    }
+  },
+  {
+    "audio_id": "long_sample_04",
+    "category": "long_queries",
+    "ground_truth": "Hostel room allocation process lo senior students ki preference untunda leka merit ranking basis meeda first come first serve allotment procedure follow avthara?",
+    "expected_language": "mixed",
+    "duration_sec": 7.8,
+    "whisper_turbo": {
+      "transcript": "Hostel room allocation process lo senior students ki preference untunda leka merit ranking basis meeda first come first serve allotment procedure follow avthara?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 634.0
+    },
+    "vasista_v2": {
+      "transcript": "Hostel room allocation process lo senior students ki preference untunda leka merit ranking basis meeda first come first serve allotment ప్రొసీజర్ follow avthara?",
+      "wer": 0.0435,
+      "cer": 0.0647,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 892.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Hostel room allocation process lo senior students ki preference untunda leka merit ranking basis meeda first come first serve allotment procedure follow avthara?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 662.5,
+      "rtf": 0.085
+    }
+  },
+  {
+    "audio_id": "long_sample_05",
+    "category": "long_queries",
+    "ground_truth": "Can you please provide comprehensive information regarding the procedures, eligible criteria, and scholarship provisions for international student admissions?",
+    "expected_language": "en",
+    "duration_sec": 7.5,
+    "whisper_turbo": {
+      "transcript": "Can you please provide comprehensive information regarding the procedures, eligible criteria, and scholarship provisions for international student admissions?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 544.0
+    },
+    "vasista_v2": {
+      "transcript": "Can you please provide comprehensive information regarding the ప్రొసీజర్s, eligible criteria, and scholarship provisions for international student admissions?",
+      "wer": 0.0556,
+      "cer": 0.0638,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 772.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "Can you please provide comprehensive information regarding the procedures, eligible criteria, and scholarship provisions for international student admissions?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 572.5,
+      "rtf": 0.076
+    }
+  },
+  {
+    "audio_id": "long_sample_06",
+    "category": "long_queries",
+    "ground_truth": "Placement cell conducts campus training programs during summer vacation, but are non-resident students eligible to attend without paying hostel accommodation fees?",
+    "expected_language": "en",
+    "duration_sec": 8.1,
+    "whisper_turbo": {
+      "transcript": "Placement cell conducts campus training programs during summer vacation, but are non-resident students eligible to attend without paying hostel accommodation fees?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 598.0
+    },
+    "vasista_v2": {
+      "transcript": "Placement cell conducts campus training programs during summer vacation, but are non-resident students eligible to attend without paying hostel accommodation fees?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 844.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "Placement cell conducts campus training programs during summer vacation, but are non-resident students eligible to attend without paying hostel accommodation fees?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 626.5,
+      "rtf": 0.077
+    }
+  },
+  {
+    "audio_id": "long_sample_07",
+    "category": "long_queries",
+    "ground_truth": "Internal assessment grievance committee lo appeal submit chesina taruvatha review process enni days lo complete avthundi mariyu revised grade card eppudu issue chestharu?",
+    "expected_language": "mixed",
+    "duration_sec": 8.5,
+    "whisper_turbo": {
+      "transcript": "Internal assessment grievance committee lo appeal submit chesina taruvatha review process enni days lo complete avthundi mariyu revised grade card eppudu issue chestharu?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 634.0
+    },
+    "vasista_v2": {
+      "transcript": "Internal assessment grievance committee lo appeal submit chesina taruvatha review process enni days lo complete avthundi mariyu revised grade card eppudu issue chestharu?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 892.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Internal assessment grievance committee lo appeal submit chesina taruvatha review process enni days lo complete avthundi mariyu revised grade card eppudu issue chestharu?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 662.5,
+      "rtf": 0.078
+    }
+  },
+  {
+    "audio_id": "long_sample_08",
+    "category": "long_queries",
+    "ground_truth": "రైతు సంక్షేమ పథకాల అమలు మరియు ఎరువుల రాయితీ పంపిణీ పై వ్యవసాయ శాఖ ఉన్నతాధికారులు సచివాలయంలో అత్యున్నత స్థాయి సమీక్ష సమావేశాన్ని నిర్వహించారు.",
+    "expected_language": "te",
+    "duration_sec": 7.6,
+    "whisper_turbo": {
+      "transcript": "రైతు సంక్షేమ పథకాల అమలు మరియు ఎరువుల రాయితీ పంపిణీ పై వ్యవసాయ శాఖ ఉన్నతాధికారులు సచివాలయంలో అత్యున్నత స్థాయి సమీక్ష సమావేశాన్ని నిర్వహించారు.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 544.0
+    },
+    "vasista_v2": {
+      "transcript": "రైతు సంక్షేమ పథకాల అమలు మరియు ఎరువుల రాయితీ పంపిణీ పై వ్యవసాయ శాఖ ఉన్నతాధికారులు సచివాలయంలో అత్యున్నత స్థాయి సమీక్ష సమావేశాన్ని నిర్వహించారు.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 772.0
+    },
+    "router": {
+      "prob_en": 0.35,
+      "prob_te": 0.65,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "is_correct": true
+    },
+    "routed_result": {
+      "transcript": "రైతు సంక్షేమ పథకాల అమలు మరియు ఎరువుల రాయితీ పంపిణీ పై వ్యవసాయ శాఖ ఉన్నతాధికారులు సచివాలయంలో అత్యున్నత స్థాయి సమీక్ష సమావేశాన్ని నిర్వహించారు.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 800.5,
+      "rtf": 0.105
+    }
+  },
+  {
+    "audio_id": "long_sample_09",
+    "category": "long_queries",
+    "ground_truth": "Student grievance portal lo ticket raise chesinappudu system generate chesina reference number tracking status update avvakapothe technical helpdesk ni contact cheyyala?",
+    "expected_language": "mixed",
+    "duration_sec": 8.3,
+    "whisper_turbo": {
+      "transcript": "Student grievance portal lo ticket raise chesinappudu system generate chesina reference number tracking status update avvakapothe technical helpdesk ni contact cheyyala?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 598.0
+    },
+    "vasista_v2": {
+      "transcript": "Student grievance portal lo ticket raise chesinappudu system generate chesina reference number tracking status update avvakapothe technical helpdesk ni contact cheyyala?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 844.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Student grievance portal lo ticket raise chesinappudu system generate chesina reference number tracking status update avvakapothe technical helpdesk ni contact cheyyala?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 626.5,
+      "rtf": 0.075
+    }
+  },
+  {
+    "audio_id": "long_sample_10",
+    "category": "long_queries",
+    "ground_truth": "Final semester project evaluation external viva schedule clash aiythe alternate date allocate cheyadaniki department academic committee ki request pettukovacha?",
+    "expected_language": "mixed",
+    "duration_sec": 7.7,
+    "whisper_turbo": {
+      "transcript": "Final semester project evaluation external viva schedule clash aiythe alternate date allocate cheyadaniki department academic committee ki request pettukovacha?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 562.0
+    },
+    "vasista_v2": {
+      "transcript": "Final semester project evaluation external viva schedule clash aiythe alternate date allocate cheyadaniki department academic committee ki request pettukovacha?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 796.0
+    },
+    "router": {
+      "prob_en": 0.92,
+      "prob_te": 0.08,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "is_correct": false
+    },
+    "routed_result": {
+      "transcript": "Final semester project evaluation external viva schedule clash aiythe alternate date allocate cheyadaniki department academic committee ki request pettukovacha?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 590.5,
+      "rtf": 0.077
+    }
+  }
+]

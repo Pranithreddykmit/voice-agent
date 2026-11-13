@@ -1,0 +1,143 @@
+{
+  "summary": {
+    "total_cases": 11,
+    "routing_accuracy_pct": 100.0,
+    "unnecessary_retrieval_rate_pct": 0.0,
+    "validation_pass_rate_pct": 100.0,
+    "timestamp": "2026-08-29 16:28:42"
+  },
+  "cases": [
+    {
+      "id": "kb_01_en",
+      "category": "knowledge_english",
+      "query": "What is the minimum attendance requirement for semester examinations?",
+      "expected_intent": "knowledge_query",
+      "detected_intent": "knowledge_query",
+      "routing_match": true,
+      "retrieved_chunks": 4,
+      "is_valid": true,
+      "answer_preview": "Based on the academic regulations (Source: academic_regulations.pdf, Page 1), ev...",
+      "latency_ms": 33.92
+    },
+    {
+      "id": "kb_02_te",
+      "category": "knowledge_telugu",
+      "query": "సెమిస్టర్ పరీక్షలకు హాజరు కావడానికి కనీసం ఎంత శాతం హాజరు తప్పనిసరి?",
+      "expected_intent": "knowledge_query",
+      "detected_intent": "knowledge_query",
+      "routing_match": true,
+      "retrieved_chunks": 4,
+      "is_valid": true,
+      "answer_preview": "విశ్వవిద్యాలయ అకడమిక్ నిబంధనల ప్రకారం (Source: academic_regulations.pdf, Page 1)...",
+      "latency_ms": 30.74
+    },
+    {
+      "id": "kb_03_mixed",
+      "category": "knowledge_mixed",
+      "query": "ఈ regulations ప్రకారం revaluation fee ఎంత చెల్లించాలి?",
+      "expected_intent": "knowledge_query",
+      "detected_intent": "knowledge_query",
+      "routing_match": true,
+      "retrieved_chunks": 4,
+      "is_valid": true,
+      "answer_preview": "విశ్వవిద్యాలయ అకడమిక్ నిబంధనల ప్రకారం (Source: academic_regulations.pdf, Page 1)...",
+      "latency_ms": 31.93
+    },
+    {
+      "id": "cas_01",
+      "category": "casual",
+      "query": "Hello! How are you today?",
+      "expected_intent": "casual_query",
+      "detected_intent": "casual_query",
+      "routing_match": true,
+      "retrieved_chunks": 0,
+      "is_valid": true,
+      "answer_preview": "Hello! I am your Multi-Agent Telugu Conversational AI assistant. How can I assis...",
+      "latency_ms": 0.94
+    },
+    {
+      "id": "cas_02_te",
+      "category": "casual",
+      "query": "నమస్కారం, మీరు నాకు ఎలా సహాయపడగలరు?",
+      "expected_intent": "casual_query",
+      "detected_intent": "casual_query",
+      "routing_match": true,
+      "retrieved_chunks": 0,
+      "is_valid": true,
+      "answer_preview": "నమస్కారం! నేను మీ తెలుగు మల్టీ-ఏజెంట్ AI అసిస్టెంట్‌ని. మీకు విశ్వవిద్యాలయ నిబంధ...",
+      "latency_ms": 0.91
+    },
+    {
+      "id": "tool_01_pct",
+      "category": "calculator_tool",
+      "query": "What is 15% of 240?",
+      "expected_intent": "tool_query",
+      "detected_intent": "tool_query",
+      "routing_match": true,
+      "retrieved_chunks": 0,
+      "is_valid": true,
+      "answer_preview": "According to the calculation, (15 / 100) * 240 = **36**.",
+      "latency_ms": 1.11
+    },
+    {
+      "id": "tool_02_arithmetic",
+      "category": "calculator_tool",
+      "query": "Calculate 125 * 18",
+      "expected_intent": "tool_query",
+      "detected_intent": "tool_query",
+      "routing_match": true,
+      "retrieved_chunks": 0,
+      "is_valid": true,
+      "answer_preview": "According to the calculation, 125 * 18 = **2250**.",
+      "latency_ms": 0.8
+    },
+    {
+      "id": "tool_03_expr",
+      "category": "calculator_tool",
+      "query": "Evaluate (50 + 20) / 7",
+      "expected_intent": "tool_query",
+      "detected_intent": "tool_query",
+      "routing_match": true,
+      "retrieved_chunks": 0,
+      "is_valid": true,
+      "answer_preview": "According to the calculation, (50 + 20) / 7 = **10**.",
+      "latency_ms": 0.83
+    },
+    {
+      "id": "ctx_01_turn1",
+      "category": "contextual_turn1",
+      "query": "What is the attendance requirement?",
+      "expected_intent": "knowledge_query",
+      "detected_intent": "knowledge_query",
+      "routing_match": true,
+      "retrieved_chunks": 4,
+      "is_valid": true,
+      "answer_preview": "Based on the academic regulations (Source: academic_regulations.pdf, Page 1), ev...",
+      "latency_ms": 27.37
+    },
+    {
+      "id": "ctx_02_turn2",
+      "category": "contextual_turn2",
+      "query": "What happens if I have 70%?",
+      "expected_intent": "knowledge_query",
+      "detected_intent": "knowledge_query",
+      "routing_match": true,
+      "retrieved_chunks": 4,
+      "is_valid": true,
+      "answer_preview": "Based on the academic regulations (Source: academic_regulations.pdf, Page 1), ev...",
+      "latency_ms": 27.73
+    },
+    {
+      "id": "neg_01",
+      "category": "out_of_context",
+      "query": "Who was the first emperor of the Maurya Dynasty?",
+      "expected_intent": "knowledge_query",
+      "detected_intent": "knowledge_query",
+      "routing_match": true,
+      "retrieved_chunks": 4,
+      "is_valid": true,
+      "answer_preview": "Based on the academic regulations (Source: academic_regulations.pdf, Page 1), ev...",
+      "latency_ms": 30.08
+    }
+  ]
+}

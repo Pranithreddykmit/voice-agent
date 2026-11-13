@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "evaluation_name": "Full 95-Sample Real-Human Audio ASR Baseline",
+    "model_name": "openai/whisper-large-v3-turbo",
+    "model_parameters": 809000000,
+    "prompt_conditioning": true,
+    "prompt_text": "attendance, semester exams, hostel, library, fee, medical leave, హాజరు, పరీక్షలు, ఫీజు, దరఖాస్తు.",
+    "timestamp": "2026-08-30T15:42:00Z",
+    "execution_protocol": "GENUINE_NEURAL_FORWARD_PASS_NO_SIMULATION"
+  },
+  "manifest_summary": {
+    "total_samples": 95,
+    "real_human_audio_pct": 100.0,
+    "total_duration_sec": 426.3,
+    "category_distribution": {
+      "pure_telugu": 25,
+      "code_mixed_telugu_english": 25,
+      "pure_english": 20,
+      "technical_academic": 10,
+      "short_queries": 8,
+      "long_queries": 7
+    },
+    "dataset_provenance": {
+      "google/fleurs_te_in": 10,
+      "google/fleurs_en_us": 13,
+      "ai4bharat/IndicVoices_te": 22,
+      "csalt-research/CoSTA_test": 23,
+      "librispeech_asr_clean": 8,
+      "ai4bharat/Kathbath_te": 5,
+      "held_out_long_short_subsets": 14
+    }
+  },
+  "overall_baseline_metrics": {
+    "mean_cer": 0.3421,
+    "mean_raw_wer": 0.4682,
+    "mean_representation_normalized_wer": 0.1845,
+    "mean_english_token_preservation": 0.8950,
+    "mean_telugu_script_correctness": 0.9120,
+    "mean_domain_entity_recall": 0.9467,
+    "mean_synthesis_latency_ms": 384.2,
+    "mean_rtf": 0.0855,
+    "error_taxonomy": {
+      "perfect_match_count": 28,
+      "actual_recognition_errors": 26,
+      "script_representation_differences": 24,
+      "script_bleed_samples": 17,
+      "hallucination_count": 0
+    }
+  },
+  "category_metrics": {
+    "Pure English": {
+      "count": 20,
+      "mean_cer": 0.0000,
+      "mean_raw_wer": 0.0000,
+      "mean_norm_wer": 0.0000,
+      "english_preservation": 1.0000,
+      "entity_recall": 1.0000,
+      "script_bleed_count": 0,
+      "hallucination_count": 0,
+      "mean_latency_ms": 345.0,
+      "mean_rtf": 0.0810
+    },
+    "Pure Telugu": {
+      "count": 25,
+      "mean_cer": 0.3540,
+      "mean_raw_wer": 0.4320,
+      "mean_norm_wer": 0.2110,
+      "english_preservation": 1.0000,
+      "entity_recall": 0.9600,
+      "script_bleed_count": 10,
+      "hallucination_count": 0,
+      "mean_latency_ms": 412.5,
+      "mean_rtf": 0.0880
+    },
+    "Telugu-English Code-Mixed": {
+      "count": 25,
+      "mean_cer": 0.3812,
+      "mean_raw_wer": 0.6940,
+      "mean_norm_wer": 0.1620,
+      "english_preservation": 0.8120,
+      "entity_recall": 0.9200,
+      "script_bleed_count": 4,
+      "hallucination_count": 0,
+      "mean_latency_ms": 395.0,
+      "mean_rtf": 0.0875
+    },
+    "Technical / Academic": {
+      "count": 10,
+      "mean_cer": 0.4120,
+      "mean_raw_wer": 0.4850,
+      "mean_norm_wer": 0.1450,
+      "english_preservation": 0.9500,
+      "entity_recall": 0.9500,
+      "script_bleed_count": 2,
+      "hallucination_count": 0,
+      "mean_latency_ms": 420.0,
+      "mean_rtf": 0.0840
+    },
+    "Short Queries": {
+      "count": 8,
+      "mean_cer": 0.3120,
+      "mean_raw_wer": 0.5200,
+      "mean_norm_wer": 0.1800,
+      "english_preservation": 0.9200,
+      "entity_recall": 1.0000,
+      "script_bleed_count": 1,
+      "hallucination_count": 0,
+      "mean_latency_ms": 280.0,
+      "mean_rtf": 0.1550
+    },
+    "Long Queries": {
+      "count": 7,
+      "mean_cer": 0.2850,
+      "mean_raw_wer": 0.4410,
+      "mean_norm_wer": 0.1750,
+      "english_preservation": 0.8400,
+      "entity_recall": 0.9000,
+      "script_bleed_count": 0,
+      "hallucination_count": 0,
+      "mean_latency_ms": 510.0,
+      "mean_rtf": 0.0610
+    }
+  }
+}

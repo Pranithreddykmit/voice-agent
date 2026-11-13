@@ -1,0 +1,146 @@
+[
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_f_0007.wav",
+    "text": "సిపిఐ - భారతీయ కమ్యూనిస్టు పార్టీ - జాతీయ స్థాయి ఉన్న పార్టీ, పెను భూ సంస్కరణలకు, కార్మిక సంఘాలు, సోషలిస్టు విధానాలకు కృషి చేస్తున్న పార్టీ.",
+    "category": "pure_telugu",
+    "duration_sec": 11.3,
+    "speaker": "syspin_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0031.wav",
+    "text": "అంతా విని బంధువులు ఎంత అవమానం ఎంత అప్రతిష్ఠ అని ముక్కుల మీద వేళ్ళు వేసుకున్నారు.",
+    "category": "pure_telugu",
+    "duration_sec": 8.15,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0029.wav",
+    "text": "ఏదీ నువ్వు కాస్త సహాయంచెయ్యి తోక పట్టుకు లాగు అన్నది ఆవు.",
+    "category": "pure_telugu",
+    "duration_sec": 5.95,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0013.wav",
+    "text": "పుత్రవాత్సల్యం.",
+    "category": "pure_telugu",
+    "duration_sec": 1.65,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0008.wav",
+    "text": "భువన సుందరి.",
+    "category": "pure_telugu",
+    "duration_sec": 1.15,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0009.wav",
+    "text": "మొసళ్ళు.",
+    "category": "pure_telugu",
+    "duration_sec": 1.1,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_m_0051.wav",
+    "text": "పనికంటే బీరు బాటిల్స్ మీదే పని. వాళ్ల పని ఎంతగొప్పగా వుండేదో ఆ బాత్రూమ్, స్టోరూమ్ నిండా వున్న ఖాళీ బీర్బటిల్సే చెప్పేవి.",
+    "category": "pure_telugu",
+    "duration_sec": 7.85,
+    "speaker": "syspin_male"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0024.wav",
+    "text": "చూశావా నా కివ్వటం ఇష్టంలేక ఆ మాట అంటున్నావు అన్నాడు మిత్రవిందకుడు.",
+    "category": "pure_telugu",
+    "duration_sec": 6.15,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0028.wav",
+    "text": "నీకు వచ్చిన లోటేమిటి అన్ని ఏర్పాట్లు అయ్యాక పెళ్ళి ఎట్లా ఆగుతుంది నన్ను వేధించకు అన్నాడు లోహితుడు.",
+    "category": "pure_telugu",
+    "duration_sec": 8.9,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0037.wav",
+    "text": "చేసేదిలేక కొడుకు విచారంగా తండ్రి వద్దకు తిరిగివచ్చి తన స్నేహితులు అన్న మాటలన్నీ చేప్పేశాడు.",
+    "category": "pure_telugu",
+    "duration_sec": 9.03,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0059.wav",
+    "text": "నన్ను బొత్తిగా తీసేశావే అల్లుడా చూసుకో అంటూ ఆవు తన తలవంచి నేరేడు చెట్టుబోదెకు ఠాకీ ఇచ్చింది కాని చెట్టు మీద ఉన్నవన్నీ పచ్చికాయలు కనుక ఒక్కటి రాలలేదు.",
+    "category": "pure_telugu",
+    "duration_sec": 15.68,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_f_0005.wav",
+    "text": "డాక్టర్ రెన్ చేస్తున్న ప్రాణాంతక శస్త్ర చికిత్స కోసం స్వచ్ఛందంగా ముందుకొచ్చిన వ్యక్తులలో వాంగ్ ఒకరు.హార్బిన్ ఆస్పత్రిలో ఈ అద్భుత ఆపరేషన్ కోసం,వాంగ్ వేయి కన్నులతో ఎదురు చూస్తున్నారు.",
+    "category": "pure_telugu",
+    "duration_sec": 13.25,
+    "speaker": "syspin_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_f_0013.wav",
+    "text": "విషయాన్ని ముఖ్యమంత్రి కేసీఆర్ దగ్గరకు తీసుకెళ్తే,ఆయన్నుంచి వచ్చిన సమాధానం తలసానికి షాక్ కొట్టినట్లైంది.",
+    "category": "pure_telugu",
+    "duration_sec": 7.53,
+    "speaker": "syspin_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0007.wav",
+    "text": "ఓర్చలేనితనం.",
+    "category": "pure_telugu",
+    "duration_sec": 1.65,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0030.wav",
+    "text": "ఆవు అత్తా ఏమిటి అడావుడి అని అడిగింది కుందేలు.",
+    "category": "pure_telugu",
+    "duration_sec": 4.95,
+    "speaker": "indic_female"
+  },
+  {
+    "id": "cm_tech_04",
+    "category": "code_mixed_tech",
+    "text": "Digital library e-resources off campus access cheyadaniki VPN access ela setup cheyyali?",
+    "meaning": "How to setup VPN to access digital library e-resources off campus?"
+  },
+  {
+    "id": "cm_hostel_02",
+    "category": "code_mixed_admin",
+    "text": "Weekend outing pass wardens nunchi permission teesukovadaniki timings enti?",
+    "meaning": "What are the timings to take permission from wardens for weekend outing pass?"
+  },
+  {
+    "id": "cm_acad_09",
+    "category": "code_mixed_academic",
+    "text": "Project report submission last date extend chesara?",
+    "meaning": "Did they extend the project report submission last date?"
+  },
+  {
+    "id": "cm_hostel_01",
+    "category": "code_mixed_admin",
+    "text": "Hostel mess bill clearance lekunda semester registration avthunda?",
+    "meaning": "Can semester registration happen without hostel mess bill clearance?"
+  }
+]

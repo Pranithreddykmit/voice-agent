@@ -1,0 +1,177 @@
+[
+  {
+    "id": "te_01",
+    "category": "telugu_pure",
+    "ground_truth": "కనీస హాజరు ఎంత శాతం ఉండాలి?",
+    "language": "te",
+    "description": "Basic Telugu attendance requirement query"
+  },
+  {
+    "id": "te_02",
+    "category": "telugu_pure",
+    "ground_truth": "పరీక్షల రీవాల్యుయేషన్ ఫీజు ఎంత?",
+    "language": "te",
+    "description": "Telugu revaluation fee query"
+  },
+  {
+    "id": "te_03",
+    "category": "telugu_pure",
+    "ground_truth": "సెమిస్టర్ పరీక్షలకు హాజరు నిబంధనలు ఏమిటి?",
+    "language": "te",
+    "description": "Telugu semester examination regulations"
+  },
+  {
+    "id": "te_04",
+    "category": "telugu_pure",
+    "ground_truth": "పది పాయింట్ల గ్రేడింగ్ స్కేల్ వివరాలు ఏమిటి?",
+    "language": "te",
+    "description": "Telugu 10-point grading scale query"
+  },
+  {
+    "id": "te_05",
+    "category": "telugu_pure",
+    "ground_truth": "రీకౌంటింగ్ దరఖాస్తు గడువు ఎప్పుడు ముగుస్తుంది?",
+    "language": "te",
+    "description": "Telugu recounting deadline query"
+  },
+  {
+    "id": "te_06",
+    "category": "telugu_pure",
+    "ground_truth": "వైద్య కారణాలతో హాజరు మినహాయింపు లభిస్తుందా?",
+    "language": "te",
+    "description": "Telugu medical condonation query"
+  },
+  {
+    "id": "mixed_01",
+    "category": "code_mixed",
+    "ground_truth": "attendance 75% లేకపోతే exam రాయవచ్చా?",
+    "language": "mixed",
+    "description": "Code-mixed attendance threshold query"
+  },
+  {
+    "id": "mixed_02",
+    "category": "code_mixed",
+    "ground_truth": "revaluation fee మరియు application deadline ఏమిటి?",
+    "language": "mixed",
+    "description": "Code-mixed revaluation fee and deadline"
+  },
+  {
+    "id": "mixed_03",
+    "category": "code_mixed",
+    "ground_truth": "SGPA calculation formula వివరించండి",
+    "language": "mixed",
+    "description": "Code-mixed SGPA calculation request"
+  },
+  {
+    "id": "mixed_04",
+    "category": "code_mixed",
+    "ground_truth": "internal marks minimum passing score ఎంత?",
+    "language": "mixed",
+    "description": "Code-mixed internal marks passing score"
+  },
+  {
+    "id": "mixed_05",
+    "category": "code_mixed",
+    "ground_truth": "malpractice penalties గురించి rules ఏమిటి?",
+    "language": "mixed",
+    "description": "Code-mixed malpractice penalty rules"
+  },
+  {
+    "id": "mixed_06",
+    "category": "code_mixed",
+    "ground_truth": "challenge evaluation fee refundable అవుతుందా?",
+    "language": "mixed",
+    "description": "Code-mixed challenge evaluation refundability"
+  },
+  {
+    "id": "en_01",
+    "category": "english_academic",
+    "ground_truth": "What is the minimum attendance requirement for semester examinations?",
+    "language": "en",
+    "description": "English minimum attendance query"
+  },
+  {
+    "id": "en_02",
+    "category": "english_academic",
+    "ground_truth": "What is the condonation fee for attendance shortage?",
+    "language": "en",
+    "description": "English condonation fee query"
+  },
+  {
+    "id": "en_03",
+    "category": "english_academic",
+    "ground_truth": "How is Cumulative Grade Point Average calculated?",
+    "language": "en",
+    "description": "English CGPA formula query"
+  },
+  {
+    "id": "en_04",
+    "category": "english_academic",
+    "ground_truth": "What are the penalties for exam malpractice?",
+    "language": "en",
+    "description": "English exam malpractice penalties"
+  },
+  {
+    "id": "en_05",
+    "category": "english_academic",
+    "ground_truth": "What is the revaluation fee per theory subject?",
+    "language": "en",
+    "description": "English revaluation fee per subject"
+  },
+  {
+    "id": "en_06",
+    "category": "english_academic",
+    "ground_truth": "What is the minimum passing percentage for internal assessment?",
+    "language": "en",
+    "description": "English internal assessment passing percentage"
+  },
+  {
+    "id": "tool_01",
+    "category": "arithmetic_tool",
+    "ground_truth": "What is 15% of 240?",
+    "language": "en",
+    "description": "Percentage calculation query"
+  },
+  {
+    "id": "tool_02",
+    "category": "arithmetic_tool",
+    "ground_truth": "Calculate 125 * 18",
+    "language": "en",
+    "description": "Multiplication calculation query"
+  },
+  {
+    "id": "tool_03",
+    "category": "arithmetic_tool",
+    "ground_truth": "50 + 20 divided by 7 ఎంత?",
+    "language": "mixed",
+    "description": "Mixed arithmetic calculation query"
+  },
+  {
+    "id": "tool_04",
+    "category": "arithmetic_tool",
+    "ground_truth": "100 - 45",
+    "language": "en",
+    "description": "Subtraction arithmetic calculation"
+  },
+  {
+    "id": "casual_01",
+    "category": "casual_speech",
+    "ground_truth": "నమస్కారం! మీరు ఎలా ఉన్నారు?",
+    "language": "te",
+    "description": "Telugu casual greeting"
+  },
+  {
+    "id": "casual_02",
+    "category": "casual_speech",
+    "ground_truth": "Hello, how can you help me today?",
+    "language": "en",
+    "description": "English casual greeting"
+  },
+  {
+    "id": "casual_03",
+    "category": "casual_speech",
+    "ground_truth": "ధన్యవాదాలు",
+    "language": "te",
+    "description": "Telugu thank you expression"
+  }
+]

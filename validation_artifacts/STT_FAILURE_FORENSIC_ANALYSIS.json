@@ -1,0 +1,401 @@
+{
+  "metadata": {
+    "title": "Forensic STT Diagnostic & Language Detection Analysis",
+    "model_name": "openai/whisper-large-v3-turbo",
+    "device": "mps",
+    "timestamp": "2026-08-30T16:05:24Z",
+    "total_diagnosed_recordings": 10
+  },
+  "diagnostic_evaluations": [
+    {
+      "id": "diag_te_01_syspin_real",
+      "category": "Pure Telugu",
+      "type": "Real Studio Human",
+      "wav_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/raw_syspin/syspin_f_0003.wav",
+      "ref_transcript": "స్టోలన్లు, వాలిస్నేరియా, స్ట్రాబేరీ, లసునాలు, ఉల్లి, కొమ్ము...",
+      "signal_metrics": {
+        "raw_byte_size": 815864,
+        "orig_sample_rate": 48000,
+        "orig_channels": 1,
+        "preprocessed_sr": 16000,
+        "preprocessed_channels": 1,
+        "duration_sec": 8.498,
+        "peak_amplitude": 0.323,
+        "rms_amplitude": 0.0389,
+        "dbfs_level": -28.21,
+        "clipping_sample_count": 0,
+        "is_silent": false
+      },
+      "detected_language_probabilities": {
+        "<|ta|>": 0.4616,
+        "<|kn|>": 0.0885,
+        "<|th|>": 0.0481,
+        "<|te|>": 0.0358,
+        "<|sa|>": 0.0328,
+        "<|gu|>": 0.0262,
+        "<|la|>": 0.0258,
+        "<|cy|>": 0.0221
+      },
+      "predicted_top_language": "<|ta|>",
+      "predicted_top_language_prob": 0.4616,
+      "decoding_conditions": {
+        "condition_A_production_auto_with_prompt": "स्टోलन्लு, వాలి స్నేరియ, స్ట్రాబేర్రి, లసునాలు, ఉల్లి, కొంములు, పసుపు, దుంప, బంగళదుంప.",
+        "condition_B_explicit_telugu": "स्टोलनलు, వాలి స్నేరియ, స్ట్రాబేర్రి, లసునాలు, ఉల్లి, కొంములు, పసుపు, దుంప, బంగాళదుంప",
+        "condition_C_explicit_english": "Stolenle, Wallis, Strawberry, Lassanal, Ullis, Kommul, Paspu, Dumpa, Bungal Dumpa",
+        "condition_D_auto_no_prompt": "ச்டோலன்லு வாலி ச்னேரிய ச்ட்ராபெரி லசுனாலு உல்லி கொம்முலு பசுப்பு தும்ப பங்கால தும்ப",
+        "condition_E_auto_with_academic_prompt": "स्टోलन्लு, వాలి స్నేరియ, స్ట్రాబేర్రి, లసునాలు, ఉల్లి, కొంములు, పసుపు, దుంప, బంగళదుంప."
+      }
+    },
+    {
+      "id": "diag_te_02_indictts_real",
+      "category": "Pure Telugu",
+      "type": "Real Studio Human",
+      "wav_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/raw_indictts/indictts_f_0003.wav",
+      "ref_transcript": "ఆవుతో అడావుడి.",
+      "signal_metrics": {
+        "raw_byte_size": 57712,
+        "orig_sample_rate": 16000,
+        "orig_channels": 1,
+        "preprocessed_sr": 16000,
+        "preprocessed_channels": 1,
+        "duration_sec": 1.802,
+        "peak_amplitude": 0.6499,
+        "rms_amplitude": 0.1126,
+        "dbfs_level": -18.97,
+        "clipping_sample_count": 0,
+        "is_silent": false
+      },
+      "detected_language_probabilities": {
+        "<|ta|>": 0.5614,
+        "<|kn|>": 0.0556,
+        "<|th|>": 0.0508,
+        "<|gu|>": 0.0348,
+        "<|sa|>": 0.0326,
+        "<|cy|>": 0.0301,
+        "<|la|>": 0.02,
+        "<|te|>": 0.0161
+      },
+      "predicted_top_language": "<|ta|>",
+      "predicted_top_language_prob": 0.5614,
+      "decoding_conditions": {
+        "condition_A_production_auto_with_prompt": "ఆవుతో అడావుడి.",
+        "condition_B_explicit_telugu": "ఆవుతో అడావుడి",
+        "condition_C_explicit_english": "That's the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one that is the one",
+        "condition_D_auto_no_prompt": "ஆவுதோ அடாவுடி",
+        "condition_E_auto_with_academic_prompt": "ఆవుతో అడావుడి."
+      }
+    },
+    {
+      "id": "diag_te_03_syspin_admissions",
+      "category": "Pure Telugu",
+      "type": "Real Studio Human",
+      "wav_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/raw_syspin/syspin_f_0006.wav",
+      "ref_transcript": "అయితే, అమెరికా ప్రభుత్వం కారణంగా, హితేశ్ పోటీ చేయడానికి సాంకేతిక కారణాలు ఎదురయ్యాయి.",
+      "signal_metrics": {
+        "raw_byte_size": 708652,
+        "orig_sample_rate": 48000,
+        "orig_channels": 1,
+        "preprocessed_sr": 16000,
+        "preprocessed_channels": 1,
+        "duration_sec": 7.381,
+        "peak_amplitude": 0.3255,
+        "rms_amplitude": 0.0382,
+        "dbfs_level": -28.36,
+        "clipping_sample_count": 0,
+        "is_silent": false
+      },
+      "detected_language_probabilities": {
+        "<|ta|>": 0.219,
+        "<|gu|>": 0.0933,
+        "<|kn|>": 0.0862,
+        "<|th|>": 0.058,
+        "<|mr|>": 0.0451,
+        "<|hi|>": 0.0412,
+        "<|bn|>": 0.0407,
+        "<|la|>": 0.0395
+      },
+      "predicted_top_language": "<|ta|>",
+      "predicted_top_language_prob": 0.219,
+      "decoding_conditions": {
+        "condition_A_production_auto_with_prompt": "आयते, అమెరికా పవ్రసత్వం కారణంగా, హితేశ పోటి చేయడానకి, సాంకేతిక సమస్యలు అడ్డుగా వచ్చే.",
+        "condition_B_explicit_telugu": "आయతే అమెరికా పావ్రసత్వం కారణంగా హితేశ పోటి చేయడానకి సాంకేతిక సమస్యలు అడ్డుగా వచ్చాయి",
+        "condition_C_explicit_english": "I ameerika Pauro Sathwang Kaaaranaanaga Hitesh Poti Chayadanianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianianiani",
+        "condition_D_auto_no_prompt": "அய்தே அமெரிகா போர சத்வங் காரணங்க हித்தேஷ் போடி செய்யடானுகி சாங்கேதிக சமச்யலும் அட்டுகா வச்சை",
+        "condition_E_auto_with_academic_prompt": "आयते, అమెరికా పవ్రసత్వం కారణంగా, హితేశ పోటి చేయడానకి, సాంకేతిక సమస్యలు అడ్డుగా వచ్చే."
+      }
+    },
+    {
+      "id": "diag_te_04_greeting_norm",
+      "category": "Pure Telugu",
+      "type": "Recorded Voice",
+      "wav_path": "/Users/sathvikreddy/Documents/projects/tel/validation_artifacts/stt_te_norm.wav",
+      "ref_transcript": "నమస్కారం! మీరు ఎలా ఉన్నారు?",
+      "signal_metrics": {
+        "raw_byte_size": 187720,
+        "orig_sample_rate": 16000,
+        "orig_channels": 1,
+        "preprocessed_sr": 16000,
+        "preprocessed_channels": 1,
+        "duration_sec": 2.869,
+        "peak_amplitude": 0.4989,
+        "rms_amplitude": 0.1455,
+        "dbfs_level": -16.74,
+        "clipping_sample_count": 0,
+        "is_silent": false
+      },
+      "detected_language_probabilities": {
+        "<|la|>": 0.1587,
+        "<|gu|>": 0.1119,
+        "<|ht|>": 0.1116,
+        "<|mr|>": 0.1106,
+        "<|be|>": 0.0745,
+        "<|mk|>": 0.0486,
+        "<|ta|>": 0.0392,
+        "<|cy|>": 0.0386
+      },
+      "predicted_top_language": "<|la|>",
+      "predicted_top_language_prob": 0.1587,
+      "decoding_conditions": {
+        "condition_A_production_auto_with_prompt": "कలా స్యల లఈబ్రరి తెరి చి సమయాలు ఏమిటి.",
+        "condition_B_explicit_telugu": "कला स्याल लाइब्रारी తెరిచి సమాయాలు ఏమిటి?",
+        "condition_C_explicit_english": "Colorcell library 3.0 is available in the community.",
+        "condition_D_auto_no_prompt": "Kala Sala Library તેરીચી સમાય આલુ એ મીટી",
+        "condition_E_auto_with_academic_prompt": "कలా స్యల లఈబ్రరి తెరి చి సమయాలు ఏమిటి."
+      }
+    },
+    {
+      "id": "diag_te_05_greeting_short",
+      "category": "Pure Telugu",
+      "type": "Recorded Voice",
+      "wav_path": "/Users/sathvikreddy/Documents/projects/tel/validation_artifacts/stt_te_short.wav",
+      "ref_transcript": "నమస్కారం, సహాయం కావాలి.",
+      "signal_metrics": {
+        "raw_byte_size": 128684,
+        "orig_sample_rate": 16000,
+        "orig_channels": 1,
+        "preprocessed_sr": 16000,
+        "preprocessed_channels": 1,
+        "duration_sec": 1.947,
+        "peak_amplitude": 0.4871,
+        "rms_amplitude": 0.1529,
+        "dbfs_level": -16.31,
+        "clipping_sample_count": 0,
+        "is_silent": false
+      },
+      "detected_language_probabilities": {
+        "<|ta|>": 0.2934,
+        "<|hi|>": 0.0841,
+        "<|la|>": 0.0734,
+        "<|th|>": 0.069,
+        "<|cy|>": 0.0684,
+        "<|mk|>": 0.0302,
+        "<|gu|>": 0.0284,
+        "<|be|>": 0.0247
+      },
+      "predicted_top_language": "<|ta|>",
+      "predicted_top_language_prob": 0.2934,
+      "decoding_conditions": {
+        "condition_A_production_auto_with_prompt": "नమस्कारम, మీరు యలా హున్నరు.",
+        "condition_B_explicit_telugu": "नमस्कारम मीरు యలా హుననరు",
+        "condition_C_explicit_english": "Namaskaram, me you are the one who is.",
+        "condition_D_auto_no_prompt": "நமச்காரம் மீரு யலா हுன்னரு",
+        "condition_E_auto_with_academic_prompt": "नమस्कारम, మీరు యలా హున్నరు."
+      }
+    },
+    {
+      "id": "diag_mixed_01_attendance",
+      "category": "Code-Mixed",
+      "type": "Recorded Voice",
+      "wav_path": "/Users/sathvikreddy/Documents/projects/tel/validation_artifacts/e2e_query_attendance.wav",
+      "ref_transcript": "Semester exams ki minimum attendance entha undali?",
+      "signal_metrics": {
+        "raw_byte_size": 137192,
+        "orig_sample_rate": 16000,
+        "orig_channels": 1,
+        "preprocessed_sr": 16000,
+        "preprocessed_channels": 1,
+        "duration_sec": 2.08,
+        "peak_amplitude": 0.5639,
+        "rms_amplitude": 0.1399,
+        "dbfs_level": -17.08,
+        "clipping_sample_count": 0,
+        "is_silent": false
+      },
+      "detected_language_probabilities": {
+        "<|en|>": 0.7597,
+        "<|hi|>": 0.0486,
+        "<|de|>": 0.0164,
+        "<|ko|>": 0.0158,
+        "<|ur|>": 0.0141,
+        "<|fr|>": 0.0118,
+        "<|id|>": 0.0114,
+        "<|vi|>": 0.0087
+      },
+      "predicted_top_language": "<|en|>",
+      "predicted_top_language_prob": 0.7597,
+      "decoding_conditions": {
+        "condition_A_production_auto_with_prompt": "College Attendance Rules EMT",
+        "condition_B_explicit_telugu": "College Attendance Rules EMT",
+        "condition_C_explicit_english": "College attendance rules EMT.",
+        "condition_D_auto_no_prompt": "College attendance rules EMT.",
+        "condition_E_auto_with_academic_prompt": "College Attendance Rules EMT"
+      }
+    },
+    {
+      "id": "diag_mixed_02_medical_leave",
+      "category": "Code-Mixed",
+      "type": "Recorded Voice",
+      "wav_path": "/Users/sathvikreddy/Documents/projects/tel/validation_artifacts/benchmark_test_set/C4_mixed_medical_leave.wav",
+      "ref_transcript": "Naku medical leave apply cheyyali, procedure enti?",
+      "signal_metrics": {
+        "raw_byte_size": 110764,
+        "orig_sample_rate": 16000,
+        "orig_channels": 1,
+        "preprocessed_sr": 16000,
+        "preprocessed_channels": 1,
+        "duration_sec": 3.46,
+        "peak_amplitude": 0.8352,
+        "rms_amplitude": 0.1457,
+        "dbfs_level": -16.73,
+        "clipping_sample_count": 0,
+        "is_silent": false
+      },
+      "detected_language_probabilities": {
+        "<|en|>": 0.8951,
+        "<|id|>": 0.0194,
+        "<|tl|>": 0.0092,
+        "<|ru|>": 0.0083,
+        "<|ko|>": 0.0079,
+        "<|vi|>": 0.007,
+        "<|de|>": 0.0055,
+        "<|ar|>": 0.0051
+      },
+      "predicted_top_language": "<|en|>",
+      "predicted_top_language_prob": 0.8951,
+      "decoding_conditions": {
+        "condition_A_production_auto_with_prompt": "NACU Medical Leave Apply CHILE. Procedure NT.",
+        "condition_B_explicit_telugu": "Naku medical leave apply chi iale. Procedure in T.",
+        "condition_C_explicit_english": "NACU Medical Leave Apply CHILE. Procedure NT.",
+        "condition_D_auto_no_prompt": "NACU Medical Leave Apply CHILE. Procedure NT.",
+        "condition_E_auto_with_academic_prompt": "NACU Medical Leave Apply CHILE. Procedure NT."
+      }
+    },
+    {
+      "id": "diag_mixed_03_library_card",
+      "category": "Code-Mixed",
+      "type": "Recorded Voice",
+      "wav_path": "/Users/sathvikreddy/Documents/projects/tel/validation_artifacts/benchmark_test_set/C3_mixed_library_docs.wav",
+      "ref_transcript": "Naku library card apply cheyadaniki em documents kavali?",
+      "signal_metrics": {
+        "raw_byte_size": 124092,
+        "orig_sample_rate": 16000,
+        "orig_channels": 1,
+        "preprocessed_sr": 16000,
+        "preprocessed_channels": 1,
+        "duration_sec": 3.877,
+        "peak_amplitude": 0.8693,
+        "rms_amplitude": 0.1529,
+        "dbfs_level": -16.31,
+        "clipping_sample_count": 0,
+        "is_silent": false
+      },
+      "detected_language_probabilities": {
+        "<|hi|>": 0.3238,
+        "<|en|>": 0.1955,
+        "<|ur|>": 0.0624,
+        "<|id|>": 0.0454,
+        "<|th|>": 0.0333,
+        "<|tl|>": 0.0321,
+        "<|vi|>": 0.0254,
+        "<|cy|>": 0.0228
+      },
+      "predicted_top_language": "<|hi|>",
+      "predicted_top_language_prob": 0.3238,
+      "decoding_conditions": {
+        "condition_A_production_auto_with_prompt": "नాకు లిబ్రరి కార్డ అప్లి చిల్ని కావాలి?",
+        "condition_B_explicit_telugu": "Naku library card apply qi adaniki em documents ka wali?",
+        "condition_C_explicit_english": "Naku library card apply to Daniki M documents ka wali?",
+        "condition_D_auto_no_prompt": "नकू लाइबररी कार्ड अप्लाइची अदानिकी एम डोकुमेंट्स का वाली?",
+        "condition_E_auto_with_academic_prompt": "नాకు లిబ్రరి కార్డ అప్లి చిల్ని కావాలి?"
+      }
+    },
+    {
+      "id": "diag_mixed_04_wifi_it",
+      "category": "Code-Mixed",
+      "type": "Recorded Voice",
+      "wav_path": "/Users/sathvikreddy/Documents/projects/tel/validation_artifacts/benchmark_test_set/D2_mixed_wifi_login.wav",
+      "ref_transcript": "కాలేజీ క్యాంపస్ లో వైఫై పాస్వర్డ్ మార్చడం ఎలా?",
+      "signal_metrics": {
+        "raw_byte_size": 105974,
+        "orig_sample_rate": 16000,
+        "orig_channels": 1,
+        "preprocessed_sr": 16000,
+        "preprocessed_channels": 1,
+        "duration_sec": 3.31,
+        "peak_amplitude": 0.5759,
+        "rms_amplitude": 0.1359,
+        "dbfs_level": -17.34,
+        "clipping_sample_count": 0,
+        "is_silent": false
+      },
+      "detected_language_probabilities": {
+        "<|ta|>": 0.3067,
+        "<|hi|>": 0.1676,
+        "<|cy|>": 0.1283,
+        "<|la|>": 0.0509,
+        "<|th|>": 0.0447,
+        "<|sr|>": 0.0297,
+        "<|en|>": 0.0237,
+        "<|ur|>": 0.022
+      },
+      "predicted_top_language": "<|ta|>",
+      "predicted_top_language_prob": 0.3067,
+      "decoding_conditions": {
+        "condition_A_production_auto_with_prompt": "College campus లో విటై పాస్వర్ద మార్చడం యలా,",
+        "condition_B_explicit_telugu": "कॉलेजी కంపస్ లో విటై పాస్వర్ద్ మార్చడం యలా?",
+        "condition_C_explicit_english": "College campus law vital password mark chadam yela?",
+        "condition_D_auto_no_prompt": "கோலிஜி கேம்பச் லோ வைடை பாச்வர்த் மார்ச்சம் ஏலா",
+        "condition_E_auto_with_academic_prompt": "College campus లో విటై పాస్వర్ద మార్చడం యలా,"
+      }
+    },
+    {
+      "id": "diag_mixed_05_revaluation",
+      "category": "Code-Mixed",
+      "type": "Recorded Voice",
+      "wav_path": "/Users/sathvikreddy/Documents/projects/tel/validation_artifacts/stt_mixed_2.wav",
+      "ref_transcript": "Exam fee deadline eppudu untundi?",
+      "signal_metrics": {
+        "raw_byte_size": 252192,
+        "orig_sample_rate": 16000,
+        "orig_channels": 1,
+        "preprocessed_sr": 16000,
+        "preprocessed_channels": 1,
+        "duration_sec": 3.877,
+        "peak_amplitude": 0.8686,
+        "rms_amplitude": 0.1528,
+        "dbfs_level": -16.32,
+        "clipping_sample_count": 0,
+        "is_silent": false
+      },
+      "detected_language_probabilities": {
+        "<|hi|>": 0.3509,
+        "<|en|>": 0.1651,
+        "<|ur|>": 0.066,
+        "<|id|>": 0.0507,
+        "<|th|>": 0.0324,
+        "<|tl|>": 0.0311,
+        "<|cy|>": 0.0272,
+        "<|sr|>": 0.0234
+      },
+      "predicted_top_language": "<|hi|>",
+      "predicted_top_language_prob": 0.3509,
+      "decoding_conditions": {
+        "condition_A_production_auto_with_prompt": "नాకు లిబ్రరి కార్డ అప్లి చిల్ని కావాలి?",
+        "condition_B_explicit_telugu": "Naku library card apply qi adaniki em documents ka wali?",
+        "condition_C_explicit_english": "Naku library card apply to Daniki M documents ka wali?",
+        "condition_D_auto_no_prompt": "नकू लाइबररी कार्ड अप्लाइची अदानिकी एम डोकुमेंट्स का वाली?",
+        "condition_E_auto_with_academic_prompt": "नాకు లిబ్రరి కార్డ అప్లి చిల్ని కావాలి?"
+      }
+    }
+  ]
+}

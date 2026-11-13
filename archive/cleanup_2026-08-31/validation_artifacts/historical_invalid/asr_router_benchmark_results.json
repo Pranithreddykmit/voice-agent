@@ -1,0 +1,8 @@
+{
+  "total_samples": 100,
+  "router_accuracy_pct": 100.0,
+  "dual_asr_wer_pct": 3.47,
+  "dual_asr_cer_pct": 3.89,
+  "avg_latency_ms": 582.4,
+  "script_bleed_pct": 0.0
+}

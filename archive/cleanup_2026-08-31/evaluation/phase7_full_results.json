@@ -1,0 +1,90 @@
+{
+  "evaluation_name": "Phase 7 Full 120-Sentence Domain Benchmark Evaluation",
+  "timestamp": "2026-08-29T23:54:50Z",
+  "evaluation_integrity": "live_audio_whisper",
+  "hardware": "Google Colab NVIDIA Tesla T4 GPU",
+  "checkpoint_evaluated": "models/indicf5_telugu_lora/adapter_model.safetensors (Epoch 44 Best Checkpoint)",
+  "evaluation_set": {
+    "total_sentences": 120,
+    "categories": [
+      "general",
+      "academic",
+      "technical_codemixed",
+      "numeric_percentage"
+    ],
+    "total_audio_duration_sec": 607.75,
+    "sample_rate_hz": 24000
+  },
+  "overall_metrics": {
+    "baseline_cer": 0.0536,
+    "lora_cer": 0.0181,
+    "cer_relative_reduction_pct": 66.32,
+    "baseline_wer": 0.1786,
+    "lora_wer": 0.1325,
+    "wer_relative_reduction_pct": 25.8,
+    "baseline_terminology_accuracy_pct": 75.0,
+    "lora_terminology_accuracy_pct": 88.18,
+    "terms_evaluated_count": 220,
+    "baseline_terms_correct": 165,
+    "lora_terms_correct": 194,
+    "latency": {
+      "baseline_avg_sec": 0.688,
+      "baseline_median_sec": 0.68,
+      "baseline_max_sec": 0.905,
+      "lora_avg_sec": 0.703,
+      "lora_median_sec": 0.695,
+      "lora_max_sec": 0.925,
+      "overhead_pct": 2.2
+    }
+  },
+  "category_metrics": {
+    "general": {
+      "sample_count": 30,
+      "baseline_cer": 0.0223,
+      "lora_cer": 0.0223,
+      "baseline_wer": 0.1536,
+      "lora_wer": 0.1536,
+      "baseline_term_accuracy": 100.0,
+      "lora_term_accuracy": 100.0,
+      "terms_evaluated": 60,
+      "baseline_terms_correct": 60,
+      "lora_terms_correct": 60
+    },
+    "academic": {
+      "sample_count": 35,
+      "baseline_cer": 0.0291,
+      "lora_cer": 0.0156,
+      "baseline_wer": 0.1497,
+      "lora_wer": 0.1239,
+      "baseline_term_accuracy": 95.45,
+      "lora_term_accuracy": 100.0,
+      "terms_evaluated": 44,
+      "baseline_terms_correct": 42,
+      "lora_terms_correct": 44
+    },
+    "technical_codemixed": {
+      "sample_count": 35,
+      "baseline_cer": 0.0763,
+      "lora_cer": 0.0147,
+      "baseline_wer": 0.1828,
+      "lora_wer": 0.1142,
+      "baseline_term_accuracy": 45.57,
+      "lora_term_accuracy": 67.09,
+      "terms_evaluated": 79,
+      "baseline_terms_correct": 36,
+      "lora_terms_correct": 53
+    },
+    "numeric_percentage": {
+      "sample_count": 20,
+      "baseline_cer": 0.1039,
+      "lora_cer": 0.0219,
+      "baseline_wer": 0.259,
+      "lora_wer": 0.1478,
+      "baseline_term_accuracy": 72.97,
+      "lora_term_accuracy": 100.0,
+      "terms_evaluated": 37,
+      "baseline_terms_correct": 27,
+      "lora_terms_correct": 37
+    }
+  }
+}

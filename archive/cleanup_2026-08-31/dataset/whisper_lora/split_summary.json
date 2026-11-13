@@ -1,0 +1,10 @@
+{
+  "quarantined_benchmark_items": 30,
+  "total_train_samples": 121,
+  "total_val_samples": 15,
+  "total_test_samples": 19,
+  "pure_telugu_samples": 138,
+  "code_mixed_samples": 17,
+  "split_ratio": "80/10/10",
+  "leakage_free": true
+}

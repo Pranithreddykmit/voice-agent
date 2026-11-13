@@ -1,0 +1,1535 @@
+[
+  {
+    "id": "eval_te_001",
+    "category": "pure_telugu_formal",
+    "ref_text": "ఆంధ్రప్రదేశ్ మరియు తెలంగాణ రాష్ట్రాల మధ్య నదీ జలాల పంపిణీ పై కీలక సమావేశం జరిగింది.",
+    "duration_sec": 5.0,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_002",
+    "category": "pure_telugu_formal",
+    "ref_text": "వాతావరణ శాఖ విడుదల చేసిన సమాచారం ప్రకారం రాబోయే మూడు రోజుల్లో భారీ వర్షాలు కురిసే అవకాశం ఉంది.",
+    "duration_sec": 5.6,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_003",
+    "category": "pure_telugu_formal",
+    "ref_text": "రక్త ప్రసరణ వ్యవస్థలో గుండె యొక్క ప్రధాన పాత్ర ఏమిటో వివరంగా తెలపండి.",
+    "duration_sec": 6.2,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_004",
+    "category": "pure_telugu_formal",
+    "ref_text": "జాతీయ స్థాయి విద్యా మండలి పాఠశాల స్థాయి సిలబస్ లో మార్పులు చేస్తూ నోటిఫికేషన్ విడుదల చేసింది.",
+    "duration_sec": 6.8,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_005",
+    "category": "pure_telugu_formal",
+    "ref_text": "వ్యవసాయ రంగంలో ఆధునిక సాంకేతిక పరిజ్ఞానం వినియోగం రైతులకు ఎంతగానో లాభదాయకం.",
+    "duration_sec": 5.0,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_006",
+    "category": "pure_telugu_formal",
+    "ref_text": "గ్రామీణ ప్రాంతాలలో స్వచ్ఛమైన తాగునీటి సరఫరా కోసం ప్రభుత్వం ప్రత్యేక నిధులు మంజూరు చేసింది.",
+    "duration_sec": 5.6,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_007",
+    "category": "pure_telugu_formal",
+    "ref_text": "సౌర విద్యుత్ ఉత్పాదన ద్వారా పర్యావరణ పరిరక్షణ మరియు విద్యుత్ కొరత నివారణ సాధ్యమవుతుంది.",
+    "duration_sec": 6.2,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_008",
+    "category": "pure_telugu_formal",
+    "ref_text": "పురాతన దేవాలయాల శిల్పకళా వైభవం భారతీయ సంస్కృతికి ప్రతిబింబం.",
+    "duration_sec": 6.8,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_009",
+    "category": "pure_telugu_formal",
+    "ref_text": "రైల్వే శాఖ ఆధ్వర్యంలో నూతన సూపర్ ఫాస్ట్ ఎక్స్ ప్రెస్ రైళ్ల ప్రారంభోత్సవం జరిగింది.",
+    "duration_sec": 5.0,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_010",
+    "category": "pure_telugu_formal",
+    "ref_text": "వైద్య ఆరోగ్య రంగంలో డిజిటల్ సేవల విస్తరణ రోగులకు వేగవంతమైన చికిత్స అందిస్తుంది.",
+    "duration_sec": 5.6,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_011",
+    "category": "pure_telugu_formal",
+    "ref_text": "భారత రాజ్యాంగం ప్రకారం ప్రతి పౌరుడికి ప్రాథమిక హక్కులు కల్పించబడ్డాయి.",
+    "duration_sec": 6.2,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_012",
+    "category": "pure_telugu_formal",
+    "ref_text": "అంతరిక్ష పరిశోధన సంస్థ ఇస్రో నూతన ఉపగ్రహ ప్రయోగాన్ని విజయవంతంగా పూర్తి చేసింది.",
+    "duration_sec": 6.8,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_013",
+    "category": "pure_telugu_formal",
+    "ref_text": "పర్యావరణ కాలుష్యాన్ని అరికట్టడానికి ప్లాస్టిక్ వినియోగాన్ని తగ్గించడం చాలా అవసరం.",
+    "duration_sec": 5.0,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_014",
+    "category": "pure_telugu_formal",
+    "ref_text": "ఆధునిక సమాజంలో మహిళా సాధికారత మరియు ఆర్థిక స్వావలంబన అత్యంత ప్రాధాన్యత కలిగిన అంశాలు.",
+    "duration_sec": 5.6,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_015",
+    "category": "pure_telugu_formal",
+    "ref_text": "ప్రాచీన తెలుగు సాహిత్యంలో నన్నయ తిక్కన ఎర్రన కవిత్రయం ప్రముఖ స్థానం పొందారు.",
+    "duration_sec": 6.2,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_016",
+    "category": "pure_telugu_formal",
+    "ref_text": "గ్రామీణ ప్రాంతాలలో స్వయం సహాయక సంఘాలు మహిళల ఆర్థికాభివృద్ధికి ఎంతగానో తోడ్పడుతున్నాయి.",
+    "duration_sec": 6.8,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_017",
+    "category": "pure_telugu_formal",
+    "ref_text": "డిజిటల్ బ్యాంకింగ్ సేవల ద్వారా ప్రజలు సులభంగా లావాదేవీలు నిర్వహించగలుగుతున్నారు.",
+    "duration_sec": 5.0,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_018",
+    "category": "pure_telugu_formal",
+    "ref_text": "వాతావరణ సమతుల్యత దెబ్బతినడం వలన రుతుపవనాల గమనంలో మార్పులు సంభవిస్తున్నాయి.",
+    "duration_sec": 5.6,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_019",
+    "category": "pure_telugu_formal",
+    "ref_text": "ప్రజా రవాణా వ్యవస్థను బలోపేతం చేయడం ద్వారా నగరాల్లో ట్రాఫిక్ సమస్యలను నివారించవచ్చు.",
+    "duration_sec": 6.2,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_020",
+    "category": "pure_telugu_formal",
+    "ref_text": "సహజ సిద్ధమైన సేంద్రీయ వ్యవసాయ పద్ధతులు భూసారాన్ని కాపాడటంలో కీలక పాత్ర పోషిస్తాయి.",
+    "duration_sec": 6.8,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_021",
+    "category": "pure_telugu_formal",
+    "ref_text": "కళాశాలల్లో నైపుణ్యాభివృద్ధి కార్యక్రమాలు విద్యార్థుల ఉపాధి అవకాశాలను మెరుగుపరుస్తాయి.",
+    "duration_sec": 5.0,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_022",
+    "category": "pure_telugu_formal",
+    "ref_text": "రక్తదానం చేయడం ద్వారా ఆపదలో ఉన్న ఎంతోమంది ప్రాణాలను కాపాడవచ్చు.",
+    "duration_sec": 5.6,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_023",
+    "category": "pure_telugu_formal",
+    "ref_text": "జాతీయ రహదారుల విస్తరణతో అంతర్రాష్ట్ర రవాణా మరియు వ్యాపార వాణిజ్యాలు వేగవంతమవుతాయి.",
+    "duration_sec": 6.2,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_024",
+    "category": "pure_telugu_formal",
+    "ref_text": "సమాచార సాంకేతిక రంగం భారతదేశ ఆర్థిక వ్యవస్థకు వెన్నెముకగా నిలుస్తోంది.",
+    "duration_sec": 6.8,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_025",
+    "category": "pure_telugu_formal",
+    "ref_text": "నీటి వనరుల సంరక్షణ మరియు ఇంకుడు గుంతల నిర్మాణం భూగర్భ జల మట్టాన్ని పెంచుతాయి.",
+    "duration_sec": 5.0,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_026",
+    "category": "pure_telugu_formal",
+    "ref_text": "పాఠశాలల్లో మధ్యాహ్న భోజన పథకం విద్యార్థుల హాజరు శాతాన్ని గణనీయంగా పెంచింది.",
+    "duration_sec": 5.6,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_027",
+    "category": "pure_telugu_formal",
+    "ref_text": "సాంప్రదాయ నృత్య రీతులు కూచిపూడి మరియు భరతనాట్యం ప్రపంచ ప్రసిద్ధి గాంచాయి.",
+    "duration_sec": 6.2,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_028",
+    "category": "pure_telugu_formal",
+    "ref_text": "టెలిమెడిసిన్ విధానం ద్వారా మారుమూల గ్రామాల ప్రజలకు నిపుణులైన వైద్యుల సలహాలు అందుతున్నాయి.",
+    "duration_sec": 6.8,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_029",
+    "category": "pure_telugu_formal",
+    "ref_text": "పునరుత్పాదక ఇంధన వనరుల వినియోగం కార్బన్ ఉద్గారాలను తగ్గించడానికి దోహదపడుతుంది.",
+    "duration_sec": 5.0,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_030",
+    "category": "pure_telugu_formal",
+    "ref_text": "సైబర్ నేరాల పట్ల ప్రజలు అప్రమత్తంగా ఉంటూ భద్రతా ప్రమాణాలు పాటించాలి.",
+    "duration_sec": 5.6,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_031",
+    "category": "pure_telugu_formal",
+    "ref_text": "జనగణన వివరాల సేకరణ దేశ భవిష్యత్ ప్రణాళికల రూపకల్పనకు అత్యంత ఆవశ్యకం.",
+    "duration_sec": 6.2,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_032",
+    "category": "pure_telugu_formal",
+    "ref_text": "సముద్ర తీర ప్రాంతాల్లో మడ అడవులు తుఫానుల తీవ్రతను తగ్గించడంలో రక్షణ కవచంగా పనిచేస్తాయి.",
+    "duration_sec": 6.8,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_033",
+    "category": "pure_telugu_formal",
+    "ref_text": "విద్యా హక్కు చట్టం ప్రకారం పద్నాలుగు సంవత్సరాల లోపు పిల్లలందరికీ ఉచిత నిర్బంధ విద్య అందించాలి.",
+    "duration_sec": 5.0,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_034",
+    "category": "pure_telugu_formal",
+    "ref_text": "పుస్తక పఠనం ఆలోచనా పరిధిని విస్తృతం చేసి వ్యక్తిత్వ వికాసానికి దారితీస్తుంది.",
+    "duration_sec": 5.6,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_035",
+    "category": "pure_telugu_formal",
+    "ref_text": "స్వదేశీ పరిశ్రమల ప్రోత్సాహం స్థానిక యువతకు భారీగా ఉద్యోగావకాశాలు కల్పిస్తుంది.",
+    "duration_sec": 6.2,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_036",
+    "category": "pure_telugu_formal",
+    "ref_text": "భూగర్భ శాస్త్రవేత్తలు నూతన ఖనిజ నిక్షేపాలను కనుగొనడానికి అత్యాధునిక సాంకేతికతను వాడుతున్నారు.",
+    "duration_sec": 6.8,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_037",
+    "category": "pure_telugu_formal",
+    "ref_text": "క్రీడారంగంలో యువతీ యువకుల ప్రతిభను గుర్తించి ప్రోత్సహించడానికి ప్రత్యేక క్రీడా అకాడమీలు ఏర్పాటవుతున్నాయి.",
+    "duration_sec": 5.0,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_038",
+    "category": "pure_telugu_formal",
+    "ref_text": "పురాతన గ్రంథాల డిజిటలైజేషన్ భావితరాలకు ప్రాచీన విజ్ఞానాన్ని భద్రపరచడంలో సహాయపడుతుంది.",
+    "duration_sec": 5.6,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_039",
+    "category": "pure_telugu_formal",
+    "ref_text": "రైతులు పండించిన పంటలకు గిట్టుబాటు ధర కల్పించడానికి ప్రభుత్వం కొనుగోలు కేంద్రాలు ఏర్పాటు చేసింది.",
+    "duration_sec": 6.2,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_040",
+    "category": "pure_telugu_formal",
+    "ref_text": "ప్రజారోగ్య పరిరక్షణలో భాగంగా క్రమం తప్పకుండా పోలియో చుక్కలు మరియు వ్యాక్సిన్లు వేయించాలి.",
+    "duration_sec": 6.8,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_041",
+    "category": "pure_telugu_formal",
+    "ref_text": "సామాజిక మాధ్యమాలలో తప్పుడు సమాచారం ప్రచారం కాకుండా కఠిన నియంత్రణ చట్టాలు అమలు చేయాలి.",
+    "duration_sec": 5.0,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_042",
+    "category": "pure_telugu_formal",
+    "ref_text": "పర్యాటక రంగాభివృద్ధి రాష్ట్ర ఆదాయానికి మరియు స్థానిక వ్యాపారాలకు ప్రధాన వనరుగా మారింది.",
+    "duration_sec": 5.6,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_043",
+    "category": "pure_telugu_formal",
+    "ref_text": "పర్వత ప్రాంతాలలో కొండచరియలు విరిగిపడకుండా రక్షణ గోడల నిర్మాణం చేపడుతున్నారు.",
+    "duration_sec": 6.2,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_044",
+    "category": "pure_telugu_formal",
+    "ref_text": "వైజ్ఞానిక ప్రదర్శనలు విద్యార్థులలో పరిశోధనా దృక్పథాన్ని మరియు నూతన ఆవిష్కరణల పట్ల ఆసక్తిని పెంచుతాయి.",
+    "duration_sec": 6.8,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_045",
+    "category": "pure_telugu_formal",
+    "ref_text": "చేనేత కార్మికుల సంక్షేమం కోసం ప్రత్యేక రాయితీలు మరియు నూలు సబ్సిడీని ప్రభుత్వం అందిస్తోంది.",
+    "duration_sec": 5.0,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_046",
+    "category": "pure_telugu_formal",
+    "ref_text": "గృహ వినియోగదారులకు సౌర ఫలకాల ఏర్పాటు పై గణనీయమైన సబ్సిడీని ఇస్తున్నారు.",
+    "duration_sec": 5.6,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_047",
+    "category": "pure_telugu_formal",
+    "ref_text": "అంతర్జాతీయ మార్కెట్లో రూపాయి మారకపు విలువ ఆర్థిక స్థిరత్వం పై ప్రభావం చూపుతుంది.",
+    "duration_sec": 6.2,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_048",
+    "category": "pure_telugu_formal",
+    "ref_text": "విశ్వవిద్యాలయాల్లో ప్రయోగశాలల ఆధునికీకరణ ఉన్నత ప్రమాణాల పరిశోధనలకు దోహదం చేస్తుంది.",
+    "duration_sec": 6.8,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_049",
+    "category": "pure_telugu_formal",
+    "ref_text": "చిన్నారులలో పోషకాహార లోపం నివారణకు అంగన్వాడీ కేంద్రాల ద్వారా పౌష్టికాహారం పంపిణీ చేస్తున్నారు.",
+    "duration_sec": 5.0,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_050",
+    "category": "pure_telugu_formal",
+    "ref_text": "వరద ముంపు ప్రాంతాలలో ముందస్తు హెచ్చరిక వ్యవస్థలు ప్రాణ నష్టాన్ని గణనీయంగా తగ్గించాయి.",
+    "duration_sec": 5.6,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_051",
+    "category": "pure_telugu_formal",
+    "ref_text": "సేంద్రీయ కూరగాయల సాగు వినియోగదారులకు నాణ్యమైన మరియు రసాయన రహిత ఆహారాన్ని అందిస్తుంది.",
+    "duration_sec": 6.2,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_052",
+    "category": "pure_telugu_formal",
+    "ref_text": "భారతీయ రైల్వే లో ప్రయాణీకుల భద్రత కోసం కవచ్ ఆటోమేటిక్ రైలు రక్షణ వ్యవస్థను ఏర్పాటు చేస్తున్నారు.",
+    "duration_sec": 6.8,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_053",
+    "category": "pure_telugu_formal",
+    "ref_text": "వాతావరణ మార్పుల వలన హిమానీనదాలు కరిగి సముద్ర మట్టాలు పెరిగే ప్రమాదం ఉంది.",
+    "duration_sec": 5.0,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_054",
+    "category": "pure_telugu_formal",
+    "ref_text": "ఆయుర్వేద మరియు సాంప్రదాయ వైద్య పద్ధతుల పై అంతర్జాతీయ స్థాయిలో విస్తృత పరిశోధనలు జరుగుతున్నాయి.",
+    "duration_sec": 5.6,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_055",
+    "category": "pure_telugu_formal",
+    "ref_text": "ఎలక్ట్రిక్ వాహనాల వినియోగం పెరగడం వలన నగరాల్లో వాయు కాలుష్యం గణనీయంగా తగ్గుతుంది.",
+    "duration_sec": 6.2,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_056",
+    "category": "pure_telugu_formal",
+    "ref_text": "వినియోగదారుల హక్కుల పరిరక్షణకు ప్రత్యేక వినియోగదారుల ఫోరంలు తీర్పులు వెలువరిస్తున్నాయి.",
+    "duration_sec": 6.8,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_057",
+    "category": "pure_telugu_formal",
+    "ref_text": "దేశ సరిహద్దుల రక్షణలో సైనిక దళాల త్యాగాలు అసమానమైనవి మరియు స్మరణీయమైనవి.",
+    "duration_sec": 5.0,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_058",
+    "category": "pure_telugu_formal",
+    "ref_text": "పట్టణ ప్రాంతాలలో ఘన వ్యర్థాల నిర్వహణ మరియు రీసైక్లింగ్ ప్రాజెక్టులు వేగవంతంగా సాగుతున్నాయి.",
+    "duration_sec": 5.6,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_059",
+    "category": "pure_telugu_formal",
+    "ref_text": "చరిత్ర ప్రసిద్ధ కోటల పునరుద్ధరణ పర్యాటకులను విశేషంగా ఆకర్షిస్తోంది.",
+    "duration_sec": 6.2,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_te_060",
+    "category": "pure_telugu_formal",
+    "ref_text": "నైతిక విలువలతో కూడిన విద్య భావి భారత పౌరులను బాధ్యతాయుతంగా తీర్చిదిద్దుతుంది.",
+    "duration_sec": 6.8,
+    "key_entities": [
+      "సమావేశం",
+      "సమాచారం",
+      "విద్యుత్",
+      "సాహిత్యం",
+      "రైల్వే",
+      "ఆరోగ్యం"
+    ],
+    "expected_intent": "general_knowledge_or_news"
+  },
+  {
+    "id": "eval_conv_001",
+    "category": "pure_telugu_conversational",
+    "ref_text": "మీరు ఎప్పుడు ఇంటికి చేరుకుంటారు? సాయంత్రం బయలుదేరాలా?",
+    "duration_sec": 3.5,
+    "key_entities": [
+      "ఇంటికి",
+      "మీటింగ్",
+      "పుస్తకాలు",
+      "బస్సు",
+      "ఆఫీస్"
+    ],
+    "expected_intent": "conversational"
+  },
+  {
+    "id": "eval_conv_002",
+    "category": "pure_telugu_conversational",
+    "ref_text": "నిన్న జరిగిన మీటింగ్ లో ఏ విషయాలు మాట్లాడారు?",
+    "duration_sec": 3.5,
+    "key_entities": [
+      "ఇంటికి",
+      "మీటింగ్",
+      "పుస్తకాలు",
+      "బస్సు",
+      "ఆఫీస్"
+    ],
+    "expected_intent": "conversational"
+  },
+  {
+    "id": "eval_conv_003",
+    "category": "pure_telugu_conversational",
+    "ref_text": "నాకు కొంచెం మంచి పుస్తకాలు చదవడం చాలా ఇష్టం.",
+    "duration_sec": 3.5,
+    "key_entities": [
+      "ఇంటికి",
+      "మీటింగ్",
+      "పుస్తకాలు",
+      "బస్సు",
+      "ఆఫీస్"
+    ],
+    "expected_intent": "conversational"
+  },
+  {
+    "id": "eval_conv_004",
+    "category": "pure_telugu_conversational",
+    "ref_text": "రేపు ఉదయం కళాశాల బస్సు ఎన్ని గంటలకు వస్తుంది?",
+    "duration_sec": 3.5,
+    "key_entities": [
+      "ఇంటికి",
+      "మీటింగ్",
+      "పుస్తకాలు",
+      "బస్సు",
+      "ఆఫీస్"
+    ],
+    "expected_intent": "conversational"
+  },
+  {
+    "id": "eval_conv_005",
+    "category": "pure_telugu_conversational",
+    "ref_text": "ఆఫీస్ పని అంతా పూర్తయ్యిందా లేదా ఇంకా మిగిలి ఉందా?",
+    "duration_sec": 3.5,
+    "key_entities": [
+      "ఇంటికి",
+      "మీటింగ్",
+      "పుస్తకాలు",
+      "బస్సు",
+      "ఆఫీస్"
+    ],
+    "expected_intent": "conversational"
+  },
+  {
+    "id": "eval_conv_006",
+    "category": "pure_telugu_conversational",
+    "ref_text": "భోజనం సమయానికి సిద్ధంగా ఉంచండి, అందరం కలిసి తిందాం.",
+    "duration_sec": 3.5,
+    "key_entities": [
+      "ఇంటికి",
+      "మీటింగ్",
+      "పుస్తకాలు",
+      "బస్సు",
+      "ఆఫీస్"
+    ],
+    "expected_intent": "conversational"
+  },
+  {
+    "id": "eval_conv_007",
+    "category": "pure_telugu_conversational",
+    "ref_text": "ఈ వారాంతంలో ఎక్కడికైనా వెళ్లే ప్లాన్ ఉందా?",
+    "duration_sec": 3.5,
+    "key_entities": [
+      "ఇంటికి",
+      "మీటింగ్",
+      "పుస్తకాలు",
+      "బస్సు",
+      "ఆఫీస్"
+    ],
+    "expected_intent": "conversational"
+  },
+  {
+    "id": "eval_conv_008",
+    "category": "pure_telugu_conversational",
+    "ref_text": "దయచేసి నా ఫోన్ నంబర్ కు ఆ సమాచారం పంపించండి.",
+    "duration_sec": 3.5,
+    "key_entities": [
+      "ఇంటికి",
+      "మీటింగ్",
+      "పుస్తకాలు",
+      "బస్సు",
+      "ఆఫీస్"
+    ],
+    "expected_intent": "conversational"
+  },
+  {
+    "id": "eval_cm_001",
+    "category": "code_mixed_academic",
+    "ref_text": "75% attendance lekapothe hall ticket issue chesthara?",
+    "duration_sec": 4.0,
+    "key_entities": [
+      "attendance",
+      "hall ticket"
+    ],
+    "expected_intent": "attendance_policy"
+  },
+  {
+    "id": "eval_cm_002",
+    "category": "code_mixed_academic",
+    "ref_text": "Mid term marks portal lo eppudu upload avthayi?",
+    "duration_sec": 4.0,
+    "key_entities": [
+      "mid term",
+      "marks",
+      "portal"
+    ],
+    "expected_intent": "exam_marks"
+  },
+  {
+    "id": "eval_cm_003",
+    "category": "code_mixed_academic",
+    "ref_text": "Supply exams registration start aiyyinda ledha?",
+    "duration_sec": 4.0,
+    "key_entities": [
+      "supply exams",
+      "registration"
+    ],
+    "expected_intent": "exam_registration"
+  },
+  {
+    "id": "eval_cm_004",
+    "category": "code_mixed_academic",
+    "ref_text": "Lab external exams ki attendance compulsory ah?",
+    "duration_sec": 4.0,
+    "key_entities": [
+      "lab",
+      "external exams",
+      "attendance"
+    ],
+    "expected_intent": "lab_attendance"
+  },
+  {
+    "id": "eval_cm_005",
+    "category": "code_mixed_academic",
+    "ref_text": "Credit requirements complete cheyadaniki electives ela select chesukovali?",
+    "duration_sec": 4.0,
+    "key_entities": [
+      "credit",
+      "electives"
+    ],
+    "expected_intent": "academic_curriculum"
+  },
+  {
+    "id": "eval_cm_006",
+    "category": "code_mixed_academic",
+    "ref_text": "Condonation fee online net banking dwara pay cheyocha?",
+    "duration_sec": 4.0,
+    "key_entities": [
+      "condonation fee",
+      "net banking"
+    ],
+    "expected_intent": "fee_payment"
+  },
+  {
+    "id": "eval_cm_007",
+    "category": "code_mixed_academic",
+    "ref_text": "College bus pass renew cheyadaniki fee counter ekkada untundi?",
+    "duration_sec": 4.0,
+    "key_entities": [
+      "bus pass",
+      "fee counter"
+    ],
+    "expected_intent": "transport_fee"
+  },
+  {
+    "id": "eval_cm_008",
+    "category": "code_mixed_academic",
+    "ref_text": "Placement cell mock interviews schedule eppudu release avthundi?",
+    "duration_sec": 4.0,
+    "key_entities": [
+      "placement cell",
+      "mock interviews",
+      "schedule"
+    ],
+    "expected_intent": "placement"
+  },
+  {
+    "id": "eval_cm_009",
+    "category": "code_mixed_academic",
+    "ref_text": "Project report submission last date extend chesara?",
+    "duration_sec": 4.0,
+    "key_entities": [
+      "project report",
+      "submission",
+      "last date"
+    ],
+    "expected_intent": "project_submission"
+  },
+  {
+    "id": "eval_cm_010",
+    "category": "code_mixed_academic",
+    "ref_text": "Original certificates return teesukovadaniki no objection certificate kavala?",
+    "duration_sec": 4.0,
+    "key_entities": [
+      "certificates",
+      "NOC"
+    ],
+    "expected_intent": "certificate_issue"
+  },
+  {
+    "id": "eval_cm_011",
+    "category": "code_mixed_academic",
+    "ref_text": "Hostel mess bill clearance lekunda semester registration avthunda?",
+    "duration_sec": 4.0,
+    "key_entities": [
+      "hostel mess",
+      "registration"
+    ],
+    "expected_intent": "hostel_clearance"
+  },
+  {
+    "id": "eval_cm_012",
+    "category": "code_mixed_academic",
+    "ref_text": "Weekend outing pass wardens nunchi permission teesukovadaniki timings enti?",
+    "duration_sec": 4.0,
+    "key_entities": [
+      "outing pass",
+      "wardens",
+      "permission"
+    ],
+    "expected_intent": "hostel_rules"
+  },
+  {
+    "id": "eval_cm_013",
+    "category": "code_mixed_academic",
+    "ref_text": "Single room occupancy apply cheyadaniki eligibility criteria enti?",
+    "duration_sec": 4.0,
+    "key_entities": [
+      "single room",
+      "eligibility criteria"
+    ],
+    "expected_intent": "hostel_allocation"
+  },
+  {
+    "id": "eval_cm_014",
+    "category": "code_mixed_academic",
+    "ref_text": "Bonafide certificate apply cheyadaniki admin office lo form eppudu submit cheyyali?",
+    "duration_sec": 4.0,
+    "key_entities": [
+      "bonafide certificate",
+      "admin office"
+    ],
+    "expected_intent": "admin_forms"
+  },
+  {
+    "id": "eval_cm_015",
+    "category": "code_mixed_academic",
+    "ref_text": "Semester grade card revaluation fee per subject entha untundi?",
+    "duration_sec": 4.0,
+    "key_entities": [
+      "grade card",
+      "revaluation fee"
+    ],
+    "expected_intent": "revaluation_fee"
+  },
+  {
+    "id": "eval_cm_016",
+    "category": "code_mixed_academic",
+    "ref_text": "Sports quota students ki attendance relaxation rules emiti?",
+    "duration_sec": 4.0,
+    "key_entities": [
+      "sports quota",
+      "attendance relaxation"
+    ],
+    "expected_intent": "sports_concession"
+  },
+  {
+    "id": "eval_cm_017",
+    "category": "code_mixed_academic",
+    "ref_text": "Internal assessment marks grievance redressal committee ki ela appeal cheyyali?",
+    "duration_sec": 4.0,
+    "key_entities": [
+      "internal assessment",
+      "grievance"
+    ],
+    "expected_intent": "grievance_redressal"
+  },
+  {
+    "id": "eval_cm_018",
+    "category": "code_mixed_academic",
+    "ref_text": "Final year capstone project supervisor allocation list eppudu display chestharu?",
+    "duration_sec": 4.0,
+    "key_entities": [
+      "capstone project",
+      "supervisor"
+    ],
+    "expected_intent": "project_allocation"
+  },
+  {
+    "id": "eval_cm_019",
+    "category": "code_mixed_academic",
+    "ref_text": "Hostel caution deposit refund procedure complete avvadaniki enni days paduthundi?",
+    "duration_sec": 4.0,
+    "key_entities": [
+      "caution deposit",
+      "refund"
+    ],
+    "expected_intent": "deposit_refund"
+  },
+  {
+    "id": "eval_cm_020",
+    "category": "code_mixed_academic",
+    "ref_text": "Library book return delay aiythe per day penalty charges entha untayi?",
+    "duration_sec": 4.0,
+    "key_entities": [
+      "library book",
+      "penalty charges"
+    ],
+    "expected_intent": "library_fines"
+  },
+  {
+    "id": "eval_tech_001",
+    "category": "code_mixed_technical",
+    "ref_text": "Student portal login credentials reset cheyadaniki IT support mail ID enti?",
+    "duration_sec": 4.5,
+    "key_entities": [
+      "portal login",
+      "credentials",
+      "IT support"
+    ],
+    "expected_intent": "it_login_reset"
+  },
+  {
+    "id": "eval_tech_002",
+    "category": "code_mixed_technical",
+    "ref_text": "Campus Wi-Fi connectivity lab lo work avvatledu, complaint ela raise cheyyali?",
+    "duration_sec": 4.5,
+    "key_entities": [
+      "Wi-Fi",
+      "connectivity",
+      "complaint"
+    ],
+    "expected_intent": "wifi_issue"
+  },
+  {
+    "id": "eval_tech_003",
+    "category": "code_mixed_technical",
+    "ref_text": "Computer science lab software license update eppudu chestharu?",
+    "duration_sec": 4.5,
+    "key_entities": [
+      "software license",
+      "update"
+    ],
+    "expected_intent": "lab_software"
+  },
+  {
+    "id": "eval_tech_004",
+    "category": "code_mixed_technical",
+    "ref_text": "Digital library e-resources off campus access cheyadaniki VPN access ela setup cheyyali?",
+    "duration_sec": 4.5,
+    "key_entities": [
+      "digital library",
+      "VPN"
+    ],
+    "expected_intent": "vpn_setup"
+  },
+  {
+    "id": "eval_tech_005",
+    "category": "code_mixed_technical",
+    "ref_text": "College email account storage quota exceed aiythe cloud storage increase chesthara?",
+    "duration_sec": 4.5,
+    "key_entities": [
+      "email account",
+      "storage quota"
+    ],
+    "expected_intent": "email_storage"
+  },
+  {
+    "id": "eval_tech_006",
+    "category": "code_mixed_technical",
+    "ref_text": "Git repository access permissions lab server lo configure cheyyadam ela?",
+    "duration_sec": 4.5,
+    "key_entities": [
+      "Git repository",
+      "lab server"
+    ],
+    "expected_intent": "git_server"
+  },
+  {
+    "id": "eval_tech_007",
+    "category": "code_mixed_technical",
+    "ref_text": "Online examination software browser lockdown compatibility issues ela fix cheyyali?",
+    "duration_sec": 4.5,
+    "key_entities": [
+      "examination software",
+      "browser lockdown"
+    ],
+    "expected_intent": "exam_software"
+  },
+  {
+    "id": "eval_tech_008",
+    "category": "code_mixed_technical",
+    "ref_text": "Biometric attendance machine fingerprint scan register cheyadaniki security office ki eppudu vellali?",
+    "duration_sec": 4.5,
+    "key_entities": [
+      "biometric attendance"
+    ],
+    "expected_intent": "biometric_reg"
+  },
+  {
+    "id": "eval_en_001",
+    "category": "pure_english",
+    "ref_text": "What is the minimum grade point average required to maintain scholarship eligibility?",
+    "duration_sec": 4.8,
+    "key_entities": [
+      "GPA",
+      "scholarship"
+    ],
+    "expected_intent": "scholarship_rules"
+  },
+  {
+    "id": "eval_en_002",
+    "category": "pure_english",
+    "ref_text": "Can students apply for revaluation of final semester theory papers?",
+    "duration_sec": 4.8,
+    "key_entities": [
+      "revaluation",
+      "theory papers"
+    ],
+    "expected_intent": "revaluation_policy"
+  },
+  {
+    "id": "eval_en_003",
+    "category": "pure_english",
+    "ref_text": "How do I request an official consolidated academic transcript from the registrar office?",
+    "duration_sec": 4.8,
+    "key_entities": [
+      "transcript",
+      "registrar office"
+    ],
+    "expected_intent": "transcript_request"
+  },
+  {
+    "id": "eval_en_004",
+    "category": "pure_english",
+    "ref_text": "What are the rules regarding campus curfew for resident hostel students on weekdays?",
+    "duration_sec": 4.8,
+    "key_entities": [
+      "curfew",
+      "hostel students"
+    ],
+    "expected_intent": "hostel_curfew"
+  },
+  {
+    "id": "eval_en_005",
+    "category": "pure_english",
+    "ref_text": "Is there any provision for attendance exemption due to verified university sports participation?",
+    "duration_sec": 4.8,
+    "key_entities": [
+      "attendance exemption",
+      "sports"
+    ],
+    "expected_intent": "sports_exemption"
+  },
+  {
+    "id": "eval_en_006",
+    "category": "pure_english",
+    "ref_text": "When will the convocation registration portal open for graduating engineering students?",
+    "duration_sec": 4.8,
+    "key_entities": [
+      "convocation",
+      "portal"
+    ],
+    "expected_intent": "convocation"
+  },
+  {
+    "id": "eval_en_007",
+    "category": "pure_english",
+    "ref_text": "How can international students renew their student visa clearance certificate?",
+    "duration_sec": 4.8,
+    "key_entities": [
+      "visa clearance"
+    ],
+    "expected_intent": "visa_clearance"
+  },
+  {
+    "id": "eval_en_008",
+    "category": "pure_english",
+    "ref_text": "What is the procedure to challenge internal assessment marks allocation before the semester end?",
+    "duration_sec": 4.8,
+    "key_entities": [
+      "challenge evaluation"
+    ],
+    "expected_intent": "internal_challenge"
+  },
+  {
+    "id": "eval_short_001",
+    "category": "short_queries",
+    "ref_text": "నమస్కారం అండి!",
+    "duration_sec": 1.6,
+    "key_entities": [
+      "నమస్కారం"
+    ],
+    "expected_intent": "greeting"
+  },
+  {
+    "id": "eval_short_002",
+    "category": "short_queries",
+    "ref_text": "హాల్ టికెట్ వచ్చిందా?",
+    "duration_sec": 1.6,
+    "key_entities": [
+      "హాల్ టికెట్"
+    ],
+    "expected_intent": "hall_ticket"
+  },
+  {
+    "id": "eval_short_003",
+    "category": "short_queries",
+    "ref_text": "Library open lo undha?",
+    "duration_sec": 1.6,
+    "key_entities": [
+      "library"
+    ],
+    "expected_intent": "library_status"
+  },
+  {
+    "id": "eval_short_004",
+    "category": "short_queries",
+    "ref_text": "క్లాస్ రూమ్ నంబర్ ఎంత?",
+    "duration_sec": 1.6,
+    "key_entities": [
+      "క్లాస్ రూమ్"
+    ],
+    "expected_intent": "room_query"
+  },
+  {
+    "id": "eval_short_005",
+    "category": "short_queries",
+    "ref_text": "Dean appointment ela dorukuthundi?",
+    "duration_sec": 1.6,
+    "key_entities": [
+      "Dean",
+      "appointment"
+    ],
+    "expected_intent": "dean_meet"
+  },
+  {
+    "id": "eval_short_006",
+    "category": "short_queries",
+    "ref_text": "బస్ పాస్ ఫీజు ఎంత?",
+    "duration_sec": 1.6,
+    "key_entities": [
+      "బస్ పాస్",
+      "ఫీజు"
+    ],
+    "expected_intent": "bus_fee"
+  },
+  {
+    "id": "eval_short_007",
+    "category": "short_queries",
+    "ref_text": "Wi-Fi password marchadam ela?",
+    "duration_sec": 1.6,
+    "key_entities": [
+      "Wi-Fi",
+      "password"
+    ],
+    "expected_intent": "wifi_pw"
+  },
+  {
+    "id": "eval_long_001",
+    "category": "long_queries",
+    "ref_text": "Mid term exams health issues valla miss aiythe medical certificate submit chesi re-exam rayadaniki Head of Department permission kavala, administrative office permission kavala?",
+    "duration_sec": 8.2,
+    "key_entities": [
+      "mid term exams",
+      "medical certificate",
+      "re-exam"
+    ],
+    "expected_intent": "medical_reexam_policy"
+  },
+  {
+    "id": "eval_long_002",
+    "category": "long_queries",
+    "ref_text": "Semester fee payment second installment date extend cheyadaniki finance section lo application submit cheyyala leka online portal dwara concession request pettukovacha?",
+    "duration_sec": 8.2,
+    "key_entities": [
+      "semester fee",
+      "installment",
+      "finance section"
+    ],
+    "expected_intent": "fee_installment_extension"
+  },
+  {
+    "id": "eval_long_003",
+    "category": "long_queries",
+    "ref_text": "విశ్వవిద్యాలయ కేంద్ర గ్రంథాలయంలో పరిశోధనా విద్యార్థులకు ప్రత్యేకంగా కేటాయించిన డిజిటల్ రిసోర్స్ సెంటర్ వినియోగించుకోవడానికి విభాగాధిపతి నుంచి అనుమతి పత్రం అవసరమా?",
+    "duration_sec": 8.2,
+    "key_entities": [
+      "గ్రంథాలయం",
+      "పరిశోధనా విద్యార్థులు",
+      "డిజిటల్ రిసోర్స్"
+    ],
+    "expected_intent": "library_research_access"
+  },
+  {
+    "id": "eval_long_004",
+    "category": "long_queries",
+    "ref_text": "Hostel room allocation process lo senior students ki preference untunda leka merit ranking basis meeda first come first serve allotment procedure follow avthara?",
+    "duration_sec": 8.2,
+    "key_entities": [
+      "hostel room",
+      "allocation",
+      "senior students"
+    ],
+    "expected_intent": "hostel_allocation_rules"
+  }
+]

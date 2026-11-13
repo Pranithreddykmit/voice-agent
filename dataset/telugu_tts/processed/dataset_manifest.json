@@ -1,0 +1,542 @@
+[
+  {
+    "id": "indictts_f_0001",
+    "category": "general",
+    "text": "నరకవాసి.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0001.wav",
+    "duration_sec": 1.3,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0002",
+    "category": "general",
+    "text": "స్వర్ణ కారుడు.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0002.wav",
+    "duration_sec": 1.23,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0003",
+    "category": "general",
+    "text": "ఆవుతో అడావుడి.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0003.wav",
+    "duration_sec": 1.55,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0004",
+    "category": "general",
+    "text": "వంశ గౌరవం.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0004.wav",
+    "duration_sec": 1.2,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0005",
+    "category": "general",
+    "text": "నావికుడు సింద్ బాద్.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0005.wav",
+    "duration_sec": 1.65,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0006",
+    "category": "general",
+    "text": "పనికిమాలిన మిత్రులు.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0006.wav",
+    "duration_sec": 1.57,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0007",
+    "category": "general",
+    "text": "ఓర్చలేనితనం.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0007.wav",
+    "duration_sec": 1.65,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0008",
+    "category": "general",
+    "text": "భువన సుందరి.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0008.wav",
+    "duration_sec": 1.15,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0009",
+    "category": "general",
+    "text": "మొసళ్ళు.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0009.wav",
+    "duration_sec": 1.1,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0010",
+    "category": "general",
+    "text": "సుఖ ప్రారబ్ధం.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0010.wav",
+    "duration_sec": 1.77,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0011",
+    "category": "general",
+    "text": "చిత్తం పదండి, అన్నాడు విజయదాసు.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0011.wav",
+    "duration_sec": 3.2,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0012",
+    "category": "general",
+    "text": "మరగుజ్జు.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0012.wav",
+    "duration_sec": 1.02,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0013",
+    "category": "general",
+    "text": "పుత్రవాత్సల్యం.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0013.wav",
+    "duration_sec": 1.65,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0014",
+    "category": "general",
+    "text": "అశరీరవాణి హెచ్చరిక.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0014.wav",
+    "duration_sec": 1.8,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0015",
+    "category": "general",
+    "text": "విచిత్రమైన వ్యాధి.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0015.wav",
+    "duration_sec": 1.57,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0016",
+    "category": "general",
+    "text": "పాపిష్ఠి జన్మ.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0016.wav",
+    "duration_sec": 1.23,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0017",
+    "category": "general",
+    "text": "నక్క సవారి.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0017.wav",
+    "duration_sec": 1.25,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0018",
+    "category": "general",
+    "text": "మదాలస.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0018.wav",
+    "duration_sec": 1.15,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0019",
+    "category": "general",
+    "text": "మాయ చిత్తరువు.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0019.wav",
+    "duration_sec": 1.35,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0020",
+    "category": "general",
+    "text": "పరుసవేది.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0020.wav",
+    "duration_sec": 1.02,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0021",
+    "category": "general",
+    "text": "రాజుకు చాలా ఆగ్రహం వచ్చింది.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0021.wav",
+    "duration_sec": 2.42,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0022",
+    "category": "general",
+    "text": "ఆయనను ఇక్కడికి తీసుకురావటం దేనికమ్మా నా కాయనతో పనిలేదు అన్నాడు మిత్రవిందకుడు.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0022.wav",
+    "duration_sec": 8.05,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0023",
+    "category": "general",
+    "text": "బాబూ ఇది పద్మం కాదు అసిధారా చక్రం అన్నాడు నరకవాసి.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0023.wav",
+    "duration_sec": 5.88,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0024",
+    "category": "general",
+    "text": "చూశావా నా కివ్వటం ఇష్టంలేక ఆ మాట అంటున్నావు అన్నాడు మిత్రవిందకుడు.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0024.wav",
+    "duration_sec": 6.15,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0025",
+    "category": "general",
+    "text": "అప్పుడు ఇంద్రుడు మిత్రవిందకుడికి ఈ విధంగా, జవాబు చెప్పాడు.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0025.wav",
+    "duration_sec": 5.47,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0026",
+    "category": "general",
+    "text": "బాబు చంపేశారు అంటూ ధర్మ గుప్తుడు ఆ మనిషి కేసి వెళ్ళాడు.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0026.wav",
+    "duration_sec": 5.9,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0027",
+    "category": "general",
+    "text": "దొంగలు తల పగలగొట్టారు అంటూ ధర్మగుప్తుడు ప్రాణాలు వదిలాడు.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0027.wav",
+    "duration_sec": 6.05,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0028",
+    "category": "general",
+    "text": "నీకు వచ్చిన లోటేమిటి అన్ని ఏర్పాట్లు అయ్యాక పెళ్ళి ఎట్లా ఆగుతుంది నన్ను వేధించకు అన్నాడు లోహితుడు.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0028.wav",
+    "duration_sec": 8.9,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0029",
+    "category": "general",
+    "text": "ఏదీ నువ్వు కాస్త సహాయంచెయ్యి తోక పట్టుకు లాగు అన్నది ఆవు.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0029.wav",
+    "duration_sec": 5.95,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0030",
+    "category": "general",
+    "text": "ఆవు అత్తా ఏమిటి అడావుడి అని అడిగింది కుందేలు.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0030.wav",
+    "duration_sec": 4.95,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0031",
+    "category": "general",
+    "text": "అంతా విని బంధువులు ఎంత అవమానం ఎంత అప్రతిష్ఠ అని ముక్కుల మీద వేళ్ళు వేసుకున్నారు.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0031.wav",
+    "duration_sec": 8.15,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0032",
+    "category": "general",
+    "text": "ముందు ముకుందుణ్ణి ఇంటినుంచి వెళ్ళ గొట్టాలి అన్నాడొక బంధువు.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0032.wav",
+    "duration_sec": 5.2,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0033",
+    "category": "general",
+    "text": "వంశగౌరవానికి కావాల్సింది నరబలేగదా అటువంటప్పుడు ఎవరు బలి అయితే నేం.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0033.wav",
+    "duration_sec": 6.47,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0034",
+    "category": "general",
+    "text": "నువ్వింకా బతికే ఉన్నావా అన్నది, జమీందారు భార్య వంటవాడితో.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0034.wav",
+    "duration_sec": 5.17,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0035",
+    "category": "general",
+    "text": "కొడుకు తన స్నేహితులను వెనక వేసుకువచ్చి వాళ్ళు తనకోసం ప్రాణాలైనా ఇచ్చేస్తారని తండ్రితో వాదించాడు.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0035.wav",
+    "duration_sec": 8.78,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0036",
+    "category": "general",
+    "text": "నీకీ ప్రమాదం రావటం నా కెంతో విచారంగా ఉంది నిన్ను ఈ జీవితంలో ఎన్నడూ మరచిపోను అన్నాడు ఇంకొక స్నేహితుడు.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0036.wav",
+    "duration_sec": 9.5,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0037",
+    "category": "general",
+    "text": "చేసేదిలేక కొడుకు విచారంగా తండ్రి వద్దకు తిరిగివచ్చి తన స్నేహితులు అన్న మాటలన్నీ చేప్పేశాడు.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0037.wav",
+    "duration_sec": 9.03,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0038",
+    "category": "general",
+    "text": "తలారి వెంటనే గోతం విప్పిచూసి చాలా ఆశ్చర్య పోయాడు.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0038.wav",
+    "duration_sec": 5.1,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0039",
+    "category": "general",
+    "text": "బలభద్రుడు గర్భదరిద్రిడు నువ్వు దరిద్రుడివి కావే నిన్నెందుకు క్షమించాలి అన్నది విగ్రహం.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0039.wav",
+    "duration_sec": 8.0,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0040",
+    "category": "general",
+    "text": "వాడు దరిద్రుడైతే నేను అజ్ఞానిని క్షమించు తల్లీ అంటూ మండోదరి భర్త బోర్లాపడి ఏడిచాడు.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0040.wav",
+    "duration_sec": 8.45,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0041",
+    "category": "general",
+    "text": "వజ్రకాయుడి మరణానంతరం ఆచారం ప్రకారం పోటీపందెములు జరిగాయి పరుగులో దేవమయుడు చక్రం విసరటంలో భూధవుడూ, గెలిచారు.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0041.wav",
+    "duration_sec": 5.85,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0042",
+    "category": "general",
+    "text": "మిగిలిన ఆడవాళ్లంతా ఈ మాట నిజమన్నారు.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0042.wav",
+    "duration_sec": 3.35,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0043",
+    "category": "general",
+    "text": "చంద్రుడు సూర్యాలయంలో హేమ తండ్రికి అతిథిగా ఉంటూవున్న సమయంలో రూపధరుడు అతన్ని వెతుక్కుంటూ అక్కడికి వచ్చాడు.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0043.wav",
+    "duration_sec": 9.22,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0044",
+    "category": "general",
+    "text": "మొసళ్ళు పూర్తిగా మాంసాహారులు వాటి దవడలు బలంగానూ వాటి దంతాలు వాడిగాను ఉంటాయి.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0044.wav",
+    "duration_sec": 7.4,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0045",
+    "category": "general",
+    "text": "నన్ను మోసం చేస్తున్నావు నీ సుఖ ప్రారబ్దాన్ని నేను తుడిచి పెట్టగలను అన్నాడు విజ్ఞానచంద్రుడు.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0045.wav",
+    "duration_sec": 7.45,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0046",
+    "category": "general",
+    "text": "ఆతను భోజనంచేసి తల్లి దగ్గిర వేయ్యిరూపాయలూ తీసుకుని తన పనిమీద తాను వెళ్ళాడు ఈ డబ్బుతో అతను వ్యాపారం చేసి త్వరలోనే ఇరవై లక్షల రూపాయలు సంపాదించుకున్నాడు.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0046.wav",
+    "duration_sec": 15.53,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0047",
+    "category": "general",
+    "text": "మిత్రవిందకుడు తల్లి మాట వినక పోయితీరాలని మూర్ఖించాడు ఆవిడ తన కొడుకు చెయ్యి పట్టుకుని వెళ్ళవద్దని బతిమాలింది మిత్రవిందకుడు తల్లిని కొట్టి తన చేతిని విడిపించుకుని, వెళ్ళిపోయాడు.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0047.wav",
+    "duration_sec": 16.4,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0048",
+    "category": "general",
+    "text": "అతను సముద్రం మీద, వెళ్ళగా వెళ్ళగా మరొక లంక తగిలింది దానిలో ఎనిమిది పిశాచినులున్నారు మిత్రవిందకుడు వారితో కూడా వారం రోజులు గడిపి వారు కఠోర వ్రతాలు ఆరంభించగానే మళ్ళీ తెప్ప మీద బయలుదేరాడు.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0048.wav",
+    "duration_sec": 18.48,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0049",
+    "category": "general",
+    "text": "ఈ విధంగా అతను మరొక దీవిలో పదహారుమంది పిశాచినులతోను ఇంకొక దీవిలో ముప్పైరెండుమంది పిశాచినులతోను ఒక్కొక్క వారం గడిపి ఆఖరుకు తన తెప్పపైన వేరొక లంకను చేరుకున్నాడు.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0049.wav",
+    "duration_sec": 16.3,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0050",
+    "category": "general",
+    "text": "మిత్రవిందకుడు ఆ నరక వాసిని సమీపించి అయ్యా తమరు చాలా కాలంగా ఆ పద్మాన్ని శిరస్సున ధరించారు నన్ను కుడా ధరించనివ్వండి అని అడిగాడు.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0050.wav",
+    "duration_sec": 14.43,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0051",
+    "category": "general",
+    "text": "స్వర్గంలో, ఇంద్రుడుగా ఉంటున్న బోధిసత్వుడు దేవగణాలను, వెంటబెట్టుకుని నరకాలన్నిటినీ తనిఖీ చేస్తూ కొంతకాలానికి మిత్రవిందకుడుండే చోటికి వచ్చాడు.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0051.wav",
+    "duration_sec": 13.9,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0052",
+    "category": "general",
+    "text": "ఆయనను చూడగానే మిత్రవిందకుడు ఏడుస్తూ స్వామీ కరుణించండి ఈ చక్రంనన్నెప్పుడు వదులుతుందో చెప్పండి అని వేడుకున్నాడు.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0052.wav",
+    "duration_sec": 11.62,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0053",
+    "category": "general",
+    "text": "ఈ విధంగా చెప్పి ఇంద్రుడు తన పరివారంతో సహా వెళ్ళిపోయాడు మిత్రవిందకుడు తనకు పట్టిన దుర్ధశ తెలుసుకుని విచారంతో కుంగిపోయాడు.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0053.wav",
+    "duration_sec": 12.82,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0054",
+    "category": "general",
+    "text": "ఒకనాటి సాయంకాలం, చీకటి పడేవేళ ధర్మగుప్తుడు పొరుగూరునుంచి ఇంటికి వచ్చే దారిలో ఆయనను దొంగలు కొట్టారు తలమీద బలమైన గాయం తగిలి ఆయన పడిపోయాడు కాని దొంగలకు ఆయనవద్ద ఏమీ దొరకలేదు.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0054.wav",
+    "duration_sec": 18.8,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0055",
+    "category": "general",
+    "text": "లోహితుడికి తన భార్యపైనా పిల్లల పైనా ప్రేమ జాస్తి వాళ్ళు సుఖపడందులకే అతను బంగారం చేసే పిచ్చిలో పడి పోయాడు ఇప్పుడుకూడా అతను వాళ్ళ సుఖంకోసమే ధర్మగుప్తుడి సొమ్ము కాజేయ నిశ్చయించాడు.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0055.wav",
+    "duration_sec": 18.05,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0056",
+    "category": "general",
+    "text": "తెల్లవారే లోపుగా లోహితుడు వెండీ బంగారాలను అటకమీద పెట్టి పిడకలు కప్పి ధర్మగుప్తుడి శవాన్ని తాళపుచెవులతో సహా దొడ్లో నిలువు లోతున పాతేసి గొయ్యి పూడ్చేశాడు.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0056.wav",
+    "duration_sec": 15.12,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0057",
+    "category": "general",
+    "text": "త్వరలోనే ధన్మగుప్తుణ్ణి గురించి జనం చెప్పుకోవటం మానేశారు ఇక తనకేమీ భయం లేదనుకున్నాడు లోహితుడు పుట్టింటినుంచి అతని భార్య పిల్లలతోసహా తిరిగి వచ్చింది.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0057.wav",
+    "duration_sec": 13.53,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0058",
+    "category": "general",
+    "text": "భార్యకు తన భర్త ఇంకో పెళ్ళి చేసుకోబోతున్నాడని తెలిసింది తన భర్త ఎదుట ఏడిచి ఈ పెళ్ళి జరగటానికి వీల్లేదన్నది.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0058.wav",
+    "duration_sec": 11.05,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0059",
+    "category": "general",
+    "text": "నన్ను బొత్తిగా తీసేశావే అల్లుడా చూసుకో అంటూ ఆవు తన తలవంచి నేరేడు చెట్టుబోదెకు ఠాకీ ఇచ్చింది కాని చెట్టు మీద ఉన్నవన్నీ పచ్చికాయలు కనుక ఒక్కటి రాలలేదు.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0059.wav",
+    "duration_sec": 15.68,
+    "sample_rate": 24000,
+    "channels": 1
+  },
+  {
+    "id": "indictts_f_0060",
+    "category": "general",
+    "text": "ఆవు చేసిన ఈ పనిని కుందేలు దూరం నుంచి చూసి ఏమీ ఎరగనట్టు ఈలవేసుకుంటూ దగ్గిరికివచ్చి ఏం అత్తా ఈ పాటికి కొమ్ములు వదిలించుకున్నావనుకున్నానే అన్నది.",
+    "audio_file": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed/wavs/indictts_f_0060.wav",
+    "duration_sec": 14.47,
+    "sample_rate": 24000,
+    "channels": 1
+  }
+]

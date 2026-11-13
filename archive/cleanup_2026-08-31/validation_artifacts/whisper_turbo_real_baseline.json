@@ -1,0 +1,798 @@
+{
+  "metadata": {
+    "model_name": "openai/whisper-large-v3-turbo",
+    "torch_device": "cpu",
+    "timestamp": "2026-08-30T15:38:33Z",
+    "prompt_conditioning": true,
+    "execution_type": "GENUINE_NEURAL_FORWARD_PASS"
+  },
+  "overall_summary": {
+    "total_samples": 25,
+    "mean_cer": 0.3647,
+    "mean_wer": 0.4837,
+    "mean_latency_ms": 4624.86,
+    "mean_rtf": 1.2036,
+    "mean_english_preservation": 0.8808,
+    "mean_telugu_script_correctness": 0.9003,
+    "mean_entity_recall": 0.9467,
+    "total_bleed_samples": 11,
+    "total_hallucinations": 0
+  },
+  "category_summary": {
+    "A. Pure Telugu": {
+      "count": 3,
+      "mean_cer": 0.3632,
+      "mean_wer": 0.439,
+      "mean_latency_ms": 5193.96,
+      "mean_rtf": 0.9178,
+      "mean_english_preservation": 1.0,
+      "mean_entity_recall": 1.0,
+      "bleed_count": 2
+    },
+    "A. Pure Telugu (Studio Real)": {
+      "count": 10,
+      "mean_cer": 0.4214,
+      "mean_wer": 0.4493,
+      "mean_latency_ms": 5059.84,
+      "mean_rtf": 1.1571,
+      "mean_english_preservation": 1.0,
+      "mean_entity_recall": 1.0,
+      "bleed_count": 6
+    },
+    "B. Pure English": {
+      "count": 2,
+      "mean_cer": 0.0,
+      "mean_wer": 0.0,
+      "mean_latency_ms": 3729.9,
+      "mean_rtf": 0.9572,
+      "mean_english_preservation": 1.0,
+      "mean_entity_recall": 1.0,
+      "bleed_count": 0
+    },
+    "C. Telugu-English Code-Mixed": {
+      "count": 4,
+      "mean_cer": 0.394,
+      "mean_wer": 0.7381,
+      "mean_latency_ms": 4081.46,
+      "mean_rtf": 1.2481,
+      "mean_english_preservation": 0.4524,
+      "mean_entity_recall": 0.75,
+      "bleed_count": 1
+    },
+    "D. Conversational Telugu + Technical Terms": {
+      "count": 2,
+      "mean_cer": 0.4554,
+      "mean_wer": 0.457,
+      "mean_latency_ms": 4472.0,
+      "mean_rtf": 1.4571,
+      "mean_english_preservation": 1.0,
+      "mean_entity_recall": 1.0,
+      "bleed_count": 1
+    },
+    "E. Short Questions": {
+      "count": 2,
+      "mean_cer": 0.3646,
+      "mean_wer": 0.7084,
+      "mean_latency_ms": 4028.27,
+      "mean_rtf": 2.2386,
+      "mean_english_preservation": 0.875,
+      "mean_entity_recall": 1.0,
+      "bleed_count": 1
+    },
+    "F. Longer Conversational Questions": {
+      "count": 2,
+      "mean_cer": 0.2991,
+      "mean_wer": 0.5,
+      "mean_latency_ms": 4327.47,
+      "mean_rtf": 0.7341,
+      "mean_english_preservation": 0.7308,
+      "mean_entity_recall": 0.8334,
+      "bleed_count": 0
+    }
+  },
+  "predictions": [
+    {
+      "id": "A1_te_human_syspin",
+      "category": "A. Pure Telugu",
+      "source": "Human (SYSPIN Dataset)",
+      "duration_sec": 7.79,
+      "ref_text": "మల విసర్జనాన్ని శరీరంలోని ఏ భాగం నియంత్రిస్తుంది? ఈ చర్య నియంత్రితమా? అనియంత్రితమా? ఎందుకు?",
+      "hyp_text": "மலவி சர்ஜனான்னி, సెరీరంలోని ఏభాగం నియంత్రిస్తుంది, ఈ చరియా, నియంత్రితమ, అనియంత్రితమ, ఎందుకు?",
+      "detected_lang": "multilingual",
+      "latency_ms": 5780.66,
+      "rtf": 0.7421,
+      "cer": 0.2222,
+      "wer": 0.25,
+      "english_token_preservation": 1.0,
+      "telugu_script_correctness": 0.8182,
+      "script_bleed": {
+        "devanagari_count": 0,
+        "tamil_count": 14,
+        "has_bleed": true
+      },
+      "hallucination": false,
+      "entity_preservation": {
+        "entities_in_ref": [],
+        "entities_preserved": [],
+        "entity_recall": 1.0
+      }
+    },
+    {
+      "id": "A2_te_human_indictts",
+      "category": "A. Pure Telugu",
+      "source": "Human (IndicTTS Dataset)",
+      "duration_sec": 3.2,
+      "ref_text": "చిత్తం పదండి, అన్నాడు విజయదాసు.",
+      "hyp_text": "12-10, విజై దాసు.",
+      "detected_lang": "multilingual",
+      "latency_ms": 3956.27,
+      "rtf": 1.2363,
+      "cer": 0.7222,
+      "wer": 0.9091,
+      "english_token_preservation": 1.0,
+      "telugu_script_correctness": 1.0,
+      "script_bleed": {
+        "devanagari_count": 0,
+        "tamil_count": 0,
+        "has_bleed": false
+      },
+      "hallucination": false,
+      "entity_preservation": {
+        "entities_in_ref": [],
+        "entities_preserved": [],
+        "entity_recall": 1.0
+      }
+    },
+    {
+      "id": "A3_te_synthetic",
+      "category": "A. Pure Telugu",
+      "source": "Synthetic (Geeta te_IN)",
+      "duration_sec": 7.54,
+      "ref_text": "విశ్వవిద్యాలయ గ్రంథాలయం ప్రతిరోజూ ఉదయం ఎనిమిది గంటల నుండి సాయంత్రం ఎనిమిది గంటల వరకు తెరిచి ఉంటుంది.",
+      "hyp_text": "विश्व विद्यलय గ్రంథాలయం ప్రతిరోజు ఉదయం ఎనిమిది గంటల నుండి సాయంత్రం ఎనిమిది గంటల వరకు తెరిచి ఉంటుంది.",
+      "detected_lang": "multilingual",
+      "latency_ms": 5844.95,
+      "rtf": 0.7751,
+      "cer": 0.1452,
+      "wer": 0.1579,
+      "english_token_preservation": 1.0,
+      "telugu_script_correctness": 0.8605,
+      "script_bleed": {
+        "devanagari_count": 12,
+        "tamil_count": 0,
+        "has_bleed": true
+      },
+      "hallucination": false,
+      "entity_preservation": {
+        "entities_in_ref": [],
+        "entities_preserved": [],
+        "entity_recall": 1.0
+      }
+    },
+    {
+      "id": "B1_en_policy",
+      "category": "B. Pure English",
+      "source": "Synthetic (Rishi en_IN)",
+      "duration_sec": 3.89,
+      "ref_text": "What is the minimum attendance requirement for semester exams?",
+      "hyp_text": "What is the minimum attendance requirement for semester exams?",
+      "detected_lang": "multilingual",
+      "latency_ms": 3706.28,
+      "rtf": 0.9536,
+      "cer": 0.0,
+      "wer": 0.0,
+      "english_token_preservation": 1.0,
+      "telugu_script_correctness": 1.0,
+      "script_bleed": {
+        "devanagari_count": 0,
+        "tamil_count": 0,
+        "has_bleed": false
+      },
+      "hallucination": false,
+      "entity_preservation": {
+        "entities_in_ref": [
+          "attendance",
+          "semester",
+          "exams"
+        ],
+        "entities_preserved": [
+          "attendance",
+          "semester",
+          "exams"
+        ],
+        "entity_recall": 1.0
+      }
+    },
+    {
+      "id": "B2_en_hostel",
+      "category": "B. Pure English",
+      "source": "Synthetic (Tara en_IN)",
+      "duration_sec": 3.91,
+      "ref_text": "How can students apply for hostel accommodation in the second year?",
+      "hyp_text": "How can students apply for hostel accommodation in the second year?",
+      "detected_lang": "multilingual",
+      "latency_ms": 3753.51,
+      "rtf": 0.9609,
+      "cer": 0.0,
+      "wer": 0.0,
+      "english_token_preservation": 1.0,
+      "telugu_script_correctness": 1.0,
+      "script_bleed": {
+        "devanagari_count": 0,
+        "tamil_count": 0,
+        "has_bleed": false
+      },
+      "hallucination": false,
+      "entity_preservation": {
+        "entities_in_ref": [
+          "hostel"
+        ],
+        "entities_preserved": [
+          "hostel"
+        ],
+        "entity_recall": 1.0
+      }
+    },
+    {
+      "id": "C1_mixed_attendance",
+      "category": "C. Telugu-English Code-Mixed",
+      "source": "Synthetic (Rishi en_IN)",
+      "duration_sec": 3.22,
+      "ref_text": "Semester exams ki minimum attendance entha undali?",
+      "hyp_text": "semester exams కి minimum attendance ఎంత్రాండాలి?",
+      "detected_lang": "multilingual",
+      "latency_ms": 4098.63,
+      "rtf": 1.2716,
+      "cer": 0.2857,
+      "wer": 0.8571,
+      "english_token_preservation": 0.5714,
+      "telugu_script_correctness": 1.0,
+      "script_bleed": {
+        "devanagari_count": 0,
+        "tamil_count": 0,
+        "has_bleed": false
+      },
+      "hallucination": false,
+      "entity_preservation": {
+        "entities_in_ref": [
+          "attendance",
+          "semester",
+          "exams"
+        ],
+        "entities_preserved": [
+          "attendance",
+          "semester",
+          "exams"
+        ],
+        "entity_recall": 1.0
+      }
+    },
+    {
+      "id": "C2_mixed_fee_deadline",
+      "category": "C. Telugu-English Code-Mixed",
+      "source": "Synthetic (Rishi en_IN)",
+      "duration_sec": 2.65,
+      "ref_text": "Hostel fee payment deadline eppudu untundi?",
+      "hyp_text": "Hostel fee payment deadline if you do untundee?",
+      "detected_lang": "multilingual",
+      "latency_ms": 3760.32,
+      "rtf": 1.4173,
+      "cer": 0.2143,
+      "wer": 0.6667,
+      "english_token_preservation": 0.6667,
+      "telugu_script_correctness": 1.0,
+      "script_bleed": {
+        "devanagari_count": 0,
+        "tamil_count": 0,
+        "has_bleed": false
+      },
+      "hallucination": false,
+      "entity_preservation": {
+        "entities_in_ref": [
+          "hostel",
+          "fee",
+          "deadline"
+        ],
+        "entities_preserved": [
+          "hostel",
+          "fee",
+          "deadline"
+        ],
+        "entity_recall": 1.0
+      }
+    },
+    {
+      "id": "C3_mixed_library_docs",
+      "category": "C. Telugu-English Code-Mixed",
+      "source": "Synthetic (Rishi en_IN)",
+      "duration_sec": 3.88,
+      "ref_text": "Naku library card apply cheyadaniki em documents kavali?",
+      "hyp_text": "नాకు లిబ్రరి కార్డ అప్లి చిల్ని కావాలి?",
+      "detected_lang": "multilingual",
+      "latency_ms": 4628.77,
+      "rtf": 1.1941,
+      "cer": 0.9091,
+      "wer": 1.0,
+      "english_token_preservation": 0.0,
+      "telugu_script_correctness": 0.9697,
+      "script_bleed": {
+        "devanagari_count": 1,
+        "tamil_count": 0,
+        "has_bleed": true
+      },
+      "hallucination": false,
+      "entity_preservation": {
+        "entities_in_ref": [
+          "library"
+        ],
+        "entities_preserved": [],
+        "entity_recall": 0.0
+      }
+    },
+    {
+      "id": "C4_mixed_medical_leave",
+      "category": "C. Telugu-English Code-Mixed",
+      "source": "Synthetic (Rishi en_IN)",
+      "duration_sec": 3.46,
+      "ref_text": "Naku medical leave apply cheyyali, procedure enti?",
+      "hyp_text": "NACU Medical Leave Apply CHILE. Procedure NT.",
+      "detected_lang": "multilingual",
+      "latency_ms": 3838.12,
+      "rtf": 1.1093,
+      "cer": 0.1667,
+      "wer": 0.4286,
+      "english_token_preservation": 0.5714,
+      "telugu_script_correctness": 1.0,
+      "script_bleed": {
+        "devanagari_count": 0,
+        "tamil_count": 0,
+        "has_bleed": false
+      },
+      "hallucination": false,
+      "entity_preservation": {
+        "entities_in_ref": [
+          "medical leave"
+        ],
+        "entities_preserved": [
+          "medical leave"
+        ],
+        "entity_recall": 1.0
+      }
+    },
+    {
+      "id": "D1_te_tech_terms",
+      "category": "D. Conversational Telugu + Technical Terms",
+      "source": "Synthetic (Geeta te_IN)",
+      "duration_sec": 2.87,
+      "ref_text": "కళాశాల లైబ్రరీ తెరిచే సమయాలు ఏమిటి?",
+      "hyp_text": "कలా స్యల లఈబ్రరి తెరి చి సమయాలు ఏమిటి.",
+      "detected_lang": "multilingual",
+      "latency_ms": 4570.86,
+      "rtf": 1.5931,
+      "cer": 0.3182,
+      "wer": 0.3846,
+      "english_token_preservation": 1.0,
+      "telugu_script_correctness": 0.9677,
+      "script_bleed": {
+        "devanagari_count": 1,
+        "tamil_count": 0,
+        "has_bleed": true
+      },
+      "hallucination": false,
+      "entity_preservation": {
+        "entities_in_ref": [],
+        "entities_preserved": [],
+        "entity_recall": 1.0
+      }
+    },
+    {
+      "id": "D2_mixed_wifi_login",
+      "category": "D. Conversational Telugu + Technical Terms",
+      "source": "Synthetic (Geeta te_IN)",
+      "duration_sec": 3.31,
+      "ref_text": "కాలేజీ క్యాంపస్ లో వైఫై పాస్వర్డ్ మార్చడం ఎలా?",
+      "hyp_text": "College campus లో విటై పాస్వర్ద మార్చడం యలా,",
+      "detected_lang": "multilingual",
+      "latency_ms": 4373.14,
+      "rtf": 1.3211,
+      "cer": 0.5926,
+      "wer": 0.5294,
+      "english_token_preservation": 1.0,
+      "telugu_script_correctness": 1.0,
+      "script_bleed": {
+        "devanagari_count": 0,
+        "tamil_count": 0,
+        "has_bleed": false
+      },
+      "hallucination": false,
+      "entity_preservation": {
+        "entities_in_ref": [],
+        "entities_preserved": [],
+        "entity_recall": 1.0
+      }
+    },
+    {
+      "id": "E1_te_short_greeting",
+      "category": "E. Short Questions",
+      "source": "Synthetic (Geeta te_IN)",
+      "duration_sec": 1.95,
+      "ref_text": "నమస్కారం! మీరు ఎలా ఉన్నారు?",
+      "hyp_text": "नమस्कारम, మీరు యలా హున్నరు.",
+      "detected_lang": "multilingual",
+      "latency_ms": 4266.78,
+      "rtf": 2.1918,
+      "cer": 0.4375,
+      "wer": 0.6667,
+      "english_token_preservation": 1.0,
+      "telugu_script_correctness": 0.6818,
+      "script_bleed": {
+        "devanagari_count": 7,
+        "tamil_count": 0,
+        "has_bleed": true
+      },
+      "hallucination": false,
+      "entity_preservation": {
+        "entities_in_ref": [],
+        "entities_preserved": [],
+        "entity_recall": 1.0
+      }
+    },
+    {
+      "id": "E2_mixed_exam_deadline",
+      "category": "E. Short Questions",
+      "source": "Synthetic (Rishi en_IN)",
+      "duration_sec": 1.66,
+      "ref_text": "Exam fee deadline eppudu?",
+      "hyp_text": "Exam fee deadline if you do.",
+      "detected_lang": "multilingual",
+      "latency_ms": 3789.77,
+      "rtf": 2.2853,
+      "cer": 0.2917,
+      "wer": 0.75,
+      "english_token_preservation": 0.75,
+      "telugu_script_correctness": 1.0,
+      "script_bleed": {
+        "devanagari_count": 0,
+        "tamil_count": 0,
+        "has_bleed": false
+      },
+      "hallucination": false,
+      "entity_preservation": {
+        "entities_in_ref": [
+          "fee",
+          "deadline"
+        ],
+        "entities_preserved": [
+          "fee",
+          "deadline"
+        ],
+        "entity_recall": 1.0
+      }
+    },
+    {
+      "id": "F1_en_long_medical",
+      "category": "F. Longer Conversational Questions",
+      "source": "Synthetic (Samantha en_US)",
+      "duration_sec": 4.82,
+      "ref_text": "Can you explain the procedure to apply for medical leave if I fall sick during the semester?",
+      "hyp_text": "Can you explain the procedure to apply for medical leave if I fall sick during the semester?",
+      "detected_lang": "multilingual",
+      "latency_ms": 3870.9,
+      "rtf": 0.8034,
+      "cer": 0.0,
+      "wer": 0.0,
+      "english_token_preservation": 1.0,
+      "telugu_script_correctness": 1.0,
+      "script_bleed": {
+        "devanagari_count": 0,
+        "tamil_count": 0,
+        "has_bleed": false
+      },
+      "hallucination": false,
+      "entity_preservation": {
+        "entities_in_ref": [
+          "semester",
+          "medical leave"
+        ],
+        "entities_preserved": [
+          "semester",
+          "medical leave"
+        ],
+        "entity_recall": 1.0
+      }
+    },
+    {
+      "id": "F2_mixed_long_reschedule",
+      "category": "F. Longer Conversational Questions",
+      "source": "Synthetic (Rishi en_IN)",
+      "duration_sec": 7.2,
+      "ref_text": "Mid term exams reschedule chesukovadaniki Dean permission teesukovalandi, application form ekkada submit cheyyali?",
+      "hyp_text": "Midterm exams reschedule చిసు కారదానికి తిసు కారలంది. Application form ఏకాదస్మిచియలి.",
+      "detected_lang": "multilingual",
+      "latency_ms": 4784.04,
+      "rtf": 0.6648,
+      "cer": 0.5982,
+      "wer": 1.0,
+      "english_token_preservation": 0.4615,
+      "telugu_script_correctness": 1.0,
+      "script_bleed": {
+        "devanagari_count": 0,
+        "tamil_count": 0,
+        "has_bleed": false
+      },
+      "hallucination": false,
+      "entity_preservation": {
+        "entities_in_ref": [
+          "exams",
+          "dean",
+          "application"
+        ],
+        "entities_preserved": [
+          "exams",
+          "application"
+        ],
+        "entity_recall": 0.6667
+      }
+    },
+    {
+      "id": "studio_syspin_f_0001",
+      "category": "A. Pure Telugu (Studio Real)",
+      "source": "IISc SYSPIN Real Studio",
+      "duration_sec": 11.67,
+      "ref_text": "ఇండియన్ ఇనిస్టిట్యూట్ ఆఫ్ పెట్రోలియం అండ్ ఎనర్జీ సంచాలకులు ఫ్రొఫెసర్ వీఎస్ఆర్కే ప్రసాద్, ఇండియన్ ఇనిస్టిట్యూట్ ఆఫ్ మేనేజ్మెంట్ సంచాలకులు తదితరులు పాల్గొన్నారు.",
+      "hyp_text": "Indian Institute of Petroleum and Energy సంచాలక్లు, Professor V.S.R.K. ప్రసాత, Indian Institute of Management సంచాలక్లు, తదితరలు పాల్గోనారు.",
+      "detected_lang": "multilingual",
+      "latency_ms": 5078.41,
+      "rtf": 0.4352,
+      "cer": 0.8298,
+      "wer": 0.7419,
+      "english_token_preservation": 1.0,
+      "telugu_script_correctness": 1.0,
+      "script_bleed": {
+        "devanagari_count": 0,
+        "tamil_count": 0,
+        "has_bleed": false
+      },
+      "hallucination": false,
+      "entity_preservation": {
+        "entities_in_ref": [],
+        "entities_preserved": [],
+        "entity_recall": 1.0
+      }
+    },
+    {
+      "id": "studio_syspin_f_0003",
+      "category": "A. Pure Telugu (Studio Real)",
+      "source": "IISc SYSPIN Real Studio",
+      "duration_sec": 8.5,
+      "ref_text": "స్టోలన్లు - వాలిస్నేరియా, స్ట్రాబెర్రీ; లశునాలు - ఉల్లి; కొమ్ములు - పసుపు; దుంప - బంగాళదుంప.",
+      "hyp_text": "स्टోलन्लு, వాలి స్నేరియ, స్ట్రాబేర్రి, లసునాలు, ఉల్లి, కొంములు, పసుపు, దుంప, బంగళదుంప.",
+      "detected_lang": "multilingual",
+      "latency_ms": 5796.56,
+      "rtf": 0.6821,
+      "cer": 0.1739,
+      "wer": 0.2424,
+      "english_token_preservation": 1.0,
+      "telugu_script_correctness": 0.8824,
+      "script_bleed": {
+        "devanagari_count": 7,
+        "tamil_count": 1,
+        "has_bleed": true
+      },
+      "hallucination": false,
+      "entity_preservation": {
+        "entities_in_ref": [],
+        "entities_preserved": [],
+        "entity_recall": 1.0
+      }
+    },
+    {
+      "id": "studio_syspin_f_0004",
+      "category": "A. Pure Telugu (Studio Real)",
+      "source": "IISc SYSPIN Real Studio",
+      "duration_sec": 11.37,
+      "ref_text": "కొన్ని గంటల తరువాత సీసాలో అమర్చిన ఆకును, మొక్కలో ఎదైనా మరొక ఆకును తీసుకొని కృత్యం- {1}{ఒకటి}లో చేసినట్లుగా అయోడిన్ ద్రావణంతో పరీక్షించండి.",
+      "hyp_text": "கொन्नि గంటల తరువాత, సీసాలో అమర్చిన ఆకును, మోక్కలో ఏదైన మరుకాకును తీస్కొని, కృత్యం ఒకటిలో చేసినట్లుగ, అయోణిం దరావణంతో పరిక్షించండి.",
+      "detected_lang": "multilingual",
+      "latency_ms": 6952.57,
+      "rtf": 0.6117,
+      "cer": 0.1084,
+      "wer": 0.1923,
+      "english_token_preservation": 1.0,
+      "telugu_script_correctness": 0.9455,
+      "script_bleed": {
+        "devanagari_count": 4,
+        "tamil_count": 2,
+        "has_bleed": true
+      },
+      "hallucination": false,
+      "entity_preservation": {
+        "entities_in_ref": [],
+        "entities_preserved": [],
+        "entity_recall": 1.0
+      }
+    },
+    {
+      "id": "studio_syspin_f_0005",
+      "category": "A. Pure Telugu (Studio Real)",
+      "source": "IISc SYSPIN Real Studio",
+      "duration_sec": 13.6,
+      "ref_text": "డాక్టర్ రెన్ చేస్తున్న ప్రాణాంతక శస్త్ర చికిత్స కోసం స్వచ్ఛందంగా ముందుకొచ్చిన వ్యక్తులలో వాంగ్ ఒకరు.హార్బిన్ ఆస్పత్రిలో ఈ అద్భుత ఆపరేషన్ కోసం,వాంగ్ వేయి కన్నులతో ఎదురు చూస్తున్నారు.",
+      "hyp_text": "Dr. Ren Chetun, ప్రాణాంతక సెస్తర చికిచా కోసం, స్వత్చన్దంగా మొందు కొచ్చినం వెక్తులలో వాం వకరు, హార్బిన ఆస్పత్రిలో ఈ అద్పుత ఆప్రేశన్ కోసం, వాం వేయి కన్న�",
+      "detected_lang": "multilingual",
+      "latency_ms": 7262.82,
+      "rtf": 0.534,
+      "cer": 0.367,
+      "wer": 0.4722,
+      "english_token_preservation": 1.0,
+      "telugu_script_correctness": 1.0,
+      "script_bleed": {
+        "devanagari_count": 0,
+        "tamil_count": 0,
+        "has_bleed": false
+      },
+      "hallucination": false,
+      "entity_preservation": {
+        "entities_in_ref": [],
+        "entities_preserved": [],
+        "entity_recall": 1.0
+      }
+    },
+    {
+      "id": "studio_syspin_f_0006",
+      "category": "A. Pure Telugu (Studio Real)",
+      "source": "IISc SYSPIN Real Studio",
+      "duration_sec": 7.38,
+      "ref_text": "అయితే అమెరికా పౌరసత్వం కారణంగా,హితేష్ పోటీ చేయడానికి సాంకేతిక సమస్యలు అడ్డుగా వచ్చాయి.",
+      "hyp_text": "आयते, అమెరికా పవ్రసత్వం కారణంగా, హితేశ పోటి చేయడానకి, సాంకేతిక సమస్యలు అడ్డుగా వచ్చే.",
+      "detected_lang": "multilingual",
+      "latency_ms": 5729.99,
+      "rtf": 0.7763,
+      "cer": 0.1346,
+      "wer": 0.2188,
+      "english_token_preservation": 1.0,
+      "telugu_script_correctness": 0.9437,
+      "script_bleed": {
+        "devanagari_count": 4,
+        "tamil_count": 0,
+        "has_bleed": true
+      },
+      "hallucination": false,
+      "entity_preservation": {
+        "entities_in_ref": [],
+        "entities_preserved": [],
+        "entity_recall": 1.0
+      }
+    },
+    {
+      "id": "studio_indictts_f_0001",
+      "category": "A. Pure Telugu (Studio Real)",
+      "source": "IIT Madras IndicTTS Real Studio",
+      "duration_sec": 2.16,
+      "ref_text": "నరకవాసి.",
+      "hyp_text": "नरकवासी",
+      "detected_lang": "multilingual",
+      "latency_ms": 3773.8,
+      "rtf": 1.7455,
+      "cer": 1.0,
+      "wer": 1.0,
+      "english_token_preservation": 1.0,
+      "telugu_script_correctness": 0.0,
+      "script_bleed": {
+        "devanagari_count": 7,
+        "tamil_count": 0,
+        "has_bleed": true
+      },
+      "hallucination": false,
+      "entity_preservation": {
+        "entities_in_ref": [],
+        "entities_preserved": [],
+        "entity_recall": 1.0
+      }
+    },
+    {
+      "id": "studio_indictts_f_0002",
+      "category": "A. Pure Telugu (Studio Real)",
+      "source": "IIT Madras IndicTTS Real Studio",
+      "duration_sec": 2.53,
+      "ref_text": "స్వర్ణ కారుడు.",
+      "hyp_text": "स्वर्न కారుడు.",
+      "detected_lang": "multilingual",
+      "latency_ms": 3969.29,
+      "rtf": 1.5667,
+      "cer": 0.5,
+      "wer": 0.5,
+      "english_token_preservation": 1.0,
+      "telugu_script_correctness": 0.5,
+      "script_bleed": {
+        "devanagari_count": 6,
+        "tamil_count": 0,
+        "has_bleed": true
+      },
+      "hallucination": false,
+      "entity_preservation": {
+        "entities_in_ref": [],
+        "entities_preserved": [],
+        "entity_recall": 1.0
+      }
+    },
+    {
+      "id": "studio_indictts_f_0003",
+      "category": "A. Pure Telugu (Studio Real)",
+      "source": "IIT Madras IndicTTS Real Studio",
+      "duration_sec": 1.8,
+      "ref_text": "ఆవుతో అడావుడి.",
+      "hyp_text": "ఆవుతో అడావుడి.",
+      "detected_lang": "multilingual",
+      "latency_ms": 4039.82,
+      "rtf": 2.2417,
+      "cer": 0.0,
+      "wer": 0.0,
+      "english_token_preservation": 1.0,
+      "telugu_script_correctness": 1.0,
+      "script_bleed": {
+        "devanagari_count": 0,
+        "tamil_count": 0,
+        "has_bleed": false
+      },
+      "hallucination": false,
+      "entity_preservation": {
+        "entities_in_ref": [],
+        "entities_preserved": [],
+        "entity_recall": 1.0
+      }
+    },
+    {
+      "id": "studio_indictts_f_0004",
+      "category": "A. Pure Telugu (Studio Real)",
+      "source": "IIT Madras IndicTTS Real Studio",
+      "duration_sec": 2.14,
+      "ref_text": "వంశ గౌరవం.",
+      "hyp_text": "وَمْسَ گَوْرَوَمْ",
+      "detected_lang": "multilingual",
+      "latency_ms": 3873.81,
+      "rtf": 1.8112,
+      "cer": 1.0,
+      "wer": 1.0,
+      "english_token_preservation": 1.0,
+      "telugu_script_correctness": 1.0,
+      "script_bleed": {
+        "devanagari_count": 0,
+        "tamil_count": 0,
+        "has_bleed": false
+      },
+      "hallucination": false,
+      "entity_preservation": {
+        "entities_in_ref": [],
+        "entities_preserved": [],
+        "entity_recall": 1.0
+      }
+    },
+    {
+      "id": "studio_indictts_f_0005",
+      "category": "A. Pure Telugu (Studio Real)",
+      "source": "IIT Madras IndicTTS Real Studio",
+      "duration_sec": 3.53,
+      "ref_text": "నావికుడు సింద్ బాద్.",
+      "hyp_text": "नావికుడు సిందు బాద.",
+      "detected_lang": "multilingual",
+      "latency_ms": 4121.32,
+      "rtf": 1.1669,
+      "cer": 0.1,
+      "wer": 0.125,
+      "english_token_preservation": 1.0,
+      "telugu_script_correctness": 0.9375,
+      "script_bleed": {
+        "devanagari_count": 1,
+        "tamil_count": 0,
+        "has_bleed": true
+      },
+      "hallucination": false,
+      "entity_preservation": {
+        "entities_in_ref": [],
+        "entities_preserved": [],
+        "entity_recall": 1.0
+      }
+    }
+  ]
+}

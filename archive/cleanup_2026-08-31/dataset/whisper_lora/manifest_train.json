@@ -1,0 +1,948 @@
+[
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0025.wav",
+    "text": "అప్పుడు ఇంద్రుడు మిత్రవిందకుడికి ఈ విధంగా, జవాబు చెప్పాడు.",
+    "category": "pure_telugu",
+    "duration_sec": 5.47,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_f_0006.wav",
+    "text": "అయితే అమెరికా పౌరసత్వం కారణంగా,హితేష్ పోటీ చేయడానికి సాంకేతిక సమస్యలు అడ్డుగా వచ్చాయి.",
+    "category": "pure_telugu",
+    "duration_sec": 6.88,
+    "speaker": "syspin_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_m_0079.wav",
+    "text": "నేను డైరెక్ట్ చేస్తున్న బిచోరే రిలీజ్కాగానే ఈ మూవీ పట్టాలెక్కనుంది అంటూ ఉత్సాహంగా చెప్పాడు తివారీ.",
+    "category": "pure_telugu",
+    "duration_sec": 6.83,
+    "speaker": "syspin_male"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0010.wav",
+    "text": "సుఖ ప్రారబ్ధం.",
+    "category": "pure_telugu",
+    "duration_sec": 1.77,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_m_0074.wav",
+    "text": "టాబ్లెట్లలో కూడా సోషల్ సైట్లకు వెళ్ళచ్చు, రండి, మావి కొనుక్కోండి!",
+    "category": "pure_telugu",
+    "duration_sec": 4.28,
+    "speaker": "syspin_male"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0018.wav",
+    "text": "మదాలస.",
+    "category": "pure_telugu",
+    "duration_sec": 1.15,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_f_0017.wav",
+    "text": "దేశంలో అధిక శాతం ప్రజలకు ఆహార ధాన్యాలు అందుబాటులోలేని నేపధ్యంలో స్వల్ప ఆదాయంకోసం ఆహార ధాన్యాలను ఎగుమతి చెయ్యటం సరైనదేనా?",
+    "category": "pure_telugu",
+    "duration_sec": 10.45,
+    "speaker": "syspin_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_m_0042.wav",
+    "text": "ఈ సందర్భంగా గవర్నర్ మాట్లాడుతూ ఫ్లీట్ రివ్యూ విజయవంతం కావాలని, భారత నౌకాదళ ప్రతిభ దశ దిశలా వ్యాపించాలని ఆకాంక్షించారు.",
+    "category": "pure_telugu",
+    "duration_sec": 8.55,
+    "speaker": "syspin_male"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_f_0029.wav",
+    "text": "దాంట్లోని అంశాల పట్ల తమ స్పందనలను తెలియచెయ్యటానికి మిత్రులకు, విమర్శకులకు, ప్రత్యర్థులకు తగినంత సమయం లభించింది.",
+    "category": "pure_telugu",
+    "duration_sec": 8.75,
+    "speaker": "syspin_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_m_0072.wav",
+    "text": "“ఆ ఆనందము మాటల్లో చెప్పరాదు గదూ !” “అవును... ” మరోదిక్కు ఇంకో చెలికత్తెకు చూపిస్తూ “ఆ గండుతుమ్మెద చూడు.",
+    "category": "pure_telugu",
+    "duration_sec": 6.92,
+    "speaker": "syspin_male"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0002.wav",
+    "text": "స్వర్ణ కారుడు.",
+    "category": "pure_telugu",
+    "duration_sec": 1.23,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_m_0077.wav",
+    "text": "ఐఐపి, ద్రవ్యోల్బణం సూక్ష్మ గణంకాలు అనుకూలంగా రానున్నాయనే అంచనాలు కూడా మార్కెట్లపై విశ్వాసాన్ని పెంచాయి.",
+    "category": "pure_telugu",
+    "duration_sec": 6.7,
+    "speaker": "syspin_male"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_m_0043.wav",
+    "text": "రాశులలో అనేక అంశాలు భిన్నభిన్న ప్రవృత్తులు మరియు విభిన్నమైన నైసర్గిక స్థాన దిక్కులు, జాతులు మరియు ఆరోగ్య శబ్ద భేద వర్ణ, నివాస, సంతాన మరియు మిగిలిన మరికొన్ని విశేషాలను మనం ఇక్కడ నేర్చుకుందాం.",
+    "category": "pure_telugu",
+    "duration_sec": 14.15,
+    "speaker": "syspin_male"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_m_0049.wav",
+    "text": "“అభాగ్యుడు” అంది జానకి సానుభూతిగా. “అలా అన్నందుకే జాన్ మీ బావ మీద పడిపోయేడు. “మీదేం పోయిందండీ! ఆడు కొట్టించింది నన్ను.",
+    "category": "pure_telugu",
+    "duration_sec": 8.18,
+    "speaker": "syspin_male"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_f_0009.wav",
+    "text": "ఉదాహరణకి అమీబా ఆహార సేకరణ కొరకు శరీర ఉపరితలం నుండి వేళ్లవంటి మిద్యాపాదాలను ఏర్పాటు చేసుకుంటుంది. ఈ మిద్యాపాదాలను ఆహారం చుట్టూ వ్యాపింపజేసి ఆహారపు రిక్తికగా మారుస్తుంది.",
+    "category": "pure_telugu",
+    "duration_sec": 13.9,
+    "speaker": "syspin_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_f_0038.wav",
+    "text": "పిల్లలకు పాఠాన్ని వివరించడంలో ఆమెకు కొంచెం ఇబ్బంది ఉండేది.",
+    "category": "pure_telugu",
+    "duration_sec": 4.47,
+    "speaker": "syspin_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_m_0056.wav",
+    "text": "\"మా బతుక్కి తగునుకదా యనా? ఇదే నీ యింట్లో కథయితే, నాకు చేసిన హితబోధ నీకు గుర్తుండేదేనా?\"",
+    "category": "pure_telugu",
+    "duration_sec": 6.17,
+    "speaker": "syspin_male"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0033.wav",
+    "text": "వంశగౌరవానికి కావాల్సింది నరబలేగదా అటువంటప్పుడు ఎవరు బలి అయితే నేం.",
+    "category": "pure_telugu",
+    "duration_sec": 6.47,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0020.wav",
+    "text": "పరుసవేది.",
+    "category": "pure_telugu",
+    "duration_sec": 1.02,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0052.wav",
+    "text": "ఆయనను చూడగానే మిత్రవిందకుడు ఏడుస్తూ స్వామీ కరుణించండి ఈ చక్రంనన్నెప్పుడు వదులుతుందో చెప్పండి అని వేడుకున్నాడు.",
+    "category": "pure_telugu",
+    "duration_sec": 11.62,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0023.wav",
+    "text": "బాబూ ఇది పద్మం కాదు అసిధారా చక్రం అన్నాడు నరకవాసి.",
+    "category": "pure_telugu",
+    "duration_sec": 5.88,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_m_0055.wav",
+    "text": "న్యూడెల్లి: భారత్, జపాన్ల మధ్య విశ్వాసమే పునాదిగా బలమైన స్నేహ బంధం ఉందని ప్రధాని నరేంద్ర మోది అన్నారు.",
+    "category": "pure_telugu",
+    "duration_sec": 6.9,
+    "speaker": "syspin_male"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_m_0070.wav",
+    "text": "“ముఖం కడుక్కుంటారా? ఇదిగో వాష్బేసిన్. కుళాయిలో నీళ్లు వస్తాయి. ఇంతలో తుండు తెస్తున్నా.”",
+    "category": "pure_telugu",
+    "duration_sec": 5.15,
+    "speaker": "syspin_male"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0038.wav",
+    "text": "తలారి వెంటనే గోతం విప్పిచూసి చాలా ఆశ్చర్య పోయాడు.",
+    "category": "pure_telugu",
+    "duration_sec": 5.1,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_m_0054.wav",
+    "text": "ఆ సమయంలో వెనుకనుంచి ఇద్దరు ప్రేక్షకులు అతడిని చూపిస్తూ సామ్నే ఏక్ పాకిస్తాని భైఠా హై ముందు వరుసలో ఒక పాకిస్తాని కూర్చున్నాడు అంటూ వ్యాఖ్యానించారు.",
+    "category": "pure_telugu",
+    "duration_sec": 8.97,
+    "speaker": "syspin_male"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0053.wav",
+    "text": "ఈ విధంగా చెప్పి ఇంద్రుడు తన పరివారంతో సహా వెళ్ళిపోయాడు మిత్రవిందకుడు తనకు పట్టిన దుర్ధశ తెలుసుకుని విచారంతో కుంగిపోయాడు.",
+    "category": "pure_telugu",
+    "duration_sec": 12.82,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0041.wav",
+    "text": "వజ్రకాయుడి మరణానంతరం ఆచారం ప్రకారం పోటీపందెములు జరిగాయి పరుగులో దేవమయుడు చక్రం విసరటంలో భూధవుడూ, గెలిచారు.",
+    "category": "pure_telugu",
+    "duration_sec": 5.85,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0032.wav",
+    "text": "ముందు ముకుందుణ్ణి ఇంటినుంచి వెళ్ళ గొట్టాలి అన్నాడొక బంధువు.",
+    "category": "pure_telugu",
+    "duration_sec": 5.2,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_m_0058.wav",
+    "text": "కాశ్మీరు సమస్యకు సంబంధించి భద్రతా మండలిలో ఎప్పుడు ఓటింగ్ జరిగినా, భారత్కు వ్యతిరేకంగా తీర్మానాలు ప్రతిపాదించినా సోవియట్ యూనియన్ తన వీటో అధికారాన్ని వినియోగించి, మనకు మద్దతు తెలిపేది.",
+    "category": "pure_telugu",
+    "duration_sec": 12.45,
+    "speaker": "syspin_male"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0051.wav",
+    "text": "స్వర్గంలో, ఇంద్రుడుగా ఉంటున్న బోధిసత్వుడు దేవగణాలను, వెంటబెట్టుకుని నరకాలన్నిటినీ తనిఖీ చేస్తూ కొంతకాలానికి మిత్రవిందకుడుండే చోటికి వచ్చాడు.",
+    "category": "pure_telugu",
+    "duration_sec": 13.9,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0034.wav",
+    "text": "నువ్వింకా బతికే ఉన్నావా అన్నది, జమీందారు భార్య వంటవాడితో.",
+    "category": "pure_telugu",
+    "duration_sec": 5.17,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_m_0047.wav",
+    "text": "అయితే శాస్త్రీయంగా చూస్తే రాజ్యము, సమాజముల మధ్య భేదాలున్నాయి. వాటి నిర్మాణము, లక్షణాలు, నిర్వహణలో వ్యత్యాసాలున్నాయి.",
+    "category": "pure_telugu",
+    "duration_sec": 7.25,
+    "speaker": "syspin_male"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_f_0015.wav",
+    "text": "బెల్టు దుకాణాల్లో భారీగా నిల్వలు ఉంటుండడం,రెస్టారెంట్లను తలపిస్తూ జోరుమీద విక్రయాలు సాగిస్తున్నాయి.",
+    "category": "pure_telugu",
+    "duration_sec": 7.6,
+    "speaker": "syspin_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_f_0004.wav",
+    "text": "కొన్ని గంటల తరువాత సీసాలో అమర్చిన ఆకును, మొక్కలో ఎదైనా మరొక ఆకును తీసుకొని కృత్యం- {1}{ఒకటి}లో చేసినట్లుగా అయోడిన్ ద్రావణంతో పరీక్షించండి.",
+    "category": "pure_telugu",
+    "duration_sec": 10.55,
+    "speaker": "syspin_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0057.wav",
+    "text": "త్వరలోనే ధన్మగుప్తుణ్ణి గురించి జనం చెప్పుకోవటం మానేశారు ఇక తనకేమీ భయం లేదనుకున్నాడు లోహితుడు పుట్టింటినుంచి అతని భార్య పిల్లలతోసహా తిరిగి వచ్చింది.",
+    "category": "pure_telugu",
+    "duration_sec": 13.53,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_f_0035.wav",
+    "text": "తీరని పనుల్లో తల మునకలవుతున్న ఆ మనిషికి ఇంత పరీక్షచేసే తీరిక ఎలా దొరికింది? అని ఆశ్చర్యపడుతూ ‘నిజమేనండీ! అన్నాను.",
+    "category": "pure_telugu",
+    "duration_sec": 8.62,
+    "speaker": "syspin_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_m_0062.wav",
+    "text": "స్వేఛ్చ, సమానత్వం, సౌభ్రాతృత్వం, న్యాయం, దేశ సమైక్యత వంటి రాజ్యాంగ పరమైన విలువలు కూడా పెంపొందించాలి.",
+    "category": "pure_telugu",
+    "duration_sec": 7.78,
+    "speaker": "syspin_male"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0058.wav",
+    "text": "భార్యకు తన భర్త ఇంకో పెళ్ళి చేసుకోబోతున్నాడని తెలిసింది తన భర్త ఎదుట ఏడిచి ఈ పెళ్ళి జరగటానికి వీల్లేదన్నది.",
+    "category": "pure_telugu",
+    "duration_sec": 11.05,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0003.wav",
+    "text": "ఆవుతో అడావుడి.",
+    "category": "pure_telugu",
+    "duration_sec": 1.55,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_f_0003.wav",
+    "text": "స్టోలన్లు - వాలిస్నేరియా, స్ట్రాబెర్రీ; లశునాలు - ఉల్లి; కొమ్ములు - పసుపు; దుంప - బంగాళదుంప.",
+    "category": "pure_telugu",
+    "duration_sec": 7.92,
+    "speaker": "syspin_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_m_0064.wav",
+    "text": "జనం అతని సమాధిని దర్శిస్తారు. తలుపుచుట్టూ తిరుగుతారు. గోడలు ఉండవు. తలుపు ఉంటుంది! గోడలుండవు!",
+    "category": "pure_telugu",
+    "duration_sec": 6.33,
+    "speaker": "syspin_male"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_m_0066.wav",
+    "text": "తాను యితర ధర్మంలోకి వెళ్లదు. అయితే అన్ని ఆలోచలనీ గౌరవిస్తుంది, మన్నిస్తుంది, స్పూర్తి పొందుతుంది.",
+    "category": "pure_telugu",
+    "duration_sec": 6.42,
+    "speaker": "syspin_male"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0016.wav",
+    "text": "పాపిష్ఠి జన్మ.",
+    "category": "pure_telugu",
+    "duration_sec": 1.23,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_f_0010.wav",
+    "text": "శతక పద్యాల్లోని నైతిక విలువలను తెల్పడమే ఈ పాఠం ఉద్దేశం. శతక పద్యాలలో మకుటం ప్రధానమైంది.",
+    "category": "pure_telugu",
+    "duration_sec": 7.08,
+    "speaker": "syspin_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_m_0057.wav",
+    "text": "గవర్నర్ను ఎవరి సిఫారస్లకు అనుగుణంగా రాష్ట్ర శాసనసభను రద్దు చేస్తాడు? ముఖ్యమంత్రి అధిపతిగాగల మంత్రి మండలి. ముఖ్యమంత్రి ఎలా నియమింపబతాడు? గవర్నర్ సాధారణ ఎన్నికలు అనంతరం రాష్ట్ర శాసనసభలో మెజార్టీకి లేదా పార్టీ సమ్మేలనానికి చెందిన వ్యక్తిని మఖ్యమంత్రిగా నియమిస్తాడు.",
+    "category": "pure_telugu",
+    "duration_sec": 18.5,
+    "speaker": "syspin_male"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_f_0001.wav",
+    "text": "ఇండియన్ ఇనిస్టిట్యూట్ ఆఫ్ పెట్రోలియం అండ్ ఎనర్జీ సంచాలకులు ఫ్రొఫెసర్ వీఎస్ఆర్కే ప్రసాద్, ఇండియన్ ఇనిస్టిట్యూట్ ఆఫ్ మేనేజ్మెంట్ సంచాలకులు తదితరులు పాల్గొన్నారు.",
+    "category": "pure_telugu",
+    "duration_sec": 11.28,
+    "speaker": "syspin_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_f_0019.wav",
+    "text": "అయితే ప్రభుత్వం ప్రజలకు ఇచ్చే సబ్సిడీలలో కోత విధించటం వల్ల చౌక విదేశీ సరుకులు వెల్లువెత్తడంతో ఇక్కడ అనేక కర్మాగారాలు మూతపడటం వల్ల సాధారణ ప్రజలు ఎన్నో కష్టాలకు గురయ్యారు.",
+    "category": "pure_telugu",
+    "duration_sec": 13.35,
+    "speaker": "syspin_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_f_0025.wav",
+    "text": "వ్రేళ్ళ ప్రక్రియ సరిగ్గా నిర్వహిస్తే,గ్రామ్ పాజిటివ్ బ్యాక్టీరియా ఊదారంగులో ఉంటుంది,గ్రామ్ నెగటివ్ బ్యాక్టీరియా పింక్ గా ఉంటుంది.",
+    "category": "pure_telugu",
+    "duration_sec": 8.8,
+    "speaker": "syspin_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0054.wav",
+    "text": "ఒకనాటి సాయంకాలం, చీకటి పడేవేళ ధర్మగుప్తుడు పొరుగూరునుంచి ఇంటికి వచ్చే దారిలో ఆయనను దొంగలు కొట్టారు తలమీద బలమైన గాయం తగిలి ఆయన పడిపోయాడు కాని దొంగలకు ఆయనవద్ద ఏమీ దొరకలేదు.",
+    "category": "pure_telugu",
+    "duration_sec": 18.8,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_f_0028.wav",
+    "text": "మన దేశంలోనే కాదు ప్రపంచంలోని పలుదేశాల్లో ఈ రామాయణ కథ మనకు కనిపిస్తుంది.",
+    "category": "pure_telugu",
+    "duration_sec": 5.53,
+    "speaker": "syspin_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_f_0008.wav",
+    "text": "నానాజాతి సమితిపైన చాలా ఆశలు పెట్టుకున్నారు, అది ఎంతో సాధిస్తుందని ఆశించారు.",
+    "category": "pure_telugu",
+    "duration_sec": 5.62,
+    "speaker": "syspin_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0036.wav",
+    "text": "నీకీ ప్రమాదం రావటం నా కెంతో విచారంగా ఉంది నిన్ను ఈ జీవితంలో ఎన్నడూ మరచిపోను అన్నాడు ఇంకొక స్నేహితుడు.",
+    "category": "pure_telugu",
+    "duration_sec": 9.5,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_m_0063.wav",
+    "text": "వాటిలో సహజ ఆమ్లమైన నిమ్మరసాన్ని పోయండి.",
+    "category": "pure_telugu",
+    "duration_sec": 2.8,
+    "speaker": "syspin_male"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0042.wav",
+    "text": "మిగిలిన ఆడవాళ్లంతా ఈ మాట నిజమన్నారు.",
+    "category": "pure_telugu",
+    "duration_sec": 3.35,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0040.wav",
+    "text": "వాడు దరిద్రుడైతే నేను అజ్ఞానిని క్షమించు తల్లీ అంటూ మండోదరి భర్త బోర్లాపడి ఏడిచాడు.",
+    "category": "pure_telugu",
+    "duration_sec": 8.45,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0005.wav",
+    "text": "నావికుడు సింద్ బాద్.",
+    "category": "pure_telugu",
+    "duration_sec": 1.65,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0043.wav",
+    "text": "చంద్రుడు సూర్యాలయంలో హేమ తండ్రికి అతిథిగా ఉంటూవున్న సమయంలో రూపధరుడు అతన్ని వెతుక్కుంటూ అక్కడికి వచ్చాడు.",
+    "category": "pure_telugu",
+    "duration_sec": 9.22,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_m_0041.wav",
+    "text": "వాషింగ్టన్:గంటల కొద్దీ టీవీల ముందు కూర్చునేవారి సిరల్లో రక్తం గడ్డకట్టే ప్రమాదం ఉందని ఓ అధ్యయనంలో తేలింది. టీవీలు చూస్తూ కూర్చోవటం వల్ల కాళ్లకు నీరు చేరుతుంది.",
+    "category": "pure_telugu",
+    "duration_sec": 12.12,
+    "speaker": "syspin_male"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_m_0061.wav",
+    "text": "ఇప్పటికే వైకాపా కాల్సెంటర్ల నుంచి వచ్చిన వాయిస్ కాల్ రికార్డులు మంత్రులు లోకెశ్, దేవినేని ఉమా ఇప్పటికే బహిర్గతం చేశారు.",
+    "category": "pure_telugu",
+    "duration_sec": 7.55,
+    "speaker": "syspin_male"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0019.wav",
+    "text": "మాయ చిత్తరువు.",
+    "category": "pure_telugu",
+    "duration_sec": 1.35,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0044.wav",
+    "text": "మొసళ్ళు పూర్తిగా మాంసాహారులు వాటి దవడలు బలంగానూ వాటి దంతాలు వాడిగాను ఉంటాయి.",
+    "category": "pure_telugu",
+    "duration_sec": 7.4,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_f_0039.wav",
+    "text": "ఇటీవల జరిగిన సిడబ్య్లుసి సమావేశంలో,తాను,పార్టీ అధ్యక్ష పదవికి,రాజీనామా చేస్తానని,రాహుల్ ప్రకటించారు.",
+    "category": "pure_telugu",
+    "duration_sec": 7.9,
+    "speaker": "syspin_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_m_0073.wav",
+    "text": "దాంతో ఏదో సర్ది చెప్పి తన కూతురుతో మాట్లాడి తల్లిదండ్రులు వెళ్ళిపోయిన తర్వాత ఇలా తనని చంపేశారని జయశ్రీ తల్లిదండ్రులు వాపోయారు.",
+    "category": "pure_telugu",
+    "duration_sec": 8.6,
+    "speaker": "syspin_male"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0049.wav",
+    "text": "ఈ విధంగా అతను మరొక దీవిలో పదహారుమంది పిశాచినులతోను ఇంకొక దీవిలో ముప్పైరెండుమంది పిశాచినులతోను ఒక్కొక్క వారం గడిపి ఆఖరుకు తన తెప్పపైన వేరొక లంకను చేరుకున్నాడు.",
+    "category": "pure_telugu",
+    "duration_sec": 16.3,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_m_0048.wav",
+    "text": "అయితే దసరా తర్వాత జరిగే మంత్రివర్గ విస్తరణలో మాజీ మంత్రి సబితా ఇంద్రారెడ్డి, ఎమ్ఎల్సి లు గుత్తా సుఖేందర్రెడ్డి, సత్యవతి రాథోడ్కు బెర్తులు ఖాయమైనట్లు సమాచారం.",
+    "category": "pure_telugu",
+    "duration_sec": 11.53,
+    "speaker": "syspin_male"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_f_0021.wav",
+    "text": "దిగుమతులపై పన్ను వాణిజ్య అవరోధానికి ఒక ఉదాహరణ.",
+    "category": "pure_telugu",
+    "duration_sec": 3.92,
+    "speaker": "syspin_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_f_0030.wav",
+    "text": "ఈ విధమైన కేసులను ఎటువంటి రుసుములు, ఖర్చులు లేకుండా లోక్ అదాలత్ల ద్వారా అందరికీ ఆమోద యోగ్యరీతిలో శాశ్వతంగా పరిష్కరించుకోవచ్చు.",
+    "category": "pure_telugu",
+    "duration_sec": 9.97,
+    "speaker": "syspin_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_m_0044.wav",
+    "text": "విద్యార్థులకు మరింత సౌలభ్యం కోసం పలు సంస్థలు ఇప్పుడు యూజి, పిజి స్థాయిలో యాక్చూరియల్ సైన్స్ కోర్సులు అందిస్తున్నాయి.",
+    "category": "pure_telugu",
+    "duration_sec": 7.47,
+    "speaker": "syspin_male"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_f_0027.wav",
+    "text": "దీంతో లాటిన్ అమెరికాలో అనేక దేశాలు ఇదేరకమైన మార్పు కోసం పోరాటాలను చేపట్టటానికి స్ఫూర్తిని పొందాయి.",
+    "category": "pure_telugu",
+    "duration_sec": 8.35,
+    "speaker": "syspin_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_f_0036.wav",
+    "text": "ఉబ్బసం వ్యాధికోసం బత్తిన సోదరులు గత కొన్నేళ్ళుగా వేస్తున్న చేపమందుపై,నటుడు డాక్టర్ రాజశేఖర్ స్పందించారు. వైద్య శాస్త్రంలో చేప మందువల్ల తగ్గిపోయే జబ్బు,ఏదీ లేదని ఆయన అన్నారు.",
+    "category": "pure_telugu",
+    "duration_sec": 13.7,
+    "speaker": "syspin_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_f_0033.wav",
+    "text": "స్థిర నివాసం ఏర్పాటు చేసుకోవటంతో మానవ జీవనశైలి ఎలా మారింది?",
+    "category": "pure_telugu",
+    "duration_sec": 4.62,
+    "speaker": "syspin_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_m_0060.wav",
+    "text": "మంచు లక్ష్మి మిమిక్రి అంటే జనానికి పిచ్చి.మంచు లక్ష్మి ముద్దు ముద్దు మాటలు, వచ్చీ రానట్లు మాట్లాడే కత్తిరింపుల తెలుగు బాష ఆమెని మిమిక్రీ చేయడానికి ఇంతకన్నా ఏం కావాలి?",
+    "category": "pure_telugu",
+    "duration_sec": 10.65,
+    "speaker": "syspin_male"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_f_0024.wav",
+    "text": "ముంబై వాంఖేడే స్టేడియంలో వెస్టీండీస్ తో సచిన్ చివరి మ్యాచ్ ఆడి,రిటైర్మెంట్ ప్రకటించారు.",
+    "category": "pure_telugu",
+    "duration_sec": 6.95,
+    "speaker": "syspin_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_m_0067.wav",
+    "text": "స్వతంత్ర ప్రతిపత్తి కలిగిన న్యాయశాఖ రాజ్యాంగాన్ని నిష్పక్షపాతంగా వ్యాఖ్యానిస్తుంది. అందువల్లనే భారతదేశంలో రాజ్యాంగ పరిరక్షణకు సుప్రీంకోర్టు ఏర్పాటుచేయబడింది.",
+    "category": "pure_telugu",
+    "duration_sec": 11.28,
+    "speaker": "syspin_male"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_f_0031.wav",
+    "text": "గ్రామంలోని అన్ని రకాల వృత్తి నిపుణులకు వీటివల్ల ఉపాధి దొరుకుతుంది.",
+    "category": "pure_telugu",
+    "duration_sec": 4.83,
+    "speaker": "syspin_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_m_0071.wav",
+    "text": "ఇది భూమిని రెండు సమ భాగాలుగా చేస్తుంది కాబట్టి దీనిని భూమధ్యరేఖ అంటారు. దీనిని సున్నా అక్షాంశంగా గుర్తిస్తారు.",
+    "category": "pure_telugu",
+    "duration_sec": 7.95,
+    "speaker": "syspin_male"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0026.wav",
+    "text": "బాబు చంపేశారు అంటూ ధర్మ గుప్తుడు ఆ మనిషి కేసి వెళ్ళాడు.",
+    "category": "pure_telugu",
+    "duration_sec": 5.9,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_f_0016.wav",
+    "text": "పత్రిక డిజైనింగ్ అంతా కంప్యూటర్లో జరుగుతుంది.",
+    "category": "pure_telugu",
+    "duration_sec": 3.0,
+    "speaker": "syspin_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0048.wav",
+    "text": "అతను సముద్రం మీద, వెళ్ళగా వెళ్ళగా మరొక లంక తగిలింది దానిలో ఎనిమిది పిశాచినులున్నారు మిత్రవిందకుడు వారితో కూడా వారం రోజులు గడిపి వారు కఠోర వ్రతాలు ఆరంభించగానే మళ్ళీ తెప్ప మీద బయలుదేరాడు.",
+    "category": "pure_telugu",
+    "duration_sec": 18.48,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_f_0022.wav",
+    "text": "స్వాతంత్రోద్యమ సమయంలో క్విట్ ఇండియా ఉద్యమంలో పాలుపంచుకొన్నాడు.",
+    "category": "pure_telugu",
+    "duration_sec": 4.35,
+    "speaker": "syspin_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_f_0023.wav",
+    "text": "అంతర్గత కీచులాటలకు, ఫిరాయింపులకు ఈ పాలన గుర్తుండిపోయింది.",
+    "category": "pure_telugu",
+    "duration_sec": 4.33,
+    "speaker": "syspin_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0039.wav",
+    "text": "బలభద్రుడు గర్భదరిద్రిడు నువ్వు దరిద్రుడివి కావే నిన్నెందుకు క్షమించాలి అన్నది విగ్రహం.",
+    "category": "pure_telugu",
+    "duration_sec": 8.0,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_m_0078.wav",
+    "text": "కాగా వరంగల్ ఎమ్ఎల్సి కొండా మురలి తన పదవికి రాజీనామా చేయగా నల్గోండ ,రంగారెడ్డి జిల్లాల ఎమ్ఎల్సిలు కోమటిరెడ్డి రాజగోపాల్ రెడ్డి, పట్నం నరేందర్ రెడ్డిలు ఎమ్ఎల్ఎలుగా ఎన్నికయ్యారు.",
+    "category": "pure_telugu",
+    "duration_sec": 12.88,
+    "speaker": "syspin_male"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0012.wav",
+    "text": "మరగుజ్జు.",
+    "category": "pure_telugu",
+    "duration_sec": 1.02,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_f_0037.wav",
+    "text": "అతను బైక్ పై ఇంటికి వెళుతుండగా కొంతమంది బైక్ మీద వచ్చి కాల్పులు జరిపారని పోలీసులు తెలిపారు.",
+    "category": "pure_telugu",
+    "duration_sec": 6.75,
+    "speaker": "syspin_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0017.wav",
+    "text": "నక్క సవారి.",
+    "category": "pure_telugu",
+    "duration_sec": 1.25,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_f_0011.wav",
+    "text": "ఈ సంఘటన జరిగిన తర్వాతనే,శశాంక్,అతని క్లాస్మేట్ అభినవ్ లాల్తో కలిసి,ప్రాక్టో టెక్నాలజీస్ ప్రైవేటు లిమిటెడ్ కంపెనీని, రెండు వేల మూడు లో,బెంగళూర్లో ప్రారంభించారు.",
+    "category": "pure_telugu",
+    "duration_sec": 12.07,
+    "speaker": "syspin_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0060.wav",
+    "text": "ఆవు చేసిన ఈ పనిని కుందేలు దూరం నుంచి చూసి ఏమీ ఎరగనట్టు ఈలవేసుకుంటూ దగ్గిరికివచ్చి ఏం అత్తా ఈ పాటికి కొమ్ములు వదిలించుకున్నావనుకున్నానే అన్నది.",
+    "category": "pure_telugu",
+    "duration_sec": 14.47,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0006.wav",
+    "text": "పనికిమాలిన మిత్రులు.",
+    "category": "pure_telugu",
+    "duration_sec": 1.57,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0035.wav",
+    "text": "కొడుకు తన స్నేహితులను వెనక వేసుకువచ్చి వాళ్ళు తనకోసం ప్రాణాలైనా ఇచ్చేస్తారని తండ్రితో వాదించాడు.",
+    "category": "pure_telugu",
+    "duration_sec": 8.78,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_m_0065.wav",
+    "text": "వీరికి కామవాంఛ తక్కువ. సంతానం స్వల్పం. బంధుమిత్రుల్లో మంచి ఆప్యాయత గౌరవం పొందుతారు.",
+    "category": "pure_telugu",
+    "duration_sec": 5.67,
+    "speaker": "syspin_male"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0046.wav",
+    "text": "ఆతను భోజనంచేసి తల్లి దగ్గిర వేయ్యిరూపాయలూ తీసుకుని తన పనిమీద తాను వెళ్ళాడు ఈ డబ్బుతో అతను వ్యాపారం చేసి త్వరలోనే ఇరవై లక్షల రూపాయలు సంపాదించుకున్నాడు.",
+    "category": "pure_telugu",
+    "duration_sec": 15.53,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0047.wav",
+    "text": "మిత్రవిందకుడు తల్లి మాట వినక పోయితీరాలని మూర్ఖించాడు ఆవిడ తన కొడుకు చెయ్యి పట్టుకుని వెళ్ళవద్దని బతిమాలింది మిత్రవిందకుడు తల్లిని కొట్టి తన చేతిని విడిపించుకుని, వెళ్ళిపోయాడు.",
+    "category": "pure_telugu",
+    "duration_sec": 16.4,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0014.wav",
+    "text": "అశరీరవాణి హెచ్చరిక.",
+    "category": "pure_telugu",
+    "duration_sec": 1.8,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0050.wav",
+    "text": "మిత్రవిందకుడు ఆ నరక వాసిని సమీపించి అయ్యా తమరు చాలా కాలంగా ఆ పద్మాన్ని శిరస్సున ధరించారు నన్ను కుడా ధరించనివ్వండి అని అడిగాడు.",
+    "category": "pure_telugu",
+    "duration_sec": 14.43,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_m_0069.wav",
+    "text": "బుల్లి తెరపై సెన్షేషన్ క్రియేట్ చేసిన సావిత్రి మరియు బిత్తిరి సత్తిలు ఈమద్య మీడియాలో తెగ వార్తల్లో ఉంటున్నారు.",
+    "category": "pure_telugu",
+    "duration_sec": 6.72,
+    "speaker": "syspin_male"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0015.wav",
+    "text": "విచిత్రమైన వ్యాధి.",
+    "category": "pure_telugu",
+    "duration_sec": 1.57,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_m_0045.wav",
+    "text": "అతన్ని వ్యతరేకంగా పెట్టడం నా కిష్టం. వాళ్ళిద్దర్నీ ఒకే గదిలో బంధించి ఏం జరిగినా నేను ఎంతో ఆనందిస్తాను.",
+    "category": "pure_telugu",
+    "duration_sec": 6.75,
+    "speaker": "syspin_male"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_m_0050.wav",
+    "text": "విధాన సభ సభ్యులు వయోజన ఓటింగ్ ద్వారా ప్రత్యక్షంగా ఎన్నుకోబడతారు.",
+    "category": "pure_telugu",
+    "duration_sec": 4.17,
+    "speaker": "syspin_male"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_m_0068.wav",
+    "text": "దేశీయ ఆటోమొబైల్ రంగం అమ్మకాలు లేక దివాలా తీసిన పరిస్థితిల్లో కూడా, లంబోర్గిని ఉరుస్కు భారత మార్కెట్లో మంచి ఆదరణ లభిస్తోంది.",
+    "category": "pure_telugu",
+    "duration_sec": 9.6,
+    "speaker": "syspin_male"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0021.wav",
+    "text": "రాజుకు చాలా ఆగ్రహం వచ్చింది.",
+    "category": "pure_telugu",
+    "duration_sec": 2.42,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_m_0053.wav",
+    "text": "అవి ఉండే ప్రదేశంలో ఎలక్ట్రాన్ను కనుగొనే సంభావ్యతను ఈ సంఖ్యలు సూచిస్తాయి. క్వాంటం సంఖ్యలవల్ల మనం ఏం సమాచారం పొందగలం?",
+    "category": "pure_telugu",
+    "duration_sec": 8.12,
+    "speaker": "syspin_male"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0045.wav",
+    "text": "నన్ను మోసం చేస్తున్నావు నీ సుఖ ప్రారబ్దాన్ని నేను తుడిచి పెట్టగలను అన్నాడు విజ్ఞానచంద్రుడు.",
+    "category": "pure_telugu",
+    "duration_sec": 7.45,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0056.wav",
+    "text": "తెల్లవారే లోపుగా లోహితుడు వెండీ బంగారాలను అటకమీద పెట్టి పిడకలు కప్పి ధర్మగుప్తుడి శవాన్ని తాళపుచెవులతో సహా దొడ్లో నిలువు లోతున పాతేసి గొయ్యి పూడ్చేశాడు.",
+    "category": "pure_telugu",
+    "duration_sec": 15.12,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_m_0059.wav",
+    "text": "వాస్తవంగా అధికారాలను ముఖ్యమంత్రి అధినేతగా గల మంత్రిమండలి అనుభవిస్తుంది.",
+    "category": "pure_telugu",
+    "duration_sec": 4.78,
+    "speaker": "syspin_male"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0022.wav",
+    "text": "ఆయనను ఇక్కడికి తీసుకురావటం దేనికమ్మా నా కాయనతో పనిలేదు అన్నాడు మిత్రవిందకుడు.",
+    "category": "pure_telugu",
+    "duration_sec": 8.05,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_m_0052.wav",
+    "text": "పరిపాలనా పరమైన చిన్నచిన్న సమస్యలను చర్చించి తగునిర్ణయం తీసుకున్నారు. అందరి ప్రసంగాల తర్వాత మహాసభ మౌనముద్ర దాల్చింది.",
+    "category": "pure_telugu",
+    "duration_sec": 9.1,
+    "speaker": "syspin_male"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_f_0040.wav",
+    "text": "కలప పొట్టునూ చెత్తనూ ఊడ్చే పనో, లారీలు దుంగలను కుప్ప పోసే చోట, శుభ్రం చేసే పనో చేస్తుంటాడు.",
+    "category": "pure_telugu",
+    "duration_sec": 7.38,
+    "speaker": "syspin_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/indictts_f_0001.wav",
+    "text": "నరకవాసి.",
+    "category": "pure_telugu",
+    "duration_sec": 1.3,
+    "speaker": "indic_female"
+  },
+  {
+    "id": null,
+    "audio_path": "/Users/sathvikreddy/Documents/projects/tel/dataset/telugu_tts/processed_hybrid/wavs/syspin_m_0046.wav",
+    "text": "ఈ ప్రాంతం గ్రీకు అక్షరం డెల్టా రూపంలో ఉంటుంది కాబట్టి దానికి ఆ పేరు వచ్చింది.",
+    "category": "pure_telugu",
+    "duration_sec": 5.4,
+    "speaker": "syspin_male"
+  },
+  {
+    "id": "cm_acad_08",
+    "category": "code_mixed_academic",
+    "text": "Placement cell mock interviews schedule eppudu release avthundi?",
+    "meaning": "When will placement cell mock interviews schedule be released?"
+  },
+  {
+    "id": "cm_acad_07",
+    "category": "code_mixed_academic",
+    "text": "College bus pass renew cheyadaniki fee counter ekkada untundi?",
+    "meaning": "Where is the fee counter to renew college bus pass?"
+  },
+  {
+    "id": "cm_acad_10",
+    "category": "code_mixed_academic",
+    "text": "Original certificates return teesukovadaniki no objection certificate kavala?",
+    "meaning": "Do we need NOC to take back original certificates?"
+  },
+  {
+    "id": "cm_tech_02",
+    "category": "code_mixed_tech",
+    "text": "Campus Wi-Fi connectivity lab lo work avvatledu, complaint ela raise cheyyali?",
+    "meaning": "Campus Wi-Fi not working in lab, how to raise a complaint?"
+  },
+  {
+    "id": "cm_acad_04",
+    "category": "code_mixed_academic",
+    "text": "Lab external exams ki attendance compulsory ah?",
+    "meaning": "Is attendance compulsory for lab external exams?"
+  },
+  {
+    "id": "cm_acad_03",
+    "category": "code_mixed_academic",
+    "text": "Supply exams registration start aiyyinda ledha?",
+    "meaning": "Has supply exams registration started or not?"
+  },
+  {
+    "id": "cm_tech_03",
+    "category": "code_mixed_tech",
+    "text": "Computer science lab software license update eppudu chestharu?",
+    "meaning": "When will CS lab software license be updated?"
+  },
+  {
+    "id": "cm_acad_06",
+    "category": "code_mixed_academic",
+    "text": "Condonation fee online net banking dwara pay cheyocha?",
+    "meaning": "Can condonation fee be paid via online net banking?"
+  },
+  {
+    "id": "cm_acad_05",
+    "category": "code_mixed_academic",
+    "text": "Credit requirements complete cheyadaniki electives ela select chesukovali?",
+    "meaning": "How to select electives to complete credit requirements?"
+  },
+  {
+    "id": "cm_hostel_03",
+    "category": "code_mixed_admin",
+    "text": "Single room occupancy apply cheyadaniki eligibility criteria enti?",
+    "meaning": "What is the eligibility criteria to apply for single room occupancy?"
+  },
+  {
+    "id": "cm_acad_02",
+    "category": "code_mixed_academic",
+    "text": "Mid term marks portal lo eppudu upload avthayi?",
+    "meaning": "When will mid-term marks be uploaded to the portal?"
+  }
+]

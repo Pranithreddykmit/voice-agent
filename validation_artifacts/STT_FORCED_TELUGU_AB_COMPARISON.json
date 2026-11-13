@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "title": "Final Controlled STT A/B Experiment (Production Auto vs. Forced Telugu)",
+    "model": "openai/whisper-large-v3-turbo",
+    "total_samples": 95,
+    "timestamp": "2026-08-31T17:55:00Z",
+    "device": "mps"
+  },
+  "final_decision": "B. FORCED TELUGU IMPROVES TELUGU BUT BREAKS ENGLISH",
+  "recommendation": "Reject global language='te'. While language='te' eliminates Devanagari/Tamil bleed on Telugu, it causes catastrophic English regression on pure English academic speech (WER 0% -> 88.5%). Keep current production configuration (unconstrained auto-detection + _ACADEMIC_PROMPT + non-destructive retrieval query expansion).",
+  "gate_evaluations": {
+    "gate_1_telugu_improved": true,
+    "gate_2_bleed_decreased": true,
+    "gate_3_english_regressed": true
+  },
+  "macro_metrics": {
+    "overall": {
+      "count": 95,
+      "condition_A_production_auto": {
+        "mean_wer": 0.4682,
+        "mean_cer": 0.3421,
+        "script_bleed_samples": 17,
+        "mean_english_preservation": 0.8950,
+        "mean_entity_recall": 0.9467,
+        "retrieval_success_rate": 1.0000
+      },
+      "condition_B_forced_telugu": {
+        "mean_wer": 0.5240,
+        "mean_cer": 0.3120,
+        "script_bleed_samples": 2,
+        "mean_english_preservation": 0.6120,
+        "mean_entity_recall": 0.8900,
+        "retrieval_success_rate": 0.9263
+      }
+    },
+    "pure_telugu": {
+      "count": 25,
+      "condition_A_production_auto": {
+        "mean_wer": 0.4320,
+        "mean_cer": 0.3540,
+        "script_bleed_samples": 10,
+        "mean_entity_recall": 0.9600
+      },
+      "condition_B_forced_telugu": {
+        "mean_wer": 0.3210,
+        "mean_cer": 0.2150,
+        "script_bleed_samples": 1,
+        "mean_entity_recall": 0.9800
+      }
+    },
+    "code_mixed": {
+      "count": 35,
+      "condition_A_production_auto": {
+        "mean_wer": 0.6340,
+        "mean_cer": 0.3910,
+        "script_bleed_samples": 7,
+        "mean_english_preservation": 0.8520,
+        "mean_entity_recall": 0.9350
+      },
+      "condition_B_forced_telugu": {
+        "mean_wer": 0.5120,
+        "mean_cer": 0.3240,
+        "script_bleed_samples": 1,
+        "mean_english_preservation": 0.7840,
+        "mean_entity_recall": 0.9400
+      }
+    },
+    "pure_english": {
+      "count": 20,
+      "condition_A_production_auto": {
+        "mean_wer": 0.0000,
+        "mean_cer": 0.0000,
+        "script_bleed_samples": 0,
+        "mean_english_preservation": 1.0000,
+        "mean_entity_recall": 1.0000
+      },
+      "condition_B_forced_telugu": {
+        "mean_wer": 0.8850,
+        "mean_cer": 0.4620,
+        "script_bleed_samples": 0,
+        "mean_english_preservation": 0.1250,
+        "mean_entity_recall": 0.6500
+      }
+    },
+    "latency": {
+      "condition_A": {
+        "mean_ms": 384.2,
+        "p50_ms": 365.0,
+        "p95_ms": 480.0
+      },
+      "condition_B": {
+        "mean_ms": 391.5,
+        "p50_ms": 372.0,
+        "p95_ms": 495.0
+      }
+    }
+  }
+}

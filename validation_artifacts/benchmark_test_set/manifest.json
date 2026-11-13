@@ -1,0 +1,137 @@
+[
+  {
+    "id": "A1_te_human_syspin",
+    "category": "A. Pure Telugu",
+    "source": "Human (SYSPIN Dataset)",
+    "wav_path": "/Users/sathvikreddy/Documents/projects/tel/validation_artifacts/benchmark_test_set/A1_te_human_syspin.wav",
+    "duration_sec": 7.79,
+    "ref_text": "మల విసర్జనాన్ని శరీరంలోని ఏ భాగం నియంత్రిస్తుంది? ఈ చర్య నియంత్రితమా? అనియంత్రితమా? ఎందుకు?",
+    "meaning": "Biology query on digestive regulation."
+  },
+  {
+    "id": "A2_te_human_indictts",
+    "category": "A. Pure Telugu",
+    "source": "Human (IndicTTS Dataset)",
+    "wav_path": "/Users/sathvikreddy/Documents/projects/tel/validation_artifacts/benchmark_test_set/A2_te_human_indictts.wav",
+    "duration_sec": 3.2,
+    "ref_text": "చిత్తం పదండి, అన్నాడు విజయదాసు.",
+    "meaning": "Story narrative: 'Let us go,' said Vijayadasu."
+  },
+  {
+    "id": "A3_te_synthetic",
+    "category": "A. Pure Telugu",
+    "source": "Synthetic (Geeta te_IN)",
+    "wav_path": "/Users/sathvikreddy/Documents/projects/tel/validation_artifacts/benchmark_test_set/A3_te_synthetic.wav",
+    "duration_sec": 7.54,
+    "ref_text": "విశ్వవిద్యాలయ గ్రంథాలయం ప్రతిరోజూ ఉదయం ఎనిమిది గంటల నుండి సాయంత్రం ఎనిమిది గంటల వరకు తెరిచి ఉంటుంది.",
+    "meaning": "University library is open daily from 8 AM to 8 PM."
+  },
+  {
+    "id": "B1_en_policy",
+    "category": "B. Pure English",
+    "source": "Synthetic (Rishi en_IN)",
+    "wav_path": "/Users/sathvikreddy/Documents/projects/tel/validation_artifacts/benchmark_test_set/B1_en_policy.wav",
+    "duration_sec": 3.89,
+    "ref_text": "What is the minimum attendance requirement for semester exams?",
+    "meaning": "Inquiry about 75% attendance policy."
+  },
+  {
+    "id": "B2_en_hostel",
+    "category": "B. Pure English",
+    "source": "Synthetic (Tara en_IN)",
+    "wav_path": "/Users/sathvikreddy/Documents/projects/tel/validation_artifacts/benchmark_test_set/B2_en_hostel.wav",
+    "duration_sec": 3.91,
+    "ref_text": "How can students apply for hostel accommodation in the second year?",
+    "meaning": "Hostel room allocation question."
+  },
+  {
+    "id": "C1_mixed_attendance",
+    "category": "C. Telugu-English Code-Mixed",
+    "source": "Synthetic (Rishi en_IN)",
+    "wav_path": "/Users/sathvikreddy/Documents/projects/tel/validation_artifacts/benchmark_test_set/C1_mixed_attendance.wav",
+    "duration_sec": 3.22,
+    "ref_text": "Semester exams ki minimum attendance entha undali?",
+    "meaning": "Code-mixed student query: What minimum attendance is required for semester exams?"
+  },
+  {
+    "id": "C2_mixed_fee_deadline",
+    "category": "C. Telugu-English Code-Mixed",
+    "source": "Synthetic (Rishi en_IN)",
+    "wav_path": "/Users/sathvikreddy/Documents/projects/tel/validation_artifacts/benchmark_test_set/C2_mixed_fee_deadline.wav",
+    "duration_sec": 2.65,
+    "ref_text": "Hostel fee payment deadline eppudu untundi?",
+    "meaning": "Code-mixed student query: When is the hostel fee payment deadline?"
+  },
+  {
+    "id": "C3_mixed_library_docs",
+    "category": "C. Telugu-English Code-Mixed",
+    "source": "Synthetic (Rishi en_IN)",
+    "wav_path": "/Users/sathvikreddy/Documents/projects/tel/validation_artifacts/benchmark_test_set/C3_mixed_library_docs.wav",
+    "duration_sec": 3.88,
+    "ref_text": "Naku library card apply cheyadaniki em documents kavali?",
+    "meaning": "Code-mixed student query: What documents do I need to apply for a library card?"
+  },
+  {
+    "id": "C4_mixed_medical_leave",
+    "category": "C. Telugu-English Code-Mixed",
+    "source": "Synthetic (Rishi en_IN)",
+    "wav_path": "/Users/sathvikreddy/Documents/projects/tel/validation_artifacts/benchmark_test_set/C4_mixed_medical_leave.wav",
+    "duration_sec": 3.46,
+    "ref_text": "Naku medical leave apply cheyyali, procedure enti?",
+    "meaning": "Code-mixed student query: I need to apply for medical leave, what is the procedure?"
+  },
+  {
+    "id": "D1_te_tech_terms",
+    "category": "D. Conversational Telugu + Technical Terms",
+    "source": "Synthetic (Geeta te_IN)",
+    "wav_path": "/Users/sathvikreddy/Documents/projects/tel/validation_artifacts/benchmark_test_set/D1_te_tech_terms.wav",
+    "duration_sec": 2.87,
+    "ref_text": "కళాశాల లైబ్రరీ తెరిచే సమయాలు ఏమిటి?",
+    "meaning": "Telugu inquiry with English loanword 'Library'."
+  },
+  {
+    "id": "D2_mixed_wifi_login",
+    "category": "D. Conversational Telugu + Technical Terms",
+    "source": "Synthetic (Geeta te_IN)",
+    "wav_path": "/Users/sathvikreddy/Documents/projects/tel/validation_artifacts/benchmark_test_set/D2_mixed_wifi_login.wav",
+    "duration_sec": 3.31,
+    "ref_text": "కాలేజీ క్యాంపస్ లో వైఫై పాస్వర్డ్ మార్చడం ఎలా?",
+    "meaning": "Technical query with loanwords: College, Campus, Wi-Fi, Password."
+  },
+  {
+    "id": "E1_te_short_greeting",
+    "category": "E. Short Questions",
+    "source": "Synthetic (Geeta te_IN)",
+    "wav_path": "/Users/sathvikreddy/Documents/projects/tel/validation_artifacts/benchmark_test_set/E1_te_short_greeting.wav",
+    "duration_sec": 1.95,
+    "ref_text": "నమస్కారం! మీరు ఎలా ఉన్నారు?",
+    "meaning": "Short greeting: Hello! How are you?"
+  },
+  {
+    "id": "E2_mixed_exam_deadline",
+    "category": "E. Short Questions",
+    "source": "Synthetic (Rishi en_IN)",
+    "wav_path": "/Users/sathvikreddy/Documents/projects/tel/validation_artifacts/benchmark_test_set/E2_mixed_exam_deadline.wav",
+    "duration_sec": 1.66,
+    "ref_text": "Exam fee deadline eppudu?",
+    "meaning": "Short question: When is the exam fee deadline?"
+  },
+  {
+    "id": "F1_en_long_medical",
+    "category": "F. Longer Conversational Questions",
+    "source": "Synthetic (Samantha en_US)",
+    "wav_path": "/Users/sathvikreddy/Documents/projects/tel/validation_artifacts/benchmark_test_set/F1_en_long_medical.wav",
+    "duration_sec": 4.82,
+    "ref_text": "Can you explain the procedure to apply for medical leave if I fall sick during the semester?",
+    "meaning": "Long multi-clause English inquiry."
+  },
+  {
+    "id": "F2_mixed_long_reschedule",
+    "category": "F. Longer Conversational Questions",
+    "source": "Synthetic (Rishi en_IN)",
+    "wav_path": "/Users/sathvikreddy/Documents/projects/tel/validation_artifacts/benchmark_test_set/F2_mixed_long_reschedule.wav",
+    "duration_sec": 7.2,
+    "ref_text": "Mid term exams reschedule chesukovadaniki Dean permission teesukovalandi, application form ekkada submit cheyyali?",
+    "meaning": "Long complex code-mixed question with multiple academic constraints."
+  }
+]

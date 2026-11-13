@@ -1,0 +1,68 @@
+{
+  "benchmark_summary": {
+    "dense": {
+      "mode": "dense",
+      "queries_evaluated": 10,
+      "hit@1": 1.0,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "mrr@5": 1.0,
+      "ndcg@5": 1.0,
+      "avg_latency_ms": 30.86
+    },
+    "bm25": {
+      "mode": "bm25",
+      "queries_evaluated": 10,
+      "hit@1": 0.8,
+      "hit@3": 0.9,
+      "hit@5": 0.9,
+      "recall@3": 0.9,
+      "recall@5": 0.9,
+      "mrr@5": 0.85,
+      "ndcg@5": 0.8631,
+      "avg_latency_ms": 0.08
+    },
+    "hybrid": {
+      "mode": "hybrid",
+      "queries_evaluated": 10,
+      "hit@1": 1.0,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "mrr@5": 1.0,
+      "ndcg@5": 1.0,
+      "avg_latency_ms": 28.43
+    },
+    "hybrid_rerank": {
+      "mode": "hybrid_rerank",
+      "queries_evaluated": 10,
+      "hit@1": 1.0,
+      "hit@3": 1.0,
+      "hit@5": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "mrr@5": 1.0,
+      "ndcg@5": 1.0,
+      "avg_latency_ms": 906.58
+    }
+  },
+  "negative_controls": [
+    {
+      "id": "q11_neg_quantum",
+      "query": "What is the mathematical formulation of quantum superposition in qubits?",
+      "refused_correctly": true,
+      "sources_count": 4
+    },
+    {
+      "id": "q12_neg_telugu_history",
+      "query": "విజయనగర సామ్రాజ్య స్థాపన ఏ సంవత్సరంలో జరిగింది?",
+      "refused_correctly": true,
+      "sources_count": 0
+    }
+  ],
+  "dataset_size": 12,
+  "timestamp": "2026-08-29 16:02:06"
+}

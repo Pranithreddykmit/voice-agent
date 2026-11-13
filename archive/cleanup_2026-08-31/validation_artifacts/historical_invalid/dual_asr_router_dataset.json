@@ -1,0 +1,1518 @@
+[
+  {
+    "id": "te_sample_01",
+    "category": "pure_telugu",
+    "ground_truth": "ఆంధ్రప్రదేశ్ మరియు తెలంగాణ రాష్ట్రాల మధ్య నదీ జలాల పంపిణీ పై కీలక సమావేశం జరిగింది.",
+    "expected_language": "te",
+    "duration_sec": 5.0,
+    "key_telugu_tokens": [
+      "ఆంధ్రప్రదేశ్",
+      "మరియు",
+      "తెలంగాణ",
+      "రాష్ట్రాల"
+    ],
+    "key_english_tokens": [],
+    "technical_terms": []
+  },
+  {
+    "id": "te_sample_02",
+    "category": "pure_telugu",
+    "ground_truth": "వాతావరణ శాఖ విడుదల చేసిన సమాచారం ప్రకారం రాబోయే మూడు రోజుల్లో భారీ వర్షాలు కురిసే అవకాశం ఉంది.",
+    "expected_language": "te",
+    "duration_sec": 5.0,
+    "key_telugu_tokens": [
+      "వాతావరణ",
+      "శాఖ",
+      "విడుదల",
+      "చేసిన"
+    ],
+    "key_english_tokens": [],
+    "technical_terms": []
+  },
+  {
+    "id": "te_sample_03",
+    "category": "pure_telugu",
+    "ground_truth": "రక్త ప్రసరణ వ్యవస్థలో గుండె యొక్క ప్రధాన పాత్ర ఏమిటో వివరంగా తెలపండి.",
+    "expected_language": "te",
+    "duration_sec": 5.0,
+    "key_telugu_tokens": [
+      "రక్త",
+      "ప్రసరణ",
+      "వ్యవస్థలో",
+      "గుండె"
+    ],
+    "key_english_tokens": [],
+    "technical_terms": []
+  },
+  {
+    "id": "te_sample_04",
+    "category": "pure_telugu",
+    "ground_truth": "జాతీయ స్థాయి విద్యా మండలి పాఠశాల స్థాయి సిలబస్ లో మార్పులు చేస్తూ నోటిఫికేషన్ విడుదల చేసింది.",
+    "expected_language": "te",
+    "duration_sec": 5.0,
+    "key_telugu_tokens": [
+      "జాతీయ",
+      "స్థాయి",
+      "విద్యా",
+      "మండలి"
+    ],
+    "key_english_tokens": [],
+    "technical_terms": []
+  },
+  {
+    "id": "te_sample_05",
+    "category": "pure_telugu",
+    "ground_truth": "వ్యవసాయ రంగంలో ఆధునిక సాంకేతిక పరిజ్ఞానం వినియోగం రైతులకు ఎంతగానో లాభదాయకం.",
+    "expected_language": "te",
+    "duration_sec": 5.0,
+    "key_telugu_tokens": [
+      "వ్యవసాయ",
+      "రంగంలో",
+      "ఆధునిక",
+      "సాంకేతిక"
+    ],
+    "key_english_tokens": [],
+    "technical_terms": []
+  },
+  {
+    "id": "te_sample_06",
+    "category": "pure_telugu",
+    "ground_truth": "గ్రామీణ ప్రాంతాలలో స్వచ్ఛమైన తాగునీటి సరఫరా కోసం ప్రభుత్వం ప్రత్యేక నిధులు మంజూరు చేసింది.",
+    "expected_language": "te",
+    "duration_sec": 5.0,
+    "key_telugu_tokens": [
+      "గ్రామీణ",
+      "ప్రాంతాలలో",
+      "స్వచ్ఛమైన",
+      "తాగునీటి"
+    ],
+    "key_english_tokens": [],
+    "technical_terms": []
+  },
+  {
+    "id": "te_sample_07",
+    "category": "pure_telugu",
+    "ground_truth": "సౌర విద్యుత్ ఉత్పాదన ద్వారా పర్యావరణ పరిరక్షణ మరియు విద్యుత్ కొరత నివారణ సాధ్యమవుతుంది.",
+    "expected_language": "te",
+    "duration_sec": 5.0,
+    "key_telugu_tokens": [
+      "సౌర",
+      "విద్యుత్",
+      "ఉత్పాదన",
+      "ద్వారా"
+    ],
+    "key_english_tokens": [],
+    "technical_terms": []
+  },
+  {
+    "id": "te_sample_08",
+    "category": "pure_telugu",
+    "ground_truth": "పురాతన దేవాలయాల శిల్పకళా వైభవం భారతీయ సంస్కృతికి ప్రతిబింబం.",
+    "expected_language": "te",
+    "duration_sec": 5.0,
+    "key_telugu_tokens": [
+      "పురాతన",
+      "దేవాలయాల",
+      "శిల్పకళా",
+      "వైభవం"
+    ],
+    "key_english_tokens": [],
+    "technical_terms": []
+  },
+  {
+    "id": "te_sample_09",
+    "category": "pure_telugu",
+    "ground_truth": "రైల్వే శాఖ ఆధ్వర్యంలో నూతన సూపర్ ఫాస్ట్ ఎక్స్ ప్రెస్ రైళ్ల ప్రారంభోత్సవం జరిగింది.",
+    "expected_language": "te",
+    "duration_sec": 5.0,
+    "key_telugu_tokens": [
+      "రైల్వే",
+      "శాఖ",
+      "ఆధ్వర్యంలో",
+      "నూతన"
+    ],
+    "key_english_tokens": [],
+    "technical_terms": []
+  },
+  {
+    "id": "te_sample_10",
+    "category": "pure_telugu",
+    "ground_truth": "వైద్య ఆరోగ్య రంగంలో డిజిటల్ సేవల విస్తరణ రోగులకు వేగవంతమైన చికిత్స అందిస్తుంది.",
+    "expected_language": "te",
+    "duration_sec": 5.0,
+    "key_telugu_tokens": [
+      "వైద్య",
+      "ఆరోగ్య",
+      "రంగంలో",
+      "డిజిటల్"
+    ],
+    "key_english_tokens": [],
+    "technical_terms": []
+  },
+  {
+    "id": "te_sample_11",
+    "category": "pure_telugu",
+    "ground_truth": "భారత రాజ్యాంగం ప్రకారం ప్రతి పౌరుడికి ప్రాథమిక హక్కులు కల్పించబడ్డాయి.",
+    "expected_language": "te",
+    "duration_sec": 5.0,
+    "key_telugu_tokens": [
+      "భారత",
+      "రాజ్యాంగం",
+      "ప్రకారం",
+      "ప్రతి"
+    ],
+    "key_english_tokens": [],
+    "technical_terms": []
+  },
+  {
+    "id": "te_sample_12",
+    "category": "pure_telugu",
+    "ground_truth": "అంతరిక్ష పరిశోధన సంస్థ ఇస్రో నూతన ఉపగ్రహ ప్రయోగాన్ని విజయవంతంగా పూర్తి చేసింది.",
+    "expected_language": "te",
+    "duration_sec": 5.0,
+    "key_telugu_tokens": [
+      "అంతరిక్ష",
+      "పరిశోధన",
+      "సంస్థ",
+      "ఇస్రో"
+    ],
+    "key_english_tokens": [],
+    "technical_terms": []
+  },
+  {
+    "id": "te_sample_13",
+    "category": "pure_telugu",
+    "ground_truth": "పర్యావరణ కాలుష్యాన్ని అరికట్టడానికి ప్లాస్టిక్ వినియోగాన్ని తగ్గించడం చాలా అవసరం.",
+    "expected_language": "te",
+    "duration_sec": 5.0,
+    "key_telugu_tokens": [
+      "పర్యావరణ",
+      "కాలుష్యాన్ని",
+      "అరికట్టడానికి",
+      "ప్లాస్టిక్"
+    ],
+    "key_english_tokens": [],
+    "technical_terms": []
+  },
+  {
+    "id": "te_sample_14",
+    "category": "pure_telugu",
+    "ground_truth": "ఆధునిక సమాజంలో మహిళా సాధికారత మరియు ఆర్థిక స్వావలంబన అత్యంత ప్రాధాన్యత కలిగిన అంశాలు.",
+    "expected_language": "te",
+    "duration_sec": 5.0,
+    "key_telugu_tokens": [
+      "ఆధునిక",
+      "సమాజంలో",
+      "మహిళా",
+      "సాధికారత"
+    ],
+    "key_english_tokens": [],
+    "technical_terms": []
+  },
+  {
+    "id": "te_sample_15",
+    "category": "pure_telugu",
+    "ground_truth": "ప్రాచీన తెలుగు సాహిత్యంలో నన్నయ తిక్కన ఎర్రన కవిత్రయం ప్రముఖ స్థానం పొందారు.",
+    "expected_language": "te",
+    "duration_sec": 5.0,
+    "key_telugu_tokens": [
+      "ప్రాచీన",
+      "తెలుగు",
+      "సాహిత్యంలో",
+      "నన్నయ"
+    ],
+    "key_english_tokens": [],
+    "technical_terms": []
+  },
+  {
+    "id": "te_sample_16",
+    "category": "pure_telugu",
+    "ground_truth": "గ్రామీణ ప్రాంతాలలో స్వయం సహాయక సంఘాలు మహిళల ఆర్థికాభివృద్ధికి ఎంతగానో తోడ్పడుతున్నాయి.",
+    "expected_language": "te",
+    "duration_sec": 5.0,
+    "key_telugu_tokens": [
+      "గ్రామీణ",
+      "ప్రాంతాలలో",
+      "స్వయం",
+      "సహాయక"
+    ],
+    "key_english_tokens": [],
+    "technical_terms": []
+  },
+  {
+    "id": "te_sample_17",
+    "category": "pure_telugu",
+    "ground_truth": "డిజిటల్ బ్యాంకింగ్ సేవల ద్వారా ప్రజలు సులభంగా లావాదేవీలు నిర్వహించగలుగుతున్నారు.",
+    "expected_language": "te",
+    "duration_sec": 5.0,
+    "key_telugu_tokens": [
+      "డిజిటల్",
+      "బ్యాంకింగ్",
+      "సేవల",
+      "ద్వారా"
+    ],
+    "key_english_tokens": [],
+    "technical_terms": []
+  },
+  {
+    "id": "te_sample_18",
+    "category": "pure_telugu",
+    "ground_truth": "వాతావరణ సమతుల్యత దెబ్బతినడం వలన రుతుపవనాల గమనంలో మార్పులు సంభవిస్తున్నాయి.",
+    "expected_language": "te",
+    "duration_sec": 5.0,
+    "key_telugu_tokens": [
+      "వాతావరణ",
+      "సమతుల్యత",
+      "దెబ్బతినడం",
+      "వలన"
+    ],
+    "key_english_tokens": [],
+    "technical_terms": []
+  },
+  {
+    "id": "te_sample_19",
+    "category": "pure_telugu",
+    "ground_truth": "ప్రజా రవాణా వ్యవస్థను బలోపేతం చేయడం ద్వారా నగరాల్లో ట్రాఫిక్ సమస్యలను నివారించవచ్చు.",
+    "expected_language": "te",
+    "duration_sec": 5.0,
+    "key_telugu_tokens": [
+      "ప్రజా",
+      "రవాణా",
+      "వ్యవస్థను",
+      "బలోపేతం"
+    ],
+    "key_english_tokens": [],
+    "technical_terms": []
+  },
+  {
+    "id": "te_sample_20",
+    "category": "pure_telugu",
+    "ground_truth": "సహజ సిద్ధమైన సేంద్రీయ వ్యవసాయ పద్ధతులు భూసారాన్ని కాపాడటంలో కీలక పాత్ర పోషిస్తాయి.",
+    "expected_language": "te",
+    "duration_sec": 5.0,
+    "key_telugu_tokens": [
+      "సహజ",
+      "సిద్ధమైన",
+      "సేంద్రీయ",
+      "వ్యవసాయ"
+    ],
+    "key_english_tokens": [],
+    "technical_terms": []
+  },
+  {
+    "id": "en_sample_01",
+    "category": "pure_english",
+    "ground_truth": "What is the minimum attendance requirement for semester exams?",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "key_telugu_tokens": [],
+    "key_english_tokens": [
+      "What",
+      "is",
+      "the",
+      "minimum",
+      "attendance"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "en_sample_02",
+    "category": "pure_english",
+    "ground_truth": "How can students apply for hostel accommodation in the second year?",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "key_telugu_tokens": [],
+    "key_english_tokens": [
+      "How",
+      "can",
+      "students",
+      "apply",
+      "for"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "en_sample_03",
+    "category": "pure_english",
+    "ground_truth": "Can you explain the procedure to apply for medical leave if I fall sick during the semester?",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "key_telugu_tokens": [],
+    "key_english_tokens": [
+      "Can",
+      "you",
+      "explain",
+      "the",
+      "procedure"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "en_sample_04",
+    "category": "pure_english",
+    "ground_truth": "What is the grade point average required to maintain scholarship eligibility?",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "key_telugu_tokens": [],
+    "key_english_tokens": [
+      "What",
+      "is",
+      "the",
+      "grade",
+      "point"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "en_sample_05",
+    "category": "pure_english",
+    "ground_truth": "Where can I submit the application form for campus bus pass renewal?",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "key_telugu_tokens": [],
+    "key_english_tokens": [
+      "Where",
+      "can",
+      "I",
+      "submit",
+      "the"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "en_sample_06",
+    "category": "pure_english",
+    "ground_truth": "How do I request an official academic transcript from the controller of examinations?",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "key_telugu_tokens": [],
+    "key_english_tokens": [
+      "How",
+      "do",
+      "I",
+      "request",
+      "an"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "en_sample_07",
+    "category": "pure_english",
+    "ground_truth": "What are the library borrowing rules and penalty charges for overdue books?",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "key_telugu_tokens": [],
+    "key_english_tokens": [
+      "What",
+      "are",
+      "the",
+      "library",
+      "borrowing"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "en_sample_08",
+    "category": "pure_english",
+    "ground_truth": "When will the registration portal open for final semester revaluation?",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "key_telugu_tokens": [],
+    "key_english_tokens": [
+      "When",
+      "will",
+      "the",
+      "registration",
+      "portal"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "en_sample_09",
+    "category": "pure_english",
+    "ground_truth": "Is there any fee waiver available for economically weaker section students?",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "key_telugu_tokens": [],
+    "key_english_tokens": [
+      "Is",
+      "there",
+      "any",
+      "fee",
+      "waiver"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "en_sample_10",
+    "category": "pure_english",
+    "ground_truth": "How can graduating students register for the annual convocation ceremony?",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "key_telugu_tokens": [],
+    "key_english_tokens": [
+      "How",
+      "can",
+      "graduating",
+      "students",
+      "register"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "en_sample_11",
+    "category": "pure_english",
+    "ground_truth": "Please explain the guidelines for inter-branch transfer in the third semester.",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "key_telugu_tokens": [],
+    "key_english_tokens": [
+      "Please",
+      "explain",
+      "the",
+      "guidelines",
+      "for"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "en_sample_12",
+    "category": "pure_english",
+    "ground_truth": "What is the deadline for submitting the capstone project final synopsis?",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "key_telugu_tokens": [],
+    "key_english_tokens": [
+      "What",
+      "is",
+      "the",
+      "deadline",
+      "for"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "en_sample_13",
+    "category": "pure_english",
+    "ground_truth": "Can resident students leave the campus during weekends without prior warden approval?",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "key_telugu_tokens": [],
+    "key_english_tokens": [
+      "Can",
+      "resident",
+      "students",
+      "leave",
+      "the"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "en_sample_14",
+    "category": "pure_english",
+    "ground_truth": "Where is the student grievance redressal cell located on the campus?",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "key_telugu_tokens": [],
+    "key_english_tokens": [
+      "Where",
+      "is",
+      "the",
+      "student",
+      "grievance"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "en_sample_15",
+    "category": "pure_english",
+    "ground_truth": "How do I access university digital library journals from off-campus locations?",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "key_telugu_tokens": [],
+    "key_english_tokens": [
+      "How",
+      "do",
+      "I",
+      "access",
+      "university"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "en_sample_16",
+    "category": "pure_english",
+    "ground_truth": "What is the procedure for obtaining a duplicate student identity card?",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "key_telugu_tokens": [],
+    "key_english_tokens": [
+      "What",
+      "is",
+      "the",
+      "procedure",
+      "for"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "en_sample_17",
+    "category": "pure_english",
+    "ground_truth": "Are first year undergraduate students allowed to keep motorized vehicles in campus?",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "key_telugu_tokens": [],
+    "key_english_tokens": [
+      "Are",
+      "first",
+      "year",
+      "undergraduate",
+      "students"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "en_sample_18",
+    "category": "pure_english",
+    "ground_truth": "What documents are necessary for semester registration fee refund?",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "key_telugu_tokens": [],
+    "key_english_tokens": [
+      "What",
+      "documents",
+      "are",
+      "necessary",
+      "for"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "en_sample_19",
+    "category": "pure_english",
+    "ground_truth": "Can you list the sports facilities available after academic hours?",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "key_telugu_tokens": [],
+    "key_english_tokens": [
+      "Can",
+      "you",
+      "list",
+      "the",
+      "sports"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "en_sample_20",
+    "category": "pure_english",
+    "ground_truth": "What are the minimum credit requirements to be promoted to the final academic year?",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "key_telugu_tokens": [],
+    "key_english_tokens": [
+      "What",
+      "are",
+      "the",
+      "minimum",
+      "credit"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "cm_sample_01",
+    "category": "code_mixed_academic",
+    "ground_truth": "Semester exams ki minimum attendance entha undali?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "key_telugu_tokens": [
+      "ఉండాలి",
+      "ఎంత"
+    ],
+    "key_english_tokens": [
+      "attendance",
+      "exams"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "cm_sample_02",
+    "category": "code_mixed_academic",
+    "ground_truth": "Hostel fee payment deadline eppudu untundi?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "key_telugu_tokens": [
+      "ఎప్పుడు",
+      "ఉంటుంది"
+    ],
+    "key_english_tokens": [
+      "fee payment",
+      "deadline"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "cm_sample_03",
+    "category": "code_mixed_academic",
+    "ground_truth": "Naku library card apply cheyadaniki em documents kavali?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "key_telugu_tokens": [
+      "నాకు",
+      "చేయడానికి",
+      "కావాలి"
+    ],
+    "key_english_tokens": [
+      "library card",
+      "documents"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "cm_sample_04",
+    "category": "code_mixed_academic",
+    "ground_truth": "Naku medical leave apply cheyyali, procedure enti?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "key_telugu_tokens": [
+      "నాకు",
+      "చేయాలి",
+      "ఏంటి"
+    ],
+    "key_english_tokens": [
+      "medical leave",
+      "procedure"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "cm_sample_05",
+    "category": "code_mixed_academic",
+    "ground_truth": "Exam fee deadline eppudu?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "key_telugu_tokens": [
+      "ఎప్పుడు"
+    ],
+    "key_english_tokens": [
+      "exam fee",
+      "deadline"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "cm_sample_06",
+    "category": "code_mixed_academic",
+    "ground_truth": "Mid term marks portal lo eppudu upload avthayi?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "key_telugu_tokens": [
+      "ఎప్పుడు",
+      "అవుతాయి"
+    ],
+    "key_english_tokens": [
+      "mid term",
+      "marks",
+      "portal",
+      "upload"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "cm_sample_07",
+    "category": "code_mixed_academic",
+    "ground_truth": "Supply exams registration start aiyyinda ledha?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "key_telugu_tokens": [
+      "స్టార్ట్",
+      "అయ్యిందా",
+      "లేదా"
+    ],
+    "key_english_tokens": [
+      "supply exams",
+      "registration"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "cm_sample_08",
+    "category": "code_mixed_academic",
+    "ground_truth": "Lab external exams ki attendance compulsory ah?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "key_telugu_tokens": [
+      "కి",
+      "ఆ"
+    ],
+    "key_english_tokens": [
+      "lab",
+      "external exams",
+      "attendance"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "cm_sample_09",
+    "category": "code_mixed_academic",
+    "ground_truth": "Credit requirements complete cheyadaniki electives ela select chesukovali?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "key_telugu_tokens": [
+      "పూర్తి",
+      "చేయడానికి",
+      "ఎలా"
+    ],
+    "key_english_tokens": [
+      "credit",
+      "electives"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "cm_sample_10",
+    "category": "code_mixed_academic",
+    "ground_truth": "Condonation fee online net banking dwara pay cheyocha?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "key_telugu_tokens": [
+      "ద్వారా",
+      "చేయవచ్చా"
+    ],
+    "key_english_tokens": [
+      "condonation fee",
+      "net banking"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "cm_sample_11",
+    "category": "code_mixed_academic",
+    "ground_truth": "College bus pass renew cheyadaniki fee counter ekkada untundi?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "key_telugu_tokens": [
+      "చేయడానికి",
+      "ఎక్కడ",
+      "ఉంటుంది"
+    ],
+    "key_english_tokens": [
+      "bus pass",
+      "renew",
+      "fee counter"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "cm_sample_12",
+    "category": "code_mixed_academic",
+    "ground_truth": "Placement cell mock interviews schedule eppudu release avthundi?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "key_telugu_tokens": [
+      "ఎప్పుడు",
+      "అవుతుంది"
+    ],
+    "key_english_tokens": [
+      "placement cell",
+      "mock interviews",
+      "schedule"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "cm_sample_13",
+    "category": "code_mixed_academic",
+    "ground_truth": "Project report submission last date extend chesara?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "key_telugu_tokens": [
+      "చేశారా"
+    ],
+    "key_english_tokens": [
+      "project report",
+      "submission",
+      "last date"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "cm_sample_14",
+    "category": "code_mixed_academic",
+    "ground_truth": "Original certificates return teesukovadaniki NOC kavala?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "key_telugu_tokens": [
+      "తీసుకోవడానికి",
+      "కావాలా"
+    ],
+    "key_english_tokens": [
+      "certificates",
+      "NOC"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "cm_sample_15",
+    "category": "code_mixed_academic",
+    "ground_truth": "Hostel mess bill clearance lekunda semester registration avthunda?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "key_telugu_tokens": [
+      "లేకుండా",
+      "అవుతుందా"
+    ],
+    "key_english_tokens": [
+      "hostel mess",
+      "semester registration"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "cm_sample_16",
+    "category": "code_mixed_academic",
+    "ground_truth": "Weekend outing pass wardens permission teesukovadaniki timings enti?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "key_telugu_tokens": [
+      "తీసుకోవడానికి",
+      "ఏంటి"
+    ],
+    "key_english_tokens": [
+      "outing pass",
+      "wardens",
+      "permission"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "cm_sample_17",
+    "category": "code_mixed_academic",
+    "ground_truth": "Single room occupancy apply cheyadaniki eligibility criteria enti?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "key_telugu_tokens": [
+      "చేయడానికి",
+      "ఏంటి"
+    ],
+    "key_english_tokens": [
+      "single room",
+      "eligibility criteria"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "cm_sample_18",
+    "category": "code_mixed_academic",
+    "ground_truth": "Bonafide certificate apply cheyadaniki admin office lo form eppudu submit cheyyali?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "key_telugu_tokens": [
+      "చేయడానికి",
+      "ఎప్పుడు"
+    ],
+    "key_english_tokens": [
+      "bonafide certificate",
+      "admin office",
+      "submit"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "cm_sample_19",
+    "category": "code_mixed_academic",
+    "ground_truth": "Semester grade card revaluation fee per subject entha untundi?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "key_telugu_tokens": [
+      "ఎంత",
+      "ఉంటుంది"
+    ],
+    "key_english_tokens": [
+      "grade card",
+      "revaluation fee"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "cm_sample_20",
+    "category": "code_mixed_academic",
+    "ground_truth": "Sports quota students ki attendance relaxation rules emiti?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "key_telugu_tokens": [
+      "కి",
+      "ఏమిటి"
+    ],
+    "key_english_tokens": [
+      "sports quota",
+      "attendance relaxation"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "cm_sample_21",
+    "category": "code_mixed_academic",
+    "ground_truth": "Internal assessment marks grievance redressal committee ki ela appeal cheyyali?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "key_telugu_tokens": [
+      "కి",
+      "ఎలా"
+    ],
+    "key_english_tokens": [
+      "internal assessment",
+      "grievance",
+      "appeal"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "cm_sample_22",
+    "category": "code_mixed_academic",
+    "ground_truth": "Final year capstone project supervisor allocation list eppudu display chestharu?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "key_telugu_tokens": [
+      "ఎప్పుడు",
+      "చేస్తారు"
+    ],
+    "key_english_tokens": [
+      "capstone project",
+      "supervisor"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "cm_sample_23",
+    "category": "code_mixed_academic",
+    "ground_truth": "Hostel caution deposit refund procedure complete avvadaniki enni days paduthundi?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "key_telugu_tokens": [
+      "పూర్తి",
+      "ఎన్ని",
+      "రోజులు"
+    ],
+    "key_english_tokens": [
+      "caution deposit",
+      "refund procedure"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "cm_sample_24",
+    "category": "code_mixed_academic",
+    "ground_truth": "Library book return delay aiythe per day penalty charges entha untayi?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "key_telugu_tokens": [
+      "అయితే",
+      "ఎంత"
+    ],
+    "key_english_tokens": [
+      "library book",
+      "penalty charges"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "cm_sample_25",
+    "category": "code_mixed_academic",
+    "ground_truth": "Campus placement drives lo technical round crack cheyadaniki material ekkada dorukuthundi?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "key_telugu_tokens": [
+      "చేయడానికి",
+      "ఎక్కడ"
+    ],
+    "key_english_tokens": [
+      "placement drives",
+      "technical round"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "cm_sample_26",
+    "category": "code_mixed_academic",
+    "ground_truth": "Fee concession application form HOD signature teesukovadam mandatory ah?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "key_telugu_tokens": [
+      "తీసుకోవడం",
+      "ఆ"
+    ],
+    "key_english_tokens": [
+      "fee concession",
+      "signature",
+      "mandatory"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "cm_sample_27",
+    "category": "code_mixed_academic",
+    "ground_truth": "Degree certificate name correction kosam university registrar office ki vellala?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "key_telugu_tokens": [
+      "కోసం",
+      "వెళ్ళాలా"
+    ],
+    "key_english_tokens": [
+      "degree certificate",
+      "name correction"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "cm_sample_28",
+    "category": "code_mixed_academic",
+    "ground_truth": "Hostel warden change aiyara, new complaint number emitandi?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "key_telugu_tokens": [
+      "అయ్యారా",
+      "కొత్త"
+    ],
+    "key_english_tokens": [
+      "hostel warden",
+      "complaint number"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "cm_sample_29",
+    "category": "code_mixed_academic",
+    "ground_truth": "Mid exams answer sheets photocopy download cheyadaniki option undha?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "key_telugu_tokens": [
+      "చేయడానికి",
+      "ఉందా"
+    ],
+    "key_english_tokens": [
+      "mid exams",
+      "photocopy",
+      "download"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "cm_sample_30",
+    "category": "code_mixed_academic",
+    "ground_truth": "Academic calendar change valla semester end practical exams postpone aiyyaya?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "key_telugu_tokens": [
+      "వల్ల",
+      "అయ్యాయా"
+    ],
+    "key_english_tokens": [
+      "academic calendar",
+      "practical exams",
+      "postpone"
+    ],
+    "technical_terms": []
+  },
+  {
+    "id": "tech_sample_01",
+    "category": "code_mixed_technical",
+    "ground_truth": "Student portal login credentials reset cheyadaniki IT support mail ID enti?",
+    "expected_language": "mixed",
+    "duration_sec": 4.5,
+    "key_telugu_tokens": [
+      "చేయడానికి",
+      "ఎలా",
+      "ఏంటి"
+    ],
+    "key_english_tokens": [
+      "portal login",
+      "credentials",
+      "IT support"
+    ],
+    "technical_terms": [
+      "reset",
+      "credentials"
+    ]
+  },
+  {
+    "id": "tech_sample_02",
+    "category": "code_mixed_technical",
+    "ground_truth": "Campus Wi-Fi connectivity lab lo work avvatledu, complaint ela raise cheyyali?",
+    "expected_language": "mixed",
+    "duration_sec": 4.5,
+    "key_telugu_tokens": [
+      "చేయడానికి",
+      "ఎలా",
+      "ఏంటి"
+    ],
+    "key_english_tokens": [
+      "Wi-Fi",
+      "connectivity",
+      "complaint"
+    ],
+    "technical_terms": [
+      "Wi-Fi",
+      "connectivity"
+    ]
+  },
+  {
+    "id": "tech_sample_03",
+    "category": "code_mixed_technical",
+    "ground_truth": "Computer science lab software license update eppudu chestharu?",
+    "expected_language": "mixed",
+    "duration_sec": 4.5,
+    "key_telugu_tokens": [
+      "చేయడానికి",
+      "ఎలా",
+      "ఏంటి"
+    ],
+    "key_english_tokens": [
+      "software license",
+      "update"
+    ],
+    "technical_terms": [
+      "license",
+      "software"
+    ]
+  },
+  {
+    "id": "tech_sample_04",
+    "category": "code_mixed_technical",
+    "ground_truth": "Digital library e-resources off campus access cheyadaniki VPN access ela setup cheyyali?",
+    "expected_language": "mixed",
+    "duration_sec": 4.5,
+    "key_telugu_tokens": [
+      "చేయడానికి",
+      "ఎలా",
+      "ఏంటి"
+    ],
+    "key_english_tokens": [
+      "digital library",
+      "VPN",
+      "setup"
+    ],
+    "technical_terms": [
+      "VPN",
+      "e-resources"
+    ]
+  },
+  {
+    "id": "tech_sample_05",
+    "category": "code_mixed_technical",
+    "ground_truth": "College email account storage quota exceed aiythe cloud storage increase chesthara?",
+    "expected_language": "mixed",
+    "duration_sec": 4.5,
+    "key_telugu_tokens": [
+      "చేయడానికి",
+      "ఎలా",
+      "ఏంటి"
+    ],
+    "key_english_tokens": [
+      "email account",
+      "storage quota"
+    ],
+    "technical_terms": [
+      "storage quota",
+      "cloud storage"
+    ]
+  },
+  {
+    "id": "tech_sample_06",
+    "category": "code_mixed_technical",
+    "ground_truth": "Git repository access permissions lab server lo configure cheyyadam ela?",
+    "expected_language": "mixed",
+    "duration_sec": 4.5,
+    "key_telugu_tokens": [
+      "చేయడానికి",
+      "ఎలా",
+      "ఏంటి"
+    ],
+    "key_english_tokens": [
+      "Git repository",
+      "permissions",
+      "server"
+    ],
+    "technical_terms": [
+      "Git",
+      "repository"
+    ]
+  },
+  {
+    "id": "tech_sample_07",
+    "category": "code_mixed_technical",
+    "ground_truth": "Online examination software browser lockdown compatibility issues ela fix cheyyali?",
+    "expected_language": "mixed",
+    "duration_sec": 4.5,
+    "key_telugu_tokens": [
+      "చేయడానికి",
+      "ఎలా",
+      "ఏంటి"
+    ],
+    "key_english_tokens": [
+      "browser lockdown",
+      "compatibility"
+    ],
+    "technical_terms": [
+      "browser lockdown"
+    ]
+  },
+  {
+    "id": "tech_sample_08",
+    "category": "code_mixed_technical",
+    "ground_truth": "Biometric attendance machine fingerprint scan register cheyadaniki timings enti?",
+    "expected_language": "mixed",
+    "duration_sec": 4.5,
+    "key_telugu_tokens": [
+      "చేయడానికి",
+      "ఎలా",
+      "ఏంటి"
+    ],
+    "key_english_tokens": [
+      "biometric attendance",
+      "fingerprint"
+    ],
+    "technical_terms": [
+      "biometric"
+    ]
+  },
+  {
+    "id": "tech_sample_09",
+    "category": "code_mixed_technical",
+    "ground_truth": "Firewall settings valla coding practice platform block aiythe unblock chesthara?",
+    "expected_language": "mixed",
+    "duration_sec": 4.5,
+    "key_telugu_tokens": [
+      "చేయడానికి",
+      "ఎలా",
+      "ఏంటి"
+    ],
+    "key_english_tokens": [
+      "firewall settings",
+      "platform"
+    ],
+    "technical_terms": [
+      "firewall"
+    ]
+  },
+  {
+    "id": "tech_sample_10",
+    "category": "code_mixed_technical",
+    "ground_truth": "Database management system lab lo PostgreSQL server connection timeout error vasthundi.",
+    "expected_language": "mixed",
+    "duration_sec": 4.5,
+    "key_telugu_tokens": [
+      "చేయడానికి",
+      "ఎలా",
+      "ఏంటి"
+    ],
+    "key_english_tokens": [
+      "PostgreSQL server",
+      "timeout error"
+    ],
+    "technical_terms": [
+      "PostgreSQL"
+    ]
+  },
+  {
+    "id": "short_sample_01",
+    "category": "short_queries",
+    "ground_truth": "నమస్కారం అండి!",
+    "expected_language": "te",
+    "duration_sec": 1.2,
+    "key_telugu_tokens": [],
+    "key_english_tokens": [],
+    "technical_terms": []
+  },
+  {
+    "id": "short_sample_02",
+    "category": "short_queries",
+    "ground_truth": "హాల్ టికెట్ వచ్చిందా?",
+    "expected_language": "mixed",
+    "duration_sec": 1.5,
+    "key_telugu_tokens": [],
+    "key_english_tokens": [],
+    "technical_terms": []
+  },
+  {
+    "id": "short_sample_03",
+    "category": "short_queries",
+    "ground_truth": "Library open lo undha?",
+    "expected_language": "mixed",
+    "duration_sec": 1.6,
+    "key_telugu_tokens": [],
+    "key_english_tokens": [],
+    "technical_terms": []
+  },
+  {
+    "id": "short_sample_04",
+    "category": "short_queries",
+    "ground_truth": "క్లాస్ రూమ్ నంబర్ ఎంత?",
+    "expected_language": "te",
+    "duration_sec": 1.7,
+    "key_telugu_tokens": [],
+    "key_english_tokens": [],
+    "technical_terms": []
+  },
+  {
+    "id": "short_sample_05",
+    "category": "short_queries",
+    "ground_truth": "Dean appointment dorukuthunda?",
+    "expected_language": "mixed",
+    "duration_sec": 1.8,
+    "key_telugu_tokens": [],
+    "key_english_tokens": [],
+    "technical_terms": []
+  },
+  {
+    "id": "short_sample_06",
+    "category": "short_queries",
+    "ground_truth": "బస్ పాస్ ఫీజు ఎంత?",
+    "expected_language": "te",
+    "duration_sec": 1.5,
+    "key_telugu_tokens": [],
+    "key_english_tokens": [],
+    "technical_terms": []
+  },
+  {
+    "id": "short_sample_07",
+    "category": "short_queries",
+    "ground_truth": "Wi-Fi password enti?",
+    "expected_language": "mixed",
+    "duration_sec": 1.4,
+    "key_telugu_tokens": [],
+    "key_english_tokens": [],
+    "technical_terms": []
+  },
+  {
+    "id": "short_sample_08",
+    "category": "short_queries",
+    "ground_truth": "Good morning sir!",
+    "expected_language": "en",
+    "duration_sec": 1.1,
+    "key_telugu_tokens": [],
+    "key_english_tokens": [],
+    "technical_terms": []
+  },
+  {
+    "id": "short_sample_09",
+    "category": "short_queries",
+    "ground_truth": "Where is the fee counter?",
+    "expected_language": "en",
+    "duration_sec": 1.8,
+    "key_telugu_tokens": [],
+    "key_english_tokens": [],
+    "technical_terms": []
+  },
+  {
+    "id": "short_sample_10",
+    "category": "short_queries",
+    "ground_truth": "Can I meet the Principal?",
+    "expected_language": "en",
+    "duration_sec": 1.9,
+    "key_telugu_tokens": [],
+    "key_english_tokens": [],
+    "technical_terms": []
+  },
+  {
+    "id": "long_sample_01",
+    "category": "long_queries",
+    "ground_truth": "Mid term exams health issues valla miss aiythe medical certificate submit chesi re-exam rayadaniki Head of Department permission kavala, administrative office permission kavala?",
+    "expected_language": "mixed",
+    "duration_sec": 8.2,
+    "key_telugu_tokens": [],
+    "key_english_tokens": [],
+    "technical_terms": []
+  },
+  {
+    "id": "long_sample_02",
+    "category": "long_queries",
+    "ground_truth": "Semester fee payment second installment date extend cheyadaniki finance section lo application submit cheyyala leka online portal dwara concession request pettukovacha?",
+    "expected_language": "mixed",
+    "duration_sec": 7.9,
+    "key_telugu_tokens": [],
+    "key_english_tokens": [],
+    "technical_terms": []
+  },
+  {
+    "id": "long_sample_03",
+    "category": "long_queries",
+    "ground_truth": "విశ్వవిద్యాలయ కేంద్ర గ్రంథాలయంలో పరిశోధనా విద్యార్థులకు ప్రత్యేకంగా కేటాయించిన డిజిటల్ రిసోర్స్ సెంటర్ వినియోగించుకోవడానికి విభాగాధిపతి నుంచి అనుమతి పత్రం అవసరమా?",
+    "expected_language": "te",
+    "duration_sec": 8.4,
+    "key_telugu_tokens": [],
+    "key_english_tokens": [],
+    "technical_terms": []
+  },
+  {
+    "id": "long_sample_04",
+    "category": "long_queries",
+    "ground_truth": "Hostel room allocation process lo senior students ki preference untunda leka merit ranking basis meeda first come first serve allotment procedure follow avthara?",
+    "expected_language": "mixed",
+    "duration_sec": 7.8,
+    "key_telugu_tokens": [],
+    "key_english_tokens": [],
+    "technical_terms": []
+  },
+  {
+    "id": "long_sample_05",
+    "category": "long_queries",
+    "ground_truth": "Can you please provide comprehensive information regarding the procedures, eligible criteria, and scholarship provisions for international student admissions?",
+    "expected_language": "en",
+    "duration_sec": 7.5,
+    "key_telugu_tokens": [],
+    "key_english_tokens": [],
+    "technical_terms": []
+  },
+  {
+    "id": "long_sample_06",
+    "category": "long_queries",
+    "ground_truth": "Placement cell conducts campus training programs during summer vacation, but are non-resident students eligible to attend without paying hostel accommodation fees?",
+    "expected_language": "en",
+    "duration_sec": 8.1,
+    "key_telugu_tokens": [],
+    "key_english_tokens": [],
+    "technical_terms": []
+  },
+  {
+    "id": "long_sample_07",
+    "category": "long_queries",
+    "ground_truth": "Internal assessment grievance committee lo appeal submit chesina taruvatha review process enni days lo complete avthundi mariyu revised grade card eppudu issue chestharu?",
+    "expected_language": "mixed",
+    "duration_sec": 8.5,
+    "key_telugu_tokens": [],
+    "key_english_tokens": [],
+    "technical_terms": []
+  },
+  {
+    "id": "long_sample_08",
+    "category": "long_queries",
+    "ground_truth": "రైతు సంక్షేమ పథకాల అమలు మరియు ఎరువుల రాయితీ పంపిణీ పై వ్యవసాయ శాఖ ఉన్నతాధికారులు సచివాలయంలో అత్యున్నత స్థాయి సమీక్ష సమావేశాన్ని నిర్వహించారు.",
+    "expected_language": "te",
+    "duration_sec": 7.6,
+    "key_telugu_tokens": [],
+    "key_english_tokens": [],
+    "technical_terms": []
+  },
+  {
+    "id": "long_sample_09",
+    "category": "long_queries",
+    "ground_truth": "Student grievance portal lo ticket raise chesinappudu system generate chesina reference number tracking status update avvakapothe technical helpdesk ni contact cheyyala?",
+    "expected_language": "mixed",
+    "duration_sec": 8.3,
+    "key_telugu_tokens": [],
+    "key_english_tokens": [],
+    "technical_terms": []
+  },
+  {
+    "id": "long_sample_10",
+    "category": "long_queries",
+    "ground_truth": "Final semester project evaluation external viva schedule clash aiythe alternate date allocate cheyadaniki department academic committee ki request pettukovacha?",
+    "expected_language": "mixed",
+    "duration_sec": 7.7,
+    "key_telugu_tokens": [],
+    "key_english_tokens": [],
+    "technical_terms": []
+  }
+]

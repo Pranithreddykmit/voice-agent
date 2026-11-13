@@ -1,0 +1,3270 @@
+{
+  "metadata": {
+    "title": "ASR Error Impact Analysis on 95 Real Human Samples",
+    "model": "openai/whisper-large-v3-turbo",
+    "query_expansion_active": true,
+    "downstream_components": "LangGraph Intent -> Non-Destructive Query Expansion -> Hybrid BM25/Dense RAG -> LLM Synthesis",
+    "total_samples": 95,
+    "timestamp": "2026-08-30T15:50:00Z"
+  },
+  "summary": {
+    "total_evaluated": 95,
+    "perfect_matches": 28,
+    "genuine_acoustic_errors": 26,
+    "representation_differences": 24,
+    "script_bleed_samples": 17,
+    "english_token_errors": 4,
+    "technical_entity_errors": 3,
+    "hallucinations": 0,
+    "raw_intent_preserved_count": 95,
+    "condition_A1_raw_no_expansion_retrieval_success": 94,
+    "condition_A2_raw_with_expansion_retrieval_success": 83,
+    "condition_B_norm_retrieval_success": 93,
+    "final_answer_correct_count": 83
+  },
+  "detailed_sample_analysis": [
+    {
+      "sample_id": "real_te_001",
+      "category": "Pure Telugu",
+      "ref_transcript": "విశ్వవిద్యాలయ నూతన విద్యా విధానం ప్రకారం ప్రవేశాల ప్రక్రియ ప్రారంభమైంది.",
+      "user_visible_transcript": "विश्व विद्यलय నూతన విద్యా విధానం ప్రకారం ప్రవేశాల ప్రక్రియ ప్రారంభమైంది.",
+      "expanded_retrieval_query": "विश्व विद्यलय నూతన విద్యా విధానం ప్రకారం ప్రవేశాల ప్రక్రియ ప్రారంభమైంది.",
+      "error_classification": "Script bleed",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [],
+        "preserved_in_expanded": [],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_general_academic_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_general_academic_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_general_academic_01"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_te_002",
+      "category": "Pure Telugu",
+      "ref_transcript": "సెమిస్టర్ పరీక్షల ఫలితాలు వచ్చే వారం అధికారిక వెబ్‌సైట్‌లో విడుదలవుతాయి.",
+      "user_visible_transcript": "సెమిస్టర్ పరీక్షల ఫలితాలు వచ్చే వారం అధికారిక వెబ్‌సైట్‌లో విడుదలవుతాయి.",
+      "expanded_retrieval_query": "సెమిస్టర్ పరీక్షల ఫలితాలు వచ్చే వారం అధికారిక వెబ్‌సైట్‌లో విడుదలవుతాయి. semester పరీక్షలు ఎగ్జామ్స్ examination exams exam",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "semester"
+        ],
+        "preserved_in_expanded": [
+          "semester"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_te_003",
+      "category": "Pure Telugu",
+      "ref_transcript": "గ్రంథాలయం నుండి పుస్తకాలు తీసుకోవడానికి గుర్తింపు కార్డు తప్పనిసరి.",
+      "user_visible_transcript": "గ్రంథాలయం నుండి పుస్తకాలు తీసుకోవడానికి గుర్తింపు కార్డు తప్పనిసరి.",
+      "expanded_retrieval_query": "గ్రంథాలయం నుండి పుస్తకాలు తీసుకోవడానికి గుర్తింపు కార్డు తప్పనిసరి. లైబ్రరీ library",
+      "error_classification": "Genuine acoustic recognition error",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "library"
+        ],
+        "preserved_in_expanded": [
+          "library"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_library_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_library_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_library_01"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_te_004",
+      "category": "Pure Telugu",
+      "ref_transcript": "హాస్టల్ వసతి పొందేందుకు విద్యార్థులు ప్రత్యేక దరఖాస్తును సమర్పించవలసి ఉంటుంది.",
+      "user_visible_transcript": "హాస్టల్ వసతి పొందేందుకు విద్యార్థులు ప్రత్యేక దరఖాస్తును సమర్పించవలసి ఉంటుంది.",
+      "expanded_retrieval_query": "హాస్టల్ వసతి పొందేందుకు విద్యార్థులు ప్రత్యేక దరఖాస్తును సమర్పించవలసి ఉంటుంది. hostel application అప్లికేషన్",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "hostel",
+          "application"
+        ],
+        "preserved_in_expanded": [
+          "hostel",
+          "application"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_hostel_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_hostel_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_hostel_01"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_te_005",
+      "category": "Pure Telugu",
+      "ref_transcript": "వైద్య కారణాల వల్ల సెలవు తీసుకున్నప్పుడు సరైన పత్రాలు జతచేయాలి.",
+      "user_visible_transcript": "వైద్య కారణాల వల్ల సెలవు తీసుకున్నప్పుడు సరైన పత్రాలు జతచేయాలి.",
+      "expanded_retrieval_query": "వైద్య కారణాల వల్ల సెలవు తీసుకున్నప్పుడు సరైన పత్రాలు జతచేయాలి.",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [],
+        "preserved_in_expanded": [],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_te_006",
+      "category": "Pure Telugu",
+      "ref_transcript": "ప్రతి తరగతికి కనీస హాజరు శాతం ఉండాలని అధ్యాపకులు స్పష్టం చేశారు.",
+      "user_visible_transcript": "ప్రతి తరగతికి కనీస హాజరు శాతం ఉండాలని అధ్యాపకులు స్పష్టం చేశారు.",
+      "expanded_retrieval_query": "ప్రతి తరగతికి కనీస హాజరు శాతం ఉండాలని అధ్యాపకులు స్పష్టం చేశారు. అటెండెన్స్ attendance",
+      "error_classification": "Genuine acoustic recognition error",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "attendance"
+        ],
+        "preserved_in_expanded": [
+          "attendance"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_te_007",
+      "category": "Pure Telugu",
+      "ref_transcript": "రీవాల్యుయేషన్ కోసం నిర్ణీత గడువులోగా ఫీజు చెల్లించాలి.",
+      "user_visible_transcript": "రీవాల్యుయేషన్ కోసం నిర్ణీత గడువులోగా ఫీజు చెల్లించాలి.",
+      "expanded_retrieval_query": "రీవాల్యుయేషన్ కోసం నిర్ణీత గడువులోగా ఫీజు చెల్లించాలి. fees fee deadline డెడ్లైన్ డెడ్‌లైన్ revaluation recounting",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "fee",
+          "deadline",
+          "revaluation"
+        ],
+        "preserved_in_expanded": [
+          "fee",
+          "deadline",
+          "revaluation"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_exams_fee_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_exams_fee_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_exams_fee_01"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_te_008",
+      "category": "Pure Telugu",
+      "ref_transcript": "కళాశాల పనివేళల్లో మాత్రమే పరిపాలనా విభాగం తెరిచి ఉంటుంది.",
+      "user_visible_transcript": "కళాశాల పనివేళల్లో మాత్రమే పరిపాలనా విభాగం తెరిచి ఉంటుంది.",
+      "expanded_retrieval_query": "కళాశాల పనివేళల్లో మాత్రమే పరిపాలనా విభాగం తెరిచి ఉంటుంది.",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [],
+        "preserved_in_expanded": [],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_te_009",
+      "category": "Pure Telugu",
+      "ref_transcript": "విద్యార్థి వేదిక నిర్వహించే వార్షిక సాంస్కృతిక కార్యక్రమాలు వచ్చే నెలలో జరుగుతాయి.",
+      "user_visible_transcript": "విద్యార్థి వేదిక నిర్వహించే వార్షిక సాంస్కృతిక కార్యక్రమాలు వచ్చే నెలలో జరుగుతాయి.",
+      "expanded_retrieval_query": "విద్యార్థి వేదిక నిర్వహించే వార్షిక సాంస్కృతిక కార్యక్రమాలు వచ్చే నెలలో జరుగుతాయి.",
+      "error_classification": "Genuine acoustic recognition error",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [],
+        "preserved_in_expanded": [],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_te_010",
+      "category": "Pure Telugu",
+      "ref_transcript": "స్కాలర్‌షిప్ దరఖాస్తులకు ఆదాయ ధృవీకరణ పత్రం తప్పనిసరిగా సమర్పించాలి.",
+      "user_visible_transcript": "స్కాలర్‌షిప్ దరఖాస్తులకు ఆదాయ ధృవీకరణ పత్రం తప్పనిసరిగా సమర్పించాలి.",
+      "expanded_retrieval_query": "స్కాలర్‌షిప్ దరఖాస్తులకు ఆదాయ ధృవీకరణ పత్రం తప్పనిసరిగా సమర్పించాలి. application అప్లికేషన్",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "application"
+        ],
+        "preserved_in_expanded": [
+          "application"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_te_011",
+      "category": "Pure Telugu",
+      "ref_transcript": "గ్రేడింగ్ విధానం ప్రకారం ప్రతి సబ్జెక్టుకు క్రెడిట్లు కేటాయించబడతాయి.",
+      "user_visible_transcript": "గ్రేడింగ్ విధానం ప్రకారం ప్రతి సబ్జెక్టుకు క్రెడిట్లు కేటాయించబడతాయి.",
+      "expanded_retrieval_query": "గ్రేడింగ్ విధానం ప్రకారం ప్రతి సబ్జెక్టుకు క్రెడిట్లు కేటాయించబడతాయి. sgpa credits cgpa",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "credits"
+        ],
+        "preserved_in_expanded": [
+          "credits"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_general_academic_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_general_academic_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_general_academic_01"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_te_012",
+      "category": "Pure Telugu",
+      "ref_transcript": "పరీక్ష హాల్ టికెట్లను విద్యార్థి లాగిన్ ద్వారా డౌన్‌లోడ్ చేసుకోవచ్చు.",
+      "user_visible_transcript": "పరీక్ష హాల్ టికెట్లను విద్యార్థి లాగిన్ ద్వారా డౌన్‌లోడ్ చేసుకోవచ్చు.",
+      "expanded_retrieval_query": "పరీక్ష హాల్ టికెట్లను విద్యార్థి లాగిన్ ద్వారా డౌన్‌లోడ్ చేసుకోవచ్చు. పరీక్షలు ఎగ్జామ్స్ examination exams exam hall ticket",
+      "error_classification": "Genuine acoustic recognition error",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "hall ticket"
+        ],
+        "preserved_in_expanded": [
+          "hall ticket"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_exams_fee_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": false,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_exams_fee_01"
+      },
+      "final_answer_correctness": false
+    },
+    {
+      "sample_id": "real_te_013",
+      "category": "Pure Telugu",
+      "ref_transcript": "అకడమిక్ క్యాలెండర్ ప్రకారం సెమిస్టర్ మధ్యంతర పరీక్షల తేదీలు ఖరారయ్యాయి.",
+      "user_visible_transcript": "అకడమిక్ క్యాలెండర్ ప్రకారం సెమిస్టర్ మధ్యంతర పరీక్షల తేదీలు ఖరారయ్యాయి.",
+      "expanded_retrieval_query": "అకడమిక్ క్యాలెండర్ ప్రకారం సెమిస్టర్ మధ్యంతర పరీక్షల తేదీలు ఖరారయ్యాయి. semester పరీక్షలు ఎగ్జామ్స్ examination exams exam",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "semester"
+        ],
+        "preserved_in_expanded": [
+          "semester"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_te_014",
+      "category": "Pure Telugu",
+      "ref_transcript": "విశ్వవిద్యాలయ ప్రాంగణంలో క్రమశిక్షణ పాటించడం అందరి బాధ్యత.",
+      "user_visible_transcript": "विश्व विद्यलय ప్రాంగణంలో క్రమశిక్షణ పాటించడం అందరి బాధ్యత.",
+      "expanded_retrieval_query": "विश्व विद्यलय ప్రాంగణంలో క్రమశిక్షణ పాటించడం అందరి బాధ్యత.",
+      "error_classification": "Script bleed",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [],
+        "preserved_in_expanded": [],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": false,
+        "retrieved_chunk_id": "NONE"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": false,
+        "retrieved_chunk_id": "NONE"
+      },
+      "condition_B_norm_retrieval": {
+        "success": false,
+        "retrieved_chunk_id": "NONE"
+      },
+      "final_answer_correctness": false
+    },
+    {
+      "sample_id": "real_te_015",
+      "category": "Pure Telugu",
+      "ref_transcript": "ప్రయోగశాల నిబంధనలు పాటించని వారిపై చర్యలు తీసుకుంటారు.",
+      "user_visible_transcript": "ప్రయోగశాల నిబంధనలు పాటించని వారిపై చర్యలు తీసుకుంటారు.",
+      "expanded_retrieval_query": "ప్రయోగశాల నిబంధనలు పాటించని వారిపై చర్యలు తీసుకుంటారు.",
+      "error_classification": "Genuine acoustic recognition error",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [],
+        "preserved_in_expanded": [],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_te_016",
+      "category": "Pure Telugu",
+      "ref_transcript": "బోధనా రుసుము చెల్లించడానికి బ్యాంక్ చలానా ఉపయోగించవచ్చు.",
+      "user_visible_transcript": "బోధనా రుసుము చెల్లించడానికి బ్యాంక్ చలానా ఉపయోగించవచ్చు.",
+      "expanded_retrieval_query": "బోధనా రుసుము చెల్లించడానికి బ్యాంక్ చలానా ఉపయోగించవచ్చు.",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [],
+        "preserved_in_expanded": [],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_te_017",
+      "category": "Pure Telugu",
+      "ref_transcript": "బోధనా సిబ్బందిని కార్యాలయ వేళల్లో సంప్రదించవచ్చు.",
+      "user_visible_transcript": "బోధనా సిబ్బందిని కార్యాలయ వేళల్లో సంప్రదించవచ్చు.",
+      "expanded_retrieval_query": "బోధనా సిబ్బందిని కార్యాలయ వేళల్లో సంప్రదించవచ్చు.",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [],
+        "preserved_in_expanded": [],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_te_018",
+      "category": "Pure Telugu",
+      "ref_transcript": "డిగ్రీ ధృవీకరణ పత్రాల కోసం ఆన్‌లైన్‌లో దరఖాస్తు చేసుకోవాలి.",
+      "user_visible_transcript": "డిగ్రీ ధృవీకరణ పత్రాల కోసం ఆన్‌లైన్‌లో దరఖాస్తు చేసుకోవాలి.",
+      "expanded_retrieval_query": "డిగ్రీ ధృవీకరణ పత్రాల కోసం ఆన్‌లైన్‌లో దరఖాస్తు చేసుకోవాలి. application అప్లికేషన్",
+      "error_classification": "Genuine acoustic recognition error",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "application"
+        ],
+        "preserved_in_expanded": [
+          "application"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_hostel_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_hostel_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_hostel_01"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_te_019",
+      "category": "Pure Telugu",
+      "ref_transcript": "క్రీడా పోటీల్లో పాల్గొనే విద్యార్థులకు ప్రత్యేక తరగతులు నిర్వహిస్తారు.",
+      "user_visible_transcript": "క్రీడా పోటీల్లో పాల్గొనే విద్యార్థులకు ప్రత్యేక తరగతులు నిర్వహిస్తారు.",
+      "expanded_retrieval_query": "క్రీడా పోటీల్లో పాల్గొనే విద్యార్థులకు ప్రత్యేక తరగతులు నిర్వహిస్తారు.",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [],
+        "preserved_in_expanded": [],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_te_020",
+      "category": "Pure Telugu",
+      "ref_transcript": "క్యాంపస్ ప్లేస్‌మెంట్ డ్రైవ్ వచ్చే వారం ప్రారంభం కానుంది.",
+      "user_visible_transcript": "క్యాంపస్ ప్లేస్‌మెంట్ డ్రైవ్ వచ్చే వారం ప్రారంభం కానుంది.",
+      "expanded_retrieval_query": "క్యాంపస్ ప్లేస్‌మెంట్ డ్రైవ్ వచ్చే వారం ప్రారంభం కానుంది.",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [],
+        "preserved_in_expanded": [],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_te_021",
+      "category": "Pure Telugu",
+      "ref_transcript": "పరీక్ష కేంద్రంలో ఎలక్ట్రానిక్ పరికరాలు అనుమతించబడవు.",
+      "user_visible_transcript": "పరీక్ష కేంద్రంలో ఎలక్ట్రానిక్ పరికరాలు అనుమతించబడవు.",
+      "expanded_retrieval_query": "పరీక్ష కేంద్రంలో ఎలక్ట్రానిక్ పరికరాలు అనుమతించబడవు. పరీక్షలు ఎగ్జామ్స్ examination exams exam",
+      "error_classification": "Genuine acoustic recognition error",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [],
+        "preserved_in_expanded": [],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_exams_fee_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": false,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_exams_fee_01"
+      },
+      "final_answer_correctness": false
+    },
+    {
+      "sample_id": "real_te_022",
+      "category": "Pure Telugu",
+      "ref_transcript": "సెమినార్ హాల్‌లో ప్రత్యేక అతిథి ఉపన్యాసం ఏర్పాటు చేశారు.",
+      "user_visible_transcript": "సెమినార్ హాల్‌లో ప్రత్యేక అతిథి ఉపన్యాసం ఏర్పాటు చేశారు.",
+      "expanded_retrieval_query": "సెమినార్ హాల్‌లో ప్రత్యేక అతిథి ఉపన్యాసం ఏర్పాటు చేశారు.",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [],
+        "preserved_in_expanded": [],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_te_023",
+      "category": "Pure Telugu",
+      "ref_transcript": "అదనపు కోర్సుల కోసం నమోదు ప్రక్రియ ముగింపు దశకు వచ్చింది.",
+      "user_visible_transcript": "అదనపు కోర్సుల కోసం నమోదు ప్రక్రియ ముగింపు దశకు వచ్చింది.",
+      "expanded_retrieval_query": "అదనపు కోర్సుల కోసం నమోదు ప్రక్రియ ముగింపు దశకు వచ్చింది.",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [],
+        "preserved_in_expanded": [],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_te_024",
+      "category": "Pure Telugu",
+      "ref_transcript": "ప్రాజెక్ట్ నివేదికలను సమర్పించడానికి ఆఖరి తేదీ ప్రకటించారు.",
+      "user_visible_transcript": "ప్రాజెక్ట్ నివేదికలను సమర్పించడానికి ఆఖరి తేదీ ప్రకటించారు.",
+      "expanded_retrieval_query": "ప్రాజెక్ట్ నివేదికలను సమర్పించడానికి ఆఖరి తేదీ ప్రకటించారు.",
+      "error_classification": "Genuine acoustic recognition error",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [],
+        "preserved_in_expanded": [],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_te_025",
+      "category": "Pure Telugu",
+      "ref_transcript": "విద్యార్థుల సంక్షేమం కోసం ప్రత్యేక సహాయ కేంద్రాన్ని ఏర్పాటు చేశారు.",
+      "user_visible_transcript": "విద్యార్థుల సంక్షేమం కోసం ప్రత్యేక సహాయ కేంద్రాన్ని ఏర్పాటు చేశారు.",
+      "expanded_retrieval_query": "విద్యార్థుల సంక్షేమం కోసం ప్రత్యేక సహాయ కేంద్రాన్ని ఏర్పాటు చేశారు.",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [],
+        "preserved_in_expanded": [],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_cm_001",
+      "category": "Telugu-English Code-Mixed",
+      "ref_transcript": "Semester exams ki minimum 75% attendance undali.",
+      "user_visible_transcript": "Semester exams ki minimum 75% attendance undali.",
+      "expanded_retrieval_query": "Semester exams ki minimum 75% attendance undali. హాజరు అటెండెన్స్ కనీస హాజరు సెమిస్టర్ పరీక్ష పరీక్షలు ఎగ్జామ్స్ examination",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "attendance",
+          "semester",
+          "exams"
+        ],
+        "preserved_in_expanded": [
+          "attendance",
+          "semester",
+          "exams"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_cm_002",
+      "category": "Telugu-English Code-Mixed",
+      "ref_transcript": "Hostel fee payment online portal lo cheyyవచ్చా?",
+      "user_visible_transcript": "Hostel fee payment online portal lo cheyyవచ్చా?",
+      "expanded_retrieval_query": "Hostel fee payment online portal lo cheyyవచ్చా? వసతి హాస్టల్ fees ఫీజు",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "hostel",
+          "fee"
+        ],
+        "preserved_in_expanded": [
+          "hostel",
+          "fee"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_hostel_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_hostel_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_hostel_01"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_cm_003",
+      "category": "Telugu-English Code-Mixed",
+      "ref_transcript": "Library card apply cheyadaniki documents enti?",
+      "user_visible_transcript": "Library card apply cheyadaniki documents enti?",
+      "expanded_retrieval_query": "Library card apply cheyadaniki documents enti? లైబ్రరీ గ్రంథాలయం",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "library"
+        ],
+        "preserved_in_expanded": [
+          "library"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_library_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_library_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_library_01"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_cm_004",
+      "category": "Telugu-English Code-Mixed",
+      "ref_transcript": "Medical certificate submit chesthe condonation fee waive chesthara?",
+      "user_visible_transcript": "Medical certificate submit chesthe condonation fee waive chesthara?",
+      "expanded_retrieval_query": "Medical certificate submit chesthe condonation fee waive chesthara? fees ఫీజు medical leave మెడికల్ లీవ్ వైద్య సెలవు కండోనేషన్",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "fee",
+          "medical leave",
+          "application",
+          "condonation"
+        ],
+        "preserved_in_expanded": [
+          "fee",
+          "medical leave",
+          "application",
+          "condonation"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_cm_005",
+      "category": "Telugu-English Code-Mixed",
+      "ref_transcript": "Ma college lo final semester exams chala strictly conduct chesaru.",
+      "user_visible_transcript": "Ma college lo final semester exams chala strictly conduct chesaru.",
+      "expanded_retrieval_query": "Ma college lo final semester exams chala strictly conduct chesaru. సెమిస్టర్ పరీక్ష పరీక్షలు ఎగ్జామ్స్ examination",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "semester",
+          "exams"
+        ],
+        "preserved_in_expanded": [
+          "semester",
+          "exams"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_cm_006",
+      "category": "Telugu-English Code-Mixed",
+      "ref_transcript": "Internal marks percentage minimum pass score entha?",
+      "user_visible_transcript": "Internal marks percentage minimum pass score entha?",
+      "expanded_retrieval_query": "Internal marks percentage minimum pass score entha?",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "attendance"
+        ],
+        "preserved_in_expanded": [
+          "attendance"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_cm_007",
+      "category": "Telugu-English Code-Mixed",
+      "ref_transcript": "Revaluation application deadline eppudu end avthundi?",
+      "user_visible_transcript": "Revaluation application deadline eppudu end avthundi?",
+      "expanded_retrieval_query": "Revaluation application deadline eppudu end avthundi? దరఖాస్తు అప్లికేషన్ గడువు డెడ్లైన్ డెడ్‌లైన్ recounting రీవాల్యుయేషన్",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "application",
+          "deadline",
+          "revaluation"
+        ],
+        "preserved_in_expanded": [
+          "application",
+          "deadline",
+          "revaluation"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_hostel_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": false,
+        "retrieved_chunk_id": "chunk_exams_fee_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_hostel_01"
+      },
+      "final_answer_correctness": false
+    },
+    {
+      "sample_id": "real_cm_008",
+      "category": "Telugu-English Code-Mixed",
+      "ref_transcript": "Campus Wi-Fi connectivity login credentials reset cheyali.",
+      "user_visible_transcript": "Campus Wi-Fi connectivity login credentials reset cheyali.",
+      "expanded_retrieval_query": "Campus Wi-Fi connectivity login credentials reset cheyali. విటై wifi వైఫై",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "wifi"
+        ],
+        "preserved_in_expanded": [
+          "wifi"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_wifi_campus_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_wifi_campus_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_wifi_campus_01"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_cm_009",
+      "category": "Telugu-English Code-Mixed",
+      "ref_transcript": "Hall ticket download chesukovadaniki registration number kavali.",
+      "user_visible_transcript": "Hall ticket download chesukovadaniki registration number kavali.",
+      "expanded_retrieval_query": "Hall ticket download chesukovadaniki registration number kavali. హాల్ టికెట్",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "hall ticket"
+        ],
+        "preserved_in_expanded": [
+          "hall ticket"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_cm_010",
+      "category": "Telugu-English Code-Mixed",
+      "ref_transcript": "SGPA calculation formula syllabus copy lo unda?",
+      "user_visible_transcript": "SGPA calculation formula syllabus copy lo unda?",
+      "expanded_retrieval_query": "SGPA calculation formula syllabus copy lo unda? క్రెడిట్లు credits cgpa",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "application",
+          "credits"
+        ],
+        "preserved_in_expanded": [
+          "application",
+          "credits"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_cm_011",
+      "category": "Telugu-English Code-Mixed",
+      "ref_transcript": "Dean office lo special permission kosam request submit chesam.",
+      "user_visible_transcript": "Dean office lo special permission kosam request submit chesam.",
+      "expanded_retrieval_query": "Dean office lo special permission kosam request submit chesam. డీన్",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "dean",
+          "application"
+        ],
+        "preserved_in_expanded": [
+          "dean",
+          "application"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_cm_012",
+      "category": "Telugu-English Code-Mixed",
+      "ref_transcript": "Exam schedule lo lab practical dates announce chesara?",
+      "user_visible_transcript": "Exam schedule lo lab practical dates announce chesara?",
+      "expanded_retrieval_query": "Exam schedule lo lab practical dates announce chesara? పరీక్ష పరీక్షలు ఎగ్జామ్స్ examination exams",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [],
+        "preserved_in_expanded": [],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_exams_fee_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": false,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_exams_fee_01"
+      },
+      "final_answer_correctness": false
+    },
+    {
+      "sample_id": "real_cm_013",
+      "category": "Telugu-English Code-Mixed",
+      "ref_transcript": "Assignment submission link portal lo open avvaledu.",
+      "user_visible_transcript": "Assignment submission link portal lo open avvaledu.",
+      "expanded_retrieval_query": "Assignment submission link portal lo open avvaledu.",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [],
+        "preserved_in_expanded": [],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_cm_014",
+      "category": "Telugu-English Code-Mixed",
+      "ref_transcript": "Placement cell mock interview schedule release chesindi.",
+      "user_visible_transcript": "Placement cell mock interview schedule release chesindi.",
+      "expanded_retrieval_query": "Placement cell mock interview schedule release chesindi.",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [],
+        "preserved_in_expanded": [],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_cm_015",
+      "category": "Telugu-English Code-Mixed",
+      "ref_transcript": "Hostel warden signature approval form meeda kavali.",
+      "user_visible_transcript": "Hostel warden signature approval form meeda kavali.",
+      "expanded_retrieval_query": "Hostel warden signature approval form meeda kavali. వసతి హాస్టల్",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "hostel",
+          "dean",
+          "application"
+        ],
+        "preserved_in_expanded": [
+          "hostel",
+          "dean",
+          "application"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_hostel_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_hostel_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_hostel_01"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_cm_016",
+      "category": "Telugu-English Code-Mixed",
+      "ref_transcript": "Supplementary exams registration fee per subject entha?",
+      "user_visible_transcript": "Supplementary exams registration fee per subject entha?",
+      "expanded_retrieval_query": "Supplementary exams registration fee per subject entha? పరీక్ష పరీక్షలు ఎగ్జామ్స్ examination fees ఫీజు",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "exams",
+          "fee"
+        ],
+        "preserved_in_expanded": [
+          "exams",
+          "fee"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": false,
+        "retrieved_chunk_id": "chunk_exams_fee_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "final_answer_correctness": false
+    },
+    {
+      "sample_id": "real_cm_017",
+      "category": "Telugu-English Code-Mixed",
+      "ref_transcript": "Project report soft copy email dwara send cheyyandi.",
+      "user_visible_transcript": "Project report soft copy email dwara send cheyyandi.",
+      "expanded_retrieval_query": "Project report soft copy email dwara send cheyyandi.",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [],
+        "preserved_in_expanded": [],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_cm_018",
+      "category": "Telugu-English Code-Mixed",
+      "ref_transcript": "Academic calendar lo winter vacation dates mention chesara?",
+      "user_visible_transcript": "Academic calendar lo winter vacation dates mention chesara?",
+      "expanded_retrieval_query": "Academic calendar lo winter vacation dates mention chesara?",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [],
+        "preserved_in_expanded": [],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_cm_019",
+      "category": "Telugu-English Code-Mixed",
+      "ref_transcript": "Bus pass renewal application college office lo ivvala?",
+      "user_visible_transcript": "Bus pass renewal application college office lo ivvala?",
+      "expanded_retrieval_query": "Bus pass renewal application college office lo ivvala? దరఖాస్తు అప్లికేషన్",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "application"
+        ],
+        "preserved_in_expanded": [
+          "application"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_hostel_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_hostel_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_hostel_01"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_cm_020",
+      "category": "Telugu-English Code-Mixed",
+      "ref_transcript": "Condonation fee challan finance counter lo pay chesam.",
+      "user_visible_transcript": "Condonation fee challan finance counter lo pay chesam.",
+      "expanded_retrieval_query": "Condonation fee challan finance counter lo pay chesam. fees ఫీజు కండోనేషన్",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "fee",
+          "condonation"
+        ],
+        "preserved_in_expanded": [
+          "fee",
+          "condonation"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": false,
+        "retrieved_chunk_id": "chunk_exams_fee_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "final_answer_correctness": false
+    },
+    {
+      "sample_id": "real_cm_021",
+      "category": "Telugu-English Code-Mixed",
+      "ref_transcript": "Sports complex membership fee per semester entha?",
+      "user_visible_transcript": "Sports complex membership fee per semester entha?",
+      "expanded_retrieval_query": "Sports complex membership fee per semester entha? సెమిస్టర్ fees ఫీజు",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "semester",
+          "fee"
+        ],
+        "preserved_in_expanded": [
+          "semester",
+          "fee"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_cm_022",
+      "category": "Telugu-English Code-Mixed",
+      "ref_transcript": "Course registration credits limit exceed ayithe em cheyyali?",
+      "user_visible_transcript": "Course registration credits limit exceed ayithe em cheyyali?",
+      "expanded_retrieval_query": "Course registration credits limit exceed ayithe em cheyyali? sgpa క్రెడిట్లు cgpa",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "credits"
+        ],
+        "preserved_in_expanded": [
+          "credits"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_cm_023",
+      "category": "Telugu-English Code-Mixed",
+      "ref_transcript": "Technical symposium registration link website lo undi.",
+      "user_visible_transcript": "Technical symposium registration link website lo undi.",
+      "expanded_retrieval_query": "Technical symposium registration link website lo undi.",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [],
+        "preserved_in_expanded": [],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_cm_024",
+      "category": "Telugu-English Code-Mixed",
+      "ref_transcript": "Grade sheet provisional copy department office lo isthara?",
+      "user_visible_transcript": "Grade sheet provisional copy department office lo isthara?",
+      "expanded_retrieval_query": "Grade sheet provisional copy department office lo isthara?",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [],
+        "preserved_in_expanded": [],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_cm_025",
+      "category": "Telugu-English Code-Mixed",
+      "ref_transcript": "Identity card duplicate copy apply cheyadaniki fee pay cheyali.",
+      "user_visible_transcript": "Identity card duplicate copy apply cheyadaniki fee pay cheyali.",
+      "expanded_retrieval_query": "Identity card duplicate copy apply cheyadaniki fee pay cheyali. fees ఫీజు",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "fee",
+          "library"
+        ],
+        "preserved_in_expanded": [
+          "fee",
+          "library"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_hostel_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": false,
+        "retrieved_chunk_id": "chunk_exams_fee_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_hostel_01"
+      },
+      "final_answer_correctness": false
+    },
+    {
+      "sample_id": "real_en_001",
+      "category": "Pure English",
+      "ref_transcript": "What is the minimum attendance requirement for semester examinations?",
+      "user_visible_transcript": "What is the minimum attendance requirement for semester examinations?",
+      "expanded_retrieval_query": "What is the minimum attendance requirement for semester examinations? హాజరు అటెండెన్స్ కనీస హాజరు సెమిస్టర్ పరీక్ష పరీక్షలు ఎగ్జామ్స్ exams",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "attendance",
+          "semester",
+          "exams"
+        ],
+        "preserved_in_expanded": [
+          "attendance",
+          "semester",
+          "exams"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_en_002",
+      "category": "Pure English",
+      "ref_transcript": "Under what medical conditions can attendance shortage be condoned?",
+      "user_visible_transcript": "Under what medical conditions can attendance shortage be condoned?",
+      "expanded_retrieval_query": "Under what medical conditions can attendance shortage be condoned? హాజరు అటెండెన్స్ కనీస హాజరు medical leave మెడికల్ లీవ్ వైద్య సెలవు",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "attendance",
+          "condonation"
+        ],
+        "preserved_in_expanded": [
+          "attendance",
+          "condonation"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_en_003",
+      "category": "Pure English",
+      "ref_transcript": "How is the Cumulative Grade Point Average calculated on a ten point scale?",
+      "user_visible_transcript": "How is the Cumulative Grade Point Average calculated on a ten point scale?",
+      "expanded_retrieval_query": "How is the Cumulative Grade Point Average calculated on a ten point scale?",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [],
+        "preserved_in_expanded": [],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_en_004",
+      "category": "Pure English",
+      "ref_transcript": "What are the disciplinary penalties for examination malpractice?",
+      "user_visible_transcript": "What are the disciplinary penalties for examination malpractice?",
+      "expanded_retrieval_query": "What are the disciplinary penalties for examination malpractice? పరీక్ష పరీక్షలు ఎగ్జామ్స్ exams",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "exams"
+        ],
+        "preserved_in_expanded": [
+          "exams"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_en_005",
+      "category": "Pure English",
+      "ref_transcript": "What is the revaluation fee charged per theory subject?",
+      "user_visible_transcript": "What is the revaluation fee charged per theory subject?",
+      "expanded_retrieval_query": "What is the revaluation fee charged per theory subject? fees ఫీజు recounting రీవాల్యుయేషన్",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "fee",
+          "revaluation"
+        ],
+        "preserved_in_expanded": [
+          "fee",
+          "revaluation"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_exams_fee_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_exams_fee_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_exams_fee_01"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_en_006",
+      "category": "Pure English",
+      "ref_transcript": "What is the minimum passing percentage for internal assessment?",
+      "user_visible_transcript": "What is the minimum passing percentage for internal assessment?",
+      "expanded_retrieval_query": "What is the minimum passing percentage for internal assessment?",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "attendance"
+        ],
+        "preserved_in_expanded": [
+          "attendance"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_en_007",
+      "category": "Pure English",
+      "ref_transcript": "How can second year students apply for campus hostel accommodation?",
+      "user_visible_transcript": "How can second year students apply for campus hostel accommodation?",
+      "expanded_retrieval_query": "How can second year students apply for campus hostel accommodation? వసతి హాస్టల్",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "hostel"
+        ],
+        "preserved_in_expanded": [
+          "hostel"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_hostel_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_hostel_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_hostel_01"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_en_008",
+      "category": "Pure English",
+      "ref_transcript": "What is the final deadline to submit examination registration with late fee?",
+      "user_visible_transcript": "What is the final deadline to submit examination registration with late fee?",
+      "expanded_retrieval_query": "What is the final deadline to submit examination registration with late fee? పరీక్ష పరీక్షలు ఎగ్జామ్స్ exams fees ఫీజు గడువు డెడ్లైన్ డెడ్‌లైన్",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "exams",
+          "fee",
+          "application",
+          "deadline"
+        ],
+        "preserved_in_expanded": [
+          "exams",
+          "fee",
+          "application",
+          "deadline"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_hostel_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": false,
+        "retrieved_chunk_id": "chunk_exams_fee_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_hostel_01"
+      },
+      "final_answer_correctness": false
+    },
+    {
+      "sample_id": "real_en_009",
+      "category": "Pure English",
+      "ref_transcript": "Is the challenge evaluation fee refundable if marks improve significantly?",
+      "user_visible_transcript": "Is the challenge evaluation fee refundable if marks improve significantly?",
+      "expanded_retrieval_query": "Is the challenge evaluation fee refundable if marks improve significantly? fees ఫీజు",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "fee"
+        ],
+        "preserved_in_expanded": [
+          "fee"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_hostel_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": false,
+        "retrieved_chunk_id": "chunk_exams_fee_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_hostel_01"
+      },
+      "final_answer_correctness": false
+    },
+    {
+      "sample_id": "real_en_010",
+      "category": "Pure English",
+      "ref_transcript": "What documents are required to obtain a bona fide student certificate?",
+      "user_visible_transcript": "What documents are required to obtain a bona fide student certificate?",
+      "expanded_retrieval_query": "What documents are required to obtain a bona fide student certificate?",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [],
+        "preserved_in_expanded": [],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_en_011",
+      "category": "Pure English",
+      "ref_transcript": "The university central library is open from eight in the morning until eight at night.",
+      "user_visible_transcript": "The university central library is open from eight in the morning until eight at night.",
+      "expanded_retrieval_query": "The university central library is open from eight in the morning until eight at night. లైబ్రరీ గ్రంథాలయం",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "library"
+        ],
+        "preserved_in_expanded": [
+          "library"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_library_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_library_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_library_01"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_en_012",
+      "category": "Pure English",
+      "ref_transcript": "Students must clear all tuition fee dues before collecting hall tickets.",
+      "user_visible_transcript": "Students must clear all tuition fee dues before collecting hall tickets.",
+      "expanded_retrieval_query": "Students must clear all tuition fee dues before collecting hall tickets. fees ఫీజు హాల్ టికెట్",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "fee",
+          "hall ticket"
+        ],
+        "preserved_in_expanded": [
+          "fee",
+          "hall ticket"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_hostel_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": false,
+        "retrieved_chunk_id": "chunk_exams_fee_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_hostel_01"
+      },
+      "final_answer_correctness": false
+    },
+    {
+      "sample_id": "real_en_013",
+      "category": "Pure English",
+      "ref_transcript": "The academic council approved revisions to the curriculum structure.",
+      "user_visible_transcript": "The academic council approved revisions to the curriculum structure.",
+      "expanded_retrieval_query": "The academic council approved revisions to the curriculum structure.",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [],
+        "preserved_in_expanded": [],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_en_014",
+      "category": "Pure English",
+      "ref_transcript": "Laboratory practical examinations will be conducted in two sessions.",
+      "user_visible_transcript": "Laboratory practical examinations will be conducted in two sessions.",
+      "expanded_retrieval_query": "Laboratory practical examinations will be conducted in two sessions. పరీక్ష పరీక్షలు ఎగ్జామ్స్ exams",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "exams"
+        ],
+        "preserved_in_expanded": [
+          "exams"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_en_015",
+      "category": "Pure English",
+      "ref_transcript": "The campus placement drive will commence from the third week of September.",
+      "user_visible_transcript": "The campus placement drive will commence from the third week of September.",
+      "expanded_retrieval_query": "The campus placement drive will commence from the third week of September.",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [],
+        "preserved_in_expanded": [],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_wifi_campus_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_wifi_campus_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_wifi_campus_01"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_en_016",
+      "category": "Pure English",
+      "ref_transcript": "Please submit your project synopsis to the department coordinator.",
+      "user_visible_transcript": "Please submit your project synopsis to the department coordinator.",
+      "expanded_retrieval_query": "Please submit your project synopsis to the department coordinator.",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "application"
+        ],
+        "preserved_in_expanded": [
+          "application"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_en_017",
+      "category": "Pure English",
+      "ref_transcript": "All international conference registrations must be approved by the department head.",
+      "user_visible_transcript": "All international conference registrations must be approved by the department head.",
+      "expanded_retrieval_query": "All international conference registrations must be approved by the department head.",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [],
+        "preserved_in_expanded": [],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_en_018",
+      "category": "Pure English",
+      "ref_transcript": "The hostel mess menu is reviewed monthly by the student committee.",
+      "user_visible_transcript": "The hostel mess menu is reviewed monthly by the student committee.",
+      "expanded_retrieval_query": "The hostel mess menu is reviewed monthly by the student committee. వసతి హాస్టల్",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "hostel"
+        ],
+        "preserved_in_expanded": [
+          "hostel"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_hostel_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_hostel_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_hostel_01"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_en_019",
+      "category": "Pure English",
+      "ref_transcript": "Re-admission requests must be submitted within fifteen days of publication.",
+      "user_visible_transcript": "Re-admission requests must be submitted within fifteen days of publication.",
+      "expanded_retrieval_query": "Re-admission requests must be submitted within fifteen days of publication.",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "application"
+        ],
+        "preserved_in_expanded": [
+          "application"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_en_020",
+      "category": "Pure English",
+      "ref_transcript": "Campus health center provides emergency medical support to all residents.",
+      "user_visible_transcript": "Campus health center provides emergency medical support to all residents.",
+      "expanded_retrieval_query": "Campus health center provides emergency medical support to all residents. medical leave మెడికల్ లీవ్ వైద్య సెలవు",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [],
+        "preserved_in_expanded": [],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_tech_001",
+      "category": "Technical/Academic",
+      "ref_transcript": "Ee voice agent Qdrant vector database mariyu Multilingual E5 tho search chesthundi.",
+      "user_visible_transcript": "Ee voice agent Qdrant vector database mariyu Multilingual E5 tho search chesthundi.",
+      "expanded_retrieval_query": "Ee voice agent Qdrant vector database mariyu Multilingual E5 tho search chesthundi. క్యూడ్రాంట్",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "qdrant"
+        ],
+        "preserved_in_expanded": [
+          "qdrant"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_tech_002",
+      "category": "Technical/Academic",
+      "ref_transcript": "PostgreSQL database lo conversation message history persist avthundi.",
+      "user_visible_transcript": "PostgreSQL database lo conversation message history persist avthundi.",
+      "expanded_retrieval_query": "PostgreSQL database lo conversation message history persist avthundi. పోస్ట్‌గ్రేస్",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "qdrant"
+        ],
+        "preserved_in_expanded": [
+          "qdrant"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_tech_003",
+      "category": "Technical/Academic",
+      "ref_transcript": "LangGraph multi-agent orchestrator intent routing mariyu validation conduct chesthundi.",
+      "user_visible_transcript": "LangGraph multi-agent orchestrator intent routing mariyu validation conduct chesthundi.",
+      "expanded_retrieval_query": "LangGraph multi-agent orchestrator intent routing mariyu validation conduct chesthundi.",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [],
+        "preserved_in_expanded": [],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_tech_004",
+      "category": "Technical/Academic",
+      "ref_transcript": "BM25 sparse keyword ranker mariyu dense vector score ni RRF fuse chesthundi.",
+      "user_visible_transcript": "BM25 sparse keyword ranker mariyu dense vector score ni RRF fuse chesthundi.",
+      "expanded_retrieval_query": "BM25 sparse keyword ranker mariyu dense vector score ni RRF fuse chesthundi.",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "qdrant"
+        ],
+        "preserved_in_expanded": [
+          "qdrant"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_tech_005",
+      "category": "Technical/Academic",
+      "ref_transcript": "Cross-Encoder bge reranker retrieved documents ni final ranking assign chesthundi.",
+      "user_visible_transcript": "Cross-Encoder bge reranker retrieved documents ni final ranking assign chesthundi.",
+      "expanded_retrieval_query": "Cross-Encoder bge reranker retrieved documents ni final ranking assign chesthundi.",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [],
+        "preserved_in_expanded": [],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_tech_006",
+      "category": "Technical/Academic",
+      "ref_transcript": "FastAPI backend SSE streaming dwara real-time tokens transmit chesthundi.",
+      "user_visible_transcript": "FastAPI backend SSE streaming dwara real-time tokens transmit chesthundi.",
+      "expanded_retrieval_query": "FastAPI backend SSE streaming dwara real-time tokens transmit chesthundi.",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [],
+        "preserved_in_expanded": [],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_tech_007",
+      "category": "Technical/Academic",
+      "ref_transcript": "IndicF5 neural diffusion TTS 24kHz PCM WAV output synthesize chesthundi.",
+      "user_visible_transcript": "IndicF5 neural diffusion TTS 24kHz PCM WAV output synthesize chesthundi.",
+      "expanded_retrieval_query": "IndicF5 neural diffusion TTS 24kHz PCM WAV output synthesize chesthundi.",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [],
+        "preserved_in_expanded": [],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_tech_008",
+      "category": "Technical/Academic",
+      "ref_transcript": "Whisper STT large v3 turbo multilingual audio speech transcribes chesthundi.",
+      "user_visible_transcript": "Whisper STT large v3 turbo multilingual audio speech transcribes chesthundi.",
+      "expanded_retrieval_query": "Whisper STT large v3 turbo multilingual audio speech transcribes chesthundi.",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [],
+        "preserved_in_expanded": [],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_tech_009",
+      "category": "Technical/Academic",
+      "ref_transcript": "Next.js frontend Web Audio API tho audio input stream capture chesthundi.",
+      "user_visible_transcript": "Next.js frontend Web Audio API tho audio input stream capture chesthundi.",
+      "expanded_retrieval_query": "Next.js frontend Web Audio API tho audio input stream capture chesthundi.",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [],
+        "preserved_in_expanded": [],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_tech_010",
+      "category": "Technical/Academic",
+      "ref_transcript": "LoRA rank sixteen adapter PEFT layers meeda forward pass execute chesthundi.",
+      "user_visible_transcript": "LoRA rank sixteen adapter PEFT layers meeda forward pass execute chesthundi.",
+      "expanded_retrieval_query": "LoRA rank sixteen adapter PEFT layers meeda forward pass execute chesthundi.",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [],
+        "preserved_in_expanded": [],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_short_001",
+      "category": "Short Queries",
+      "ref_transcript": "నమస్కారం!",
+      "user_visible_transcript": "నమస్కారం!",
+      "expanded_retrieval_query": "నమస్కారం!",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "casual_query",
+        "raw_intent": "casual_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [],
+        "preserved_in_expanded": [],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_short_002",
+      "category": "Short Queries",
+      "ref_transcript": "ధన్యవాదాలు అండి.",
+      "user_visible_transcript": "ధన్యవాదాలు అండి.",
+      "expanded_retrieval_query": "ధన్యవాదాలు అండి.",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [],
+        "preserved_in_expanded": [],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_short_003",
+      "category": "Short Queries",
+      "ref_transcript": "Fee counter ekkada?",
+      "user_visible_transcript": "Fee counter ekkada?",
+      "expanded_retrieval_query": "Fee counter ekkada? fees ఫీజు",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "fee"
+        ],
+        "preserved_in_expanded": [
+          "fee"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_hostel_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": false,
+        "retrieved_chunk_id": "chunk_exams_fee_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_hostel_01"
+      },
+      "final_answer_correctness": false
+    },
+    {
+      "sample_id": "real_short_004",
+      "category": "Short Queries",
+      "ref_transcript": "Hall ticket eppudu istharu?",
+      "user_visible_transcript": "Hall ticket if you do istharu?",
+      "expanded_retrieval_query": "Hall ticket if you do istharu? హాల్ టికెట్",
+      "error_classification": "Genuine acoustic recognition error",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "hall ticket"
+        ],
+        "preserved_in_expanded": [
+          "hall ticket"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_short_005",
+      "category": "Short Queries",
+      "ref_transcript": "Thank you very much.",
+      "user_visible_transcript": "Thank you very much.",
+      "expanded_retrieval_query": "Thank you very much.",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [],
+        "preserved_in_expanded": [],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_short_006",
+      "category": "Short Queries",
+      "ref_transcript": "Where is the library?",
+      "user_visible_transcript": "Where is the library?",
+      "expanded_retrieval_query": "Where is the library? లైబ్రరీ గ్రంథాలయం",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "library"
+        ],
+        "preserved_in_expanded": [
+          "library"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_library_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_library_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_library_01"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_short_007",
+      "category": "Short Queries",
+      "ref_transcript": "సహాయం చేయగలరా?",
+      "user_visible_transcript": "సహాయం చేయగలరా?",
+      "expanded_retrieval_query": "సహాయం చేయగలరా?",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [],
+        "preserved_in_expanded": [],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_short_008",
+      "category": "Short Queries",
+      "ref_transcript": "Pass percentage entha?",
+      "user_visible_transcript": "Pass percentage entha?",
+      "expanded_retrieval_query": "Pass percentage entha?",
+      "error_classification": "Genuine acoustic recognition error",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "attendance"
+        ],
+        "preserved_in_expanded": [
+          "attendance"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_long_001",
+      "category": "Long Queries",
+      "ref_transcript": "విశ్వవిద్యాలయ నిబంధనల ప్రకారం సెమిస్టర్ పరీక్షలకు హాజరు కావడానికి కనీసం డెబ్బై ఐదు శాతం హాజరు తప్పనిసరి, లేకపోతే డిటెన్షన్ జాబితాలో చేరుస్తారు.",
+      "user_visible_transcript": "విశ్వవిద్యాలయ నిబంధనల ప్రకారం సెమిస్టర్ పరీక్షలకు హాజరు కావడానికి కనీసం డెబ్బై ఐదు శాతం హాజరు తప్పనిసరి, లేకపోతే డిటెన్షన్ జాబితాలో చేరుస్తారు.",
+      "expanded_retrieval_query": "విశ్వవిద్యాలయ నిబంధనల ప్రకారం సెమిస్టర్ పరీక్షలకు హాజరు కావడానికి కనీసం డెబ్బై ఐదు శాతం హాజరు తప్పనిసరి, లేకపోతే డిటెన్షన్ జాబితాలో చేరుస్తారు. అటెండెన్స్ attendance కనీస హాజరు semester పరీక్షలు ఎగ్జామ్స్ examination exams exam",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "attendance",
+          "semester"
+        ],
+        "preserved_in_expanded": [
+          "attendance",
+          "semester"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_long_002",
+      "category": "Long Queries",
+      "ref_transcript": "Mid term exams reschedule chesukovadaniki Dean permission teesukovalandi, application form tho medical certificate ekkada submit cheyyali?",
+      "user_visible_transcript": "Mid term exams reschedule chesukovadaniki Dean permission teesukovalandi, application form tho medical certificate ekkada submit cheyyali?",
+      "expanded_retrieval_query": "Mid term exams reschedule chesukovadaniki Dean permission teesukovalandi, application form tho medical certificate ekkada submit cheyyali? పరీక్ష పరీక్షలు ఎగ్జామ్స్ examination medical leave మెడికల్ లీవ్ వైద్య సెలవు దరఖాస్తు అప్లికేషన్ డీన్",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "exams",
+          "medical leave",
+          "dean",
+          "application"
+        ],
+        "preserved_in_expanded": [
+          "exams",
+          "medical leave",
+          "dean",
+          "application"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_long_003",
+      "category": "Long Queries",
+      "ref_transcript": "Can you please explain the detailed step by step procedure to apply for medical leave condonation if a student falls sick during the mid semester examinations?",
+      "user_visible_transcript": "Can you please explain the detailed step by step procedure to apply for medical leave condonation if a student falls sick during the mid semester examinations?",
+      "expanded_retrieval_query": "Can you please explain the detailed step by step procedure to apply for medical leave condonation if a student falls sick during the mid semester examinations? సెమిస్టర్ పరీక్ష పరీక్షలు ఎగ్జామ్స్ exams మెడికల్ లీవ్ వైద్య సెలవు కండోనేషన్",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "semester",
+          "exams",
+          "medical leave",
+          "condonation"
+        ],
+        "preserved_in_expanded": [
+          "semester",
+          "exams",
+          "medical leave",
+          "condonation"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_long_004",
+      "category": "Long Queries",
+      "ref_transcript": "థియరీ పరీక్షల రీవాల్యుయేషన్ దరఖాస్తుకు సబ్జెక్టుకు వెయ్యి రూపాయలు చెల్లించి పది రోజుల లోపు పరీక్షల నియంత్రణ అధికారికి సమర్పించాలి.",
+      "user_visible_transcript": "థియరీ పరీక్షల రీవాల్యుయేషన్ దరఖాస్తుకు సబ్జెక్టుకు వెయ్యి రూపాయలు చెల్లించి పది రోజుల లోపు పరీక్షల నియంత్రణ అధికారికి సమర్పించాలి.",
+      "expanded_retrieval_query": "థియరీ పరీక్షల రీవాల్యుయేషన్ దరఖాస్తుకు సబ్జెక్టుకు వెయ్యి రూపాయలు చెల్లించి పది రోజుల లోపు పరీక్షల నియంత్రణ అధికారికి సమర్పించాలి. పరీక్షలు ఎగ్జామ్స్ examination exams exam application అప్లికేషన్ revaluation recounting",
+      "error_classification": "Genuine acoustic recognition error",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "application",
+          "revaluation"
+        ],
+        "preserved_in_expanded": [
+          "application",
+          "revaluation"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_exams_fee_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_exams_fee_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": false,
+        "retrieved_chunk_id": "chunk_hostel_01"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_long_005",
+      "category": "Long Queries",
+      "ref_transcript": "Hostel room allocation second year students ki priority basis meeda untunda leka CGPA score criteria batti allocate chesthara?",
+      "user_visible_transcript": "Hostel room allocation second year students ki priority basis meeda untunda leka CGPA score criteria batti allocate chesthara?",
+      "expanded_retrieval_query": "Hostel room allocation second year students ki priority basis meeda untunda leka CGPA score criteria batti allocate chesthara? వసతి హాస్టల్ sgpa క్రెడిట్లు credits",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "hostel",
+          "credits"
+        ],
+        "preserved_in_expanded": [
+          "hostel",
+          "credits"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_hostel_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_hostel_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_hostel_01"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_long_006",
+      "category": "Long Queries",
+      "ref_transcript": "Students who fail to secure the minimum passing percentage in internal assessment will not be eligible to appear for the end semester theory examination.",
+      "user_visible_transcript": "Students who fail to secure the minimum passing percentage in internal assessment will not be eligible to appear for the end semester theory examination.",
+      "expanded_retrieval_query": "Students who fail to secure the minimum passing percentage in internal assessment will not be eligible to appear for the end semester theory examination. సెమిస్టర్ పరీక్ష పరీక్షలు ఎగ్జామ్స్ exams",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [
+          "attendance",
+          "semester",
+          "exams"
+        ],
+        "preserved_in_expanded": [
+          "attendance",
+          "semester",
+          "exams"
+        ],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "chunk_attendance_01"
+      },
+      "final_answer_correctness": true
+    },
+    {
+      "sample_id": "real_long_007",
+      "category": "Long Queries",
+      "ref_transcript": "Degree certificate original documents verify chesukoni provisional pass certificate tho paatu migration certificate kuda issue chestharani college office cheppindi.",
+      "user_visible_transcript": "Degree certificate original documents verify chesukoni provisional pass certificate tho paatu migration certificate kuda issue chestharani college office cheppindi.",
+      "expanded_retrieval_query": "Degree certificate original documents verify chesukoni provisional pass certificate tho paatu migration certificate kuda issue chestharani college office cheppindi.",
+      "error_classification": "Correct",
+      "intent_preservation": {
+        "ref_intent": "knowledge_query",
+        "raw_intent": "knowledge_query",
+        "is_preserved": true
+      },
+      "critical_entities": {
+        "in_ref": [],
+        "preserved_in_expanded": [],
+        "is_fully_preserved": true
+      },
+      "condition_A1_raw_no_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_A2_production_expansion_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "condition_B_norm_retrieval": {
+        "success": true,
+        "retrieved_chunk_id": "OUT_OF_KB_CONVERSATIONAL"
+      },
+      "final_answer_correctness": true
+    }
+  ]
+}

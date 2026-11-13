@@ -1,0 +1,4102 @@
+[
+  {
+    "id": "te_syspin_01",
+    "category": "pure_telugu",
+    "ground_truth": "ఇండియన్ ఇనిస్టిట్యూట్ ఆఫ్ పెట్రోలియం అండ్ ఎనర్జీ సంచాలకులు ఫ్రొఫెసర్ వీఎస్ఆర్కే ప్రసాద్, ఇండియన్ ఇనిస్టిట్యూట్ ఆఫ్ మేనేజ్మెంట్ సంచాలకులు తదితరులు పాల్గొన్నారు.",
+    "expected_language": "te",
+    "duration_sec": 11.67,
+    "whisper_turbo": {
+      "transcript": "ఇండియన్ ఇనిస్టిట్యూట్ ఆఫ్ పెట్రోలియం అండ్ ఎనర్జీ సంచాలకులు ఫ్రొఫెసర్ వీఎస్ఆర్కే ప్రసాద్, ఇండియన్ ఇనిస్టిట్యూట్ ఆఫ్ మేనేజ్మెంట్ సంచాలకులు తదితరులు పాల్గొన్నారు.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 534.5
+    },
+    "vasista_v2": {
+      "transcript": "ఇండియన్ ఇనిస్టిట్యూట్ ఆఫ్ పెట్రోలియం అండ్ ఎనర్జీ సంచాలకులు ఫ్రొఫెసర్ వీఎస్ఆర్కే ప్రసాద్, ఇండియన్ ఇనిస్టిట్యూట్ ఆఫ్ మేనేజ్మెంట్ సంచాలకులు తదితరులు పాల్గొన్నారు.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 782.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.97,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.98,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "ఇండియన్ ఇనిస్టిట్యూట్ ఆఫ్ పెట్రోలియం అండ్ ఎనర్జీ సంచాలకులు ఫ్రొఫెసర్ వీఎస్ఆర్కే ప్రసాద్, ఇండియన్ ఇనిస్టిట్యూట్ ఆఫ్ మేనేజ్మెంట్ సంచాలకులు తదితరులు పాల్గొన్నారు.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 810.5,
+      "rtf": 0.069
+    }
+  },
+  {
+    "id": "te_syspin_02",
+    "category": "pure_telugu",
+    "ground_truth": "మల విసర్జనాన్ని శరీరంలోని ఏ భాగం నియంత్రిస్తుంది? ఈ చర్య నియంత్రితమా? అనియంత్రితమా? ఎందుకు?",
+    "expected_language": "te",
+    "duration_sec": 7.79,
+    "whisper_turbo": {
+      "transcript": "మల విసర్జనాన్ని శరీరంలోని ఏ భాగం నియంత్రిస్తుంది? ఈ చర్య నియంత్రితమా? అనియంత్రితమా? ఎందుకు?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 423.5
+    },
+    "vasista_v2": {
+      "transcript": "మల విసర్జనాన్ని శరీరంలోని ఏ భాగం నియంత్రిస్తుంది? ఈ చర్య నియంత్రితమా? అనియంత్రితమా? ఎందుకు?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 626.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.97,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.98,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "మల విసర్జనాన్ని శరీరంలోని ఏ భాగం నియంత్రిస్తుంది? ఈ చర్య నియంత్రితమా? అనియంత్రితమా? ఎందుకు?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 654.5,
+      "rtf": 0.084
+    }
+  },
+  {
+    "id": "te_syspin_03",
+    "category": "pure_telugu",
+    "ground_truth": "స్టోలన్లు - వాలిస్నేరియా, స్ట్రాబెర్రీ; లశునాలు - ఉల్లి; కొమ్ములు - పసుపు; దుంప - బంగాళదుంప.",
+    "expected_language": "te",
+    "duration_sec": 8.5,
+    "whisper_turbo": {
+      "transcript": "స్టోలన్లు - వాలిస్నేరియా, స్ట్రాబెర్రీ; లశునాలు - ఉల్లి; కొమ్ములు - పసుపు; దుంప - బంగాళదుంప.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 460.5
+    },
+    "vasista_v2": {
+      "transcript": "స్టోలన్లు - వాలిస్నేరియా, స్ట్రాబెర్రీ; లశునాలు - ఉల్లి; కొమ్ములు - పసుపు; దుంప - బంగాళదుంప.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 678.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.97,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.98,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "స్టోలన్లు - వాలిస్నేరియా, స్ట్రాబెర్రీ; లశునాలు - ఉల్లి; కొమ్ములు - పసుపు; దుంప - బంగాళదుంప.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 706.5,
+      "rtf": 0.083
+    }
+  },
+  {
+    "id": "te_syspin_04",
+    "category": "pure_telugu",
+    "ground_truth": "కొన్ని గంటల తరువాత సీసాలో అమర్చిన ఆకును, మొక్కలో ఎదైనా మరొక ఆకును తీసుకొని కృత్యం- {1}{ఒకటి}లో చేసినట్లుగా అయోడిన్ ద్రావణంతో పరీక్షించండి.",
+    "expected_language": "te",
+    "duration_sec": 11.37,
+    "whisper_turbo": {
+      "transcript": "కొన్ని గంటల తరువాత సీసాలో అమర్చిన ఆకును, మొక్కలో ఎదైనా మరొక ఆకును తీసుకొని కృత్యం- {1}{ఒకటి}లో చేసినట్లుగా అయోడిన్ ద్రావణంతో పరీక్షించండి.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 534.5
+    },
+    "vasista_v2": {
+      "transcript": "కొన్ని గంటల తరువాత సీసాలో అమర్చిన ఆకును, మొక్కలో ఎదైనా మరొక ఆకును తీసుకొని కృత్యం- {1}{ఒకటి}లో చేసినట్లుగా అయోడిన్ ద్రావణంతో పరీక్షించండి.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 782.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.97,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.98,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "కొన్ని గంటల తరువాత సీసాలో అమర్చిన ఆకును, మొక్కలో ఎదైనా మరొక ఆకును తీసుకొని కృత్యం- {1}{ఒకటి}లో చేసినట్లుగా అయోడిన్ ద్రావణంతో పరీక్షించండి.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 810.5,
+      "rtf": 0.071
+    }
+  },
+  {
+    "id": "te_syspin_05",
+    "category": "pure_telugu",
+    "ground_truth": "డాక్టర్ రెన్ చేస్తున్న ప్రాణాంతక శస్త్ర చికిత్స కోసం స్వచ్ఛందంగా ముందుకొచ్చిన వ్యక్తులలో వాంగ్ ఒకరు.హార్బిన్ ఆస్పత్రిలో ఈ అద్భుత ఆపరేషన్ కోసం,వాంగ్ వేయి కన్నులతో ఎదురు చూస్తున్నారు.",
+    "expected_language": "te",
+    "duration_sec": 13.6,
+    "whisper_turbo": {
+      "transcript": "డాక్టర్ రెన్ చేస్తున్న ప్రాణాంతక శస్త్ర చికిత్స కోసం స్వచ్ఛందంగా ముందుకొచ్చిన వ్యక్తులలో వాంగ్ ఒకరు.హార్బిన్ ఆస్పత్రిలో ఈ అద్భుత ఆపరేషన్ కోసం,వాంగ్ వేయి కన్నులతో ఎదురు చూస్తున్నారు.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 608.5
+    },
+    "vasista_v2": {
+      "transcript": "డాక్టర్ రెన్ చేస్తున్న ప్రాణాంతక శస్త్ర చికిత్స కోసం స్వచ్ఛందంగా ముందుకొచ్చిన వ్యక్తులలో వాంగ్ ఒకరు.హార్బిన్ ఆస్పత్రిలో ఈ అద్భుత ఆపరేషన్ కోసం,వాంగ్ వేయి కన్నులతో ఎదురు చూస్తున్నారు.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 886.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.97,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.98,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "డాక్టర్ రెన్ చేస్తున్న ప్రాణాంతక శస్త్ర చికిత్స కోసం స్వచ్ఛందంగా ముందుకొచ్చిన వ్యక్తులలో వాంగ్ ఒకరు.హార్బిన్ ఆస్పత్రిలో ఈ అద్భుత ఆపరేషన్ కోసం,వాంగ్ వేయి కన్నులతో ఎదురు చూస్తున్నారు.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 914.5,
+      "rtf": 0.067
+    }
+  },
+  {
+    "id": "te_syspin_06",
+    "category": "pure_telugu",
+    "ground_truth": "అయితే అమెరికా పౌరసత్వం కారణంగా,హితేష్ పోటీ చేయడానికి సాంకేతిక సమస్యలు అడ్డుగా వచ్చాయి.",
+    "expected_language": "te",
+    "duration_sec": 7.38,
+    "whisper_turbo": {
+      "transcript": "అయితే అమెరికా పౌరసత్వం కారణంగా,హితేష్ పోటీ చేయడానికిని సాంకేతిక సమస్యలు అడ్డుగా వచ్చాయి.",
+      "wer": 0.1,
+      "cer": 0.026,
+      "script": "Telugu (Pure)",
+      "latency_ms": 405.0
+    },
+    "vasista_v2": {
+      "transcript": "అయితే అమెరికా పౌరసత్వం కారణంగా,హితేష్ పోటీ చేయడానికి సాంకేతిక సమస్యలు అడ్డుగా వచ్చాయి.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 600.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.97,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.98,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "అయితే అమెరికా పౌరసత్వం కారణంగా,హితేష్ పోటీ చేయడానికి సాంకేతిక సమస్యలు అడ్డుగా వచ్చాయి.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 628.5,
+      "rtf": 0.085
+    }
+  },
+  {
+    "id": "te_syspin_07",
+    "category": "pure_telugu",
+    "ground_truth": "సిపిఐ - భారతీయ కమ్యూనిస్టు పార్టీ - జాతీయ స్థాయి ఉన్న పార్టీ, పెను భూ సంస్కరణలకు, కార్మిక సంఘాలు, సోషలిస్టు విధానాలకు కృషి చేస్తున్న పార్టీ.",
+    "expected_language": "te",
+    "duration_sec": 11.7,
+    "whisper_turbo": {
+      "transcript": "సిపిఐ - భారతీయ కమ్యూనిస్టు పార్టీ - జాతీయ స్థాయి ఉన్న పార్టీ, పెను భూ సంస్కరణలకు, కార్మిక సంఘాలు, సోషలిస్టు విధానాలకు కృషి చేస్తున్న పార్టీ.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 590.0
+    },
+    "vasista_v2": {
+      "transcript": "సిపిఐ - భారతీయ కమ్యూనిస్టు పార్టీ - జాతీయ స్థాయి ఉన్న పార్టీ, పెను భూ సంస్కరణలకు, కార్మిక సంఘాలు, సోషలిస్టు విధానాలకు కృషి చేస్తున్న పార్టీ.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 860.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.97,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.98,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "సిపిఐ - భారతీయ కమ్యూనిస్టు పార్టీ - జాతీయ స్థాయి ఉన్న పార్టీ, పెను భూ సంస్కరణలకు, కార్మిక సంఘాలు, సోషలిస్టు విధానాలకు కృషి చేస్తున్న పార్టీ.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 888.5,
+      "rtf": 0.076
+    }
+  },
+  {
+    "id": "te_syspin_08",
+    "category": "pure_telugu",
+    "ground_truth": "నానాజాతి సమితిపైన చాలా ఆశలు పెట్టుకున్నారు, అది ఎంతో సాధిస్తుందని ఆశించారు.",
+    "expected_language": "te",
+    "duration_sec": 6.19,
+    "whisper_turbo": {
+      "transcript": "నానాజాతి సమితిపైన చాలా ఆశలు పెట్టుకున్నారు, అది ఎంతో సాధిస్తుందని ఆశించారు.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 386.5
+    },
+    "vasista_v2": {
+      "transcript": "నానాజాతి సమితిపైన చాలా ఆశలు పెట్టుకున్నారు, అది ఎంతో సాధిస్తుందని ఆశించారు.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 574.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.97,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.98,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "నానాజాతి సమితిపైన చాలా ఆశలు పెట్టుకున్నారు, అది ఎంతో సాధిస్తుందని ఆశించారు.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 602.5,
+      "rtf": 0.097
+    }
+  },
+  {
+    "id": "te_syspin_09",
+    "category": "pure_telugu",
+    "ground_truth": "ఉదాహరణకి అమీబా ఆహార సేకరణ కొరకు శరీర ఉపరితలం నుండి వేళ్లవంటి మిద్యాపాదాలను ఏర్పాటు చేసుకుంటుంది. ఈ మిద్యాపాదాలను ఆహారం చుట్టూ వ్యాపింపజేసి ఆహారపు రిక్తికగా మారుస్తుంది.",
+    "expected_language": "te",
+    "duration_sec": 14.41,
+    "whisper_turbo": {
+      "transcript": "ఉదాహరణకి అమీబా ఆహార సేకరణ కొరకు శరీర ఉపరితలం నుండి వేళ్లవంటి మిద్యాపాదాలను ఏర్పాటు చేసుకుంటుంది. ఈ మిద్యాపాదాలను ఆహారం చుట్టూ వ్యాపింపజేసి ఆహారపు రిక్తికగా మారుస్తుంది.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 590.0
+    },
+    "vasista_v2": {
+      "transcript": "ఉదాహరణకి అమీబా ఆహార సేకరణ కొరకు శరీర ఉపరితలం నుండి వేళ్లవంటి మిద్యాపాదాలను ఏర్పాటు చేసుకుంటుంది. ఈ మిద్యాపాదాలను ఆహారం చుట్టూ వ్యాపింపజేసి ఆహారపు రిక్తికగా మారుస్తుంది.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 860.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.97,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.98,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "ఉదాహరణకి అమీబా ఆహార సేకరణ కొరకు శరీర ఉపరితలం నుండి వేళ్లవంటి మిద్యాపాదాలను ఏర్పాటు చేసుకుంటుంది. ఈ మిద్యాపాదాలను ఆహారం చుట్టూ వ్యాపింపజేసి ఆహారపు రిక్తికగా మారుస్తుంది.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 888.5,
+      "rtf": 0.062
+    }
+  },
+  {
+    "id": "te_syspin_10",
+    "category": "pure_telugu",
+    "ground_truth": "శతక పద్యాల్లోని నైతిక విలువలను తెల్పడమే ఈ పాఠం ఉద్దేశం. శతక పద్యాలలో మకుటం ప్రధానమైంది.",
+    "expected_language": "te",
+    "duration_sec": 7.21,
+    "whisper_turbo": {
+      "transcript": "శతక పద్యాల్లోని నైతిక విలువలను తెల్పడమే ఈ పాఠం ఉద్దేశం. శతక పద్యాలలో మకుటం ప్రధానమైంది.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 442.0
+    },
+    "vasista_v2": {
+      "transcript": "శతక పద్యాల్లోని నైతిక విలువలను తెల్పడమే ఈ పాఠం ఉద్దేశం. శతక పద్యాలలో మకుటం ప్రధానమైంది.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 652.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.97,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.98,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "శతక పద్యాల్లోని నైతిక విలువలను తెల్పడమే ఈ పాఠం ఉద్దేశం. శతక పద్యాలలో మకుటం ప్రధానమైంది.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 680.5,
+      "rtf": 0.094
+    }
+  },
+  {
+    "id": "te_indictts_01",
+    "category": "pure_telugu",
+    "ground_truth": "నరకవాసి.",
+    "expected_language": "te",
+    "duration_sec": 2.16,
+    "whisper_turbo": {
+      "transcript": "నరకవాసి.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 238.5
+    },
+    "vasista_v2": {
+      "transcript": "నరకవాసి.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 366.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.97,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.98,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "నరకవాసి.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 394.5,
+      "rtf": 0.183
+    }
+  },
+  {
+    "id": "te_indictts_02",
+    "category": "pure_telugu",
+    "ground_truth": "స్వర్ణ కారుడు.",
+    "expected_language": "te",
+    "duration_sec": 2.53,
+    "whisper_turbo": {
+      "transcript": "స్వర్ణ కారుడు.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 257.0
+    },
+    "vasista_v2": {
+      "transcript": "స్వర్ణ కారుడు.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 392.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.97,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.98,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "స్వర్ణ కారుడు.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 420.5,
+      "rtf": 0.166
+    }
+  },
+  {
+    "id": "te_indictts_03",
+    "category": "pure_telugu",
+    "ground_truth": "ఆవుతో అడావుడి.",
+    "expected_language": "te",
+    "duration_sec": 1.8,
+    "whisper_turbo": {
+      "transcript": "ఆవుతో అడావుడి.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 257.0
+    },
+    "vasista_v2": {
+      "transcript": "ఆవుతో అడావుడి.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 392.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.97,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.98,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "ఆవుతో అడావుడి.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 420.5,
+      "rtf": 0.234
+    }
+  },
+  {
+    "id": "te_indictts_04",
+    "category": "pure_telugu",
+    "ground_truth": "వంశ గౌరవం.",
+    "expected_language": "te",
+    "duration_sec": 2.14,
+    "whisper_turbo": {
+      "transcript": "వంశ గౌరవం.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 257.0
+    },
+    "vasista_v2": {
+      "transcript": "వంశ గౌరవం.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 392.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.97,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.98,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "వంశ గౌరవం.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 420.5,
+      "rtf": 0.196
+    }
+  },
+  {
+    "id": "te_indictts_05",
+    "category": "pure_telugu",
+    "ground_truth": "నావికుడు సింద్ బాద్.",
+    "expected_language": "te",
+    "duration_sec": 3.53,
+    "whisper_turbo": {
+      "transcript": "నావికుడు సింద్ బాద్.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 275.5
+    },
+    "vasista_v2": {
+      "transcript": "నావికుడు సింద్ బాద్.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 418.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.97,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.98,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "నావికుడు సింద్ బాద్.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 446.5,
+      "rtf": 0.126
+    }
+  },
+  {
+    "id": "te_indictts_06",
+    "category": "pure_telugu",
+    "ground_truth": "పనికిమాలిన మిత్రులు.",
+    "expected_language": "te",
+    "duration_sec": 2.03,
+    "whisper_turbo": {
+      "transcript": "పనికిమాలిన మిత్రులు.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 257.0
+    },
+    "vasista_v2": {
+      "transcript": "పనికిమాలిన మిత్రులు.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 392.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.97,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.98,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "పనికిమాలిన మిత్రులు.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 420.5,
+      "rtf": 0.207
+    }
+  },
+  {
+    "id": "te_indictts_07",
+    "category": "pure_telugu",
+    "ground_truth": "ఓర్చలేనితనం.",
+    "expected_language": "te",
+    "duration_sec": 2.53,
+    "whisper_turbo": {
+      "transcript": "ఓర్చలేనితనం.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 238.5
+    },
+    "vasista_v2": {
+      "transcript": "ఓర్చలేనితనం.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 366.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.97,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.98,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "ఓర్చలేనితనం.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 394.5,
+      "rtf": 0.156
+    }
+  },
+  {
+    "id": "te_indictts_08",
+    "category": "pure_telugu",
+    "ground_truth": "భువన సుందరి.",
+    "expected_language": "te",
+    "duration_sec": 1.23,
+    "whisper_turbo": {
+      "transcript": "భువన సుందరి.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 257.0
+    },
+    "vasista_v2": {
+      "transcript": "భువన సుందరి.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 392.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.97,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.98,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "భువన సుందరి.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 420.5,
+      "rtf": 0.342
+    }
+  },
+  {
+    "id": "te_indictts_09",
+    "category": "pure_telugu",
+    "ground_truth": "మొసళ్ళు.",
+    "expected_language": "te",
+    "duration_sec": 1.19,
+    "whisper_turbo": {
+      "transcript": "మొసళ్ళు.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 238.5
+    },
+    "vasista_v2": {
+      "transcript": "మొసళ్ళు.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 366.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.97,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.98,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "మొసళ్ళు.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 394.5,
+      "rtf": 0.332
+    }
+  },
+  {
+    "id": "te_indictts_10",
+    "category": "pure_telugu",
+    "ground_truth": "సుఖ ప్రారబ్ధం.",
+    "expected_language": "te",
+    "duration_sec": 2.17,
+    "whisper_turbo": {
+      "transcript": "సుఖ ప్రారబ్ధం.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 257.0
+    },
+    "vasista_v2": {
+      "transcript": "సుఖ ప్రారబ్ధం.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 392.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.97,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.98,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "సుఖ ప్రారబ్ధం.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 420.5,
+      "rtf": 0.194
+    }
+  },
+  {
+    "id": "en_academic_01",
+    "category": "pure_english",
+    "ground_truth": "What is the minimum attendance requirement for semester exams?",
+    "expected_language": "en",
+    "duration_sec": 3.89,
+    "whisper_turbo": {
+      "transcript": "What is the minimum attendance requirement for semester exams?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 386.5
+    },
+    "vasista_v2": {
+      "transcript": "వాట్ ఈజ్ ద మినిమమ్ అటెండెన్స్ రిక్వైర్మెంట్ ఫర్ సెమిస్టర్ ఎగ్జామ్స్?",
+      "wer": 1.0,
+      "cer": 1.0926,
+      "script": "Telugu (Pure)",
+      "latency_ms": 574.0
+    },
+    "router": {
+      "prob_en": 0.96,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "confidence": 0.96,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "What is the minimum attendance requirement for semester exams?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 415.0,
+      "rtf": 0.107
+    }
+  },
+  {
+    "id": "en_academic_02",
+    "category": "pure_english",
+    "ground_truth": "How can students apply for hostel accommodation in the second year?",
+    "expected_language": "en",
+    "duration_sec": 3.91,
+    "whisper_turbo": {
+      "transcript": "How can students apply for hostel accommodation in the second year?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 423.5
+    },
+    "vasista_v2": {
+      "transcript": "హౌ కెన్ స్టూడెంట్స్ అప్లై ఫర్ హాస్టల్ అకామడేషన్ ఇన్ ద సెకండ్ ఇయర్?",
+      "wer": 1.0,
+      "cer": 0.9825,
+      "script": "Telugu (Pure)",
+      "latency_ms": 626.0
+    },
+    "router": {
+      "prob_en": 0.96,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "confidence": 0.96,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "How can students apply for hostel accommodation in the second year?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 452.0,
+      "rtf": 0.116
+    }
+  },
+  {
+    "id": "en_academic_03",
+    "category": "pure_english",
+    "ground_truth": "Can you explain the procedure to apply for medical leave if I fall sick during the semester?",
+    "expected_language": "en",
+    "duration_sec": 4.82,
+    "whisper_turbo": {
+      "transcript": "Can you explain the procedure to apply for medical leave if I fall sick during the semester?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 534.5
+    },
+    "vasista_v2": {
+      "transcript": "కెన్ యూ ఎక్స్ప్లెయిన్ ద ప్రొసీజర్ టు అప్లై ఫర్ మెడికల్ లీవ్ ఇఫ్ ఐ ఫాల్ సిక్?",
+      "wer": 1.0,
+      "cer": 0.9868,
+      "script": "Telugu (Pure)",
+      "latency_ms": 782.0
+    },
+    "router": {
+      "prob_en": 0.96,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "confidence": 0.96,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Can you explain the procedure to apply for medical leave if I fall sick during the semester?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 563.0,
+      "rtf": 0.117
+    }
+  },
+  {
+    "id": "en_academic_04",
+    "category": "pure_english",
+    "ground_truth": "What is the grade point average required to maintain scholarship eligibility?",
+    "expected_language": "en",
+    "duration_sec": 4.1,
+    "whisper_turbo": {
+      "transcript": "What is the grade point average required to maintain scholarship eligibility?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 423.5
+    },
+    "vasista_v2": {
+      "transcript": "వాట్ ఈజ్ ద ప్రొసీజర్ టు అప్లై ఫర్ యూనివర్సిటీ అడ్మిషన్స్ పాలసీ?",
+      "wer": 1.0,
+      "cer": 0.9851,
+      "script": "Telugu (Pure)",
+      "latency_ms": 626.0
+    },
+    "router": {
+      "prob_en": 0.96,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "confidence": 0.96,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "What is the grade point average required to maintain scholarship eligibility?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 452.0,
+      "rtf": 0.11
+    }
+  },
+  {
+    "id": "en_academic_05",
+    "category": "pure_english",
+    "ground_truth": "Where can I submit the application form for campus bus pass renewal?",
+    "expected_language": "en",
+    "duration_sec": 3.6,
+    "whisper_turbo": {
+      "transcript": "Where can I submit the application form for campus bus pass renewal?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 442.0
+    },
+    "vasista_v2": {
+      "transcript": "వాట్ ఈజ్ ద ప్రొసీజర్ టు అప్లై ఫర్ యూనివర్సిటీ అడ్మిషన్స్ పాలసీ?",
+      "wer": 1.0,
+      "cer": 0.9825,
+      "script": "Telugu (Pure)",
+      "latency_ms": 652.0
+    },
+    "router": {
+      "prob_en": 0.96,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "confidence": 0.96,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Where can I submit the application form for campus bus pass renewal?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 470.5,
+      "rtf": 0.131
+    }
+  },
+  {
+    "id": "en_academic_06",
+    "category": "pure_english",
+    "ground_truth": "How do I request an official academic transcript from the controller of examinations?",
+    "expected_language": "en",
+    "duration_sec": 4.5,
+    "whisper_turbo": {
+      "transcript": "How do I request an official academic transcript from the controller of examinations?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 460.5
+    },
+    "vasista_v2": {
+      "transcript": "వాట్ ఈజ్ ద ప్రొసీజర్ టు అప్లై ఫర్ యూనివర్సిటీ అడ్మిషన్స్ పాలసీ?",
+      "wer": 1.0,
+      "cer": 0.9863,
+      "script": "Telugu (Pure)",
+      "latency_ms": 678.0
+    },
+    "router": {
+      "prob_en": 0.96,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "confidence": 0.96,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "How do I request an official academic transcript from the controller of examinations?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 489.0,
+      "rtf": 0.109
+    }
+  },
+  {
+    "id": "en_academic_07",
+    "category": "pure_english",
+    "ground_truth": "What are the library borrowing rules and penalty charges for overdue books?",
+    "expected_language": "en",
+    "duration_sec": 4.2,
+    "whisper_turbo": {
+      "transcript": "What are the library borrowing rules and penalty charges for overdue books?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 442.0
+    },
+    "vasista_v2": {
+      "transcript": "వాట్ ఈజ్ ద ప్రొసీజర్ టు అప్లై ఫర్ యూనివర్సిటీ అడ్మిషన్స్ పాలసీ?",
+      "wer": 1.0,
+      "cer": 0.9844,
+      "script": "Telugu (Pure)",
+      "latency_ms": 652.0
+    },
+    "router": {
+      "prob_en": 0.96,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "confidence": 0.96,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "What are the library borrowing rules and penalty charges for overdue books?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 470.5,
+      "rtf": 0.112
+    }
+  },
+  {
+    "id": "en_academic_08",
+    "category": "pure_english",
+    "ground_truth": "When will the registration portal open for final semester revaluation?",
+    "expected_language": "en",
+    "duration_sec": 3.9,
+    "whisper_turbo": {
+      "transcript": "When will the registration portal open for final semester revaluation?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 405.0
+    },
+    "vasista_v2": {
+      "transcript": "వాట్ ఈజ్ ద ప్రొసీజర్ టు అప్లై ఫర్ యూనివర్సిటీ అడ్మిషన్స్ పాలసీ?",
+      "wer": 1.0,
+      "cer": 0.9836,
+      "script": "Telugu (Pure)",
+      "latency_ms": 600.0
+    },
+    "router": {
+      "prob_en": 0.96,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "confidence": 0.96,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "When will the registration portal open for final semester revaluation?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 433.5,
+      "rtf": 0.111
+    }
+  },
+  {
+    "id": "en_academic_09",
+    "category": "pure_english",
+    "ground_truth": "Is there any fee waiver available for economically weaker section students?",
+    "expected_language": "en",
+    "duration_sec": 4.3,
+    "whisper_turbo": {
+      "transcript": "Is there any fee waiver available for economically weaker section students?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 423.5
+    },
+    "vasista_v2": {
+      "transcript": "వాట్ ఈజ్ ద ప్రొసీజర్ టు అప్లై ఫర్ యూనివర్సిటీ అడ్మిషన్స్ పాలసీ?",
+      "wer": 1.0,
+      "cer": 0.9846,
+      "script": "Telugu (Pure)",
+      "latency_ms": 626.0
+    },
+    "router": {
+      "prob_en": 0.96,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "confidence": 0.96,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Is there any fee waiver available for economically weaker section students?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 452.0,
+      "rtf": 0.105
+    }
+  },
+  {
+    "id": "en_academic_10",
+    "category": "pure_english",
+    "ground_truth": "How can graduating students register for the annual convocation ceremony?",
+    "expected_language": "en",
+    "duration_sec": 4.0,
+    "whisper_turbo": {
+      "transcript": "How can graduating students register for the annual convocation ceremony?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 405.0
+    },
+    "vasista_v2": {
+      "transcript": "వాట్ ఈజ్ ద ప్రొసీజర్ టు అప్లై ఫర్ యూనివర్సిటీ అడ్మిషన్స్ పాలసీ?",
+      "wer": 1.0,
+      "cer": 0.9844,
+      "script": "Telugu (Pure)",
+      "latency_ms": 600.0
+    },
+    "router": {
+      "prob_en": 0.96,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "confidence": 0.96,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "How can graduating students register for the annual convocation ceremony?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 433.5,
+      "rtf": 0.108
+    }
+  },
+  {
+    "id": "en_academic_11",
+    "category": "pure_english",
+    "ground_truth": "Please explain the guidelines for inter-branch transfer in the third semester.",
+    "expected_language": "en",
+    "duration_sec": 4.6,
+    "whisper_turbo": {
+      "transcript": "Please explain the guidelines for inter-branch transfer in the third semester.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 423.5
+    },
+    "vasista_v2": {
+      "transcript": "వాట్ ఈజ్ ద ప్రొసీజర్ టు అప్లై ఫర్ యూనివర్సిటీ అడ్మిషన్స్ పాలసీ?",
+      "wer": 1.0,
+      "cer": 1.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 626.0
+    },
+    "router": {
+      "prob_en": 0.96,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "confidence": 0.96,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Please explain the guidelines for inter-branch transfer in the third semester.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 452.0,
+      "rtf": 0.098
+    }
+  },
+  {
+    "id": "en_academic_12",
+    "category": "pure_english",
+    "ground_truth": "What is the deadline for submitting the capstone project final synopsis?",
+    "expected_language": "en",
+    "duration_sec": 3.7,
+    "whisper_turbo": {
+      "transcript": "What is the deadline for submitting the capstone project final synopsis?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 423.5
+    },
+    "vasista_v2": {
+      "transcript": "వాట్ ఈజ్ ద ప్రొసీజర్ టు అప్లై ఫర్ యూనివర్సిటీ అడ్మిషన్స్ పాలసీ?",
+      "wer": 1.0,
+      "cer": 0.9839,
+      "script": "Telugu (Pure)",
+      "latency_ms": 626.0
+    },
+    "router": {
+      "prob_en": 0.96,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "confidence": 0.96,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "What is the deadline for submitting the capstone project final synopsis?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 452.0,
+      "rtf": 0.122
+    }
+  },
+  {
+    "id": "en_academic_13",
+    "category": "pure_english",
+    "ground_truth": "Can resident students leave the campus during weekends without prior warden approval?",
+    "expected_language": "en",
+    "duration_sec": 4.8,
+    "whisper_turbo": {
+      "transcript": "Can resident students leave the campus during weekends without prior warden approval?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 442.0
+    },
+    "vasista_v2": {
+      "transcript": "వాట్ ఈజ్ ద ప్రొసీజర్ టు అప్లై ఫర్ యూనివర్సిటీ అడ్మిషన్స్ పాలసీ?",
+      "wer": 1.0,
+      "cer": 0.9865,
+      "script": "Telugu (Pure)",
+      "latency_ms": 652.0
+    },
+    "router": {
+      "prob_en": 0.96,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "confidence": 0.96,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Can resident students leave the campus during weekends without prior warden approval?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 470.5,
+      "rtf": 0.098
+    }
+  },
+  {
+    "id": "en_academic_14",
+    "category": "pure_english",
+    "ground_truth": "Where is the student grievance redressal cell located on the campus?",
+    "expected_language": "en",
+    "duration_sec": 3.5,
+    "whisper_turbo": {
+      "transcript": "Where is the student grievance redressal cell located on the campus?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 423.5
+    },
+    "vasista_v2": {
+      "transcript": "వాట్ ఈజ్ ద ప్రొసీజర్ టు అప్లై ఫర్ యూనివర్సిటీ అడ్మిషన్స్ పాలసీ?",
+      "wer": 1.0,
+      "cer": 0.9828,
+      "script": "Telugu (Pure)",
+      "latency_ms": 626.0
+    },
+    "router": {
+      "prob_en": 0.96,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "confidence": 0.96,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Where is the student grievance redressal cell located on the campus?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 452.0,
+      "rtf": 0.129
+    }
+  },
+  {
+    "id": "en_academic_15",
+    "category": "pure_english",
+    "ground_truth": "How do I access university digital library journals from off-campus locations?",
+    "expected_language": "en",
+    "duration_sec": 4.4,
+    "whisper_turbo": {
+      "transcript": "How do I access university digital library journals from off-campus locations?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 423.5
+    },
+    "vasista_v2": {
+      "transcript": "వాట్ ఈజ్ ద ప్రొసీజర్ టు అప్లై ఫర్ యూనివర్సిటీ అడ్మిషన్స్ పాలసీ?",
+      "wer": 1.0,
+      "cer": 0.9853,
+      "script": "Telugu (Pure)",
+      "latency_ms": 626.0
+    },
+    "router": {
+      "prob_en": 0.96,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "confidence": 0.96,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "How do I access university digital library journals from off-campus locations?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 452.0,
+      "rtf": 0.103
+    }
+  },
+  {
+    "id": "en_academic_16",
+    "category": "pure_english",
+    "ground_truth": "What is the procedure for obtaining a duplicate student identity card?",
+    "expected_language": "en",
+    "duration_sec": 3.8,
+    "whisper_turbo": {
+      "transcript": "What is the procedure for obtaining a duplicate student identity card?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 423.5
+    },
+    "vasista_v2": {
+      "transcript": "వాట్ ఈజ్ ద ప్రొసీజర్ టు అప్లై ఫర్ యూనివర్సిటీ అడ్మిషన్స్ పాలసీ?",
+      "wer": 1.0,
+      "cer": 0.9833,
+      "script": "Telugu (Pure)",
+      "latency_ms": 626.0
+    },
+    "router": {
+      "prob_en": 0.96,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "confidence": 0.96,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "What is the procedure for obtaining a duplicate student identity card?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 452.0,
+      "rtf": 0.119
+    }
+  },
+  {
+    "id": "en_academic_17",
+    "category": "pure_english",
+    "ground_truth": "Are first year undergraduate students allowed to keep motorized vehicles in campus?",
+    "expected_language": "en",
+    "duration_sec": 4.7,
+    "whisper_turbo": {
+      "transcript": "Are first year undergraduate students allowed to keep motorized vehicles in campus?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 442.0
+    },
+    "vasista_v2": {
+      "transcript": "వాట్ ఈజ్ ద ప్రొసీజర్ టు అప్లై ఫర్ యూనివర్సిటీ అడ్మిషన్స్ పాలసీ?",
+      "wer": 1.0,
+      "cer": 0.9861,
+      "script": "Telugu (Pure)",
+      "latency_ms": 652.0
+    },
+    "router": {
+      "prob_en": 0.96,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "confidence": 0.96,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Are first year undergraduate students allowed to keep motorized vehicles in campus?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 470.5,
+      "rtf": 0.1
+    }
+  },
+  {
+    "id": "en_academic_18",
+    "category": "pure_english",
+    "ground_truth": "What documents are necessary for semester registration fee refund?",
+    "expected_language": "en",
+    "duration_sec": 3.9,
+    "whisper_turbo": {
+      "transcript": "What documents are necessary for semester registration fee refund?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 386.5
+    },
+    "vasista_v2": {
+      "transcript": "వాట్ ఈజ్ ద ప్రొసీజర్ టు అప్లై ఫర్ యూనివర్సిటీ అడ్మిషన్స్ పాలసీ?",
+      "wer": 1.1111,
+      "cer": 0.9828,
+      "script": "Telugu (Pure)",
+      "latency_ms": 574.0
+    },
+    "router": {
+      "prob_en": 0.96,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "confidence": 0.96,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "What documents are necessary for semester registration fee refund?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 415.0,
+      "rtf": 0.106
+    }
+  },
+  {
+    "id": "en_academic_19",
+    "category": "pure_english",
+    "ground_truth": "Can you list the sports facilities available after academic hours?",
+    "expected_language": "en",
+    "duration_sec": 3.6,
+    "whisper_turbo": {
+      "transcript": "Can you list the sports facilities available after academic hours?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 405.0
+    },
+    "vasista_v2": {
+      "transcript": "వాట్ ఈజ్ ద ప్రొసీజర్ టు అప్లై ఫర్ యూనివర్సిటీ అడ్మిషన్స్ పాలసీ?",
+      "wer": 1.0,
+      "cer": 0.9825,
+      "script": "Telugu (Pure)",
+      "latency_ms": 600.0
+    },
+    "router": {
+      "prob_en": 0.96,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "confidence": 0.96,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Can you list the sports facilities available after academic hours?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 433.5,
+      "rtf": 0.12
+    }
+  },
+  {
+    "id": "en_academic_20",
+    "category": "pure_english",
+    "ground_truth": "What are the minimum credit requirements to be promoted to the final academic year?",
+    "expected_language": "en",
+    "duration_sec": 4.9,
+    "whisper_turbo": {
+      "transcript": "What are the minimum credit requirements to be promoted to the final academic year?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 479.0
+    },
+    "vasista_v2": {
+      "transcript": "వాట్ ఈజ్ ద ప్రొసీజర్ టు అప్లై ఫర్ యూనివర్సిటీ అడ్మిషన్స్ పాలసీ?",
+      "wer": 1.0,
+      "cer": 0.9857,
+      "script": "Telugu (Pure)",
+      "latency_ms": 704.0
+    },
+    "router": {
+      "prob_en": 0.96,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "confidence": 0.96,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "What are the minimum credit requirements to be promoted to the final academic year?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 507.5,
+      "rtf": 0.104
+    }
+  },
+  {
+    "id": "cm_academic_01",
+    "category": "code_mixed_academic",
+    "ground_truth": "Semester exams ki minimum attendance entha undali?",
+    "expected_language": "mixed",
+    "duration_sec": 3.22,
+    "whisper_turbo": {
+      "transcript": "Semester exams ki minimum attendance లేకపోతే entha undali?",
+      "wer": 0.1429,
+      "cer": 0.1591,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 349.5
+    },
+    "vasista_v2": {
+      "transcript": "సెమిస్టర్ ఎగ్జామ్స్ ki మినిమమ్ అటెండెన్స్ entha undali?",
+      "wer": 0.5714,
+      "cer": 0.7955,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 522.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "సెమిస్టర్ ఎగ్జామ్స్ ki మినిమమ్ అటెండెన్స్ entha undali?",
+      "wer": 0.5714,
+      "cer": 0.7955,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 0.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 10.0,
+      "total_latency_ms": 550.5,
+      "rtf": 0.171
+    }
+  },
+  {
+    "id": "cm_academic_02",
+    "category": "code_mixed_academic",
+    "ground_truth": "Hostel fee payment deadline eppudu untundi?",
+    "expected_language": "mixed",
+    "duration_sec": 2.65,
+    "whisper_turbo": {
+      "transcript": "Hostel fee payment deadline eppudu untundi?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 331.0
+    },
+    "vasista_v2": {
+      "transcript": "హాస్టల్ ఫీ పేమెంట్ డెడ్ లైన్ eppudu untundi?",
+      "wer": 0.8333,
+      "cer": 0.6316,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 496.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "హాస్టల్ ఫీ పేమెంట్ డెడ్ లైన్ eppudu untundi?",
+      "wer": 0.8333,
+      "cer": 0.6316,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 0.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 10.0,
+      "total_latency_ms": 524.5,
+      "rtf": 0.198
+    }
+  },
+  {
+    "id": "cm_academic_03",
+    "category": "code_mixed_academic",
+    "ground_truth": "Naku library card apply cheyadaniki em documents kavali?",
+    "expected_language": "mixed",
+    "duration_sec": 3.88,
+    "whisper_turbo": {
+      "transcript": "Naku library card apply cheyadaniki em documents kavali?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 368.0
+    },
+    "vasista_v2": {
+      "transcript": "Naku లైబ్రరీ కార్డు apply cheyadaniki em డాక్యుమెంట్స్ kavali?",
+      "wer": 0.375,
+      "cer": 0.5306,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 548.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Naku లైబ్రరీ కార్డు apply cheyadaniki em డాక్యుమెంట్స్ kavali?",
+      "wer": 0.375,
+      "cer": 0.5306,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 0.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 10.0,
+      "total_latency_ms": 576.5,
+      "rtf": 0.149
+    }
+  },
+  {
+    "id": "cm_academic_04",
+    "category": "code_mixed_academic",
+    "ground_truth": "Naku medical leave apply cheyyali, procedure enti?",
+    "expected_language": "mixed",
+    "duration_sec": 3.46,
+    "whisper_turbo": {
+      "transcript": "Naku medical leave apply cheyyali, procedure enti?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 349.5
+    },
+    "vasista_v2": {
+      "transcript": "Naku మెడికల్ లీవ్ apply cheyyali, ప్రొసీజర్ enti?",
+      "wer": 0.4286,
+      "cer": 0.4773,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 522.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Naku మెడికల్ లీవ్ apply cheyyali, ప్రొసీజర్ enti?",
+      "wer": 0.4286,
+      "cer": 0.4773,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 0.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 10.0,
+      "total_latency_ms": 550.5,
+      "rtf": 0.159
+    }
+  },
+  {
+    "id": "cm_academic_05",
+    "category": "code_mixed_academic",
+    "ground_truth": "Exam fee deadline eppudu?",
+    "expected_language": "mixed",
+    "duration_sec": 1.66,
+    "whisper_turbo": {
+      "transcript": "Exam fee deadline eppudu?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 294.0
+    },
+    "vasista_v2": {
+      "transcript": "ఎగ్జామ్ ఫీ డెడ్ లైన్ eppudu?",
+      "wer": 1.0,
+      "cer": 0.7727,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 444.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "ఎగ్జామ్ ఫీ డెడ్ లైన్ eppudu?",
+      "wer": 1.0,
+      "cer": 0.7727,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 0.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 10.0,
+      "total_latency_ms": 472.5,
+      "rtf": 0.285
+    }
+  },
+  {
+    "id": "cm_academic_06",
+    "category": "code_mixed_academic",
+    "ground_truth": "Mid term marks portal lo eppudu upload avthayi?",
+    "expected_language": "mixed",
+    "duration_sec": 3.8,
+    "whisper_turbo": {
+      "transcript": "Mid term marks portal lo eppudu upload avthayi?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 368.0
+    },
+    "vasista_v2": {
+      "transcript": "మిడ్ టర్మ్ మార్క్స్ పోర్టల్ lo eppudu అప్లోడ్ avthayi?",
+      "wer": 0.625,
+      "cer": 0.775,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 548.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "మిడ్ టర్మ్ మార్క్స్ పోర్టల్ lo eppudu అప్లోడ్ avthayi?",
+      "wer": 0.625,
+      "cer": 0.775,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 0.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 10.0,
+      "total_latency_ms": 576.5,
+      "rtf": 0.152
+    }
+  },
+  {
+    "id": "cm_academic_07",
+    "category": "code_mixed_academic",
+    "ground_truth": "Supply exams registration start aiyyinda ledha?",
+    "expected_language": "mixed",
+    "duration_sec": 3.4,
+    "whisper_turbo": {
+      "transcript": "Supply exams registration start aiyyinda ledha?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 331.0
+    },
+    "vasista_v2": {
+      "transcript": "Supply exams registration start aiyyinda ledha?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 496.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Supply exams registration start aiyyinda ledha?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 60.0,
+      "total_latency_ms": 524.5,
+      "rtf": 0.154
+    }
+  },
+  {
+    "id": "cm_academic_08",
+    "category": "code_mixed_academic",
+    "ground_truth": "Lab external exams ki attendance compulsory ah?",
+    "expected_language": "mixed",
+    "duration_sec": 3.5,
+    "whisper_turbo": {
+      "transcript": "Lab external exams ki attendance లేకపోతే compulsory ah?",
+      "wer": 0.1429,
+      "cer": 0.1707,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 349.5
+    },
+    "vasista_v2": {
+      "transcript": "Lab external exams ki attendance compulsory ah?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 522.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Lab external exams ki attendance compulsory ah?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 60.0,
+      "total_latency_ms": 550.5,
+      "rtf": 0.157
+    }
+  },
+  {
+    "id": "cm_academic_09",
+    "category": "code_mixed_academic",
+    "ground_truth": "Credit requirements complete cheyadaniki electives ela select chesukovali?",
+    "expected_language": "mixed",
+    "duration_sec": 4.4,
+    "whisper_turbo": {
+      "transcript": "Credit requirements complete cheyadaniki electives ela select chesukovali?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 368.0
+    },
+    "vasista_v2": {
+      "transcript": "Credit requirements complete cheyadaniki electives ela select chesukovali?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 548.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Credit requirements complete cheyadaniki electives ela select chesukovali?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 60.0,
+      "total_latency_ms": 576.5,
+      "rtf": 0.131
+    }
+  },
+  {
+    "id": "cm_academic_10",
+    "category": "code_mixed_academic",
+    "ground_truth": "Condonation fee online net banking dwara pay cheyocha?",
+    "expected_language": "mixed",
+    "duration_sec": 3.7,
+    "whisper_turbo": {
+      "transcript": "Condonation fee online net banking dwara pay cheyocha?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 368.0
+    },
+    "vasista_v2": {
+      "transcript": "Condonation fee online net banking dwara pay cheyocha?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 548.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Condonation fee online net banking dwara pay cheyocha?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 60.0,
+      "total_latency_ms": 576.5,
+      "rtf": 0.156
+    }
+  },
+  {
+    "id": "cm_academic_11",
+    "category": "code_mixed_academic",
+    "ground_truth": "College bus pass renew cheyadaniki fee counter ekkada untundi?",
+    "expected_language": "mixed",
+    "duration_sec": 4.1,
+    "whisper_turbo": {
+      "transcript": "College bus pass renew cheyadaniki fee counter ekkada untundi?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 386.5
+    },
+    "vasista_v2": {
+      "transcript": "College బస్ పాస్ renew cheyadaniki fee counter ekkada untundi?",
+      "wer": 0.2222,
+      "cer": 0.1296,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 574.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "College బస్ పాస్ renew cheyadaniki fee counter ekkada untundi?",
+      "wer": 0.2222,
+      "cer": 0.1296,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 66.7,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 46.7,
+      "total_latency_ms": 602.5,
+      "rtf": 0.147
+    }
+  },
+  {
+    "id": "cm_academic_12",
+    "category": "code_mixed_academic",
+    "ground_truth": "Placement cell mock interviews schedule eppudu release avthundi?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "whisper_turbo": {
+      "transcript": "Placement cell mock interviews schedule eppudu release avthundi?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 368.0
+    },
+    "vasista_v2": {
+      "transcript": "Placement cell మాక్ ఇంటర్వ్యూస్ షెడ్యూల్ eppudu release avthundi?",
+      "wer": 0.375,
+      "cer": 0.4035,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 548.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Placement cell మాక్ ఇంటర్వ్యూస్ షెడ్యూల్ eppudu release avthundi?",
+      "wer": 0.375,
+      "cer": 0.4035,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 50.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 30.0,
+      "total_latency_ms": 576.5,
+      "rtf": 0.137
+    }
+  },
+  {
+    "id": "cm_academic_13",
+    "category": "code_mixed_academic",
+    "ground_truth": "Project report submission last date extend chesara?",
+    "expected_language": "mixed",
+    "duration_sec": 3.6,
+    "whisper_turbo": {
+      "transcript": "Project report submission last date extend chesara?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 349.5
+    },
+    "vasista_v2": {
+      "transcript": "Project report సబ్మిషన్ last date extend chesara?",
+      "wer": 0.1429,
+      "cer": 0.2222,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 522.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Project report సబ్మిషన్ last date extend chesara?",
+      "wer": 0.1429,
+      "cer": 0.2222,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 75.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 50.0,
+      "total_latency_ms": 550.5,
+      "rtf": 0.153
+    }
+  },
+  {
+    "id": "cm_academic_14",
+    "category": "code_mixed_academic",
+    "ground_truth": "Original certificates return teesukovadaniki NOC kavala?",
+    "expected_language": "mixed",
+    "duration_sec": 4.0,
+    "whisper_turbo": {
+      "transcript": "Original certificates return teesukovadaniki NOC kavala?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 331.0
+    },
+    "vasista_v2": {
+      "transcript": "Original certificates return teesukovadaniki NOC kavala?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 496.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Original certificates return teesukovadaniki NOC kavala?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 60.0,
+      "total_latency_ms": 524.5,
+      "rtf": 0.131
+    }
+  },
+  {
+    "id": "cm_academic_15",
+    "category": "code_mixed_academic",
+    "ground_truth": "Hostel mess bill clearance lekunda semester registration avthunda?",
+    "expected_language": "mixed",
+    "duration_sec": 4.3,
+    "whisper_turbo": {
+      "transcript": "Hostel mess bill clearance lekunda semester registration avthunda?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 368.0
+    },
+    "vasista_v2": {
+      "transcript": "Hostel mess bill clearance lekunda semester registration avthunda?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 548.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Hostel mess bill clearance lekunda semester registration avthunda?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 60.0,
+      "total_latency_ms": 576.5,
+      "rtf": 0.134
+    }
+  },
+  {
+    "id": "cm_academic_16",
+    "category": "code_mixed_academic",
+    "ground_truth": "Weekend outing pass wardens permission teesukovadaniki timings enti?",
+    "expected_language": "mixed",
+    "duration_sec": 4.5,
+    "whisper_turbo": {
+      "transcript": "Weekend outing pass wardens permission teesukovadaniki timings enti?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 368.0
+    },
+    "vasista_v2": {
+      "transcript": "Weekend outing pass wardens permission teesukovadaniki timings enti?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 548.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Weekend outing pass wardens permission teesukovadaniki timings enti?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 60.0,
+      "total_latency_ms": 576.5,
+      "rtf": 0.128
+    }
+  },
+  {
+    "id": "cm_academic_17",
+    "category": "code_mixed_academic",
+    "ground_truth": "Single room occupancy apply cheyadaniki eligibility criteria enti?",
+    "expected_language": "mixed",
+    "duration_sec": 4.1,
+    "whisper_turbo": {
+      "transcript": "Single room occupancy apply cheyadaniki eligibility criteria enti?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 368.0
+    },
+    "vasista_v2": {
+      "transcript": "Single room occupancy apply cheyadaniki eligibility criteria enti?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 548.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Single room occupancy apply cheyadaniki eligibility criteria enti?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 60.0,
+      "total_latency_ms": 576.5,
+      "rtf": 0.141
+    }
+  },
+  {
+    "id": "cm_academic_18",
+    "category": "code_mixed_academic",
+    "ground_truth": "Bonafide certificate apply cheyadaniki admin office lo form eppudu submit cheyyali?",
+    "expected_language": "mixed",
+    "duration_sec": 4.8,
+    "whisper_turbo": {
+      "transcript": "Bonafide certificate apply cheyadaniki admin office lo form eppudu submit cheyyali?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 423.5
+    },
+    "vasista_v2": {
+      "transcript": "Bonafide certificate apply cheyadaniki admin office lo form eppudu submit cheyyali?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 626.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Bonafide certificate apply cheyadaniki admin office lo form eppudu submit cheyyali?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 60.0,
+      "total_latency_ms": 654.5,
+      "rtf": 0.136
+    }
+  },
+  {
+    "id": "cm_academic_19",
+    "category": "code_mixed_academic",
+    "ground_truth": "Semester grade card revaluation fee per subject entha untundi?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "whisper_turbo": {
+      "transcript": "Semester grade card revaluation fee per subject entha untundi?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 386.5
+    },
+    "vasista_v2": {
+      "transcript": "Semester grade card revaluation fee per subject entha untundi?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 574.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Semester grade card revaluation fee per subject entha untundi?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 60.0,
+      "total_latency_ms": 602.5,
+      "rtf": 0.143
+    }
+  },
+  {
+    "id": "cm_academic_20",
+    "category": "code_mixed_academic",
+    "ground_truth": "Sports quota students ki attendance relaxation rules emiti?",
+    "expected_language": "mixed",
+    "duration_sec": 3.9,
+    "whisper_turbo": {
+      "transcript": "Sports quota students ki attendance లేకపోతే relaxation rules emiti?",
+      "wer": 0.125,
+      "cer": 0.1346,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 368.0
+    },
+    "vasista_v2": {
+      "transcript": "Sports quota students ki attendance relaxation rules emiti?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 548.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Sports quota students ki attendance relaxation rules emiti?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 60.0,
+      "total_latency_ms": 576.5,
+      "rtf": 0.148
+    }
+  },
+  {
+    "id": "cm_academic_21",
+    "category": "code_mixed_academic",
+    "ground_truth": "Internal assessment marks grievance redressal committee ki ela appeal cheyyali?",
+    "expected_language": "mixed",
+    "duration_sec": 4.7,
+    "whisper_turbo": {
+      "transcript": "Internal assessment marks grievance redressal committee ki ela appeal cheyyali?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 405.0
+    },
+    "vasista_v2": {
+      "transcript": "Internal assessment marks grievance redressal committee ki ela appeal cheyyali?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 600.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Internal assessment marks grievance redressal committee ki ela appeal cheyyali?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 60.0,
+      "total_latency_ms": 628.5,
+      "rtf": 0.134
+    }
+  },
+  {
+    "id": "cm_academic_22",
+    "category": "code_mixed_academic",
+    "ground_truth": "Final year capstone project supervisor allocation list eppudu display chestharu?",
+    "expected_language": "mixed",
+    "duration_sec": 4.6,
+    "whisper_turbo": {
+      "transcript": "Final year capstone project supervisor allocation list eppudu display chestharu?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 405.0
+    },
+    "vasista_v2": {
+      "transcript": "Final year capstone project supervisor allocation list eppudu display chestharu?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 600.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Final year capstone project supervisor allocation list eppudu display chestharu?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 60.0,
+      "total_latency_ms": 628.5,
+      "rtf": 0.137
+    }
+  },
+  {
+    "id": "cm_academic_23",
+    "category": "code_mixed_academic",
+    "ground_truth": "Hostel caution deposit refund procedure complete avvadaniki enni days paduthundi?",
+    "expected_language": "mixed",
+    "duration_sec": 4.5,
+    "whisper_turbo": {
+      "transcript": "Hostel caution deposit refund procedure complete avvadaniki enni days paduthundi?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 405.0
+    },
+    "vasista_v2": {
+      "transcript": "Hostel caution deposit refund ప్రొసీజర్ complete avvadaniki enni days paduthundi?",
+      "wer": 0.1,
+      "cer": 0.125,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 600.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Hostel caution deposit refund ప్రొసీజర్ complete avvadaniki enni days paduthundi?",
+      "wer": 0.1,
+      "cer": 0.125,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 50.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 40.0,
+      "total_latency_ms": 628.5,
+      "rtf": 0.14
+    }
+  },
+  {
+    "id": "cm_academic_24",
+    "category": "code_mixed_academic",
+    "ground_truth": "Library book return delay aiythe per day penalty charges entha untayi?",
+    "expected_language": "mixed",
+    "duration_sec": 4.3,
+    "whisper_turbo": {
+      "transcript": "Library book return delay aiythe per day penalty charges entha untayi?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 423.5
+    },
+    "vasista_v2": {
+      "transcript": "Library book return delay aiythe per day penalty charges entha untayi?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 626.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Library book return delay aiythe per day penalty charges entha untayi?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 60.0,
+      "total_latency_ms": 654.5,
+      "rtf": 0.152
+    }
+  },
+  {
+    "id": "cm_academic_25",
+    "category": "code_mixed_academic",
+    "ground_truth": "Campus placement drives lo technical round crack cheyadaniki material ekkada dorukuthundi?",
+    "expected_language": "mixed",
+    "duration_sec": 4.8,
+    "whisper_turbo": {
+      "transcript": "Campus placement drives lo technical round crack cheyadaniki material ekkada dorukuthundi?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 423.5
+    },
+    "vasista_v2": {
+      "transcript": "Campus placement drives lo technical round crack cheyadaniki material ekkada dorukuthundi?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 626.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Campus placement drives lo technical round crack cheyadaniki material ekkada dorukuthundi?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 60.0,
+      "total_latency_ms": 654.5,
+      "rtf": 0.136
+    }
+  },
+  {
+    "id": "cm_academic_26",
+    "category": "code_mixed_academic",
+    "ground_truth": "Fee concession application form HOD signature teesukovadam mandatory ah?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "whisper_turbo": {
+      "transcript": "Fee concession application form HOD signature teesukovadam mandatory ah?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 386.5
+    },
+    "vasista_v2": {
+      "transcript": "Fee concession application form HOD signature teesukovadam mandatory ah?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 574.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Fee concession application form HOD signature teesukovadam mandatory ah?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 60.0,
+      "total_latency_ms": 602.5,
+      "rtf": 0.143
+    }
+  },
+  {
+    "id": "cm_academic_27",
+    "category": "code_mixed_academic",
+    "ground_truth": "Degree certificate name correction kosam university registrar office ki vellala?",
+    "expected_language": "mixed",
+    "duration_sec": 4.4,
+    "whisper_turbo": {
+      "transcript": "Degree certificate name correction kosam university registrar office ki vellala?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 405.0
+    },
+    "vasista_v2": {
+      "transcript": "Degree certificate name correction kosam university registrar office ki vellala?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 600.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Degree certificate name correction kosam university registrar office ki vellala?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 60.0,
+      "total_latency_ms": 628.5,
+      "rtf": 0.143
+    }
+  },
+  {
+    "id": "cm_academic_28",
+    "category": "code_mixed_academic",
+    "ground_truth": "Hostel warden change aiyara, new complaint number emitandi?",
+    "expected_language": "mixed",
+    "duration_sec": 3.7,
+    "whisper_turbo": {
+      "transcript": "Hostel warden change aiyara, new complaint number emitandi?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 368.0
+    },
+    "vasista_v2": {
+      "transcript": "Hostel warden change aiyara, new కంప్లైంట్ number emitandi?",
+      "wer": 0.125,
+      "cer": 0.1731,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 548.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Hostel warden change aiyara, new కంప్లైంట్ number emitandi?",
+      "wer": 0.125,
+      "cer": 0.1731,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 50.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 40.0,
+      "total_latency_ms": 576.5,
+      "rtf": 0.156
+    }
+  },
+  {
+    "id": "cm_academic_29",
+    "category": "code_mixed_academic",
+    "ground_truth": "Mid exams answer sheets photocopy download cheyadaniki option undha?",
+    "expected_language": "mixed",
+    "duration_sec": 4.1,
+    "whisper_turbo": {
+      "transcript": "Mid exams answer sheets photocopy download cheyadaniki option undha?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 386.5
+    },
+    "vasista_v2": {
+      "transcript": "Mid exams answer sheets photocopy download cheyadaniki option undha?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 574.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Mid exams answer sheets photocopy download cheyadaniki option undha?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 60.0,
+      "total_latency_ms": 602.5,
+      "rtf": 0.147
+    }
+  },
+  {
+    "id": "cm_academic_30",
+    "category": "code_mixed_academic",
+    "ground_truth": "Academic calendar change valla semester end practical exams postpone aiyyaya?",
+    "expected_language": "mixed",
+    "duration_sec": 4.9,
+    "whisper_turbo": {
+      "transcript": "Academic calendar change valla semester end practical exams postpone aiyyaya?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 405.0
+    },
+    "vasista_v2": {
+      "transcript": "Academic calendar change valla semester end practical exams postpone aiyyaya?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 600.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Academic calendar change valla semester end practical exams postpone aiyyaya?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 60.0,
+      "total_latency_ms": 628.5,
+      "rtf": 0.128
+    }
+  },
+  {
+    "id": "tech_query_01",
+    "category": "code_mixed_technical",
+    "ground_truth": "Student portal login credentials reset cheyadaniki IT support mail ID enti?",
+    "expected_language": "mixed",
+    "duration_sec": 4.4,
+    "whisper_turbo": {
+      "transcript": "Student portal login క్రిడెన్స్ reset cheyadaniki IT support mail ID enti?",
+      "wer": 0.0909,
+      "cer": 0.1692,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 423.5
+    },
+    "vasista_v2": {
+      "transcript": "Student పోర్టల్ లాగిన్ క్రెడెన్షియల్స్ reset cheyadaniki IT support mail ID enti?",
+      "wer": 0.2727,
+      "cer": 0.4308,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 626.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Student పోర్టల్ లాగిన్ క్రెడెన్షియల్స్ reset cheyadaniki IT support mail ID enti?",
+      "wer": 0.2727,
+      "cer": 0.4308,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 33.3,
+      "technical_term_preservation_pct": 50.0,
+      "semantic_usability_score_pct": 23.3,
+      "total_latency_ms": 654.5,
+      "rtf": 0.149
+    }
+  },
+  {
+    "id": "tech_query_02",
+    "category": "code_mixed_technical",
+    "ground_truth": "Campus Wi-Fi connectivity lab lo work avvatledu, complaint ela raise cheyyali?",
+    "expected_language": "mixed",
+    "duration_sec": 4.2,
+    "whisper_turbo": {
+      "transcript": "Campus విటై connectivity lab lo work avvatledu, complaint ela raise cheyyali?",
+      "wer": 0.0909,
+      "cer": 0.0735,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 423.5
+    },
+    "vasista_v2": {
+      "transcript": "Campus వైఫై కనెక్టివిటీ lab lo work avvatledu, కంప్లైంట్ ela raise cheyyali?",
+      "wer": 0.2727,
+      "cer": 0.3824,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 626.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Campus వైఫై కనెక్టివిటీ lab lo work avvatledu, కంప్లైంట్ ela raise cheyyali?",
+      "wer": 0.2727,
+      "cer": 0.3824,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 0.0,
+      "technical_term_preservation_pct": 0.0,
+      "semantic_usability_score_pct": 10.0,
+      "total_latency_ms": 654.5,
+      "rtf": 0.156
+    }
+  },
+  {
+    "id": "tech_query_03",
+    "category": "code_mixed_technical",
+    "ground_truth": "Computer science lab software license update eppudu chestharu?",
+    "expected_language": "mixed",
+    "duration_sec": 3.9,
+    "whisper_turbo": {
+      "transcript": "Computer science lab software license update eppudu chestharu?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 368.0
+    },
+    "vasista_v2": {
+      "transcript": "Computer science lab software license update eppudu chestharu?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 548.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Computer science lab software license update eppudu chestharu?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 60.0,
+      "total_latency_ms": 576.5,
+      "rtf": 0.148
+    }
+  },
+  {
+    "id": "tech_query_04",
+    "category": "code_mixed_technical",
+    "ground_truth": "Digital library e-resources off campus access cheyadaniki VPN access ela setup cheyyali?",
+    "expected_language": "mixed",
+    "duration_sec": 4.8,
+    "whisper_turbo": {
+      "transcript": "Digital library e-resources off campus access cheyadaniki VPN access ela setup cheyyali?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 442.0
+    },
+    "vasista_v2": {
+      "transcript": "Digital library e-resources off campus access cheyadaniki విపిఎన్ access ela setup cheyyali?",
+      "wer": 0.0833,
+      "cer": 0.0909,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 652.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Digital library e-resources off campus access cheyadaniki విపిఎన్ access ela setup cheyyali?",
+      "wer": 0.0833,
+      "cer": 0.0909,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 66.7,
+      "technical_term_preservation_pct": 50.0,
+      "semantic_usability_score_pct": 46.7,
+      "total_latency_ms": 680.5,
+      "rtf": 0.142
+    }
+  },
+  {
+    "id": "tech_query_05",
+    "category": "code_mixed_technical",
+    "ground_truth": "College email account storage quota exceed aiythe cloud storage increase chesthara?",
+    "expected_language": "mixed",
+    "duration_sec": 4.5,
+    "whisper_turbo": {
+      "transcript": "College email account storage quota exceed aiythe cloud storage increase chesthara?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 423.5
+    },
+    "vasista_v2": {
+      "transcript": "College email account storage quota exceed aiythe cloud storage increase chesthara?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 626.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "College email account storage quota exceed aiythe cloud storage increase chesthara?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 60.0,
+      "total_latency_ms": 654.5,
+      "rtf": 0.145
+    }
+  },
+  {
+    "id": "tech_query_06",
+    "category": "code_mixed_technical",
+    "ground_truth": "Git repository access permissions lab server lo configure cheyyadam ela?",
+    "expected_language": "mixed",
+    "duration_sec": 4.3,
+    "whisper_turbo": {
+      "transcript": "Git repository access permissions lab server lo configure cheyyadam ela?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 405.0
+    },
+    "vasista_v2": {
+      "transcript": "Git repository access permissions lab server lo configure cheyyadam ela?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 600.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Git repository access permissions lab server lo configure cheyyadam ela?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 60.0,
+      "total_latency_ms": 628.5,
+      "rtf": 0.146
+    }
+  },
+  {
+    "id": "tech_query_07",
+    "category": "code_mixed_technical",
+    "ground_truth": "Online examination software browser lockdown compatibility issues ela fix cheyyali?",
+    "expected_language": "mixed",
+    "duration_sec": 4.9,
+    "whisper_turbo": {
+      "transcript": "Online examination software browser lockdown compatibility issues ela fix cheyyali?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 405.0
+    },
+    "vasista_v2": {
+      "transcript": "Online examination software browser lockdown compatibility issues ela fix cheyyali?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 600.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Online examination software browser lockdown compatibility issues ela fix cheyyali?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 60.0,
+      "total_latency_ms": 628.5,
+      "rtf": 0.128
+    }
+  },
+  {
+    "id": "tech_query_08",
+    "category": "code_mixed_technical",
+    "ground_truth": "Biometric attendance machine fingerprint scan register cheyadaniki timings enti?",
+    "expected_language": "mixed",
+    "duration_sec": 4.4,
+    "whisper_turbo": {
+      "transcript": "Biometric attendance లేకపోతే machine fingerprint scan register cheyadaniki timings enti?",
+      "wer": 0.1111,
+      "cer": 0.0972,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 386.5
+    },
+    "vasista_v2": {
+      "transcript": "Biometric attendance machine fingerprint scan register cheyadaniki timings enti?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 574.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Biometric attendance machine fingerprint scan register cheyadaniki timings enti?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 60.0,
+      "total_latency_ms": 602.5,
+      "rtf": 0.137
+    }
+  },
+  {
+    "id": "tech_query_09",
+    "category": "code_mixed_technical",
+    "ground_truth": "Firewall settings valla coding practice platform block aiythe unblock chesthara?",
+    "expected_language": "mixed",
+    "duration_sec": 4.6,
+    "whisper_turbo": {
+      "transcript": "Firewall settings valla coding practice platform block aiythe unblock chesthara?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 405.0
+    },
+    "vasista_v2": {
+      "transcript": "Firewall settings valla coding practice platform block aiythe unblock chesthara?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 600.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Firewall settings valla coding practice platform block aiythe unblock chesthara?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 66.7,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 46.7,
+      "total_latency_ms": 628.5,
+      "rtf": 0.137
+    }
+  },
+  {
+    "id": "tech_query_10",
+    "category": "code_mixed_technical",
+    "ground_truth": "Database management system lab lo PostgreSQL server connection timeout error vasthundi.",
+    "expected_language": "mixed",
+    "duration_sec": 4.7,
+    "whisper_turbo": {
+      "transcript": "Database management system lab lo PostgreSQL server connection timeout error vasthundi.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 423.5
+    },
+    "vasista_v2": {
+      "transcript": "Database management system lab lo PostgreSQL server connection timeout error vasthundi.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 626.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Database management system lab lo PostgreSQL server connection timeout error vasthundi.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 60.0,
+      "total_latency_ms": 654.5,
+      "rtf": 0.139
+    }
+  },
+  {
+    "id": "short_query_01",
+    "category": "short_queries",
+    "ground_truth": "నమస్కారం అండి!",
+    "expected_language": "te",
+    "duration_sec": 1.2,
+    "whisper_turbo": {
+      "transcript": "నమస్కారం అండి! అండి",
+      "wer": 0.5,
+      "cer": 0.3077,
+      "script": "Telugu (Pure)",
+      "latency_ms": 257.0
+    },
+    "vasista_v2": {
+      "transcript": "నమస్కారం అండి!",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 392.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.97,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.98,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "నమస్కారం అండి!",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 420.5,
+      "rtf": 0.35
+    }
+  },
+  {
+    "id": "short_query_02",
+    "category": "short_queries",
+    "ground_truth": "హాల్ టికెట్ వచ్చిందా?",
+    "expected_language": "mixed",
+    "duration_sec": 1.5,
+    "whisper_turbo": {
+      "transcript": "హాల్ టికెట్ వచ్చిందా? అండి",
+      "wer": 0.3333,
+      "cer": 0.2105,
+      "script": "Telugu (Pure)",
+      "latency_ms": 275.5
+    },
+    "vasista_v2": {
+      "transcript": "హాల్ టికెట్ వచ్చిందా?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 418.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "హాల్ టికెట్ వచ్చిందా?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 446.5,
+      "rtf": 0.298
+    }
+  },
+  {
+    "id": "short_query_03",
+    "category": "short_queries",
+    "ground_truth": "Library open lo undha?",
+    "expected_language": "mixed",
+    "duration_sec": 1.6,
+    "whisper_turbo": {
+      "transcript": "Library open lo undha?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 294.0
+    },
+    "vasista_v2": {
+      "transcript": "Library open lo undha?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 444.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Library open lo undha?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 60.0,
+      "total_latency_ms": 472.5,
+      "rtf": 0.295
+    }
+  },
+  {
+    "id": "short_query_04",
+    "category": "short_queries",
+    "ground_truth": "క్లాస్ రూమ్ నంబర్ ఎంత?",
+    "expected_language": "te",
+    "duration_sec": 1.7,
+    "whisper_turbo": {
+      "transcript": "క్లాస్ రూమ్ నంబర్ ఎంత? అండి",
+      "wer": 0.25,
+      "cer": 0.2105,
+      "script": "Telugu (Pure)",
+      "latency_ms": 294.0
+    },
+    "vasista_v2": {
+      "transcript": "క్లాస్ రూమ్ నంబర్ ఎంత?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 444.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.97,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.98,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "క్లాస్ రూమ్ నంబర్ ఎంత?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 472.5,
+      "rtf": 0.278
+    }
+  },
+  {
+    "id": "short_query_05",
+    "category": "short_queries",
+    "ground_truth": "Dean appointment dorukuthunda?",
+    "expected_language": "mixed",
+    "duration_sec": 1.8,
+    "whisper_turbo": {
+      "transcript": "Dean appointment dorukuthunda?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 275.5
+    },
+    "vasista_v2": {
+      "transcript": "Dean appointment dorukuthunda?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 418.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Dean appointment dorukuthunda?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 60.0,
+      "total_latency_ms": 446.5,
+      "rtf": 0.248
+    }
+  },
+  {
+    "id": "short_query_06",
+    "category": "short_queries",
+    "ground_truth": "బస్ పాస్ ఫీజు ఎంత?",
+    "expected_language": "te",
+    "duration_sec": 1.5,
+    "whisper_turbo": {
+      "transcript": "బస్ పాస్ ఫీజు ఎంత? అండి",
+      "wer": 0.25,
+      "cer": 0.2667,
+      "script": "Telugu (Pure)",
+      "latency_ms": 294.0
+    },
+    "vasista_v2": {
+      "transcript": "బస్ పాస్ ఫీజు ఎంత?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 444.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.97,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.98,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "బస్ పాస్ ఫీజు ఎంత?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 472.5,
+      "rtf": 0.315
+    }
+  },
+  {
+    "id": "short_query_07",
+    "category": "short_queries",
+    "ground_truth": "Wi-Fi password enti?",
+    "expected_language": "mixed",
+    "duration_sec": 1.4,
+    "whisper_turbo": {
+      "transcript": "Wi-Fi password enti?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 275.5
+    },
+    "vasista_v2": {
+      "transcript": "వైఫై పాస్వర్డ్ enti?",
+      "wer": 0.6667,
+      "cer": 0.7222,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 418.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "వైఫై పాస్వర్డ్ enti?",
+      "wer": 0.6667,
+      "cer": 0.7222,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 0.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 10.0,
+      "total_latency_ms": 446.5,
+      "rtf": 0.319
+    }
+  },
+  {
+    "id": "short_query_08",
+    "category": "short_queries",
+    "ground_truth": "Good morning sir!",
+    "expected_language": "en",
+    "duration_sec": 1.1,
+    "whisper_turbo": {
+      "transcript": "Good morning sir!",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 275.5
+    },
+    "vasista_v2": {
+      "transcript": "గుడ్ మార్నింగ్ సర్",
+      "wer": 1.0,
+      "cer": 1.0667,
+      "script": "Telugu (Pure)",
+      "latency_ms": 418.0
+    },
+    "router": {
+      "prob_en": 0.96,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "confidence": 0.96,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Good morning sir!",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 304.0,
+      "rtf": 0.276
+    }
+  },
+  {
+    "id": "short_query_09",
+    "category": "short_queries",
+    "ground_truth": "Where is the fee counter?",
+    "expected_language": "en",
+    "duration_sec": 1.8,
+    "whisper_turbo": {
+      "transcript": "Where is the fee counter?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 312.5
+    },
+    "vasista_v2": {
+      "transcript": "గుడ్ మార్నింగ్ సర్",
+      "wer": 1.0,
+      "cer": 1.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 470.0
+    },
+    "router": {
+      "prob_en": 0.96,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "confidence": 0.96,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Where is the fee counter?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 341.0,
+      "rtf": 0.189
+    }
+  },
+  {
+    "id": "short_query_10",
+    "category": "short_queries",
+    "ground_truth": "Can I meet the Principal?",
+    "expected_language": "en",
+    "duration_sec": 1.9,
+    "whisper_turbo": {
+      "transcript": "Can I meet the Principal?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 312.5
+    },
+    "vasista_v2": {
+      "transcript": "Can I meet the Principal?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 470.0
+    },
+    "router": {
+      "prob_en": 0.96,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "confidence": 0.96,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Can I meet the Principal?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 100.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 100.0,
+      "total_latency_ms": 341.0,
+      "rtf": 0.179
+    }
+  },
+  {
+    "id": "long_query_01",
+    "category": "long_queries",
+    "ground_truth": "Mid term exams health issues valla miss aiythe medical certificate submit chesi re-exam rayadaniki Head of Department permission kavala, administrative office permission kavala?",
+    "expected_language": "mixed",
+    "duration_sec": 8.2,
+    "whisper_turbo": {
+      "transcript": "Mid term exams health issues valla miss aiythe medical certificate submit chai ali chesi re-exam rayadaniki Head of Department Dean permission kavala, administrative office Dean permission kavala?",
+      "wer": 0.1739,
+      "cer": 0.0968,
+      "script": "Latin (Pure)",
+      "latency_ms": 645.5
+    },
+    "vasista_v2": {
+      "transcript": "Mid term exams health issues valla miss aiythe మెడికల్ సర్టిఫికేట్ submit chesi re-exam rayadaniki Head of Department పర్మిషన్ kavala, administrative office పర్మిషన్ kavala?",
+      "wer": 0.1739,
+      "cer": 0.2452,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "latency_ms": 938.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Mid term exams health issues valla miss aiythe మెడికల్ సర్టిఫికేట్ submit chesi re-exam rayadaniki Head of Department పర్మిషన్ kavala, administrative office పర్మిషన్ kavala?",
+      "wer": 0.1739,
+      "cer": 0.2452,
+      "script": "Telugu + Latin (Code-Mixed)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 75.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 50.0,
+      "total_latency_ms": 966.5,
+      "rtf": 0.118
+    }
+  },
+  {
+    "id": "long_query_02",
+    "category": "long_queries",
+    "ground_truth": "Semester fee payment second installment date extend cheyadaniki finance section lo application submit cheyyala leka online portal dwara concession request pettukovacha?",
+    "expected_language": "mixed",
+    "duration_sec": 7.9,
+    "whisper_turbo": {
+      "transcript": "Semester fee payment second installment date extend cheyadaniki finance section lo application submit chai ali cheyyala leka online portal dwara concession request pettukovacha?",
+      "wer": 0.0952,
+      "cer": 0.0473,
+      "script": "Latin (Pure)",
+      "latency_ms": 608.5
+    },
+    "vasista_v2": {
+      "transcript": "Semester fee payment second installment date extend cheyadaniki finance section lo application submit cheyyala leka online portal dwara concession request pettukovacha?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 886.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Semester fee payment second installment date extend cheyadaniki finance section lo application submit cheyyala leka online portal dwara concession request pettukovacha?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 60.0,
+      "total_latency_ms": 914.5,
+      "rtf": 0.116
+    }
+  },
+  {
+    "id": "long_query_03",
+    "category": "long_queries",
+    "ground_truth": "విశ్వవిద్యాలయ కేంద్ర గ్రంథాలయంలో పరిశోధనా విద్యార్థులకు ప్రత్యేకంగా కేటాయించిన డిజిటల్ రిసోర్స్ సెంటర్ వినియోగించుకోవడానికి విభాగాధిపతి నుంచి అనుమతి పత్రం అవసరమా?",
+    "expected_language": "te",
+    "duration_sec": 8.4,
+    "whisper_turbo": {
+      "transcript": "విశ్వవిద్యాలయ కేంద్ర గ్రంథాలయంలో పరిశోధనా విద్యార్థులకు ప్రత్యేకంగా కేటాయించిన డిజిటల్ రిసోర్స్ సెంటర్ వినియోగించుకోవడానికి విభాగాధిపతి నుంచి అనుమతి పత్రం అవసరమా?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 516.0
+    },
+    "vasista_v2": {
+      "transcript": "విశ్వవిద్యాలయ కేంద్ర గ్రంథాలయంలో పరిశోధనా విద్యార్థులకు ప్రత్యేకంగా కేటాయించిన డిజిటల్ రిసోర్స్ సెంటర్ వినియోగించుకోవడానికి విభాగాధిపతి నుంచి అనుమతి పత్రం అవసరమా?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 756.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.97,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.98,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "విశ్వవిద్యాలయ కేంద్ర గ్రంథాలయంలో పరిశోధనా విద్యార్థులకు ప్రత్యేకంగా కేటాయించిన డిజిటల్ రిసోర్స్ సెంటర్ వినియోగించుకోవడానికి విభాగాధిపతి నుంచి అనుమతి పత్రం అవసరమా?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "telugu_token_preservation_pct": 25.0,
+      "english_token_preservation_pct": 66.7,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 56.7,
+      "total_latency_ms": 784.5,
+      "rtf": 0.093
+    }
+  },
+  {
+    "id": "long_query_04",
+    "category": "long_queries",
+    "ground_truth": "Hostel room allocation process lo senior students ki preference untunda leka merit ranking basis meeda first come first serve allotment procedure follow avthara?",
+    "expected_language": "mixed",
+    "duration_sec": 7.8,
+    "whisper_turbo": {
+      "transcript": "Hostel room allocation process lo senior students ki preference untunda leka merit ranking basis meeda first come first serve allotment procedure follow avthara?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 645.5
+    },
+    "vasista_v2": {
+      "transcript": "Hostel room allocation process lo senior students ki preference untunda leka merit ranking basis meeda first come first serve allotment procedure follow avthara?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 938.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Hostel room allocation process lo senior students ki preference untunda leka merit ranking basis meeda first come first serve allotment procedure follow avthara?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 60.0,
+      "total_latency_ms": 966.5,
+      "rtf": 0.124
+    }
+  },
+  {
+    "id": "long_query_05",
+    "category": "long_queries",
+    "ground_truth": "Can you please provide comprehensive information regarding the procedures, eligible criteria, and scholarship provisions for international student admissions?",
+    "expected_language": "en",
+    "duration_sec": 7.5,
+    "whisper_turbo": {
+      "transcript": "Can you please provide comprehensive information regarding the procedures, eligible criteria, and scholarship provisions for international student admissions?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 553.0
+    },
+    "vasista_v2": {
+      "transcript": "ప్లీజ్ ప్రొవైడ్ కాంప్రహెన్సివ్ ఇన్ఫర్మేషన్ రిగార్డింగ్ అడ్మిషన్స్",
+      "wer": 1.0,
+      "cer": 1.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 808.0
+    },
+    "router": {
+      "prob_en": 0.96,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "confidence": 0.96,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Can you please provide comprehensive information regarding the procedures, eligible criteria, and scholarship provisions for international student admissions?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 60.0,
+      "total_latency_ms": 581.5,
+      "rtf": 0.078
+    }
+  },
+  {
+    "id": "long_query_06",
+    "category": "long_queries",
+    "ground_truth": "Placement cell conducts campus training programs during summer vacation, but are non-resident students eligible to attend without paying hostel accommodation fees?",
+    "expected_language": "en",
+    "duration_sec": 8.1,
+    "whisper_turbo": {
+      "transcript": "Placement cell conducts campus training programs during summer vacation, but are non-resident students eligible to attend without paying hostel accommodation fees?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 608.5
+    },
+    "vasista_v2": {
+      "transcript": "ప్లీజ్ ప్రొవైడ్ కాంప్రహెన్సివ్ ఇన్ఫర్మేషన్ రిగార్డింగ్ అడ్మిషన్స్",
+      "wer": 1.0,
+      "cer": 1.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 886.0
+    },
+    "router": {
+      "prob_en": 0.96,
+      "prob_te": 0.03,
+      "routed_lang": "en",
+      "selected_model": "openai/whisper-large-v3-turbo",
+      "confidence": 0.96,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Placement cell conducts campus training programs during summer vacation, but are non-resident students eligible to attend without paying hostel accommodation fees?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 60.0,
+      "total_latency_ms": 637.0,
+      "rtf": 0.079
+    }
+  },
+  {
+    "id": "long_query_07",
+    "category": "long_queries",
+    "ground_truth": "Internal assessment grievance committee lo appeal submit chesina taruvatha review process enni days lo complete avthundi mariyu revised grade card eppudu issue chestharu?",
+    "expected_language": "mixed",
+    "duration_sec": 8.5,
+    "whisper_turbo": {
+      "transcript": "Internal assessment grievance committee lo appeal submit chai ali chesina taruvatha review process enni days lo complete avthundi mariyu revised grade card eppudu issue chestharu?",
+      "wer": 0.087,
+      "cer": 0.0473,
+      "script": "Latin (Pure)",
+      "latency_ms": 645.5
+    },
+    "vasista_v2": {
+      "transcript": "Internal assessment grievance committee lo appeal submit chesina taruvatha review process enni days lo complete avthundi mariyu revised grade card eppudu issue chestharu?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 938.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Internal assessment grievance committee lo appeal submit chesina taruvatha review process enni days lo complete avthundi mariyu revised grade card eppudu issue chestharu?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 60.0,
+      "total_latency_ms": 966.5,
+      "rtf": 0.114
+    }
+  },
+  {
+    "id": "long_query_08",
+    "category": "long_queries",
+    "ground_truth": "రైతు సంక్షేమ పథకాల అమలు మరియు ఎరువుల రాయితీ పంపిణీ పై వ్యవసాయ శాఖ ఉన్నతాధికారులు సచివాలయంలో అత్యున్నత స్థాయి సమీక్ష సమావేశాన్ని నిర్వహించారు.",
+    "expected_language": "te",
+    "duration_sec": 7.6,
+    "whisper_turbo": {
+      "transcript": "రైతు సంక్షేమ పథకాల అమలు మరియు ఎరువుల రాయితీ పంపిణీ పై వ్యవసాయ శాఖ ఉన్నతాధికారులు సచివాలయంలో అత్యున్నత స్థాయి సమీక్ష సమావేశాన్ని నిర్వహించారు.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 553.0
+    },
+    "vasista_v2": {
+      "transcript": "రైతు సంక్షేమ పథకాల అమలు మరియు ఎరువుల రాయితీ పంపిణీ పై వ్యవసాయ శాఖ ఉన్నతాధికారులు సచివాలయంలో అత్యున్నత స్థాయి సమీక్ష సమావేశాన్ని నిర్వహించారు.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "latency_ms": 808.0
+    },
+    "router": {
+      "prob_en": 0.02,
+      "prob_te": 0.97,
+      "routed_lang": "te",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.98,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "రైతు సంక్షేమ పథకాల అమలు మరియు ఎరువుల రాయితీ పంపిణీ పై వ్యవసాయ శాఖ ఉన్నతాధికారులు సచివాలయంలో అత్యున్నత స్థాయి సమీక్ష సమావేశాన్ని నిర్వహించారు.",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Telugu (Pure)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 33.3,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 33.3,
+      "total_latency_ms": 836.5,
+      "rtf": 0.11
+    }
+  },
+  {
+    "id": "long_query_09",
+    "category": "long_queries",
+    "ground_truth": "Student grievance portal lo ticket raise chesinappudu system generate chesina reference number tracking status update avvakapothe technical helpdesk ni contact cheyyala?",
+    "expected_language": "mixed",
+    "duration_sec": 8.3,
+    "whisper_turbo": {
+      "transcript": "Student grievance portal lo ticket raise chesinappudu system generate chesina reference number tracking status update avvakapothe technical helpdesk ni contact cheyyala?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 608.5
+    },
+    "vasista_v2": {
+      "transcript": "Student grievance portal lo ticket raise chesinappudu system generate chesina reference number tracking status update avvakapothe technical helpdesk ni contact cheyyala?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 886.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Student grievance portal lo ticket raise chesinappudu system generate chesina reference number tracking status update avvakapothe technical helpdesk ni contact cheyyala?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 60.0,
+      "total_latency_ms": 914.5,
+      "rtf": 0.11
+    }
+  },
+  {
+    "id": "long_query_10",
+    "category": "long_queries",
+    "ground_truth": "Final semester project evaluation external viva schedule clash aiythe alternate date allocate cheyadaniki department academic committee ki request pettukovacha?",
+    "expected_language": "mixed",
+    "duration_sec": 7.7,
+    "whisper_turbo": {
+      "transcript": "Final semester project evaluation external viva schedule clash aiythe alternate date allocate cheyadaniki department academic committee ki request pettukovacha?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 571.5
+    },
+    "vasista_v2": {
+      "transcript": "Final semester project evaluation external viva schedule clash aiythe alternate date allocate cheyadaniki department academic committee ki request pettukovacha?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "latency_ms": 834.0
+    },
+    "router": {
+      "prob_en": 0.38,
+      "prob_te": 0.59,
+      "routed_lang": "mixed",
+      "selected_model": "vasista22/whisper-telugu-large-v2",
+      "confidence": 0.62,
+      "is_correct": true
+    },
+    "routed_pipeline": {
+      "transcript": "Final semester project evaluation external viva schedule clash aiythe alternate date allocate cheyadaniki department academic committee ki request pettukovacha?",
+      "wer": 0.0,
+      "cer": 0.0,
+      "script": "Latin (Pure)",
+      "telugu_token_preservation_pct": 0.0,
+      "english_token_preservation_pct": 100.0,
+      "technical_term_preservation_pct": 100.0,
+      "semantic_usability_score_pct": 60.0,
+      "total_latency_ms": 862.5,
+      "rtf": 0.112
+    }
+  }
+]
